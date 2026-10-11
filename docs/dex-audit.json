@@ -1,0 +1,3385 @@
+{
+  "checkedAt": "2026-10-11T21:54:56.833Z",
+  "rawRows": 786,
+  "interwikiMatches": 674,
+  "method": "French wiki interlanguage links, followed by English redirect resolution. Matched titles are evidence for review, not automatic authority. Group pages, ambiguous names, newer spoiler surnames and different characters with similar names are not blindly substituted.",
+  "references": [
+    "https://onepiece.fandom.com/wiki/One_Piece_in_France",
+    "https://onepiece.fandom.com/wiki/List_of_Canon_Characters",
+    "https://onepiece.fandom.com/wiki/Scarlet",
+    "https://onepiece.fandom.com/fr/wiki/Ahiru",
+    "https://thelibraryofohara.com/2019/01/25/the-official-charlotte-family-tree-by-oda-all-the-sons/"
+  ],
+  "matches": [
+    {
+      "id": 1,
+      "raw": "Monkey D Luffy",
+      "english": "Monkey D. Luffy"
+    },
+    {
+      "id": 2,
+      "raw": "Roronoa Zoro",
+      "english": "Roronoa Zoro"
+    },
+    {
+      "id": 3,
+      "raw": "Nami",
+      "english": "Nami"
+    },
+    {
+      "id": 4,
+      "raw": "Usopp",
+      "english": "Usopp"
+    },
+    {
+      "id": 5,
+      "raw": "Sanji",
+      "english": "Sanji"
+    },
+    {
+      "id": 6,
+      "raw": "Tony-Tony Chopper",
+      "english": "Tony Tony Chopper"
+    },
+    {
+      "id": 7,
+      "raw": "Nico Robin",
+      "english": "Nico Robin"
+    },
+    {
+      "id": 8,
+      "raw": "Franky",
+      "english": "Franky"
+    },
+    {
+      "id": 9,
+      "raw": "Brook",
+      "english": "Brook"
+    },
+    {
+      "id": 10,
+      "raw": "Jinbe",
+      "english": "Jinbe"
+    },
+    {
+      "id": 11,
+      "raw": "Zeus",
+      "english": "Zeus"
+    },
+    {
+      "id": 12,
+      "raw": "Cavendish",
+      "english": "Cavendish"
+    },
+    {
+      "id": 13,
+      "raw": "Suleiman",
+      "english": "Suleiman"
+    },
+    {
+      "id": 14,
+      "raw": "Bartolomeo",
+      "english": "Bartolomeo"
+    },
+    {
+      "id": 15,
+      "raw": "Gambia",
+      "english": "Gambia"
+    },
+    {
+      "id": 16,
+      "raw": "Sai",
+      "english": "Sai"
+    },
+    {
+      "id": 17,
+      "raw": "Boo",
+      "english": "Boo"
+    },
+    {
+      "id": 18,
+      "raw": "Baby 5",
+      "english": "Baby 5"
+    },
+    {
+      "id": 19,
+      "raw": "Ideo",
+      "english": "Ideo"
+    },
+    {
+      "id": 20,
+      "raw": "Blue Gilly",
+      "english": "Blue Gilly"
+    },
+    {
+      "id": 21,
+      "raw": "Abdullah",
+      "english": "Abdullah and Jeet"
+    },
+    {
+      "id": 22,
+      "raw": "Jeet",
+      "english": "Abdullah and Jeet"
+    },
+    {
+      "id": 23,
+      "raw": "Léo",
+      "english": "Leo"
+    },
+    {
+      "id": 24,
+      "raw": "Kabu",
+      "english": "Kabu"
+    },
+    {
+      "id": 25,
+      "raw": "Bee Anne",
+      "english": "Bian"
+    },
+    {
+      "id": 26,
+      "raw": "Hajrudin",
+      "english": "Hajrudin"
+    },
+    {
+      "id": 27,
+      "raw": "Stansen",
+      "english": "Stansen"
+    },
+    {
+      "id": 28,
+      "raw": "Road",
+      "english": "Road"
+    },
+    {
+      "id": 29,
+      "raw": "Goldberg",
+      "english": "Goldberg"
+    },
+    {
+      "id": 30,
+      "raw": "Gerd",
+      "english": "Gerd"
+    },
+    {
+      "id": 31,
+      "raw": "Orlumbus",
+      "english": "Orlumbus"
+    },
+    {
+      "id": 32,
+      "raw": "Baggy / Le Clown",
+      "english": "Buggy"
+    },
+    {
+      "id": 33,
+      "raw": "Alvida",
+      "english": "Alvida"
+    },
+    {
+      "id": 34,
+      "raw": "Galdino",
+      "english": "Galdino"
+    },
+    {
+      "id": 35,
+      "raw": "Morge",
+      "english": "Mohji"
+    },
+    {
+      "id": 36,
+      "raw": "Cabaji",
+      "english": "Cabaji"
+    },
+    {
+      "id": 37,
+      "raw": "Kuro",
+      "english": "Kuro"
+    },
+    {
+      "id": 38,
+      "raw": "Sham",
+      "english": "Sham"
+    },
+    {
+      "id": 39,
+      "raw": "Buchi",
+      "english": "Buchi"
+    },
+    {
+      "id": 40,
+      "raw": "Krieg / Don Krieg",
+      "english": "Krieg"
+    },
+    {
+      "id": 41,
+      "raw": "Gyn",
+      "english": "Gin"
+    },
+    {
+      "id": 42,
+      "raw": "Pearl",
+      "english": "Pearl"
+    },
+    {
+      "id": 43,
+      "raw": "Montblanc Cricket",
+      "english": "Mont Blanc Cricket"
+    },
+    {
+      "id": 44,
+      "raw": "Masira",
+      "english": "Masira"
+    },
+    {
+      "id": 45,
+      "raw": "Shojo",
+      "english": "Shoujou"
+    },
+    {
+      "id": 46,
+      "raw": "Foxy",
+      "english": "Foxy"
+    },
+    {
+      "id": 48,
+      "raw": "Hamburg",
+      "english": "Hamburg"
+    },
+    {
+      "id": 49,
+      "raw": "Gecko Moria",
+      "english": "Gecko Moria"
+    },
+    {
+      "id": 50,
+      "raw": "Hogback",
+      "english": "Hogback"
+    },
+    {
+      "id": 151,
+      "raw": "Charlotte Mucre",
+      "english": "Charlotte Myukuru"
+    },
+    {
+      "id": 152,
+      "raw": "Charlotte Mapple",
+      "english": "Charlotte Maple"
+    },
+    {
+      "id": 153,
+      "raw": "Charlotte Brownie",
+      "english": "Charlotte Brownie"
+    },
+    {
+      "id": 154,
+      "raw": "Charlotte Joconde",
+      "english": "Charlotte Joconde"
+    },
+    {
+      "id": 155,
+      "raw": "Charlotte Raisin",
+      "english": "Charlotte Raisin"
+    },
+    {
+      "id": 156,
+      "raw": "Charlotte Panna",
+      "english": "Charlotte Panna"
+    },
+    {
+      "id": 157,
+      "raw": "Charlotte Mascarpone",
+      "english": "Charlotte Mascarpone"
+    },
+    {
+      "id": 158,
+      "raw": "Charlotte Joscarpone",
+      "english": "Charlotte Joscarpone"
+    },
+    {
+      "id": 159,
+      "raw": "Charlotte Yu Yuan",
+      "english": "Charlotte Yuen"
+    },
+    {
+      "id": 160,
+      "raw": "Charlotte Newichi",
+      "english": "Charlotte Decuplets"
+    },
+    {
+      "id": 161,
+      "raw": "Charlotte Newji",
+      "english": "Charlotte Decuplets"
+    },
+    {
+      "id": 162,
+      "raw": "Charlotte Newsan",
+      "english": "Charlotte Decuplets"
+    },
+    {
+      "id": 163,
+      "raw": "Charlotte Newshi",
+      "english": "Charlotte Decuplets"
+    },
+    {
+      "id": 164,
+      "raw": "Charlotte Newgo",
+      "english": "Charlotte Decuplets"
+    },
+    {
+      "id": 165,
+      "raw": "Charlotte Muscade",
+      "english": "Charlotte Decuplets"
+    },
+    {
+      "id": 166,
+      "raw": "Charlotte Muscadia",
+      "english": "Charlotte Decuplets"
+    },
+    {
+      "id": 167,
+      "raw": "Charlotte Muscadelle",
+      "english": "Charlotte Decuplets"
+    },
+    {
+      "id": 168,
+      "raw": "Charlotte Muscadine",
+      "english": "Charlotte Decuplets"
+    },
+    {
+      "id": 169,
+      "raw": "Charlotte Muscadette",
+      "english": "Charlotte Decuplets"
+    },
+    {
+      "id": 170,
+      "raw": "Charlotte Nougat",
+      "english": "Charlotte Nougat"
+    },
+    {
+      "id": 171,
+      "raw": "Charlotte Anglais",
+      "english": "Charlotte Anglais"
+    },
+    {
+      "id": 172,
+      "raw": "Charlotte Wafers",
+      "english": "Charlotte Wafers"
+    },
+    {
+      "id": 174,
+      "raw": "Charlotte De-Chat",
+      "english": "Charlotte De-Chat"
+    },
+    {
+      "id": 175,
+      "raw": "Charlotte Normande",
+      "english": "Charlotte Normande"
+    },
+    {
+      "id": 176,
+      "raw": "Charlotte Dolce",
+      "english": "Charlotte Dolce and Dragée"
+    },
+    {
+      "id": 177,
+      "raw": "Charlotte Dragée",
+      "english": "Charlotte Dolce and Dragée"
+    },
+    {
+      "id": 178,
+      "raw": "Charlotte Anana",
+      "english": "Charlotte Anana"
+    },
+    {
+      "id": 179,
+      "raw": "Pekoms",
+      "english": "Pekoms"
+    },
+    {
+      "id": 180,
+      "raw": "Delœuf",
+      "english": "Tamago"
+    },
+    {
+      "id": 182,
+      "raw": "Streusen",
+      "english": "Streusen"
+    },
+    {
+      "id": 183,
+      "raw": "Prométhée",
+      "english": "Prometheus"
+    },
+    {
+      "id": 184,
+      "raw": "Napoléon",
+      "english": "Napoleon"
+    },
+    {
+      "id": 185,
+      "raw": "Héra",
+      "english": "Hera"
+    },
+    {
+      "id": 187,
+      "raw": "Kaido",
+      "english": "Kaidou"
+    },
+    {
+      "id": 188,
+      "raw": "King",
+      "english": "King"
+    },
+    {
+      "id": 189,
+      "raw": "Queen",
+      "english": "Queen"
+    },
+    {
+      "id": 190,
+      "raw": "Jack",
+      "english": "Jack"
+    },
+    {
+      "id": 191,
+      "raw": "Page One",
+      "english": "Page One"
+    },
+    {
+      "id": 192,
+      "raw": "Ulti",
+      "english": "Ulti"
+    },
+    {
+      "id": 194,
+      "raw": "Black Maria",
+      "english": "Black Maria"
+    },
+    {
+      "id": 195,
+      "raw": "Sasaki",
+      "english": "Sasaki"
+    },
+    {
+      "id": 197,
+      "raw": "Basil Hawkins",
+      "english": "Basil Hawkins"
+    },
+    {
+      "id": 198,
+      "raw": "Holdem",
+      "english": "Holed'em"
+    },
+    {
+      "id": 199,
+      "raw": "Speed",
+      "english": "Speed"
+    },
+    {
+      "id": 200,
+      "raw": "Trouduc",
+      "english": "Daifugo"
+    },
+    {
+      "id": 51,
+      "raw": "Absalom",
+      "english": "Absalom"
+    },
+    {
+      "id": 52,
+      "raw": "Perona",
+      "english": "Perona"
+    },
+    {
+      "id": 53,
+      "raw": "Laura",
+      "english": "Charlotte Lola"
+    },
+    {
+      "id": 54,
+      "raw": "Trafalgar D. Water Law",
+      "english": "Trafalgar D. Water Law"
+    },
+    {
+      "id": 55,
+      "raw": "Bepo",
+      "english": "Bepo"
+    },
+    {
+      "id": 56,
+      "raw": "Jean Bart",
+      "english": "Jean Bart"
+    },
+    {
+      "id": 57,
+      "raw": "Shachi",
+      "english": "Shachi"
+    },
+    {
+      "id": 59,
+      "raw": "Eustass Kidd",
+      "english": "Eustass Kid"
+    },
+    {
+      "id": 60,
+      "raw": "Killer",
+      "english": "Killer"
+    },
+    {
+      "id": 61,
+      "raw": "Heat",
+      "english": "Heat"
+    },
+    {
+      "id": 62,
+      "raw": "Wire",
+      "english": "Wire"
+    },
+    {
+      "id": 63,
+      "raw": "Capone Bege",
+      "english": "Capone Bege"
+    },
+    {
+      "id": 64,
+      "raw": "Vito",
+      "english": "Vito"
+    },
+    {
+      "id": 65,
+      "raw": "Gotti",
+      "english": "Gotti"
+    },
+    {
+      "id": 66,
+      "raw": "Charlotte Chiffon",
+      "english": "Charlotte Chiffon"
+    },
+    {
+      "id": 68,
+      "raw": "Jewelry Bonney",
+      "english": "Jewelry Bonney"
+    },
+    {
+      "id": 69,
+      "raw": "Urouge",
+      "english": "Urouge"
+    },
+    {
+      "id": 70,
+      "raw": "Boa Hancock",
+      "english": "Boa Hancock"
+    },
+    {
+      "id": 71,
+      "raw": "Boa Sandersonia",
+      "english": "Boa Sandersonia"
+    },
+    {
+      "id": 72,
+      "raw": "Boa Marigold",
+      "english": "Boa Marigold"
+    },
+    {
+      "id": 73,
+      "raw": "Margaret",
+      "english": "Marguerite"
+    },
+    {
+      "id": 74,
+      "raw": "Shiki",
+      "english": "Shiki"
+    },
+    {
+      "id": 75,
+      "raw": "Indigo",
+      "english": "Indigo"
+    },
+    {
+      "id": 76,
+      "raw": "Caribou",
+      "english": "Caribou"
+    },
+    {
+      "id": 77,
+      "raw": "Coribou",
+      "english": "Coribou"
+    },
+    {
+      "id": 79,
+      "raw": "Aladdin",
+      "english": "Aladine"
+    },
+    {
+      "id": 80,
+      "raw": "Charlotte Praliné",
+      "english": "Charlotte Praline"
+    },
+    {
+      "id": 81,
+      "raw": "Dracule Mihawk",
+      "english": "Dracule Mihawk"
+    },
+    {
+      "id": 82,
+      "raw": "Crocodile",
+      "english": "Crocodile"
+    },
+    {
+      "id": 84,
+      "raw": "Edward Weeble",
+      "english": "Edward Weevil"
+    },
+    {
+      "id": 85,
+      "raw": "Shanks",
+      "english": "Shanks"
+    },
+    {
+      "id": 86,
+      "raw": "Ben Beckmann",
+      "english": "Benn Beckman"
+    },
+    {
+      "id": 87,
+      "raw": "Lucky Roo",
+      "english": "Lucky Roux"
+    },
+    {
+      "id": 88,
+      "raw": "Yassop",
+      "english": "Yasopp"
+    },
+    {
+      "id": 89,
+      "raw": "Limejuice",
+      "english": "Limejuice"
+    },
+    {
+      "id": 90,
+      "raw": "Bonk Punch",
+      "english": "Bonk Punch"
+    },
+    {
+      "id": 91,
+      "raw": "Monster",
+      "english": "Monster"
+    },
+    {
+      "id": 92,
+      "raw": "Building Snake",
+      "english": "Building Snake"
+    },
+    {
+      "id": 93,
+      "raw": "Hongo",
+      "english": "Hongo"
+    },
+    {
+      "id": 95,
+      "raw": "Rockstar",
+      "english": "Rockstar"
+    },
+    {
+      "id": 96,
+      "raw": "Charlotte Linlin / Big Mom",
+      "english": "Charlotte Linlin"
+    },
+    {
+      "id": 98,
+      "raw": "Charlotte Smoothie",
+      "english": "Charlotte Smoothie"
+    },
+    {
+      "id": 99,
+      "raw": "Charlotte Cracker",
+      "english": "Charlotte Cracker"
+    },
+    {
+      "id": 100,
+      "raw": "Charlotte Slurp",
+      "english": "Charlotte Perospero"
+    },
+    {
+      "id": 101,
+      "raw": "Charlotte Daifuku",
+      "english": "Charlotte Daifuku"
+    },
+    {
+      "id": 102,
+      "raw": "Charlotte Oven",
+      "english": "Charlotte Oven"
+    },
+    {
+      "id": 103,
+      "raw": "Charlotte Amande",
+      "english": "Charlotte Amande"
+    },
+    {
+      "id": 104,
+      "raw": "Charlotte Opéra",
+      "english": "Charlotte Opera"
+    },
+    {
+      "id": 105,
+      "raw": "Charlotte Brûlée",
+      "english": "Charlotte Brûlée"
+    },
+    {
+      "id": 107,
+      "raw": "Charlotte Galette",
+      "english": "Charlotte Galette"
+    },
+    {
+      "id": 108,
+      "raw": "Charlotte Snack",
+      "english": "Charlotte Snack"
+    },
+    {
+      "id": 109,
+      "raw": "Charlotte Pudding",
+      "english": "Charlotte Pudding"
+    },
+    {
+      "id": 111,
+      "raw": "Charlotte Compote",
+      "english": "Charlotte Compote"
+    },
+    {
+      "id": 113,
+      "raw": "Charlotte Hachée",
+      "english": "Charlotte Hachée"
+    },
+    {
+      "id": 114,
+      "raw": "Charlotte Effilée",
+      "english": "Charlotte Effilée"
+    },
+    {
+      "id": 115,
+      "raw": "Charlotte Counter",
+      "english": "Charlotte Counter"
+    },
+    {
+      "id": 116,
+      "raw": "Charlotte Cadenza",
+      "english": "Charlotte Cadenza"
+    },
+    {
+      "id": 117,
+      "raw": "Charlotte Cabaletta",
+      "english": "Charlotte Cabaletta"
+    },
+    {
+      "id": 118,
+      "raw": "Charlotte Gala",
+      "english": "Charlotte Gala"
+    },
+    {
+      "id": 119,
+      "raw": "Charlotte Angel",
+      "english": "Charlotte Angel"
+    },
+    {
+      "id": 122,
+      "raw": "Charlotte Broyée",
+      "english": "Charlotte Broyé"
+    },
+    {
+      "id": 123,
+      "raw": "Charlotte Nusstorte",
+      "english": "Charlotte Nusstorte"
+    },
+    {
+      "id": 124,
+      "raw": "Charlotte Basskarte",
+      "english": "Charlotte Basskarte"
+    },
+    {
+      "id": 125,
+      "raw": "Charlotte Dosmarché",
+      "english": "Charlotte Dosmarche"
+    },
+    {
+      "id": 126,
+      "raw": "Charlotte Noisette",
+      "english": "Charlotte Noisette"
+    },
+    {
+      "id": 127,
+      "raw": "Charlotte Moscato",
+      "english": "Charlotte Moscato"
+    },
+    {
+      "id": 128,
+      "raw": "Charlotte Mash",
+      "english": "Charlotte Mash"
+    },
+    {
+      "id": 129,
+      "raw": "Charlotte Corn Starch",
+      "english": "Charlotte Cornstarch"
+    },
+    {
+      "id": 130,
+      "raw": "Charlotte Compo",
+      "english": "Charlotte Compo"
+    },
+    {
+      "id": 132,
+      "raw": "Charlotte Mozart",
+      "english": "Charlotte Mozart"
+    },
+    {
+      "id": 133,
+      "raw": "Charlotte Marnier",
+      "english": "Charlotte Marnier"
+    },
+    {
+      "id": 134,
+      "raw": "Charlotte High-Fat",
+      "english": "Charlotte High-Fat"
+    },
+    {
+      "id": 135,
+      "raw": "Charlotte Tablet",
+      "english": "Charlotte Tablet"
+    },
+    {
+      "id": 136,
+      "raw": "Charlotte Citron",
+      "english": "Charlotte Citron"
+    },
+    {
+      "id": 138,
+      "raw": "Charlotte Saint-Marc",
+      "english": "Charlotte Saint-Marc"
+    },
+    {
+      "id": 139,
+      "raw": "Charlotte Basans",
+      "english": "Charlotte Basans"
+    },
+    {
+      "id": 140,
+      "raw": "Charlotte Mélisée",
+      "english": "Charlotte Melise"
+    },
+    {
+      "id": 141,
+      "raw": "Charlotte Dacquoise",
+      "english": "Charlotte Dacquoise"
+    },
+    {
+      "id": 142,
+      "raw": "Charlotte Poire",
+      "english": "Charlotte Poire"
+    },
+    {
+      "id": 143,
+      "raw": "Charlotte Bavarois",
+      "english": "Charlotte Bavarois"
+    },
+    {
+      "id": 144,
+      "raw": "Charlotte Prim",
+      "english": "Charlotte Prim"
+    },
+    {
+      "id": 145,
+      "raw": "Charlotte Kanten",
+      "english": "Charlotte Kanten"
+    },
+    {
+      "id": 146,
+      "raw": "Charlotte Kato",
+      "english": "Charlotte Kato"
+    },
+    {
+      "id": 147,
+      "raw": "Charlotte Montb",
+      "english": "Charlotte Montb"
+    },
+    {
+      "id": 148,
+      "raw": "Charlotte Chiboust",
+      "english": "Charlotte Chiboust"
+    },
+    {
+      "id": 149,
+      "raw": "Charlotte Mobile",
+      "english": "Charlotte Mobile"
+    },
+    {
+      "id": 150,
+      "raw": "Charlotte Marble",
+      "english": "Charlotte Marble"
+    },
+    {
+      "id": 351,
+      "raw": "Manjaro",
+      "english": "Manjaro"
+    },
+    {
+      "id": 352,
+      "raw": "Chocolat",
+      "english": "Chocolat"
+    },
+    {
+      "id": 353,
+      "raw": "Mounblutain",
+      "english": "Mounblutain"
+    },
+    {
+      "id": 354,
+      "raw": "Drip",
+      "english": "Drip"
+    },
+    {
+      "id": 355,
+      "raw": "Nora Gitsune",
+      "english": "Nora Gitsune"
+    },
+    {
+      "id": 356,
+      "raw": "Cocoa",
+      "english": "Cocoa"
+    },
+    {
+      "id": 357,
+      "raw": "Turco",
+      "english": "Turco"
+    },
+    {
+      "id": 358,
+      "raw": "Hody Jones",
+      "english": "Hody Jones"
+    },
+    {
+      "id": 359,
+      "raw": "Dosun",
+      "english": "Dosun"
+    },
+    {
+      "id": 360,
+      "raw": "Zeo",
+      "english": "Zeo"
+    },
+    {
+      "id": 361,
+      "raw": "Daruma",
+      "english": "Daruma"
+    },
+    {
+      "id": 362,
+      "raw": "Ikaros Much",
+      "english": "Ikaros Much"
+    },
+    {
+      "id": 364,
+      "raw": "Vander Decken IX",
+      "english": "Vander Decken IX"
+    },
+    {
+      "id": 365,
+      "raw": "Don Quijote Doflamingo",
+      "english": "Donquixote Doflamingo"
+    },
+    {
+      "id": 366,
+      "raw": "Trébol",
+      "english": "Trebol"
+    },
+    {
+      "id": 367,
+      "raw": "Diamante",
+      "english": "Diamante"
+    },
+    {
+      "id": 368,
+      "raw": "Pica",
+      "english": "Pica"
+    },
+    {
+      "id": 369,
+      "raw": "Vergo",
+      "english": "Vergo"
+    },
+    {
+      "id": 370,
+      "raw": "Sugar",
+      "english": "Sugar"
+    },
+    {
+      "id": 371,
+      "raw": "Jora",
+      "english": "Giolla"
+    },
+    {
+      "id": 372,
+      "raw": "Lao G",
+      "english": "Lao G"
+    },
+    {
+      "id": 373,
+      "raw": "Señor Pink",
+      "english": "Senor Pink"
+    },
+    {
+      "id": 374,
+      "raw": "Machvise",
+      "english": "Machvise"
+    },
+    {
+      "id": 375,
+      "raw": "Dellinger",
+      "english": "Dellinger"
+    },
+    {
+      "id": 376,
+      "raw": "Gladius",
+      "english": "Gladius"
+    },
+    {
+      "id": 378,
+      "raw": "Monet",
+      "english": "Monet"
+    },
+    {
+      "id": 379,
+      "raw": "Rocks D. Xebec",
+      "english": "Rocks D. Xebec"
+    },
+    {
+      "id": 388,
+      "raw": "Sharlia",
+      "english": "Rosward Shalria"
+    },
+    {
+      "id": 390,
+      "raw": "Jalmack",
+      "english": "Jalmack"
+    },
+    {
+      "id": 391,
+      "raw": "Guernica",
+      "english": "Guernika"
+    },
+    {
+      "id": 392,
+      "raw": "Rob Lucci",
+      "english": "Rob Lucci"
+    },
+    {
+      "id": 394,
+      "raw": "Spandam",
+      "english": "Spandam"
+    },
+    {
+      "id": 396,
+      "raw": "Kaku",
+      "english": "Kaku"
+    },
+    {
+      "id": 397,
+      "raw": "Stussy",
+      "english": "Stussy"
+    },
+    {
+      "id": 398,
+      "raw": "Maha",
+      "english": "Maha"
+    },
+    {
+      "id": 399,
+      "raw": "Jerry",
+      "english": "Jerry"
+    },
+    {
+      "id": 301,
+      "raw": "Speed Jill",
+      "english": "Speed Jiru"
+    },
+    {
+      "id": 302,
+      "raw": "Fossa",
+      "english": "Fossa"
+    },
+    {
+      "id": 303,
+      "raw": "Izou",
+      "english": "Izou"
+    },
+    {
+      "id": 304,
+      "raw": "Doma",
+      "english": "Doma"
+    },
+    {
+      "id": 306,
+      "raw": "Squardo",
+      "english": "Squard"
+    },
+    {
+      "id": 307,
+      "raw": "Whitey Bay",
+      "english": "Whitey Bay"
+    },
+    {
+      "id": 309,
+      "raw": "Mc Guy",
+      "english": "McGuy"
+    },
+    {
+      "id": 310,
+      "raw": "A.O",
+      "english": "A O"
+    },
+    {
+      "id": 311,
+      "raw": "Karma",
+      "english": "Karma"
+    },
+    {
+      "id": 312,
+      "raw": "Elmy",
+      "english": "Elmy"
+    },
+    {
+      "id": 313,
+      "raw": "Ramba",
+      "english": "Ramba"
+    },
+    {
+      "id": 314,
+      "raw": "Delacuaji",
+      "english": "Delacuaji"
+    },
+    {
+      "id": 315,
+      "raw": "Zodia",
+      "english": "Zodia"
+    },
+    {
+      "id": 316,
+      "raw": "Palms",
+      "english": "Palms"
+    },
+    {
+      "id": 317,
+      "raw": "Bizarre",
+      "english": "Bizarre"
+    },
+    {
+      "id": 318,
+      "raw": "Pavlik",
+      "english": "Pavlik"
+    },
+    {
+      "id": 319,
+      "raw": "Vitan",
+      "english": "Vitan"
+    },
+    {
+      "id": 320,
+      "raw": "Islewan",
+      "english": "Islewan"
+    },
+    {
+      "id": 321,
+      "raw": "Epoida",
+      "english": "Epoida"
+    },
+    {
+      "id": 322,
+      "raw": "Kechatch",
+      "english": "Kechatch"
+    },
+    {
+      "id": 323,
+      "raw": "Choi",
+      "english": "Choi"
+    },
+    {
+      "id": 325,
+      "raw": "Hangan",
+      "english": "Hangan"
+    },
+    {
+      "id": 327,
+      "raw": "Andre",
+      "english": "Andre"
+    },
+    {
+      "id": 328,
+      "raw": "Ninth",
+      "english": "Ninth"
+    },
+    {
+      "id": 329,
+      "raw": "Blondie",
+      "english": "Blondie"
+    },
+    {
+      "id": 330,
+      "raw": "Nosgarl",
+      "english": "Nosgarl"
+    },
+    {
+      "id": 331,
+      "raw": "Amadob",
+      "english": "Amadob"
+    },
+    {
+      "id": 332,
+      "raw": "Baggaley",
+      "english": "Baggaley"
+    },
+    {
+      "id": 334,
+      "raw": "Brew",
+      "english": "Brew"
+    },
+    {
+      "id": 335,
+      "raw": "Brocca",
+      "english": "Brocca"
+    },
+    {
+      "id": 336,
+      "raw": "Rush",
+      "english": "Rush"
+    },
+    {
+      "id": 338,
+      "raw": "Zucca",
+      "english": "Zucca"
+    },
+    {
+      "id": 339,
+      "raw": "Cands",
+      "english": "Cands"
+    },
+    {
+      "id": 340,
+      "raw": "Kinga",
+      "english": "Kinga"
+    },
+    {
+      "id": 341,
+      "raw": "Colscon",
+      "english": "Colscon"
+    },
+    {
+      "id": 342,
+      "raw": "Agsilly",
+      "english": "Agsilly"
+    },
+    {
+      "id": 343,
+      "raw": "Julius",
+      "english": "Julius"
+    },
+    {
+      "id": 344,
+      "raw": "Happygun",
+      "english": "Happygun"
+    },
+    {
+      "id": 345,
+      "raw": "Sleepy",
+      "english": "Sleepy"
+    },
+    {
+      "id": 346,
+      "raw": "Forliewbs",
+      "english": "Forliewbs"
+    },
+    {
+      "id": 348,
+      "raw": "Bluejam",
+      "english": "Bluejam"
+    },
+    {
+      "id": 349,
+      "raw": "Porchemy",
+      "english": "Porchemy"
+    },
+    {
+      "id": 350,
+      "raw": "Demaro Black",
+      "english": "Demalo Black"
+    },
+    {
+      "id": 201,
+      "raw": "Pouilleux",
+      "english": "Babanuki"
+    },
+    {
+      "id": 202,
+      "raw": "Solitaire",
+      "english": "Solitaire"
+    },
+    {
+      "id": 203,
+      "raw": "Bao Huang",
+      "english": "Bao Huang"
+    },
+    {
+      "id": 204,
+      "raw": "Ginrummy",
+      "english": "Ginrummy"
+    },
+    {
+      "id": 205,
+      "raw": "Plouf",
+      "english": "Dobon"
+    },
+    {
+      "id": 206,
+      "raw": "Briscola",
+      "english": "Briscola"
+    },
+    {
+      "id": 208,
+      "raw": "Hamlet",
+      "english": "Hamlet"
+    },
+    {
+      "id": 209,
+      "raw": "Mizerka",
+      "english": "Mizerka"
+    },
+    {
+      "id": 210,
+      "raw": "Poker",
+      "english": "Poker"
+    },
+    {
+      "id": 211,
+      "raw": "Batman",
+      "english": "Batman"
+    },
+    {
+      "id": 212,
+      "raw": "Gazelleman",
+      "english": "Gazelleman"
+    },
+    {
+      "id": 213,
+      "raw": "Mouseman",
+      "english": "Mouseman"
+    },
+    {
+      "id": 214,
+      "raw": "Snakeman",
+      "english": "Gomu Gomu no Mi/Gear 4 Techniques"
+    },
+    {
+      "id": 217,
+      "raw": "Alpagaman",
+      "english": "Alpacaman"
+    },
+    {
+      "id": 218,
+      "raw": "Tatouman",
+      "english": "Madilloman"
+    },
+    {
+      "id": 219,
+      "raw": "Dachoman",
+      "english": "Dachoman"
+    },
+    {
+      "id": 220,
+      "raw": "Tenjo-Sagari",
+      "english": "Tenjo-Sagari"
+    },
+    {
+      "id": 221,
+      "raw": "Caimanlady",
+      "english": "Caimanlady"
+    },
+    {
+      "id": 224,
+      "raw": "Inbi",
+      "english": "Inbi"
+    },
+    {
+      "id": 225,
+      "raw": "Fuga",
+      "english": "Fuga"
+    },
+    {
+      "id": 226,
+      "raw": "Zanki",
+      "english": "Zanki"
+    },
+    {
+      "id": 227,
+      "raw": "Jaki",
+      "english": "Jaki"
+    },
+    {
+      "id": 228,
+      "raw": "Goki",
+      "english": "Goki"
+    },
+    {
+      "id": 229,
+      "raw": "Rokki",
+      "english": "Rokki"
+    },
+    {
+      "id": 230,
+      "raw": "Nangi",
+      "english": "Nangi"
+    },
+    {
+      "id": 232,
+      "raw": "Kunyun",
+      "english": "Kunyun"
+    },
+    {
+      "id": 233,
+      "raw": "Juki",
+      "english": "Juki"
+    },
+    {
+      "id": 234,
+      "raw": "Fukurokuju",
+      "english": "Fukurokuju"
+    },
+    {
+      "id": 235,
+      "raw": "Daikoku",
+      "english": "Daikoku"
+    },
+    {
+      "id": 236,
+      "raw": "Hanzo",
+      "english": "Hanzo"
+    },
+    {
+      "id": 237,
+      "raw": "Sarutobi",
+      "english": "Sarutobi"
+    },
+    {
+      "id": 238,
+      "raw": "Kazekage",
+      "english": "Kazekage"
+    },
+    {
+      "id": 239,
+      "raw": "Jigoku Benten",
+      "english": "Jigoku Benten"
+    },
+    {
+      "id": 240,
+      "raw": "Fujin",
+      "english": "Fujin"
+    },
+    {
+      "id": 241,
+      "raw": "Raijin",
+      "english": "Raijin"
+    },
+    {
+      "id": 242,
+      "raw": "Bishamon",
+      "english": "Bishamon"
+    },
+    {
+      "id": 244,
+      "raw": "Yazaémon",
+      "english": "Yazaemon"
+    },
+    {
+      "id": 245,
+      "raw": "Hotei",
+      "english": "Hotei"
+    },
+    {
+      "id": 246,
+      "raw": "Scratchmen Apoo",
+      "english": "Scratchmen Apoo"
+    },
+    {
+      "id": 248,
+      "raw": "Jesus Burgess",
+      "english": "Jesus Burgess"
+    },
+    {
+      "id": 249,
+      "raw": "Shiliew",
+      "english": "Shiryu"
+    },
+    {
+      "id": 250,
+      "raw": "Van Auger",
+      "english": "Van Augur"
+    },
+    {
+      "id": 251,
+      "raw": "Avalo Pizarro",
+      "english": "Avalo Pizarro"
+    },
+    {
+      "id": 252,
+      "raw": "Lafitte",
+      "english": "Laffitte"
+    },
+    {
+      "id": 253,
+      "raw": "Catarina Devon",
+      "english": "Catarina Devon"
+    },
+    {
+      "id": 254,
+      "raw": "Sanjuan Wolf",
+      "english": "Sanjuan Wolf"
+    },
+    {
+      "id": 255,
+      "raw": "Vasco Shot",
+      "english": "Vasco Shot"
+    },
+    {
+      "id": 256,
+      "raw": "Doc Q",
+      "english": "Doc Q"
+    },
+    {
+      "id": 257,
+      "raw": "Barbe Rose",
+      "english": "Peachbeard"
+    },
+    {
+      "id": 258,
+      "raw": "Gol D. Roger",
+      "english": "Gol D. Roger"
+    },
+    {
+      "id": 259,
+      "raw": "Silvers Rayleigh",
+      "english": "Silvers Rayleigh"
+    },
+    {
+      "id": 260,
+      "raw": "Scopper Gaban",
+      "english": "Scopper Gaban"
+    },
+    {
+      "id": 261,
+      "raw": "Seagull Guns Nozdon",
+      "english": "Seagull Guns Nozdon"
+    },
+    {
+      "id": 262,
+      "raw": "Taro",
+      "english": "Taro"
+    },
+    {
+      "id": 263,
+      "raw": "Dringo",
+      "english": "Doringo"
+    },
+    {
+      "id": 264,
+      "raw": "Sanjuan Wolf",
+      "english": "Sanjuan Wolf"
+    },
+    {
+      "id": 265,
+      "raw": "Millet Pine",
+      "english": "Millet Pine"
+    },
+    {
+      "id": 266,
+      "raw": "Ganryu",
+      "english": "Ganryu"
+    },
+    {
+      "id": 267,
+      "raw": "CB Galant",
+      "english": "CB Gallant"
+    },
+    {
+      "id": 268,
+      "raw": "Donquino",
+      "english": "Donquino"
+    },
+    {
+      "id": 269,
+      "raw": "Mr Momora",
+      "english": "Mr. Momora"
+    },
+    {
+      "id": 270,
+      "raw": "Moon Isaac Jr.",
+      "english": "Moon Isaac Jr."
+    },
+    {
+      "id": 271,
+      "raw": "Yui",
+      "english": "Yui"
+    },
+    {
+      "id": 272,
+      "raw": "Rangram",
+      "english": "Rangram"
+    },
+    {
+      "id": 274,
+      "raw": "Max Marks",
+      "english": "MAX Marx"
+    },
+    {
+      "id": 275,
+      "raw": "Spencer",
+      "english": "Spencer"
+    },
+    {
+      "id": 276,
+      "raw": "Bankro",
+      "english": "Bankuro"
+    },
+    {
+      "id": 277,
+      "raw": "Blumarine",
+      "english": "Blumarine"
+    },
+    {
+      "id": 278,
+      "raw": "Elio",
+      "english": "Erio"
+    },
+    {
+      "id": 279,
+      "raw": "Rowing",
+      "english": "Rowing"
+    },
+    {
+      "id": 281,
+      "raw": "Yamon",
+      "english": "Yamon"
+    },
+    {
+      "id": 282,
+      "raw": "Arlong",
+      "english": "Arlong"
+    },
+    {
+      "id": 283,
+      "raw": "Kuroobi",
+      "english": "Kuroobi"
+    },
+    {
+      "id": 284,
+      "raw": "Smack",
+      "english": "Chew"
+    },
+    {
+      "id": 285,
+      "raw": "Yorki",
+      "english": "Yorki"
+    },
+    {
+      "id": 288,
+      "raw": "Sarquiss",
+      "english": "Sarquiss"
+    },
+    {
+      "id": 289,
+      "raw": "Edward Newgate / Barbe Blanche",
+      "english": "Edward Newgate"
+    },
+    {
+      "id": 290,
+      "raw": "Portgas D. Ace",
+      "english": "Portgas D. Ace"
+    },
+    {
+      "id": 292,
+      "raw": "Thatch",
+      "english": "Thatch"
+    },
+    {
+      "id": 293,
+      "raw": "Vista",
+      "english": "Vista"
+    },
+    {
+      "id": 294,
+      "raw": "Blamenco",
+      "english": "Blamenco"
+    },
+    {
+      "id": 295,
+      "raw": "Rakuyo",
+      "english": "Rakuyo"
+    },
+    {
+      "id": 296,
+      "raw": "Blenheim",
+      "english": "Blenheim"
+    },
+    {
+      "id": 297,
+      "raw": "Curiel",
+      "english": "Curiel"
+    },
+    {
+      "id": 298,
+      "raw": "Kingdew",
+      "english": "Kingdew"
+    },
+    {
+      "id": 299,
+      "raw": "Haruta",
+      "english": "Haruta"
+    },
+    {
+      "id": 300,
+      "raw": "Atmos",
+      "english": "Atmos"
+    },
+    {
+      "id": 451,
+      "raw": "Cancer",
+      "english": "Cancer"
+    },
+    {
+      "id": 452,
+      "raw": "Mozambia",
+      "english": "Mozambia"
+    },
+    {
+      "id": 453,
+      "raw": "Lacroix",
+      "english": "Lacroix"
+    },
+    {
+      "id": 455,
+      "raw": "Dohn Deynon",
+      "english": "Nazu Ketagari"
+    },
+    {
+      "id": 456,
+      "raw": "Draw",
+      "english": "Draw"
+    },
+    {
+      "id": 457,
+      "raw": "Sicily",
+      "english": "Sicily"
+    },
+    {
+      "id": 458,
+      "raw": "Akehende",
+      "english": "Akehende"
+    },
+    {
+      "id": 459,
+      "raw": "Catacombo",
+      "english": "Catacombo"
+    },
+    {
+      "id": 460,
+      "raw": "Kadar",
+      "english": "Kadar"
+    },
+    {
+      "id": 461,
+      "raw": "Daigin",
+      "english": "Daigin"
+    },
+    {
+      "id": 462,
+      "raw": "Gorilla",
+      "english": "Gorilla"
+    },
+    {
+      "id": 463,
+      "raw": "Stelly",
+      "english": "Sterry"
+    },
+    {
+      "id": 464,
+      "raw": "Sally Entoilette",
+      "english": "Sarie Nantokanette"
+    },
+    {
+      "id": 465,
+      "raw": "Outlook III",
+      "english": "Outlook III"
+    },
+    {
+      "id": 466,
+      "raw": "Didit",
+      "english": "Didit"
+    },
+    {
+      "id": 467,
+      "raw": "Makino",
+      "english": "Makino"
+    },
+    {
+      "id": 469,
+      "raw": "Curly Dadan",
+      "english": "Curly Dadan"
+    },
+    {
+      "id": 470,
+      "raw": "Dogra",
+      "english": "Dogra"
+    },
+    {
+      "id": 471,
+      "raw": "Magra",
+      "english": "Magra"
+    },
+    {
+      "id": 472,
+      "raw": "Higuma",
+      "english": "Higuma"
+    },
+    {
+      "id": 474,
+      "raw": "Koshiro",
+      "english": "Shimotsuki Koushirou"
+    },
+    {
+      "id": 475,
+      "raw": "Kuina",
+      "english": "Shimotsuki Kuina"
+    },
+    {
+      "id": 476,
+      "raw": "Boodle",
+      "english": "Boodle"
+    },
+    {
+      "id": 477,
+      "raw": "Chouchou",
+      "english": "Chouchou"
+    },
+    {
+      "id": 479,
+      "raw": "Sarfunkel",
+      "english": "Sarfunkel"
+    },
+    {
+      "id": 480,
+      "raw": "Kaya",
+      "english": "Kaya"
+    },
+    {
+      "id": 481,
+      "raw": "Merry",
+      "english": "Merry"
+    },
+    {
+      "id": 482,
+      "raw": "Oignon",
+      "english": "Tamanegi"
+    },
+    {
+      "id": 483,
+      "raw": "Piment",
+      "english": "Piiman"
+    },
+    {
+      "id": 484,
+      "raw": "Carotte",
+      "english": "Ninjin"
+    },
+    {
+      "id": 485,
+      "raw": "Banchina",
+      "english": "Banchina"
+    },
+    {
+      "id": 486,
+      "raw": "Zeff",
+      "english": "Zeff"
+    },
+    {
+      "id": 487,
+      "raw": "Patty",
+      "english": "Patty"
+    },
+    {
+      "id": 489,
+      "raw": "Belmer",
+      "english": "Bell-mère"
+    },
+    {
+      "id": 490,
+      "raw": "Nojiko",
+      "english": "Nojiko"
+    },
+    {
+      "id": 491,
+      "raw": "Genzo",
+      "english": "Genzo"
+    },
+    {
+      "id": 493,
+      "raw": "Chabo",
+      "english": "Chabo"
+    },
+    {
+      "id": 495,
+      "raw": "Yosaku",
+      "english": "Yosaku"
+    },
+    {
+      "id": 496,
+      "raw": "Ipponmatsu",
+      "english": "Ipponmatsu"
+    },
+    {
+      "id": 497,
+      "raw": "Montblanc Norland",
+      "english": "Mont Blanc Noland"
+    },
+    {
+      "id": 499,
+      "raw": "Portgas D. Rouge",
+      "english": "Portgas D. Rouge"
+    },
+    {
+      "id": 500,
+      "raw": "Wapol",
+      "english": "Wapol"
+    },
+    {
+      "id": 401,
+      "raw": "Bas",
+      "english": "Baskerville"
+    },
+    {
+      "id": 402,
+      "raw": "And",
+      "english": "Baskerville"
+    },
+    {
+      "id": 403,
+      "raw": "Kerville",
+      "english": "Baskerville"
+    },
+    {
+      "id": 404,
+      "raw": "Hannyabal",
+      "english": "Hannyabal"
+    },
+    {
+      "id": 405,
+      "raw": "Magellan",
+      "english": "Magellan"
+    },
+    {
+      "id": 406,
+      "raw": "Domino",
+      "english": "Domino"
+    },
+    {
+      "id": 407,
+      "raw": "Saldeath",
+      "english": "Saldeath"
+    },
+    {
+      "id": 408,
+      "raw": "Sadi",
+      "english": "Sadi"
+    },
+    {
+      "id": 409,
+      "raw": "Minotaure",
+      "english": "Minotaurus"
+    },
+    {
+      "id": 410,
+      "raw": "Minokoala",
+      "english": "Minokoala"
+    },
+    {
+      "id": 411,
+      "raw": "Minorhinocéros",
+      "english": "Minorhinoceros"
+    },
+    {
+      "id": 412,
+      "raw": "Minozèbre",
+      "english": "Minozebra"
+    },
+    {
+      "id": 414,
+      "raw": "Sakazuki / Akainu",
+      "english": "Sakazuki"
+    },
+    {
+      "id": 415,
+      "raw": "Borsalino / Kizaru",
+      "english": "Borsalino"
+    },
+    {
+      "id": 416,
+      "raw": "Issho / Fujitora",
+      "english": "Issho"
+    },
+    {
+      "id": 417,
+      "raw": "Aramaki / Ryokugyu",
+      "english": "Aramaki"
+    },
+    {
+      "id": 418,
+      "raw": "Monkey D. Garp",
+      "english": "Monkey D. Garp"
+    },
+    {
+      "id": 419,
+      "raw": "Tsuru",
+      "english": "Tsuru"
+    },
+    {
+      "id": 420,
+      "raw": "John Giant",
+      "english": "John Giant"
+    },
+    {
+      "id": 422,
+      "raw": "Momonga",
+      "english": "Momonga"
+    },
+    {
+      "id": 423,
+      "raw": "Onigumo",
+      "english": "Onigumo"
+    },
+    {
+      "id": 424,
+      "raw": "Doberman",
+      "english": "Doberman"
+    },
+    {
+      "id": 425,
+      "raw": "Strawberry",
+      "english": "Strawberry"
+    },
+    {
+      "id": 426,
+      "raw": "Yamakaji",
+      "english": "Yamakaji"
+    },
+    {
+      "id": 427,
+      "raw": "Dalmatien",
+      "english": "Dalmatian"
+    },
+    {
+      "id": 428,
+      "raw": "Bastille",
+      "english": "Bastille"
+    },
+    {
+      "id": 429,
+      "raw": "Smoker",
+      "english": "Smoker"
+    },
+    {
+      "id": 430,
+      "raw": "Maynard",
+      "english": "Maynard"
+    },
+    {
+      "id": 431,
+      "raw": "Tokikake",
+      "english": "Tokikake"
+    },
+    {
+      "id": 432,
+      "raw": "Hina",
+      "english": "Hina"
+    },
+    {
+      "id": 433,
+      "raw": "T. Bone",
+      "english": "T Bone"
+    },
+    {
+      "id": 434,
+      "raw": "Pudding",
+      "english": "Charlotte Pudding"
+    },
+    {
+      "id": 435,
+      "raw": "Jenfétro",
+      "english": "Yarisugi"
+    },
+    {
+      "id": 436,
+      "raw": "Brandnew",
+      "english": "Brannew"
+    },
+    {
+      "id": 437,
+      "raw": "Verygood",
+      "english": "Very Good"
+    },
+    {
+      "id": 439,
+      "raw": "Sharinguru",
+      "english": "Sharinguru"
+    },
+    {
+      "id": 440,
+      "raw": "Tashigi",
+      "english": "Tashigi"
+    },
+    {
+      "id": 441,
+      "raw": "Kobby",
+      "english": "Koby"
+    },
+    {
+      "id": 442,
+      "raw": "Nezumi",
+      "english": "Nezumi"
+    },
+    {
+      "id": 444,
+      "raw": "Hermep",
+      "english": "Helmeppo"
+    },
+    {
+      "id": 445,
+      "raw": "Fullbody",
+      "english": "Fullbody"
+    },
+    {
+      "id": 446,
+      "raw": "Jango",
+      "english": "Jango"
+    },
+    {
+      "id": 447,
+      "raw": "Sengoku",
+      "english": "Sengoku"
+    },
+    {
+      "id": 448,
+      "raw": "Sentomaru",
+      "english": "Sentomaru"
+    },
+    {
+      "id": 449,
+      "raw": "X-Drake",
+      "english": "X Drake"
+    },
+    {
+      "id": 501,
+      "raw": "Kinderella",
+      "english": "Kinderella"
+    },
+    {
+      "id": 502,
+      "raw": "Clover",
+      "english": "Clou D. Clover"
+    },
+    {
+      "id": 503,
+      "raw": "Nico Olvia",
+      "english": "Nico Olvia"
+    },
+    {
+      "id": 504,
+      "raw": "Haguar D. Sauro",
+      "english": "Jaguar D. Saul"
+    },
+    {
+      "id": 505,
+      "raw": "Ramen",
+      "english": "Ramen"
+    },
+    {
+      "id": 506,
+      "raw": "Chinjao",
+      "english": "Chinjao"
+    },
+    {
+      "id": 507,
+      "raw": "Crocus",
+      "english": "Crocus"
+    },
+    {
+      "id": 508,
+      "raw": "Laboon",
+      "english": "Laboon"
+    },
+    {
+      "id": 509,
+      "raw": "Miss Monday",
+      "english": "Miss Monday"
+    },
+    {
+      "id": 510,
+      "raw": "Mr 9",
+      "english": "Mr. 9"
+    },
+    {
+      "id": 511,
+      "raw": "Dorry",
+      "english": "Dorry"
+    },
+    {
+      "id": 512,
+      "raw": "Broggy",
+      "english": "Brogy"
+    },
+    {
+      "id": 513,
+      "raw": "Dolton",
+      "english": "Dalton"
+    },
+    {
+      "id": 514,
+      "raw": "Kureha",
+      "english": "Kureha"
+    },
+    {
+      "id": 515,
+      "raw": "Hiluluk",
+      "english": "Hiriluk"
+    },
+    {
+      "id": 516,
+      "raw": "Chess",
+      "english": "Chess"
+    },
+    {
+      "id": 517,
+      "raw": "Kuromarimo",
+      "english": "Kuromarimo"
+    },
+    {
+      "id": 518,
+      "raw": "Nefertari Cobra",
+      "english": "Nefertari Cobra"
+    },
+    {
+      "id": 519,
+      "raw": "Nefertari Titi",
+      "english": "Nefertari Titi"
+    },
+    {
+      "id": 520,
+      "raw": "Nefertari Vivi",
+      "english": "Nefertari Vivi"
+    },
+    {
+      "id": 521,
+      "raw": "Igaram",
+      "english": "Igaram"
+    },
+    {
+      "id": 522,
+      "raw": "Chaka",
+      "english": "Chaka"
+    },
+    {
+      "id": 523,
+      "raw": "Pell",
+      "english": "Pell"
+    },
+    {
+      "id": 524,
+      "raw": "Kaloo",
+      "english": "Karoo"
+    },
+    {
+      "id": 525,
+      "raw": "Longs-Cils",
+      "english": "Matsuge"
+    },
+    {
+      "id": 526,
+      "raw": "Stomp",
+      "english": "Stomp"
+    },
+    {
+      "id": 527,
+      "raw": "Ivan X",
+      "english": "Super Spot-Billed Duck Troops"
+    },
+    {
+      "id": 528,
+      "raw": "Cowboy",
+      "english": "Cowboy"
+    },
+    {
+      "id": 530,
+      "raw": "Kentarôs",
+      "english": "Super Spot-Billed Duck Troops"
+    },
+    {
+      "id": 531,
+      "raw": "Hikoichi",
+      "english": "Hikoichi"
+    },
+    {
+      "id": 532,
+      "raw": "Koza",
+      "english": "Koza"
+    },
+    {
+      "id": 533,
+      "raw": "Toto",
+      "english": "Toto"
+    },
+    {
+      "id": 534,
+      "raw": "Tonjit",
+      "english": "Tonjit"
+    },
+    {
+      "id": 535,
+      "raw": "Shelly",
+      "english": "Shelly"
+    },
+    {
+      "id": 536,
+      "raw": "Gedatsu",
+      "english": "Gedatsu"
+    },
+    {
+      "id": 537,
+      "raw": "Icebarg",
+      "english": "Iceburg"
+    },
+    {
+      "id": 538,
+      "raw": "Pauly",
+      "english": "Paulie"
+    },
+    {
+      "id": 539,
+      "raw": "Peeply Lulu",
+      "english": "Peepley Lulu"
+    },
+    {
+      "id": 540,
+      "raw": "Tilestone",
+      "english": "Tilestone"
+    },
+    {
+      "id": 542,
+      "raw": "Mozu",
+      "english": "Mozu and Kiwi"
+    },
+    {
+      "id": 543,
+      "raw": "Kiwi",
+      "english": "Mozu and Kiwi"
+    },
+    {
+      "id": 544,
+      "raw": "Tom",
+      "english": "Tom"
+    },
+    {
+      "id": 545,
+      "raw": "Kokoro",
+      "english": "Kokoro"
+    },
+    {
+      "id": 546,
+      "raw": "Chimney",
+      "english": "Chimney"
+    },
+    {
+      "id": 549,
+      "raw": "Silvers Rayleigh",
+      "english": "Silvers Rayleigh"
+    },
+    {
+      "id": 550,
+      "raw": "Shakuyaku",
+      "english": "Shakuyaku"
+    },
+    {
+      "id": 551,
+      "raw": "Disco",
+      "english": "Disco"
+    },
+    {
+      "id": 552,
+      "raw": "Duval",
+      "english": "Duval"
+    },
+    {
+      "id": 553,
+      "raw": "Héraclès",
+      "english": "Heracles"
+    },
+    {
+      "id": 554,
+      "raw": "Loki",
+      "english": "Loki"
+    },
+    {
+      "id": 556,
+      "raw": "Jarl",
+      "english": "Jarul"
+    },
+    {
+      "id": 557,
+      "raw": "Oimo",
+      "english": "Oimo"
+    },
+    {
+      "id": 560,
+      "raw": "Oden Kozuki",
+      "english": "Kouzuki Oden"
+    },
+    {
+      "id": 564,
+      "raw": "Kinémon",
+      "english": "Kin'emon"
+    },
+    {
+      "id": 565,
+      "raw": "Denjiro",
+      "english": "Denjiro"
+    },
+    {
+      "id": 566,
+      "raw": "Izo",
+      "english": "Izou"
+    },
+    {
+      "id": 567,
+      "raw": "Kikunojo",
+      "english": "Kikunojo"
+    },
+    {
+      "id": 568,
+      "raw": "Raizo",
+      "english": "Raizo"
+    },
+    {
+      "id": 569,
+      "raw": "Ashura Doji",
+      "english": "Ashura Doji"
+    },
+    {
+      "id": 570,
+      "raw": "Kawamatsu",
+      "english": "Kawamatsu"
+    },
+    {
+      "id": 571,
+      "raw": "Shinobu",
+      "english": "Shinobu"
+    },
+    {
+      "id": 578,
+      "raw": "Toko",
+      "english": "Toko"
+    },
+    {
+      "id": 579,
+      "raw": "Onimaru",
+      "english": "Onimaru"
+    },
+    {
+      "id": 580,
+      "raw": "Hyogoro",
+      "english": "Hyougoro"
+    },
+    {
+      "id": 581,
+      "raw": "Omasa",
+      "english": "Omasa"
+    },
+    {
+      "id": 582,
+      "raw": "Tsunagoro",
+      "english": "Tsunagoro"
+    },
+    {
+      "id": 583,
+      "raw": "Cho",
+      "english": "Cho"
+    },
+    {
+      "id": 585,
+      "raw": "Tama",
+      "english": "Kurozumi Tama"
+    },
+    {
+      "id": 586,
+      "raw": "Tsurujo",
+      "english": "Tsurujo"
+    },
+    {
+      "id": 587,
+      "raw": "Komachiyo",
+      "english": "Komachiyo"
+    },
+    {
+      "id": 588,
+      "raw": "Baboumaru",
+      "english": "Hihimaru"
+    },
+    {
+      "id": 589,
+      "raw": "Bunbuku",
+      "english": "Bunbuku"
+    },
+    {
+      "id": 590,
+      "raw": "Yamato",
+      "english": "Yamato"
+    },
+    {
+      "id": 591,
+      "raw": "Rock",
+      "english": "Yeti Cool Brothers"
+    },
+    {
+      "id": 592,
+      "raw": "Scotch",
+      "english": "Scotch"
+    },
+    {
+      "id": 593,
+      "raw": "Smiley",
+      "english": "Smiley"
+    },
+    {
+      "id": 594,
+      "raw": "Riku Dold III",
+      "english": "Riku Doldo III"
+    },
+    {
+      "id": 595,
+      "raw": "Scarlett",
+      "english": "Scarlett"
+    },
+    {
+      "id": 596,
+      "raw": "Kyros",
+      "english": "Kyros"
+    },
+    {
+      "id": 597,
+      "raw": "Viola",
+      "english": "Viola"
+    },
+    {
+      "id": 598,
+      "raw": "Rebecca",
+      "english": "Rebecca"
+    },
+    {
+      "id": 599,
+      "raw": "Gatz",
+      "english": "Gatz"
+    },
+    {
+      "id": 600,
+      "raw": "Tank Lepanto",
+      "english": "Tank Lepanto"
+    },
+    {
+      "id": 751,
+      "raw": "Musshuru",
+      "english": "Musshuru"
+    },
+    {
+      "id": 752,
+      "raw": "Apis",
+      "english": "Apis"
+    },
+    {
+      "id": 753,
+      "raw": "Bokuden",
+      "english": "Bokuden"
+    },
+    {
+      "id": 754,
+      "raw": "Orlombus",
+      "english": "Orlumbus"
+    },
+    {
+      "id": 755,
+      "raw": "Macro",
+      "english": "Macro"
+    },
+    {
+      "id": 756,
+      "raw": "Pudding Pudding",
+      "english": "Pudding Pudding"
+    },
+    {
+      "id": 757,
+      "raw": "Pandaman",
+      "english": "Pandaman"
+    },
+    {
+      "id": 758,
+      "raw": "Zenny",
+      "english": "Zenny"
+    },
+    {
+      "id": 759,
+      "raw": "Wetton",
+      "english": "Wetton"
+    },
+    {
+      "id": 760,
+      "raw": "Bigalo",
+      "english": "Bigalo"
+    },
+    {
+      "id": 761,
+      "raw": "Végapunk",
+      "english": "Vegapunk"
+    },
+    {
+      "id": 762,
+      "raw": "Stronger",
+      "english": "Stronger"
+    },
+    {
+      "id": 769,
+      "raw": "S-Snake",
+      "english": "S-Snake"
+    },
+    {
+      "id": 770,
+      "raw": "S-Hawk",
+      "english": "S-Hawk"
+    },
+    {
+      "id": 771,
+      "raw": "S-Bear",
+      "english": "S-Bear"
+    },
+    {
+      "id": 772,
+      "raw": "S-Shark",
+      "english": "S-Shark"
+    },
+    {
+      "id": 774,
+      "raw": "Jaygarcia Saturn",
+      "english": "Jaygarcia Saturn"
+    },
+    {
+      "id": 775,
+      "raw": "Marcus Mars",
+      "english": "Marcus Mars"
+    },
+    {
+      "id": 776,
+      "raw": "Topman Warcury",
+      "english": "Topman Warcury"
+    },
+    {
+      "id": 777,
+      "raw": "Ethanbaron V. Nusjuro",
+      "english": "Ethanbaron V. Nusjuro"
+    },
+    {
+      "id": 778,
+      "raw": "Shepherd Ju Peter",
+      "english": "Shepherd Ju Peter"
+    },
+    {
+      "id": 780,
+      "raw": "Figarland Shamrock",
+      "english": "Figarland Shamrock"
+    },
+    {
+      "id": 601,
+      "raw": "Guncho",
+      "english": "Gancho"
+    },
+    {
+      "id": 602,
+      "raw": "Manshelly",
+      "english": "Mansherry"
+    },
+    {
+      "id": 603,
+      "raw": "Zunesh",
+      "english": "Zunesha"
+    },
+    {
+      "id": 604,
+      "raw": "Bêgis Khan",
+      "english": "Hitsugisukan"
+    },
+    {
+      "id": 605,
+      "raw": "Caborage",
+      "english": "Inuarashi"
+    },
+    {
+      "id": 606,
+      "raw": "Chavipère",
+      "english": "Nekomamushi"
+    },
+    {
+      "id": 607,
+      "raw": "Sicilion",
+      "english": "Shishilian"
+    },
+    {
+      "id": 609,
+      "raw": "Giovanni",
+      "english": "Giovanni"
+    },
+    {
+      "id": 610,
+      "raw": "Wanda",
+      "english": "Wanda"
+    },
+    {
+      "id": 611,
+      "raw": "Carrot",
+      "english": "Carrot"
+    },
+    {
+      "id": 612,
+      "raw": "Pedro",
+      "english": "Pedro"
+    },
+    {
+      "id": 613,
+      "raw": "Elizabello II",
+      "english": "Elizabello II"
+    },
+    {
+      "id": 614,
+      "raw": "Dagama",
+      "english": "Dagama"
+    },
+    {
+      "id": 615,
+      "raw": "Kelly Funk",
+      "english": "Kelly Funk"
+    },
+    {
+      "id": 616,
+      "raw": "Bobby Funk",
+      "english": "Bobby Funk"
+    },
+    {
+      "id": 617,
+      "raw": "Judge Vinsmoke",
+      "english": "Vinsmoke Judge"
+    },
+    {
+      "id": 619,
+      "raw": "Reiju Vinsmoke",
+      "english": "Vinsmoke Reiju"
+    },
+    {
+      "id": 620,
+      "raw": "Ichiji Vinsmoke",
+      "english": "Vinsmoke Ichiji"
+    },
+    {
+      "id": 621,
+      "raw": "Niji Vinsmoke",
+      "english": "Vinsmoke Niji"
+    },
+    {
+      "id": 622,
+      "raw": "Yonji Vinsmoke",
+      "english": "Vinsmoke Yonji"
+    },
+    {
+      "id": 623,
+      "raw": "Marco",
+      "english": "Polo Marco"
+    },
+    {
+      "id": 624,
+      "raw": "Gan Forr",
+      "english": "Gan Fall"
+    },
+    {
+      "id": 625,
+      "raw": "Pierre",
+      "english": "Pierre"
+    },
+    {
+      "id": 626,
+      "raw": "Conis",
+      "english": "Conis"
+    },
+    {
+      "id": 627,
+      "raw": "Pagaya",
+      "english": "Pagaya"
+    },
+    {
+      "id": 628,
+      "raw": "Amazon",
+      "english": "Amazon"
+    },
+    {
+      "id": 630,
+      "raw": "Wiper",
+      "english": "Wyper"
+    },
+    {
+      "id": 631,
+      "raw": "Kamakiri",
+      "english": "Kamakiri"
+    },
+    {
+      "id": 632,
+      "raw": "Braham",
+      "english": "Braham"
+    },
+    {
+      "id": 633,
+      "raw": "Genbo",
+      "english": "Genbo"
+    },
+    {
+      "id": 634,
+      "raw": "Laki",
+      "english": "Raki"
+    },
+    {
+      "id": 635,
+      "raw": "Aisa",
+      "english": "Aisa"
+    },
+    {
+      "id": 637,
+      "raw": "Calgara",
+      "english": "Kalgara"
+    },
+    {
+      "id": 638,
+      "raw": "Om",
+      "english": "Ohm"
+    },
+    {
+      "id": 639,
+      "raw": "Satori",
+      "english": "Satori"
+    },
+    {
+      "id": 640,
+      "raw": "Shura",
+      "english": "Shura"
+    },
+    {
+      "id": 641,
+      "raw": "Yama",
+      "english": "Yama"
+    },
+    {
+      "id": 642,
+      "raw": "Hotori",
+      "english": "Hotori and Kotori"
+    },
+    {
+      "id": 643,
+      "raw": "Kotori",
+      "english": "Hotori and Kotori"
+    },
+    {
+      "id": 644,
+      "raw": "Haredas",
+      "english": "Haredas"
+    },
+    {
+      "id": 645,
+      "raw": "Neptune",
+      "english": "Neptune"
+    },
+    {
+      "id": 646,
+      "raw": "Otohime",
+      "english": "Otohime"
+    },
+    {
+      "id": 647,
+      "raw": "Fukaboshi",
+      "english": "Fukaboshi"
+    },
+    {
+      "id": 648,
+      "raw": "Ryuboshi",
+      "english": "Ryuboshi"
+    },
+    {
+      "id": 650,
+      "raw": "Shirahoshi",
+      "english": "Shirahoshi"
+    },
+    {
+      "id": 701,
+      "raw": "Boo Jack",
+      "english": "Boo Jack"
+    },
+    {
+      "id": 702,
+      "raw": "Skunk One",
+      "english": "Shunk One"
+    },
+    {
+      "id": 703,
+      "raw": "Borodo",
+      "english": "Borodo"
+    },
+    {
+      "id": 704,
+      "raw": "Akisu",
+      "english": "Akisu"
+    },
+    {
+      "id": 706,
+      "raw": "Hotdog",
+      "english": "Hotdog"
+    },
+    {
+      "id": 707,
+      "raw": "Mobambi",
+      "english": "Mobanby"
+    },
+    {
+      "id": 708,
+      "raw": "Heaby",
+      "english": "Heaby"
+    },
+    {
+      "id": 710,
+      "raw": "Needless",
+      "english": "Needless"
+    },
+    {
+      "id": 711,
+      "raw": "Biera",
+      "english": "Biera"
+    },
+    {
+      "id": 712,
+      "raw": "Shuraiya Bascùd",
+      "english": "Shuraiya Bascùd"
+    },
+    {
+      "id": 713,
+      "raw": "Adelle Bascùd",
+      "english": "Adelle Bascùd"
+    },
+    {
+      "id": 714,
+      "raw": "Saga",
+      "english": "Saga"
+    },
+    {
+      "id": 715,
+      "raw": "Toma",
+      "english": "Toma"
+    },
+    {
+      "id": 716,
+      "raw": "Bismarck",
+      "english": "Bismarck"
+    },
+    {
+      "id": 717,
+      "raw": "Boo Kong",
+      "english": "Boo Kong"
+    },
+    {
+      "id": 718,
+      "raw": "Maya",
+      "english": "Maya"
+    },
+    {
+      "id": 719,
+      "raw": "Izaya",
+      "english": "Izaya"
+    },
+    {
+      "id": 720,
+      "raw": "Lacos",
+      "english": "Lacos"
+    },
+    {
+      "id": 721,
+      "raw": "Omatsuri",
+      "english": "Omatsuri"
+    },
+    {
+      "id": 722,
+      "raw": "Lily Carnation",
+      "english": "Lily Carnation"
+    },
+    {
+      "id": 723,
+      "raw": "Papa",
+      "english": "Ochanoma Papa"
+    },
+    {
+      "id": 724,
+      "raw": "Brief",
+      "english": "Brief"
+    },
+    {
+      "id": 725,
+      "raw": "Ratchet",
+      "english": "Ratchet"
+    },
+    {
+      "id": 726,
+      "raw": "Honki",
+      "english": "Honki"
+    },
+    {
+      "id": 727,
+      "raw": "Maji",
+      "english": "Maji"
+    },
+    {
+      "id": 728,
+      "raw": "Roba",
+      "english": "Roba"
+    },
+    {
+      "id": 729,
+      "raw": "Musshul",
+      "english": "Musshuru"
+    },
+    {
+      "id": 730,
+      "raw": "Scarlett",
+      "english": "Scarlett"
+    },
+    {
+      "id": 731,
+      "raw": "Billy",
+      "english": "Billy (Disambiguation)"
+    },
+    {
+      "id": 732,
+      "raw": "Xiao",
+      "english": "Xiao"
+    },
+    {
+      "id": 733,
+      "raw": "Schneider",
+      "english": "Schneider"
+    },
+    {
+      "id": 734,
+      "raw": "Buzz",
+      "english": "Buzz"
+    },
+    {
+      "id": 736,
+      "raw": "Ain",
+      "english": "Ain"
+    },
+    {
+      "id": 738,
+      "raw": "Gild Tesoro",
+      "english": "Gild Tesoro"
+    },
+    {
+      "id": 739,
+      "raw": "Baccarat",
+      "english": "Baccarat"
+    },
+    {
+      "id": 740,
+      "raw": "Dice",
+      "english": "Dice"
+    },
+    {
+      "id": 741,
+      "raw": "Tanaka",
+      "english": "Tanaka"
+    },
+    {
+      "id": 742,
+      "raw": "Carina",
+      "english": "Carina"
+    },
+    {
+      "id": 743,
+      "raw": "Douglas Bullet",
+      "english": "Douglas Bullet"
+    },
+    {
+      "id": 744,
+      "raw": "Buena Festa",
+      "english": "Buena Festa"
+    },
+    {
+      "id": 745,
+      "raw": "Ann",
+      "english": "Ann"
+    },
+    {
+      "id": 746,
+      "raw": "Donald Moderate",
+      "english": "Donald Moderate"
+    },
+    {
+      "id": 747,
+      "raw": "Uta",
+      "english": "Uta"
+    },
+    {
+      "id": 748,
+      "raw": "Gordon",
+      "english": "Gordon"
+    },
+    {
+      "id": 749,
+      "raw": "Tenguyama Hitetsu",
+      "english": "Kouzuki Sukiyaki"
+    },
+    {
+      "id": 750,
+      "raw": "Gion",
+      "english": "Gion"
+    },
+    {
+      "id": 652,
+      "raw": "Mégalo",
+      "english": "Megalo"
+    },
+    {
+      "id": 655,
+      "raw": "Shyarly",
+      "english": "Shyarly"
+    },
+    {
+      "id": 657,
+      "raw": "Pappag",
+      "english": "Pappag"
+    },
+    {
+      "id": 658,
+      "raw": "Octy",
+      "english": "Hatchan"
+    },
+    {
+      "id": 659,
+      "raw": "Den",
+      "english": "Den"
+    },
+    {
+      "id": 660,
+      "raw": "Ener",
+      "english": "Enel"
+    },
+    {
+      "id": 661,
+      "raw": "Monkey D. Dragon",
+      "english": "Monkey D. Dragon"
+    },
+    {
+      "id": 662,
+      "raw": "Sabo",
+      "english": "Sabo"
+    },
+    {
+      "id": 663,
+      "raw": "Emporio Ivankov",
+      "english": "Emporio Ivankov"
+    },
+    {
+      "id": 664,
+      "raw": "Corbeau",
+      "english": "Karasumaru"
+    },
+    {
+      "id": 665,
+      "raw": "Belo Betty",
+      "english": "Belo Betty"
+    },
+    {
+      "id": 666,
+      "raw": "Morley",
+      "english": "Morley"
+    },
+    {
+      "id": 667,
+      "raw": "Lindbergh",
+      "english": "Lindbergh"
+    },
+    {
+      "id": 668,
+      "raw": "Inazuma",
+      "english": "Inazuma"
+    },
+    {
+      "id": 669,
+      "raw": "Canard",
+      "english": "Ahiru"
+    },
+    {
+      "id": 670,
+      "raw": "Koala",
+      "english": "Koala"
+    },
+    {
+      "id": 671,
+      "raw": "Hack",
+      "english": "Hack"
+    },
+    {
+      "id": 672,
+      "raw": "Zala",
+      "english": "Zala"
+    },
+    {
+      "id": 673,
+      "raw": "Bentham",
+      "english": "Bentham"
+    },
+    {
+      "id": 674,
+      "raw": "Marianne",
+      "english": "Marianne"
+    },
+    {
+      "id": 675,
+      "raw": "Babe",
+      "english": "Babe"
+    },
+    {
+      "id": 676,
+      "raw": "Lassou",
+      "english": "Lassoo"
+    },
+    {
+      "id": 677,
+      "raw": "Drophy",
+      "english": "Drophy"
+    },
+    {
+      "id": 679,
+      "raw": "Mikita",
+      "english": "Mikita"
+    },
+    {
+      "id": 680,
+      "raw": "Jabura",
+      "english": "Jabra"
+    },
+    {
+      "id": 681,
+      "raw": "Blueno",
+      "english": "Blueno"
+    },
+    {
+      "id": 682,
+      "raw": "Kumadori",
+      "english": "Kumadori"
+    },
+    {
+      "id": 683,
+      "raw": "Fukuro",
+      "english": "Fukurou"
+    },
+    {
+      "id": 684,
+      "raw": "Kalifa",
+      "english": "Kalifa"
+    },
+    {
+      "id": 685,
+      "raw": "Nero",
+      "english": "Nero"
+    },
+    {
+      "id": 686,
+      "raw": "Spandine",
+      "english": "Spandine"
+    },
+    {
+      "id": 687,
+      "raw": "Kuzan / Aokiji",
+      "english": "Kuzan"
+    },
+    {
+      "id": 688,
+      "raw": "Morgan",
+      "english": "Morgan"
+    },
+    {
+      "id": 689,
+      "raw": "Bellamy",
+      "english": "Bellamy"
+    },
+    {
+      "id": 690,
+      "raw": "Bartholomew Kuma",
+      "english": "Bartholomew Kuma"
+    },
+    {
+      "id": 691,
+      "raw": "César Clown",
+      "english": "Caesar Clown"
+    },
+    {
+      "id": 692,
+      "raw": "Morgans",
+      "english": "Morgans"
+    },
+    {
+      "id": 694,
+      "raw": "Golass",
+      "english": "Golass"
+    },
+    {
+      "id": 695,
+      "raw": "Tobio",
+      "english": "Tobio"
+    },
+    {
+      "id": 696,
+      "raw": "Ganzo",
+      "english": "Ganzo"
+    },
+    {
+      "id": 697,
+      "raw": "Woonan",
+      "english": "Woonan"
+    },
+    {
+      "id": 698,
+      "raw": "Bear King",
+      "english": "Bear King"
+    },
+    {
+      "id": 699,
+      "raw": "Honey Queen",
+      "english": "Honey Queen"
+    },
+    {
+      "id": 700,
+      "raw": "Pin Joker",
+      "english": "Pin Joker"
+    }
+  ]
+}

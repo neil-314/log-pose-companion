@@ -1,0 +1,38 @@
+import {JSDOM} from 'jsdom';
+import fs from 'node:fs';import assert from 'node:assert/strict';
+import {plan} from '../public/planner.js';
+import {unlockedTrivia,TRIVIA} from '../public/trivia.js';
+import * as companion from '../public/companion-data.js';
+import * as advanced from '../public/advanced-trivia.js';import * as names from '../public/dex-names.js';import * as discovery from '../public/discovery.js';
+const root=new URL('../public/',import.meta.url);
+const dom=new JSDOM(fs.readFileSync(new URL('index.html',root),'utf8'),{url:'http://localhost:4173',runScripts:'outside-only'});
+const w=dom.window;w.scrollTo=()=>{};w.matchMedia=()=>({matches:false});w.AbortSignal=AbortSignal;w.confirm=()=>true;
+let profile=null,community={arcs:[],characters:[],mine:[],favourite:null,signedIn:true};
+w.fetch=async(url,options={})=>{let body={};if(url==='/api/profile'){if(options.method==='PUT')profile=JSON.parse(options.body);body={state:profile};}else if(url==='/api/community'){if(options.method==='POST'){const p=JSON.parse(options.body);if(p.type==='arc'){community.mine=[{arc_id:p.id,score:p.score}];community.arcs=[{arc_id:p.id,average:p.score,votes:1}];}else{community.favourite={character_id:p.id};community.characters=[{character_id:p.id,votes:1}];}}body=community;}else if(url==='/api/characters')body={characters:[{id:'dex-1',name:'Monkey D Luffy'},{id:'dex-52',name:'Perona'}],fetchedAt:Date.now(),cached:false};else if(url==='/api/latest')body={anime:1180,manga:1194,fetchedAt:Date.now(),sources:{anime:'UI test fixture',manga:'UI test fixture'}};else if(url.includes('/api/mapping'))body={verified:true,chapters:[585,586],resume:586,source:'https://example.com',note:'Fixture mapping'};return {ok:true,status:200,json:async()=>body};};
+w.qa={plan,loadRoute:async()=>({mode:'basic',episodes:[],at:Date.now()}),...companion,...advanced,...names,...discovery,unlockedTrivia};
+const boot=(file,names)=>w.eval(`(function(){ const {${names}}=window.qa;\n${fs.readFileSync(new URL(file,root),'utf8').replace(/^import .*;\r?\n/gm,'')}\n})()`);
+boot('app.js','plan,loadRoute');boot('companion.js','ARCS,CHARACTERS,arcAt,completedArcs,timeStats,validateState,revisitStats,unlockedTrivia,DIFFICULTIES,checkTypedAnswer,selectRound,canonicalCharacter,normalizeCatalogue,matchesCharacter,MOVIES,COVERS,unlockedDiscovery');
+const $=id=>w.document.getElementById(id),tick=()=>new Promise(r=>setTimeout(r,30));
+await tick();$('current').value='500';$('next-0').click();assert.ok($('step-4').classList.contains('active'));assert.match($('journey-line').textContent,/Anime episode 500/);assert.match($('journey-stats').textContent,/200h/);assert.ok(![...$('arc-journal').querySelectorAll('summary')].some(s=>s.textContent.startsWith('Post-War')));
+$('rewatch-count').value='5';$('add-rewatch').click();assert.match($('journey-stats').textContent,/202h/);$('undo-log').click();assert.ok(!$('journey-stats').textContent.includes('202h'));
+$('mapping').click();await tick();assert.match($('mapping-result').textContent,/chapter 586/);
+const arc=[...$('arc-journal').children].find(c=>c.querySelector('summary strong')?.textContent==='Marineford');arc.querySelector('select').value='9';arc.querySelector('button').click();await tick();assert.equal(community.mine[0].score,9);
+$('character-grid').querySelector('button').click();assert.match($('rank-list').textContent,/Monkey D. Luffy/);$('character-grid').querySelector('.character-card').click();await tick();assert.equal(community.favourite.character_id,'luffy');
+$('dex-spoilers').checked=true;$('dex-spoilers').dispatchEvent(new w.Event('change'));await tick();$('dex-search').value='Perona';$('dex-search').dispatchEvent(new w.Event('input'));w.document.querySelector('.dex-result').click();assert.match($('rank-list').textContent,/2. Perona/);$('rank-list').children[1].querySelector('button').click();assert.match($('rank-list').children[0].textContent,/Perona/);$('rank-list').children[0].querySelector('[aria-label*=Remove]').click();
+$('series-kind').value='anime';$('series-length').value='500';$('series-passes').value='2';$('add-series').click();$('series-kind').value='manga';$('series-length').value='586';$('series-passes').value='3';$('add-series').click();assert.match($('series-message').textContent,/5 revisits/);assert.match($('journey-stats').textContent,/600h/);assert.match($('journey-stats').textContent,/1758/);
+$('quiz-start').click();for(let i=0;i<5;i++){$('quiz-answers').querySelector('button').click();$('quiz-next').click();}assert.match($('quiz-record').textContent,/1 total rounds/);
+$('quiz-levels').querySelector('[data-level=extreme]').click();$('quiz-daily').checked=true;$('quiz-start').click();const firstQuestion=$('quiz-question').textContent;
+for(let i=0;i<5;i++){assert.ok(!$('quiz-typed').hidden);const q=TRIVIA.find(q=>q.question===$('quiz-question').textContent);assert.equal(q.difficulty,'extreme');assert.ok(q.episode<=500);$('quiz-input').value=q.accepted[0];$('quiz-typed').dispatchEvent(new w.Event('submit',{bubbles:true,cancelable:true}));assert.ok($('quiz-input').disabled);$('quiz-next').click();}
+assert.match($('quiz-result').textContent,/5\/5/);assert.match($('quiz-badges').textContent,/Pirate King perfect voyage/);$('quiz-share').click();await tick();assert.ok(!$('quiz-share-status').textContent.includes('Jabra'));$('quiz-start').click();assert.equal($('quiz-question').textContent,firstQuestion);
+$('start-refresher').click();assert.equal($('refresher-title').textContent,'Amazon Lily');$('refresher-next').click();$('refresher-next').click();assert.equal($('refresher-title').textContent,'Marineford');assert.ok(!$('movie-list').textContent.includes('Film Red'));assert.ok($('cover-list').textContent.includes('Enel'));$('movie-list').querySelector('button').click();
+$('voyage-note').value='My own theory <script>unsafe()</script>';$('save-note').click();assert.match($('note-list').textContent,/My own theory/);assert.equal($('note-list').querySelector('script'),null);
+
+$('update-progress').click();$('current').dispatchEvent(new w.KeyboardEvent('keydown',{key:'ArrowDown',bubbles:true,cancelable:true}));await tick();assert.equal($('current').value,'1180');
+$('mode-manga').click();$('current').value='586';$('next-0').click();assert.match($('journey-line').textContent,/Manga chapter 586/);assert.equal($('current-arc').textContent,'Post-War');assert.ok($('mapping').hidden);
+await new Promise(r=>setTimeout(r,600));const saved=JSON.parse(w.localStorage.getItem('lp-companion'));assert.equal(saved.anime,500);assert.equal(saved.manga,586);assert.equal(saved.rewatched,0);assert.equal(saved.voyages.length,2);assert.equal(saved.rankings.length,1);assert.equal(saved.quiz.rounds,2);assert.equal(saved.quiz.levels.extreme.best,5);assert.equal(saved.notes.length,1);assert.equal(saved.discovered.length,1);
+assert.ok(!w.document.body.textContent.includes('Neil'));
+$('quiz-start').click();assert.ok(!$('quiz-stage').hidden);$('start-refresher').click();assert.ok(!$('refresher').hidden);
+const earlier={...saved,kind:'anime',anime:100,manga:0};Object.defineProperty($('import-log'),'files',{configurable:true,value:[{size:1000,text:async()=>JSON.stringify({version:1,state:earlier})}]});await $('import-log').onchange();assert.ok($('quiz-stage').hidden);assert.ok($('refresher').hidden);assert.ok(!$('note-list').textContent.includes('My own theory'));assert.ok(!$('cover-list').textContent.includes('Enel'));
+
+console.log('DOM interaction smoke passed: episode entry, chapter entry, stats, rewatch/undo, spoiler gate, rating, favourite, latest arrow, mapping and saved history.');
+w.close();
