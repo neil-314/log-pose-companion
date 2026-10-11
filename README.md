@@ -66,3 +66,11 @@ Generated fan illustration saved at `public/assets/crew-voyage.png`, using the b
 
 
 Unofficial fan project. One Piece belongs to Eiichiro Oda and its respective rights holders. No episodes or manga pages are hosted.
+
+## One Piece artwork update
+
+Luffy's official anime face is visible immediately on the welcome screen, including mobile. The animated departure and living chart now use a detailed transparent Thousand Sunny fan illustration instead of a generic boat. The departure introduces progress-filtered character portraits, and the crew gallery includes 26 selectable official portraits: all ten Straw Hats, Shanks, Ace, Law, Buggy, Mihawk, Vivi, Crocodile, Smoker, Lucci, Hancock, Doflamingo, Sabo, Whitebeard, Garp, Katakuri and Kaido. These are not emoji substitutes or a claim to include every character.
+
+Images are stored locally so the app does not rely on third-party hotlink requests at runtime. `docs/portrait-sources.json` records the official source pages and image URLs. Character portraits are third-party artwork from ONE PIECE.com, © Eiichiro Oda / Shueisha, Toei Animation; they are not original project artwork or covered by an implied open-source artwork license. `public/assets/thousand-sunny.png` is a generated fan illustration, not an official animation frame. Character cards animate and respond to selection; these are not skeletal or frame-by-frame character animations.
+
+Gallery names unlock using conservative episode/chapter thresholds. An explicit all-portraits switch reveals later names and designs; it resets when progress is re-entered. Official catalogue designs can differ from the viewer's current arc, so the interface does not promise chronological accuracy of costumes. A separate image smoke test checks all 26 assets, immediate Luffy visibility, Sunny use, gallery selection, progress gates and spoiler reset. Browser visual automation remains unavailable; real-device visual review is still required.

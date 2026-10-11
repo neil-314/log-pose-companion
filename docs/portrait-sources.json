@@ -1,0 +1,158 @@
+[
+  {
+    "id": "luffy",
+    "page": "https://one-piece.com/character/luffy/index.html",
+    "image": "https://one-piece.com/o/assets/images/anime/character/data/luffy/face.jpg",
+    "bytes": 33368
+  },
+  {
+    "id": "usopp",
+    "page": "https://one-piece.com/character/usopp/index.html",
+    "image": "https://one-piece.com/o/assets/images/anime/character/data/usopp/face.jpg",
+    "bytes": 29572
+  },
+  {
+    "id": "sanji",
+    "page": "https://one-piece.com/character/sanji/index.html",
+    "image": "https://one-piece.com/o/assets/images/anime/character/data/sanji/face.jpg",
+    "bytes": 29369
+  },
+  {
+    "id": "zoro",
+    "page": "https://one-piece.com/character/zoro/index.html",
+    "image": "https://one-piece.com/o/assets/images/anime/character/data/zoro/face.jpg",
+    "bytes": 29378
+  },
+  {
+    "id": "nami",
+    "page": "https://one-piece.com/character/nami/index.html",
+    "image": "https://one-piece.com/o/assets/images/anime/character/data/nami/face.jpg",
+    "bytes": 42170
+  },
+  {
+    "id": "brook",
+    "page": "https://one-piece.com/character/brook/index.html",
+    "image": "https://one-piece.com/o/assets/images/anime/character/data/brook/face.jpg",
+    "bytes": 26994
+  },
+  {
+    "id": "chopper",
+    "page": "https://one-piece.com/character/chopper/index.html",
+    "image": "https://one-piece.com/o/assets/images/anime/character/data/chopper/face.jpg",
+    "bytes": 37812
+  },
+  {
+    "id": "robin",
+    "page": "https://one-piece.com/character/robin/index.html",
+    "image": "https://one-piece.com/o/assets/images/anime/character/data/robin/face.jpg",
+    "bytes": 28918
+  },
+  {
+    "id": "franky",
+    "page": "https://one-piece.com/character/franky/index.html",
+    "image": "https://one-piece.com/o/assets/images/anime/character/data/franky/face.jpg",
+    "bytes": 30167
+  },
+  {
+    "id": "ace",
+    "page": "https://one-piece.com/character/ace/index.html",
+    "image": "https://one-piece.com/o/assets/images/anime/character/data/ace/face.jpg",
+    "bytes": 50253
+  },
+  {
+    "id": "law",
+    "page": "https://one-piece.com/character/law/index.html",
+    "image": "https://one-piece.com/o/assets/images/anime/character/data/law/face.jpg",
+    "bytes": 81939
+  },
+  {
+    "id": "smoker",
+    "page": "https://one-piece.com/character/smoker/index.html",
+    "image": "https://one-piece.com/o/assets/images/anime/character/data/smoker/face.jpg",
+    "bytes": 91339
+  },
+  {
+    "id": "sabo",
+    "page": "https://one-piece.com/character/sabo/index.html",
+    "image": "https://one-piece.com/o/assets/images/anime/character/data/sabo/face.jpg",
+    "bytes": 56445
+  },
+  {
+    "id": "doflamingo",
+    "page": "https://one-piece.com/character/doflamingo/index.html",
+    "image": "https://one-piece.com/o/assets/images/anime/character/data/doflamingo/face.jpg",
+    "bytes": 79741
+  },
+  {
+    "id": "jinbe",
+    "page": "https://one-piece.com/character/Jinbe/index.html",
+    "image": "https://one-piece.com/o/assets/images/anime/character/data/Jinbe/face.jpg",
+    "bytes": 58676
+  },
+  {
+    "id": "shanks",
+    "page": "https://one-piece.com/character/Shanks/index.html",
+    "image": "https://one-piece.com/o/assets/images/anime/character/data/Shanks/face.jpg",
+    "bytes": 59870
+  },
+  {
+    "id": "buggy",
+    "page": "https://one-piece.com/character/Buggy/index.html",
+    "image": "https://one-piece.com/o/assets/images/anime/character/data/Buggy/Buggy_face_egghead.jpg",
+    "bytes": 61006
+  },
+  {
+    "id": "crocodile",
+    "page": "https://one-piece.com/character/Crocodile/index.html",
+    "image": "https://one-piece.com/o/assets/images/anime/character/data/Crocodile/face.jpg",
+    "bytes": 52143
+  },
+  {
+    "id": "kaido",
+    "page": "https://one-piece.com/character/Kaido/index.html",
+    "image": "https://one-piece.com/o/assets/uploads/anime/character/characters/20180126/67ecde9efe451c35f0544d3708dbe085.png",
+    "bytes": 106223
+  },
+  {
+    "id": "mihawk",
+    "page": "https://one-piece.com/character/Dracule_Mihawk/index.html",
+    "image": "https://one-piece.com/o/assets/images/anime/character/data/Dracule_Mihawk/face.jpg",
+    "bytes": 45189
+  },
+  {
+    "id": "vivi",
+    "page": "https://one-piece.com/character/Nefeltari_Vivi/index.html",
+    "image": "https://one-piece.com/o/assets/uploads/anime/character/characters/20150422/5c2f18866c57e283cfd3c9788fc0253f.jpg",
+    "bytes": 56756
+  },
+  {
+    "id": "hancock",
+    "page": "https://one-piece.com/character/Boa_Hancock/index.html",
+    "image": "https://one-piece.com/o/assets/images/anime/character/data/Boa_Hancock/face.jpg",
+    "bytes": 44004
+  },
+  {
+    "id": "lucci",
+    "page": "https://one-piece.com/character/Rob_Lucci/index.html",
+    "image": "https://one-piece.com/o/assets/images/anime/character/data/Rob_Lucci/face.jpg",
+    "bytes": 39633
+  },
+  {
+    "id": "katakuri",
+    "page": "https://one-piece.com/character/Charlotte_Katakuri/index.html",
+    "image": "https://one-piece.com/o/assets/uploads/anime/character/characters/20180226/9f051dc3b852120235a9b84ba13d8d61.png",
+    "bytes": 113957
+  },
+  {
+    "id": "garp",
+    "page": "https://one-piece.com/character/Monkey_D_Garp/index.html",
+    "image": "https://one-piece.com/o/assets/images/anime/character/data/Monkey_D_Garp/face.jpg",
+    "bytes": 60725
+  },
+  {
+    "id": "whitebeard",
+    "page": "https://one-piece.com/character/edward_newgate/index.html",
+    "image": "https://one-piece.com/o/assets/images/anime/character/data/edward_newgate/face.jpg",
+    "bytes": 26980
+  }
+]
