@@ -33,46 +33,20 @@ No analytics collector is installed yet. These require an opt-in beta measuremen
 
 Node 22 or newer. `npm ci`, `npm test`, `npm run build`, `npm start`. Deploy as a Next.js project on Vercel. Public-source endpoints need no API secrets. Never put identity or database secrets in browser code.
 
-## Account-edition feature inventory and source notes
+## MVP scope and stack
 
-The following inventory describes the original account edition; cloud sync and community writes are intentionally unavailable in this Vercel edition.
+Next.js 16.4 / Node 24 serve the HTML and same-origin data routes. Browser-native JavaScript, CSS and SVG implement the app; there is no generative AI dependency. Unit and jsdom interaction tests run in GitHub Actions.
 
-# Log Pose — One Piece Companion
+The exploration edition includes anime/chapter entry, live latest-release lookup, estimated watch/revisit statistics, immutable full-series revisit snapshots, 32 curated arc ranges, completed-arc recaps and temporary ratings, up to 20 ranked characters, a names-only character dex, 73 questions across four tiers, daily rounds, 15 movie suggestions, 17 cover-story suggestions, private session notes, history and JSON export/import. Future quiz and discovery content is filtered by progress; full character names require spoiler opt-in.
 
-Track your One Piece journey, revisit completed arcs, compare real ratings, and bridge anime and manga. The weekly queue is an optional catch-up tool, rather than the whole product.
+Cloud profiles and community voting remain in the separate account edition. This repository returns explicit unavailable/unauthenticated responses for those services rather than accepting untrusted user-ID headers. The Vercel account link opens that separate site, and does not transfer this visit's state automatically.
 
-## What works
-- Anime episode or manga chapter entry; explicit ↓ Latest button and ArrowDown shortcut fetch the catalogue release count before changing the input.
-- Dashboard with estimated first-watch time, logged rewatch time, total watch time, manga progress, and current arc progress.
-- Skipped-episode correction and rewatch logging with undo. Progress entry does not pretend to know historical viewing dates.
-- History (last 200 entries), JSON export/import, optional ChatGPT account sign-in and signed-in cloud sync. Guests use in-memory state for the current visit; they are not required to sign in.
-- 32 curated main-story arc ranges through Egghead. Completed arcs unlock short original recaps and ratings from 1–10; future arc cards remain hidden.
-- Database-backed community averages and favourites. One rating per arc and one favourite per signed-in account, with replacement rather than duplicate votes. No seeded or fabricated community activity. The creator can submit ordinary ratings for early visitors to compare against.
-- Exact episode-to-chapter lookup when source data is available, including a verified bundled mapping for episode 500 → chapters 585–586, with chapter 586 as a conservative reading continuation. Otherwise shows the current arc's starting chapter; it does not interpolate an exact match. Manga input similarly shows the corresponding anime arc range, not a falsely precise episode.
-- Optional weekly anime planning with filler/recap flags, timeout, cache, and explicitly unverified sequential fallback.
-- One Piece crew fan artwork, voyage animation, responsive layout, and reduced-motion support.
+## Verification and remaining work
 
-## Revisit logs, character dex and quiz
-- Full-series anime rewatches and manga rereads are independent frozen snapshots (run length × pass count). Two rewatches and three rereads display five revisits. Future releases do not inflate earlier logs. Individual episode rewatches remain separate. Reread chapters never become watch-time estimates.
-- Personal ordered top 10/15/20, with keyboard-accessible move and remove buttons. The live One Piece API currently supplies 786 raw rows; English names are normalized and 13 known duplicate rows plus five unnamed placeholders are removed, leaving 768 selectable entries; a dated names-only snapshot provides an outage fallback. No status, bounty, fruit or biography spoilers are sent to the browser. Full catalogue names require an explicit spoiler toggle. Source omissions can be added as custom names. This is not a claim to cover every named character in canon.
-- 73 curated trivia questions across four difficulty levels, gated by anime/chapter reveal thresholds. Random or deterministic UTC daily five-question rounds, shuffled multiple choices in the first three levels, typed answers in Pirate King, reference links with external-spoiler warnings, per-level mastery badges, private knowledge points, spoiler-free result copying, completed-round count and best score; saved inside each signed-in profile. Quiz scores are personal and self-reported, not a competitive leaderboard.
-- Account login uses platform-owned `/signin-with-chatgpt` and `/signout-with-chatgpt` flows. No separate password database or email verification service. Existing account data takes precedence over the optional guest-to-sign-in handoff in sessionStorage. Site access is public to support guest mode; writes remain authenticated and origin-checked. Rankings are private; original crew favourite votes are public aggregates.
-
-## Review beta additions
-- Side voyages: 15 curated movie checkpoints and 17 manga cover-story ranges, hidden until conservative progress gates. Checkpoints are editorial recommendations, not official movie chronology or exact chapter adaptation. Completed items save privately.
-- Return-from-break walkthrough of the last three completed arc summaries. Current unfinished arcs stay excluded.
-- Private notebook: up to 20 progress-linked notes, 800 characters each. Notes from another medium or beyond current progress are hidden. All experience panels reset when progress changes.
-- Review beta labels and `/review.html`: editors prepare copyable/downloadable structured reports without automatic submission or new public content endpoints.
-- Dex audit: all 786 rows inspected; 674 matched through French wiki interlanguage links and English redirect resolution. Ambiguous/group-page matches are not blindly applied. Common English/romanized display names override mistranslations; source spellings remain aliases. Scarlet the gorilla and Scarlett remain separate characters. `docs/dex-audit.json` records evidence. A complete editorial audit and real-device visual review remain launch tasks.
-
-## Stack
-Vinext / Vite, vanilla browser ES modules, Cloudflare Worker routes, Cloudflare D1 with Drizzle migrations, Node test runner, and jsdom UI interaction tests. The server serves the existing custom HTML interface while adding authenticated persistence and same-origin API access. No GenAI runtime or generated chat wrapper.
-
-Routes: `/api/characters`, `/api/profile`, `/api/community`, `/api/episodes`, `/api/latest`, `/api/mapping`.
-
-Profile and community writes require dispatch-owned signed-in identity and same-origin requests. User IDs remain server-side; profiles are scoped per account. Community responses expose aggregates and only the signed-in visitor's own rating. Progress is self-reported; this is not an anti-cheat system. Browser edits sync with last-save-wins semantics, not collaborative merging. Signed-in edits remain in the browser cache if sync fails; guest edits are temporary. Community publishing must be retried explicitly after reconnecting.
+23 unit tests plus interaction, guest-isolation and animation-control smoke tests pass. Production build and dependency audit pass. Mocked interaction tests verify UI logic; they do not establish real-user authentication or visual quality. Real-device visual review, independent account authentication/storage, analytics consent and fan-pilot validation remain outstanding. This is a review beta, not a claim of launch readiness.
 
 ## Sources and precision
+
 - Character catalogue: https://documentation.api-onepiece.com/en and https://api.api-onepiece.com/v2/characters/en — names-only catalogue refreshed through a same-origin server endpoint; cached for an hour, with a dated bundled fallback.
 - Jikan / MyAnimeList: https://docs.api.jikan.moe/ — episode metadata and latest aired catalogue entry. Upstream data can lag; server caches successful episode responses for an hour and the browser caches pages for 24 hours.
 - VIZ chapter catalogue: https://www.viz.com/shonenjump/chapters/one-piece — latest listed chapter. Parsing failure leaves the count unknown; no hardcoded latest number is substituted.
@@ -86,45 +60,9 @@ Latest lookup reports source and fetch time. A failed lookup leaves the progress
 
 Recaps are brief original summaries, visible only for completed arcs. Opening external mapping sources can expose spoilers. The initial crew names are gated by introduction progress; full-dex names require opt-in; no late-story bounty/status biographies are shown.
 
-## Development
-Node 22.13+:
-
-```sh
-npm ci
-npm test
-npm run build
-npm start -- --port 4173
-```
-
-`npm run dev` starts the development server. Generate schema changes with `npm run db:generate`, inspect the SQL, and apply local migrations using the starter's documented Wrangler D1 command. Hosted migrations run during Sites deployment. Local QA records are not seeded into production.
-
-## Verification
-- 23 automated data/planner/state tests pass.
-- DOM interaction smoke passes: episode/chapter entry, 500-episode stats, rewatch/undo, spoiler gate, arc rating, favourite vote, latest-arrow behaviour, exact mapping display, and persisted state. API data in this test is mocked, not claimed as live.
-- Production build passes.
-- Local Worker/D1 HTTP checks verify profile persistence, replacement of ratings and favourites, rejection of unfinished-arc ratings and invalid scores, authentication requirements, cross-origin write rejection, and the episode-500 mapping endpoint.
-- Home page, browser modules, and artwork return HTTP 200.
-- Visual browser automation is unavailable in this environment. External upstream API calls have previously timed out; latest-release and arbitrary-episode wiki lookup availability remain dependent on those services. Do not claim that every mapping or live request has been verified.
-
-## Product success targets (not achieved results)
-Pilot with 10 One Piece fans:
-
-| KPI | Definition | Target |
-| --- | --- | --- |
-| Activation | Visitors saving progress and opening their logbook / pilot visitors | 80% |
-| Time to value | Median time to see personal progress/stats | Under 30 seconds |
-| Meaningful engagement | Activated users submitting a rating, logging a rewatch, or using a mapping | 60% |
-| Seven-day return | Activated pilot visitors returning within seven days | 40% |
-| Useful manga handoff | Mapping users who report successfully continuing in manga | 80% |
-| Live service reliability | Successful external requests / attempted requests | 95% |
-
-Measure these with consented pilot observations and real usage. The current UI's local counters do not establish global retention or adoption. Empty community counts are intentionally zero until someone contributes.
-
 ## Artwork
+
 Generated fan illustration saved at `public/assets/crew-voyage.png`, using the built-in image-generation tool. Prompt: wide hand-drawn anime adventure scene of Luffy, Zoro, and Nami aboard Thousand Sunny; ship and characters on the right, open sky and turquoise water on the left, tropical islands, bright summer colours, no text or watermark, early-series designs. No new image generation was used for the companion upgrade.
 
-Unofficial fan project. One Piece belongs to Eiichiro Oda and its respective rights holders. Hosted source is not a GitHub repository; the supplied source archive and CI workflow are ready to publish after choosing a license and completing browser/pilot checks. Site access remains private until explicitly changed.
 
-### Release lookup verification update
-The release service now races AniList's past-airing catalogue against Jikan, and sends a compatible identifying User-Agent to VIZ/wiki requests. Direct live source checks succeeded for anime and manga counts, and the wiki adaptation lookup succeeded for episode 501 (chapters 586–587, resume at 587). Reference: https://docs.anilist.co/reference/query and https://docs.anilist.co/reference/object/airingschedule. AniList notes that historical schedules are not guaranteed complete; the UI identifies the catalogue used. Jikan may still be unavailable and the basic planning fallback remains available.
-The neutral hosted URL is https://log-pose-companion.tealmesa7.chatgpt.site. Anime latest-release lookup additionally uses the official dated catalogue at https://one-piece.com/anime/index.html, excluding future air dates. Browser latest responses are not cached, so a previous partial failure does not remain stuck for an hour.
+Unofficial fan project. One Piece belongs to Eiichiro Oda and its respective rights holders. No episodes or manga pages are hosted.
