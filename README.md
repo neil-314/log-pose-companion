@@ -26,7 +26,7 @@ This is a product usability hypothesis, not a content moat. Its success depends 
 
 ## Persistence and current scope
 
-The Vercel app is a public exploration beta. Progress, notes, rankings and quiz records last for the current visit; **independent account saving and community publishing are not configured in this repository**. Export/import provides manual persistence. The existing account-edition link opens a separate service and does not transfer the current visit automatically.
+The Vercel app is a public exploration beta. Progress, notes, rankings and quiz records last for the current visit; **independent account saving and community publishing are not configured in this repository**. Export/import provides manual persistence. There are no external account-site links; account saving will need a native integration before launch.
 
 The public deployment never accepts client-supplied identity headers as authentication. Profile and community write endpoints return explicit unavailable/unauthenticated responses until independent authentication and storage are configured. No fake ratings, votes or user counts are seeded.
 

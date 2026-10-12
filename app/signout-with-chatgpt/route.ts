@@ -1,1 +1,1 @@
-export async function GET(){return Response.redirect('https://log-pose-companion.tealmesa7.chatgpt.site/',307);}
+export async function GET(request:Request){return Response.redirect(new URL('/',request.url),307);}
