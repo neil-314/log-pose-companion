@@ -79,7 +79,7 @@ No analytics collector is installed. Use a consented fan pilot before reporting 
 - [One Piece API](https://documentation.api-onepiece.com/en): source character names. Corrections retain source aliases; the upstream catalogue can omit characters.
 - [Official character catalogue](https://one-piece.com/character/): featured and dex portraits.
 - [One Piece Wiki](https://onepiece.fandom.com/wiki/List_of_Canon_Characters): named infobox portraits, editorial arc boundaries and episode adaptation metadata. Exact mappings can be unavailable when upstream requests fail; no episode-to-chapter formula is invented.
-- [Official story archive](https://one-piece.com/story/): 19 storyline stills with independent progress gates.
+- [Official story archive](https://one-piece.com/story/): 32 distinct arc scene images with independent progress gates.
 - [Soge King Theme](https://www.youtube.com/watch?v=PhXNmMLdivk), [Say You Want to Live!](https://www.youtube.com/watch?v=npufTv1ifNg), [Nothing Happened](https://www.youtube.com/watch?v=sAtZoIFW2Uw): official Crunchyroll uploads.
 - [Official card game](https://en.onepiece-cardgame.com/cardlist/?series=569103): Sogeking sample card artwork. The SAMPLE marking is preserved.
 
@@ -88,3 +88,7 @@ No analytics collector is installed. Use a consented fan pilot before reporting 
 ## Artwork and attribution
 
 Unofficial fan project. One Piece and source character artwork belong to Eiichiro Oda / Shueisha, Toei Animation and the respective rights holders. Third-party portraits, story stills and card artwork are not original project artwork or covered by an implied open-source artwork license. The welcome illustration and transparent Thousand Sunny asset are generated fan illustrations, not official animation frames. Video files remain on the publisher's platform.
+
+## Arc scenes and music deck
+
+Each of the 32 arcs has a separate official scene image. Scene sources are recorded in `docs/arc-artwork-sources.json`; duplicate image hashes are rejected by the media checks. There are 19 curated official highlight clips and 9 official opening uploads, with publisher links in `docs/video-sources.json`. Openings live under Discover → The Sunny’s Music Deck. Images, clips and opening visuals unlock only after their story boundaries. Players load on request, never autoplay, and stop when you switch panels or start another video. Region restrictions or disabled embedding can require opening the publisher’s YouTube page. Arcs without a verified official highlight provide an official viewing link instead. No video or audio is downloaded or rehosted.

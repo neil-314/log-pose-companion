@@ -1,0 +1,276 @@
+{
+  "clips": [
+    {
+      "id": "laboon-promise",
+      "video": "tN6MWBhD_YE",
+      "title": "Luffy’s Promise with Laboon",
+      "arc": "reverse-mountain",
+      "channel": "Crunchyroll",
+      "episode": 63,
+      "chapter": 105
+    },
+    {
+      "id": "mihawk-duel",
+      "video": "BgKRqGBlttk",
+      "title": "Zoro vs Mihawk",
+      "arc": "baratie",
+      "channel": "Crunchyroll",
+      "episode": 30,
+      "chapter": 68
+    },
+    {
+      "id": "arlong-defeat",
+      "video": "FNR0TW4EPwM",
+      "title": "Luffy Defeats Arlong",
+      "arc": "arlong-park",
+      "channel": "Crunchyroll",
+      "episode": 44,
+      "chapter": 95
+    },
+    {
+      "id": "crocodile-duel",
+      "video": "rmRzTBY-8EY",
+      "title": "Luffy vs Crocodile",
+      "arc": "arabasta",
+      "channel": "Crunchyroll",
+      "episode": 130,
+      "chapter": 217
+    },
+    {
+      "id": "bellamy-punch",
+      "video": "QZCH-k1NRlQ",
+      "title": "Luffy punches Bellamy",
+      "arc": "jaya",
+      "channel": "Toei Animation",
+      "episode": 152,
+      "chapter": 236
+    },
+    {
+      "id": "enel-duel",
+      "video": "gT-sJUGl-Cg",
+      "title": "Luffy defeats Enel · Spanish subtitles",
+      "arc": "skypiea",
+      "channel": "Crunchyroll en Español",
+      "episode": 195,
+      "chapter": 302
+    },
+    {
+      "id": "foxy-defeat",
+      "video": "ohVD_Kxzbx4",
+      "title": "Luffy Beats Foxy",
+      "arc": "long-ring",
+      "channel": "Crunchyroll",
+      "episode": 219,
+      "chapter": 321
+    },
+    {
+      "id": "soge-theme",
+      "video": "PhXNmMLdivk",
+      "title": "Soge King Theme",
+      "arc": "water-seven",
+      "channel": "Crunchyroll",
+      "episode": 263,
+      "chapter": 374
+    },
+    {
+      "id": "robin-live",
+      "video": "npufTv1ifNg",
+      "title": "Say You Want to Live!",
+      "arc": "enies-lobby",
+      "channel": "Crunchyroll",
+      "episode": 312,
+      "chapter": 430
+    },
+    {
+      "id": "gear-two",
+      "video": "nXnTXnMuAS4",
+      "title": "Second Gear",
+      "arc": "enies-lobby",
+      "channel": "Crunchyroll",
+      "episode": 312,
+      "chapter": 430
+    },
+    {
+      "id": "zoro-nothing",
+      "video": "sAtZoIFW2Uw",
+      "title": "Nothing Happened",
+      "arc": "thriller-bark",
+      "channel": "Crunchyroll",
+      "episode": 381,
+      "chapter": 489
+    },
+    {
+      "id": "celestial-punch",
+      "video": "IX2EfnTc_Eg",
+      "title": "Luffy Punches a Celestial Dragon",
+      "arc": "sabaody",
+      "channel": "Crunchyroll",
+      "episode": 405,
+      "chapter": 513
+    },
+    {
+      "id": "whitebeard-words",
+      "video": "wkOzsWVKtro",
+      "title": "The One Piece Is Real!",
+      "arc": "marineford",
+      "channel": "Toei Animation",
+      "episode": 489,
+      "chapter": 580
+    },
+    {
+      "id": "gear-four",
+      "video": "Jl1vyoSvTc4",
+      "title": "Gear Four! · English dub",
+      "arc": "dressrosa",
+      "channel": "Crunchyroll Dubs",
+      "episode": 746,
+      "chapter": 801
+    },
+    {
+      "id": "sanji-bento",
+      "video": "0o3bpziP6Po",
+      "title": "Sanji’s Bento",
+      "arc": "whole-cake",
+      "channel": "Crunchyroll",
+      "episode": 877,
+      "chapter": 902
+    },
+    {
+      "id": "gear-five",
+      "video": "gr8reTtElqc",
+      "title": "Luffy Gear 5 vs Kaido",
+      "arc": "wano",
+      "channel": "Crunchyroll",
+      "episode": 1085,
+      "chapter": 1057
+    },
+    {
+      "id": "kizaru-duel",
+      "video": "NqCa5H7gUlI",
+      "title": "Snakeman Luffy vs Kizaru",
+      "arc": "egghead",
+      "channel": "Crunchyroll",
+      "episode": 1155,
+      "chapter": 1125
+    },
+    {
+      "id": "smoker-vergo",
+      "video": "igVE9KA41MM",
+      "title": "Smoker vs Vergo · English dub",
+      "arc": "punk-hazard",
+      "episode": 625,
+      "chapter": 699,
+      "channel": "Toei Animation"
+    },
+    {
+      "id": "at-reverie",
+      "video": "YVY89Vtgi-U",
+      "title": "At Reverie · English dub preview",
+      "arc": "levely",
+      "episode": 889,
+      "chapter": 908,
+      "channel": "Crunchyroll Dubs"
+    }
+  ],
+  "openings": [
+    {
+      "id": "we-are",
+      "video": "YoeP9w5UIlg",
+      "title": "We Are!",
+      "artist": "Hiroshi Kitadani",
+      "episode": 44,
+      "chapter": 95,
+      "era": "East Blue",
+      "channel": "ONE PIECE Official - ENG",
+      "opening": true
+    },
+    {
+      "id": "believe",
+      "video": "eiaca1Oy9m8",
+      "title": "Believe",
+      "artist": "Folder 5",
+      "episode": 130,
+      "chapter": 217,
+      "era": "Grand Line / Alabasta",
+      "channel": "ONE PIECE Official - ENG",
+      "opening": true
+    },
+    {
+      "id": "hikari-e",
+      "video": "AwnT23djebo",
+      "title": "Hikari e",
+      "artist": "The Babystars",
+      "episode": 195,
+      "chapter": 302,
+      "era": "Sky Island",
+      "channel": "ONE PIECE Official - ENG",
+      "opening": true
+    },
+    {
+      "id": "bon-voyage",
+      "video": "TApFCt9m0ug",
+      "title": "BON VOYAGE!",
+      "artist": "Bon-Bon Blanco",
+      "episode": 219,
+      "chapter": 321,
+      "era": "Sky Island / Davy Back Fight",
+      "channel": "ONE PIECE Official - ENG",
+      "opening": true
+    },
+    {
+      "id": "we-go-crew",
+      "video": "N5kOymBivr0",
+      "title": "We Go! · Straw Hat Crew version",
+      "artist": "Straw Hat Crew",
+      "episode": 574,
+      "chapter": 653,
+      "era": "Fish-Man Island · special edited version",
+      "channel": "ONE PIECE Official - ENG",
+      "opening": true
+    },
+    {
+      "id": "hope",
+      "video": "Oo52vQyAR6w",
+      "title": "Hope",
+      "artist": "Namie Amuro",
+      "episode": 877,
+      "chapter": 902,
+      "era": "Whole Cake Island",
+      "channel": "Crunchyroll",
+      "opening": true
+    },
+    {
+      "id": "over-the-top",
+      "video": "PwVT67T5Xt4",
+      "title": "OVER THE TOP",
+      "artist": "Hiroshi Kitadani",
+      "episode": 1085,
+      "chapter": 1057,
+      "era": "Wano",
+      "channel": "Crunchyroll",
+      "opening": true
+    },
+    {
+      "id": "dreamin-on",
+      "video": "ru4bd6YyZY4",
+      "title": "DREAMIN’ ON",
+      "artist": "Da-iCE",
+      "episode": 1085,
+      "chapter": 1057,
+      "era": "Wano",
+      "channel": "Da-iCE",
+      "opening": true
+    },
+    {
+      "id": "the-peak",
+      "video": "LrCmsOAgvxk",
+      "title": "The Peak",
+      "artist": "SEKAI NO OWARI",
+      "episode": 1085,
+      "chapter": 1057,
+      "era": "Wano",
+      "channel": "Toei Animation",
+      "opening": true
+    }
+  ]
+}

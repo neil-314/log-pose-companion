@@ -35,7 +35,7 @@ function render(){
  $('mapping').hidden=state.kind==='manga'||value<1;$('mapping-result').textContent='';$('mapping-source').href='https://www.viz.com/shonenjump/chapters/one-piece';$('mapping-source').textContent=state.kind==='anime'?'Read via VIZ / Shonen Jump ↗':'Find official anime viewing options ↗';if(state.kind==='manga')$('mapping-source').href='https://one-piece.com/anime/';
  $('skipped-count').value=state.skipped;$('skipped-count').max=state.anime;
  $('next-move').textContent=done.length?'Revisit. Rate. Rediscover.':'Every voyage starts somewhere.';
- renderArcs(done);renderCharacters();renderHistory();renderVoyages();renderRanking();renderQuizRecord();renderDiscovery();renderNotes();renderDiscovery();renderNotes();
+ window.lpMedia?.mountOpenings($('opening-library'),state.kind,value);renderArcs(done);renderCharacters();renderHistory();renderVoyages();renderRanking();renderQuizRecord();renderDiscovery();renderNotes();renderDiscovery();renderNotes();
 }
 function panel(name){document.querySelectorAll('.dashboard-panel').forEach(p=>p.hidden=p.id!==`panel-${name}`);document.querySelectorAll('[data-panel]').forEach(b=>{b.classList.toggle('selected',b.dataset.panel===name);b.setAttribute('aria-pressed',String(b.dataset.panel===name));});}
 document.querySelectorAll('[data-panel]').forEach(b=>b.onclick=()=>panel(b.dataset.panel));$('browse-arcs').onclick=()=>panel('arcs');
