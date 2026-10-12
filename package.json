@@ -7,7 +7,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "node --test tests/*.test.js && node tests/ui-smoke.mjs && node tests/guest-smoke.mjs && node tests/experience-smoke.mjs && node tests/portraits-smoke.mjs"
+    "test": "node --test tests/*.test.js && node tests/ui-smoke.mjs && node tests/guest-smoke.mjs && node tests/experience-smoke.mjs && node tests/portraits-smoke.mjs && node tests/media-smoke.mjs"
   },
   "dependencies": {
     "next": "16.4.0",

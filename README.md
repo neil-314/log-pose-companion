@@ -1,76 +1,87 @@
 # Log Pose — Your progress is the compass
 
-One Piece information is easy to ask an AI for. Keeping a coherent journey is the product.
+**[Open the live app → log-pose-companion.vercel.app](https://log-pose-companion.vercel.app/)**
 
-## Why use this instead of asking ChatGPT or Claude?
+A One Piece companion for people who want more than a watchlist: an animated voyage, progress-aware recaps and quizzes, reading handoffs, ranked characters, and a record of every rewatch and reread.
 
-**There is no exclusive information here.** A chatbot can explain arcs, suggest movies, answer trivia and estimate watch time. This project does not claim a content moat, an AI advantage, or an irreplaceable feature.
+## Why use a companion instead of asking a chatbot?
 
-Log Pose turns one progress checkpoint into a repeatable interface: completed-arc recaps, progress-gated quizzes, movie and cover-story suggestions, anime-to-manga lookup, ordered character rankings, and a structured revisit log. You do not need to restate your episode and spoiler rules for every interaction. The account edition also retains notes, history and rankings between visits. Chatbots can reproduce individual results; the value being tested is whether this integrated workflow is easier and worth returning to.
+There is no exclusive information here. A chatbot can explain an arc, recommend a movie, answer trivia or estimate watch time. Log Pose's value is the connected workflow: one checkpoint applies across your recaps, discovery suggestions, quiz questions and character reveals. Your ranking and revisit log have explicit structure rather than depending on a conversation remembering everything correctly.
 
-**Honest limitation:** spoiler gates are editorial, not a guarantee against every spoiler. Mappings depend on available evidence. Watch time is estimated. No fabricated users, ratings or success statistics.
+This is a product usability hypothesis, not a content moat. Its success depends on whether fans find this experience easier and return to it. The app makes no claim of traction or irreplaceability.
 
-## Deployments and account portability
+## What you can do
 
-This repository is the independent **Vercel exploration edition**. Live public data, quizzes, rankings and logs work during a visit; it does not silently save guest progress. Export/import lets a visitor keep a manual copy. The account button opens the existing [ChatGPT Sites account edition](https://log-pose-companion.tealmesa7.chatgpt.site/), whose platform authentication and Cloudflare D1 storage are separate. Existing accounts and data have not been migrated to Vercel. A production independent account system requires a configured identity provider and database; spoofable identity headers are never accepted here.
+- Enter an anime episode or manga chapter, or fetch the latest released count.
+- See estimated first-watch time, logged rewatch time, skipped-episode corrections and current arc progress.
+- Log entire series rewatches and rereads. Each run freezes its episode/chapter count so later releases do not inflate it.
+- Revisit 32 completed-arc summaries, temporary personal ratings and visual memories from the official story archive.
+- Play three official Crunchyroll clips inside the relevant completed-arc recap: Sogeking's theme, Robin at Enies Lobby, and Zoro at Thriller Bark. Players load only after a click, never autoplay, and stop when you close the recap or leave the panel. Region and publisher restrictions can affect playback.
+- Search a 768-entry normalized source dex, plus bonus names missing from that catalogue. **752 source entries have matched local portraits**; 16 are explicitly marked unavailable. Images come from the official catalogue and named One Piece Wiki infoboxes, with recorded sources.
+- Explore 34 featured portraits, including all ten Straw Hats, Sogeking, Bepo, Karoo, Chouchou, Laboon, Hattori, Kung-Fu Dugong and Pappag. The Oddballs & Pets filter makes the less serious favourites easy to find.
+- Build and reorder a personal top 10, 15 or 20, with portraits in search results and the ranking list.
+- Play 73 curated trivia questions across four tiers. Pirate King requires typed answers; daily five-question rounds are repeatable for the same date, level and progress.
+- Discover 15 movies and 17 manga cover-story suggestions after conservative progress checkpoints.
+- Keep progress-linked session notes and history, and export/import a JSON logbook.
 
-## Animation as interaction
+## Persistence and current scope
 
-A full-screen Grand Line departure carries the ship between islands, with animated wave layers, compass bearings and a skippable voyage. The logbook changes scenes with page reveals; pointer movement tilts the hero, and actions send gold particles across the deck. Reduced-motion preferences, an explicit motion switch and Escape/Skip keep navigation usable. These are browser-native SVG/CSS/Web Animations, not generated video.
+The Vercel app is a public exploration beta. Progress, notes, rankings and quiz records last for the current visit; **independent account saving and community publishing are not configured in this repository**. Export/import provides manual persistence. The existing account-edition link opens a separate service and does not transfer the current visit automatically.
 
-## Success criteria (targets, not measured results)
+The public deployment never accepts client-supplied identity headers as authentication. Profile and community write endpoints return explicit unavailable/unauthenticated responses until independent authentication and storage are configured. No fake ratings, votes or user counts are seeded.
 
-- Activation: 60% of consenting test visitors enter a checkpoint and finish a useful action.
-- Retention: 25% return within seven days in a small closed beta.
-- Utility: 70% of editor testers can find a reading handoff or safe side voyage without assistance.
-- Quality: zero known future-question leaks in automated progress-gate checks; report and fix editorial failures.
-- Reliability: successful live-data requests above 95% in monitored production; separately track fallback usage.
-- Experience: 80% of testers describe the departure as enjoyable; reduced-motion users can complete every task.
+## Visual experience and spoiler boundaries
 
-No analytics collector is installed yet. These require an opt-in beta measurement plan before reporting any traction.
+A detailed Thousand Sunny fan illustration sails across layered seas and islands. A living ocean chart animates between logbook destinations. Luffy's face is visible immediately, character portraits enter during departure, and the gallery responds to selection. Skip, Escape, reduced-motion preferences and the motion switch keep the experience usable.
 
-## Run and test
+Recaps unlock only after their arc is complete. Visual archive items have their own conservative storyline-completion gates, since one source page may cover several arcs. Clips are tied to their completed arcs. Full-dex names and all-featured portraits require explicit spoiler opt-in; the featured-portrait opt-in resets when progress is entered again. Catalogue portraits can use later costumes and designs, so these controls are not a guarantee against every visual spoiler.
 
-Node 22 or newer. `npm ci`, `npm test`, `npm run build`, `npm start`. Deploy as a Next.js project on Vercel. Public-source endpoints need no API secrets. Never put identity or database secrets in browser code.
+Portraits and stills are static source artwork animated by the interface. They are not new frame-by-frame character animation. The story archive supplies **anime stills**, not a scanned manga reader. No episodes, full clips or manga chapters are rehosted; video playback uses the publisher's YouTube embed.
 
-## MVP scope and stack
+## Tech stack
 
-Next.js 16.4 / Node 24 serve the HTML and same-origin data routes. Browser-native JavaScript, CSS and SVG implement the app; there is no generative AI dependency. Unit and jsdom interaction tests run in GitHub Actions.
+Next.js 16.4, Node 24, browser-native JavaScript, CSS, SVG and Web Animations. Same-origin server routes fetch release counts, episode metadata, character names and adaptation references. External API failures use clearly identified caches or conservative fallbacks where available. There is no generative AI dependency in the product workflow.
 
-The exploration edition includes anime/chapter entry, live latest-release lookup, estimated watch/revisit statistics, immutable full-series revisit snapshots, 32 curated arc ranges, completed-arc recaps and temporary ratings, up to 20 ranked characters, a names-only character dex, 73 questions across four tiers, daily rounds, 15 movie suggestions, 17 cover-story suggestions, private session notes, history and JSON export/import. Future quiz and discovery content is filtered by progress; full character names require spoiler opt-in.
+## Run and validate
 
-Cloud profiles and community voting remain in the separate account edition. This repository returns explicit unavailable/unauthenticated responses for those services rather than accepting untrusted user-ID headers. The Vercel account link opens that separate site, and does not transfer this visit's state automatically.
+```sh
+npm ci
+npm test
+npm run build
+npm start
+```
 
-## Verification and remaining work
+Deploy as a Next.js project on Vercel. Public data routes require no API secrets. Never put identity or database credentials in browser code. GitHub Actions runs tests and the production build on pushes and pull requests.
 
-23 unit tests plus interaction, guest-isolation and animation-control smoke tests pass. Production build and dependency audit pass. Mocked interaction tests verify UI logic; they do not establish real-user authentication or visual quality. Real-device visual review, independent account authentication/storage, analytics consent and fan-pilot validation remain outstanding. This is a review beta, not a claim of launch readiness.
+Tests cover planner budgets, progress/state validation, revisits, name aliases, quiz gates and answer checking, guest isolation, UI interactions, animation controls, portrait assets and spoiler reset. Media checks cover recap artwork gates, click-to-load embeds, player teardown, source coverage and README requirements. Mocked DOM tests verify behaviour, not visual quality or real-account authentication. Real-device visual review and independent account storage remain launch tasks.
 
-## Sources and precision
+## Success targets — not measured results
 
-- Character catalogue: https://documentation.api-onepiece.com/en and https://api.api-onepiece.com/v2/characters/en — names-only catalogue refreshed through a same-origin server endpoint; cached for an hour, with a dated bundled fallback.
-- Jikan / MyAnimeList: https://docs.api.jikan.moe/ — episode metadata and latest aired catalogue entry. Upstream data can lag; server caches successful episode responses for an hour and the browser caches pages for 24 hours.
-- VIZ chapter catalogue: https://www.viz.com/shonenjump/chapters/one-piece — latest listed chapter. Parsing failure leaves the count unknown; no hardcoded latest number is substituted.
-- Story arc boundaries: https://onepiece.fandom.com/wiki/Story_Arcs — editorial ranges, not an episode-to-chapter formula. Filler interruptions can exist inside a range.
-- Exact adaptation metadata: https://onepiece.fandom.com/wiki/Episode_500 and the wiki's episode infoboxes, fetched on demand. Episodes may cover partial chapters; re-reading the final adapted chapter avoids skipping pages. Exact mapping can be unavailable when the wiki blocks requests.
-- Official reading/viewing links lead out to VIZ and https://one-piece.com/anime/; this app does not host episodes or manga pages.
+| Metric | Definition | Beta target |
+| --- | --- | --- |
+| Activation | Visitors entering a checkpoint and completing a useful action | 60% |
+| Seven-day retention | Activated visitors returning within seven days | 25% |
+| Utility | Testers finding a reading handoff or safe side voyage without assistance | 70% |
+| Reliability | Successful monitored live-data requests, tracked separately from fallbacks | 95% |
+| Experience | Testers who describe the departure as enjoyable | 80% |
+| Spoiler quality | Known future-question leaks in automated progress checks | 0 |
 
-Time watched is estimated from `(anime progress - self-reported skips) × 24 minutes`, plus `logged rewatched episodes × 24 minutes`. It is not measured playback. Manga chapter progress never silently becomes anime watch time. No automatic rewatch count is inferred just because someone is caught up.
+No analytics collector is installed. Use a consented fan pilot before reporting adoption or retention. The app estimates watch time at 24 minutes per episode; it does not measure playback. Manga progress never silently becomes anime watch time.
 
-Latest lookup reports source and fetch time. A failed lookup leaves the progress input unchanged. A successful latest jump only fills the input; the visitor must open the logbook to save it.
+## Data and media sources
 
-Recaps are brief original summaries, visible only for completed arcs. Opening external mapping sources can expose spoilers. The initial crew names are gated by introduction progress; full-dex names require opt-in; no late-story bounty/status biographies are shown.
+- [Jikan / MyAnimeList](https://docs.api.jikan.moe/): episode metadata and aired-episode catalogue.
+- [AniList](https://docs.anilist.co/reference/query) and [official anime catalogue](https://one-piece.com/anime/): release lookup fallbacks.
+- [VIZ / Shonen Jump](https://www.viz.com/shonenjump/chapters/one-piece): latest listed chapter and official reading links.
+- [One Piece API](https://documentation.api-onepiece.com/en): source character names. Corrections retain source aliases; the upstream catalogue can omit characters.
+- [Official character catalogue](https://one-piece.com/character/): featured and dex portraits.
+- [One Piece Wiki](https://onepiece.fandom.com/wiki/List_of_Canon_Characters): named infobox portraits, editorial arc boundaries and episode adaptation metadata. Exact mappings can be unavailable when upstream requests fail; no episode-to-chapter formula is invented.
+- [Official story archive](https://one-piece.com/story/): 19 storyline stills with independent progress gates.
+- [Soge King Theme](https://www.youtube.com/watch?v=PhXNmMLdivk), [Say You Want to Live!](https://www.youtube.com/watch?v=npufTv1ifNg), [Nothing Happened](https://www.youtube.com/watch?v=sAtZoIFW2Uw): official Crunchyroll uploads.
+- [Official card game](https://en.onepiece-cardgame.com/cardlist/?series=569103): Sogeking sample card artwork. The SAMPLE marking is preserved.
 
-## Artwork
+`docs/dex-portrait-sources.json`, `docs/portrait-sources.json` and `docs/arc-artwork-sources.json` record media provenance. `docs/dex-audit.json` records spelling-audit evidence; ambiguous matches are not automatically treated as authority.
 
-Generated fan illustration saved at `public/assets/crew-voyage.png`, using the built-in image-generation tool. Prompt: wide hand-drawn anime adventure scene of Luffy, Zoro, and Nami aboard Thousand Sunny; ship and characters on the right, open sky and turquoise water on the left, tropical islands, bright summer colours, no text or watermark, early-series designs. No new image generation was used for the companion upgrade.
+## Artwork and attribution
 
-
-Unofficial fan project. One Piece belongs to Eiichiro Oda and its respective rights holders. No episodes or manga pages are hosted.
-
-## One Piece artwork update
-
-Luffy's official anime face is visible immediately on the welcome screen, including mobile. The animated departure and living chart now use a detailed transparent Thousand Sunny fan illustration instead of a generic boat. The departure introduces progress-filtered character portraits, and the crew gallery includes 26 selectable official portraits: all ten Straw Hats, Shanks, Ace, Law, Buggy, Mihawk, Vivi, Crocodile, Smoker, Lucci, Hancock, Doflamingo, Sabo, Whitebeard, Garp, Katakuri and Kaido. These are not emoji substitutes or a claim to include every character.
-
-Images are stored locally so the app does not rely on third-party hotlink requests at runtime. `docs/portrait-sources.json` records the official source pages and image URLs. Character portraits are third-party artwork from ONE PIECE.com, © Eiichiro Oda / Shueisha, Toei Animation; they are not original project artwork or covered by an implied open-source artwork license. `public/assets/thousand-sunny.png` is a generated fan illustration, not an official animation frame. Character cards animate and respond to selection; these are not skeletal or frame-by-frame character animations.
-
-Gallery names unlock using conservative episode/chapter thresholds. An explicit all-portraits switch reveals later names and designs; it resets when progress is re-entered. Official catalogue designs can differ from the viewer's current arc, so the interface does not promise chronological accuracy of costumes. A separate image smoke test checks all 26 assets, immediate Luffy visibility, Sunny use, gallery selection, progress gates and spoiler reset. Browser visual automation remains unavailable; real-device visual review is still required.
+Unofficial fan project. One Piece and source character artwork belong to Eiichiro Oda / Shueisha, Toei Animation and the respective rights holders. Third-party portraits, story stills and card artwork are not original project artwork or covered by an implied open-source artwork license. The welcome illustration and transparent Thousand Sunny asset are generated fan illustrations, not official animation frames. Video files remain on the publisher's platform.

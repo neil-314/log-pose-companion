@@ -1,0 +1,173 @@
+[
+  {
+    "id": "east_blue",
+    "src": "assets/arcs/east_blue.webp",
+    "page": "https://one-piece.com/story/east_blue/index.html",
+    "image": "https://one-piece.com/img/story/east_blue/east_blue_01.jpg",
+    "episode": 61,
+    "chapter": 100,
+    "type": "anime still"
+  },
+  {
+    "id": "davy_back_fight",
+    "src": "assets/arcs/davy_back_fight.webp",
+    "page": "https://one-piece.com/story/davy_back_fight/index.html",
+    "image": "https://one-piece.com/img/story/davy_back_fight/davy_back_fight_01.jpg",
+    "episode": 219,
+    "chapter": 321,
+    "type": "anime still"
+  },
+  {
+    "id": "skypiea",
+    "src": "assets/arcs/skypiea.webp",
+    "page": "https://one-piece.com/story/skypiea/index.html",
+    "image": "https://one-piece.com/img/story/skypiea/skypiea_01.png",
+    "episode": 195,
+    "chapter": 302,
+    "type": "anime still"
+  },
+  {
+    "id": "enies_lobby",
+    "src": "assets/arcs/enies_lobby.webp",
+    "page": "https://one-piece.com/story/enies_lobby/index.html",
+    "image": "https://one-piece.com/img/story/enies_lobby/enies_lobby_01.png",
+    "episode": 312,
+    "chapter": 430,
+    "type": "anime still"
+  },
+  {
+    "id": "thriller_bark",
+    "src": "assets/arcs/thriller_bark.webp",
+    "page": "https://one-piece.com/story/thriller_bark/index.html",
+    "image": "https://one-piece.com/img/story/thriller_bark/thriller_bark_01.jpg",
+    "episode": 381,
+    "chapter": 489,
+    "type": "anime still"
+  },
+  {
+    "id": "sabaody",
+    "src": "assets/arcs/sabaody.webp",
+    "page": "https://one-piece.com/story/sabaody/index.html",
+    "image": "https://one-piece.com/img/story/sabaody/sabaody_01.png",
+    "episode": 405,
+    "chapter": 513,
+    "type": "anime still"
+  },
+  {
+    "id": "water_seven",
+    "src": "assets/arcs/water_seven.webp",
+    "page": "https://one-piece.com/story/water_seven/index.html",
+    "image": "https://one-piece.com/img/story/water_seven/water_seven_01.png",
+    "episode": 263,
+    "chapter": 374,
+    "type": "anime still"
+  },
+  {
+    "id": "amazon_lily",
+    "src": "assets/arcs/amazon_lily.webp",
+    "page": "https://one-piece.com/story/amazon_lily/index.html",
+    "image": "https://one-piece.com/img/story/amazon_lily/amazon_lily_01.png",
+    "episode": 417,
+    "chapter": 524,
+    "type": "anime still"
+  },
+  {
+    "id": "marineford",
+    "src": "assets/arcs/marineford.webp",
+    "page": "https://one-piece.com/story/marineford/index.html",
+    "image": "https://one-piece.com/img/story/marineford/marineford_01.png",
+    "episode": 516,
+    "chapter": 597,
+    "type": "anime still"
+  },
+  {
+    "id": "fishman_island",
+    "src": "assets/arcs/fishman_island.webp",
+    "page": "https://one-piece.com/story/fishman_island/index.html",
+    "image": "https://one-piece.com/img/story/fishman_island/fishman_island_01.png",
+    "episode": 574,
+    "chapter": 653,
+    "type": "anime still"
+  },
+  {
+    "id": "impel_down",
+    "src": "assets/arcs/impel_down.webp",
+    "page": "https://one-piece.com/story/impel_down/index.html",
+    "image": "https://one-piece.com/img/story/impel_down/impel_down_01.png",
+    "episode": 452,
+    "chapter": 549,
+    "type": "anime still"
+  },
+  {
+    "id": "dressrosa",
+    "src": "assets/arcs/dressrosa.webp",
+    "page": "https://one-piece.com/story/dressrosa/index.html",
+    "image": "https://one-piece.com/img/story/dressrosa/dressrosa_01.jpg",
+    "episode": 746,
+    "chapter": 801,
+    "type": "anime still"
+  },
+  {
+    "id": "punk_hazard",
+    "src": "assets/arcs/punk_hazard.webp",
+    "page": "https://one-piece.com/story/punk_hazard/index.html",
+    "image": "https://one-piece.com/img/story/punk_hazard/punk_hazard_01.png",
+    "episode": 625,
+    "chapter": 699,
+    "type": "anime still"
+  },
+  {
+    "id": "zou",
+    "src": "assets/arcs/zou.webp",
+    "page": "https://one-piece.com/story/zou/index.html",
+    "image": "https://one-piece.com/img/story/zou/zou_01.png",
+    "episode": 779,
+    "chapter": 824,
+    "type": "anime still"
+  },
+  {
+    "id": "wholecakeisland",
+    "src": "assets/arcs/wholecakeisland.webp",
+    "page": "https://one-piece.com/story/wholecakeisland/index.html",
+    "image": "https://one-piece.com/img/story/wholecakeisland/wholecakeisland_01.png",
+    "episode": 877,
+    "chapter": 902,
+    "type": "anime still"
+  },
+  {
+    "id": "levely",
+    "src": "assets/arcs/levely.webp",
+    "page": "https://one-piece.com/story/levely/index.html",
+    "image": "https://one-piece.com/img/story/levely/levely_01.jpg",
+    "episode": 889,
+    "chapter": 908,
+    "type": "anime still"
+  },
+  {
+    "id": "egghead",
+    "src": "assets/arcs/egghead.webp",
+    "page": "https://one-piece.com/story/egghead/index.html",
+    "image": "https://one-piece.com/img/story/egghead/egghead_mv_pc.png",
+    "episode": 1155,
+    "chapter": 1126,
+    "type": "anime still"
+  },
+  {
+    "id": "alabasta",
+    "src": "assets/arcs/alabasta.webp",
+    "page": "https://one-piece.com/story/alabasta/index.html",
+    "image": "https://one-piece.com/img/story/arabasta/arabasta_01.png",
+    "episode": 130,
+    "chapter": 217,
+    "type": "anime still"
+  },
+  {
+    "id": "land_of_wano2",
+    "src": "assets/arcs/land_of_wano2.webp",
+    "page": "https://one-piece.com/story/land_of_wano2/index.html",
+    "image": "https://one-piece.com/img/story/land_of_wano/land_of_wano_01.png",
+    "episode": 1085,
+    "chapter": 1057,
+    "type": "anime still"
+  }
+]
