@@ -1,0 +1,7261 @@
+[
+  {
+    "id": 1,
+    "name": "Monkey D Luffy",
+    "size": "174cm",
+    "crew": {
+      "id": 1
+    },
+    "fruit": {
+      "roman_name": "Hito Hito no Mi, Moderu: Nika"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Roronoa Zoro",
+    "size": "181cm",
+    "crew": {
+      "id": 1
+    },
+    "fruit": null
+  },
+  {
+    "id": 3,
+    "name": "Nami",
+    "size": "170cm",
+    "crew": {
+      "id": 1
+    },
+    "fruit": null
+  },
+  {
+    "id": 4,
+    "name": "Usopp",
+    "size": "176cm",
+    "crew": {
+      "id": 1
+    },
+    "fruit": null
+  },
+  {
+    "id": 5,
+    "name": "Sanji",
+    "size": "180cm",
+    "crew": {
+      "id": 1
+    },
+    "fruit": null
+  },
+  {
+    "id": 6,
+    "name": "Tony-Tony Chopper",
+    "size": "90cm",
+    "crew": {
+      "id": 1
+    },
+    "fruit": {
+      "roman_name": "Hito Hito no Mi"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Nico Robin",
+    "size": "188cm",
+    "crew": {
+      "id": 1
+    },
+    "fruit": {
+      "roman_name": "Hana Hana no Mi"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Franky",
+    "size": "240cm",
+    "crew": {
+      "id": 1
+    },
+    "fruit": null
+  },
+  {
+    "id": 9,
+    "name": "Brook",
+    "size": "277cm",
+    "crew": {
+      "id": 1
+    },
+    "fruit": {
+      "roman_name": "Yomi Yomi no Mi"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Jinbe",
+    "size": "301cm",
+    "crew": {
+      "id": 1
+    },
+    "fruit": null
+  },
+  {
+    "id": 11,
+    "name": "Zeus",
+    "size": "232cm",
+    "crew": {
+      "id": 1
+    },
+    "fruit": null
+  },
+  {
+    "id": 12,
+    "name": "Cavendish",
+    "size": "208cm",
+    "crew": {
+      "id": 87
+    },
+    "fruit": null
+  },
+  {
+    "id": 13,
+    "name": "Suleiman",
+    "size": "240cm",
+    "crew": {
+      "id": 87
+    },
+    "fruit": null
+  },
+  {
+    "id": 14,
+    "name": "Bartolomeo",
+    "size": "220cm",
+    "crew": {
+      "id": 87
+    },
+    "fruit": {
+      "roman_name": "Bari Bari no Mi"
+    }
+  },
+  {
+    "id": 15,
+    "name": "Gambia",
+    "size": "",
+    "crew": {
+      "id": 87
+    },
+    "fruit": null
+  },
+  {
+    "id": 16,
+    "name": "Sai",
+    "size": "242cm",
+    "crew": {
+      "id": 87
+    },
+    "fruit": null
+  },
+  {
+    "id": 17,
+    "name": "Boo",
+    "size": "",
+    "crew": {
+      "id": 87
+    },
+    "fruit": null
+  },
+  {
+    "id": 18,
+    "name": "Baby 5",
+    "size": "181cm",
+    "crew": {
+      "id": 87
+    },
+    "fruit": {
+      "roman_name": "Buki Buki no Mi"
+    }
+  },
+  {
+    "id": 19,
+    "name": "Ideo",
+    "size": "225cm",
+    "crew": {
+      "id": 87
+    },
+    "fruit": null
+  },
+  {
+    "id": 20,
+    "name": "Blue Gilly",
+    "size": "314cm",
+    "crew": {
+      "id": 87
+    },
+    "fruit": null
+  },
+  {
+    "id": 21,
+    "name": "Abdullah",
+    "size": "",
+    "crew": {
+      "id": 87
+    },
+    "fruit": null
+  },
+  {
+    "id": 22,
+    "name": "Jeet",
+    "size": "",
+    "crew": {
+      "id": 87
+    },
+    "fruit": null
+  },
+  {
+    "id": 23,
+    "name": "Léo",
+    "size": "23cm",
+    "crew": {
+      "id": 87
+    },
+    "fruit": {
+      "roman_name": "Nui Nui no Mi"
+    }
+  },
+  {
+    "id": 24,
+    "name": "Kabu",
+    "size": "",
+    "crew": {
+      "id": 87
+    },
+    "fruit": {
+      "roman_name": "Mushi Mushi no Mi, Moderu Kabutomushi"
+    }
+  },
+  {
+    "id": 25,
+    "name": "Bee Anne",
+    "size": "",
+    "crew": {
+      "id": 87
+    },
+    "fruit": {
+      "roman_name": "Mushi Mushi no Mi, Moderu Suzumebachi"
+    }
+  },
+  {
+    "id": 26,
+    "name": "Hajrudin",
+    "size": "2 200cm",
+    "crew": {
+      "id": 87
+    },
+    "fruit": null
+  },
+  {
+    "id": 27,
+    "name": "Stansen",
+    "size": "",
+    "crew": {
+      "id": 87
+    },
+    "fruit": null
+  },
+  {
+    "id": 28,
+    "name": "Road",
+    "size": "",
+    "crew": {
+      "id": 87
+    },
+    "fruit": null
+  },
+  {
+    "id": 29,
+    "name": "Goldberg",
+    "size": "",
+    "crew": {
+      "id": 87
+    },
+    "fruit": null
+  },
+  {
+    "id": 30,
+    "name": "Gerd",
+    "size": "",
+    "crew": {
+      "id": 87
+    },
+    "fruit": null
+  },
+  {
+    "id": 31,
+    "name": "Orlumbus",
+    "size": "480cm",
+    "crew": {
+      "id": 87
+    },
+    "fruit": null
+  },
+  {
+    "id": 32,
+    "name": "Baggy / Le Clown",
+    "size": "192cm",
+    "crew": {
+      "id": 88
+    },
+    "fruit": {
+      "roman_name": "Bara Bara no Mi"
+    }
+  },
+  {
+    "id": 33,
+    "name": "Alvida",
+    "size": "198cm",
+    "crew": {
+      "id": 88
+    },
+    "fruit": {
+      "roman_name": "Sube Sube no Mi"
+    }
+  },
+  {
+    "id": 34,
+    "name": "Galdino",
+    "size": "179cm",
+    "crew": {
+      "id": 88
+    },
+    "fruit": {
+      "roman_name": "Doru Doru no Mi"
+    }
+  },
+  {
+    "id": 35,
+    "name": "Morge",
+    "size": "197cm",
+    "crew": {
+      "id": 88
+    },
+    "fruit": null
+  },
+  {
+    "id": 36,
+    "name": "Cabaji",
+    "size": "208cm",
+    "crew": {
+      "id": 88
+    },
+    "fruit": null
+  },
+  {
+    "id": 37,
+    "name": "Kuro",
+    "size": "207cm",
+    "crew": {
+      "id": 7
+    },
+    "fruit": null
+  },
+  {
+    "id": 38,
+    "name": "Sham",
+    "size": "201cm",
+    "crew": {
+      "id": 7
+    },
+    "fruit": null
+  },
+  {
+    "id": 39,
+    "name": "Buchi",
+    "size": "216cm",
+    "crew": {
+      "id": 7
+    },
+    "fruit": null
+  },
+  {
+    "id": 40,
+    "name": "Krieg / Don Krieg",
+    "size": "243cm",
+    "crew": {
+      "id": 8
+    },
+    "fruit": null
+  },
+  {
+    "id": 41,
+    "name": "Gyn",
+    "size": "186cm",
+    "crew": {
+      "id": 8
+    },
+    "fruit": null
+  },
+  {
+    "id": 42,
+    "name": "Pearl",
+    "size": "239cm",
+    "crew": {
+      "id": 8
+    },
+    "fruit": null
+  },
+  {
+    "id": 43,
+    "name": "Montblanc Cricket",
+    "size": "242cm",
+    "crew": {
+      "id": 17
+    },
+    "fruit": null
+  },
+  {
+    "id": 44,
+    "name": "Masira",
+    "size": "345cm",
+    "crew": {
+      "id": 17
+    },
+    "fruit": null
+  },
+  {
+    "id": 45,
+    "name": "Shojo",
+    "size": "351cm",
+    "crew": {
+      "id": 17
+    },
+    "fruit": null
+  },
+  {
+    "id": 46,
+    "name": "Foxy",
+    "size": "180cm",
+    "crew": {
+      "id": 24
+    },
+    "fruit": {
+      "roman_name": "Noro Noro no Mi"
+    }
+  },
+  {
+    "id": 47,
+    "name": "Porché",
+    "size": "",
+    "crew": {
+      "id": 24
+    },
+    "fruit": null
+  },
+  {
+    "id": 48,
+    "name": "Hamburg",
+    "size": "",
+    "crew": {
+      "id": 24
+    },
+    "fruit": null
+  },
+  {
+    "id": 49,
+    "name": "Gecko Moria",
+    "size": "692cm",
+    "crew": {
+      "id": 28
+    },
+    "fruit": {
+      "roman_name": "Kage Kage no Mi"
+    }
+  },
+  {
+    "id": 50,
+    "name": "Hogback",
+    "size": "223cm",
+    "crew": {
+      "id": 28
+    },
+    "fruit": null
+  },
+  {
+    "id": 51,
+    "name": "Absalom",
+    "size": "195cm",
+    "crew": {
+      "id": 28
+    },
+    "fruit": {
+      "roman_name": "Suke Suke no Mi"
+    }
+  },
+  {
+    "id": 52,
+    "name": "Perona",
+    "size": "160cm",
+    "crew": {
+      "id": 28
+    },
+    "fruit": {
+      "roman_name": "Horo Horo no Mi"
+    }
+  },
+  {
+    "id": 53,
+    "name": "Laura",
+    "size": "215cm",
+    "crew": {
+      "id": 29
+    },
+    "fruit": null
+  },
+  {
+    "id": 54,
+    "name": "Trafalgar D. Water Law",
+    "size": "191cm",
+    "crew": {
+      "id": 32
+    },
+    "fruit": {
+      "roman_name": "Ope Ope no Mi"
+    }
+  },
+  {
+    "id": 55,
+    "name": "Bepo",
+    "size": "240cm",
+    "crew": {
+      "id": 32
+    },
+    "fruit": null
+  },
+  {
+    "id": 56,
+    "name": "Jean Bart",
+    "size": "",
+    "crew": {
+      "id": 32
+    },
+    "fruit": null
+  },
+  {
+    "id": 57,
+    "name": "Shachi",
+    "size": "",
+    "crew": {
+      "id": 32
+    },
+    "fruit": null
+  },
+  {
+    "id": 58,
+    "name": "Pingouin",
+    "size": "",
+    "crew": {
+      "id": 32
+    },
+    "fruit": null
+  },
+  {
+    "id": 59,
+    "name": "Eustass Kidd",
+    "size": "205cm",
+    "crew": {
+      "id": 33
+    },
+    "fruit": {
+      "roman_name": "Jiki Jiki no Mi"
+    }
+  },
+  {
+    "id": 60,
+    "name": "Killer",
+    "size": "195cm",
+    "crew": {
+      "id": 33
+    },
+    "fruit": null
+  },
+  {
+    "id": 61,
+    "name": "Heat",
+    "size": "",
+    "crew": {
+      "id": 33
+    },
+    "fruit": null
+  },
+  {
+    "id": 62,
+    "name": "Wire",
+    "size": "",
+    "crew": {
+      "id": 33
+    },
+    "fruit": null
+  },
+  {
+    "id": 63,
+    "name": "Capone Bege",
+    "size": "166cm",
+    "crew": {
+      "id": 38
+    },
+    "fruit": {
+      "roman_name": "Shiro Shiro no Mi"
+    }
+  },
+  {
+    "id": 64,
+    "name": "Vito",
+    "size": "242cm",
+    "crew": {
+      "id": 38
+    },
+    "fruit": null
+  },
+  {
+    "id": 65,
+    "name": "Gotti",
+    "size": "375cm",
+    "crew": {
+      "id": 38
+    },
+    "fruit": null
+  },
+  {
+    "id": 66,
+    "name": "Charlotte Chiffon",
+    "size": "215cm",
+    "crew": {
+      "id": 38
+    },
+    "fruit": null
+  },
+  {
+    "id": 67,
+    "name": "Charlotte Pets",
+    "size": "",
+    "crew": {
+      "id": 38
+    },
+    "fruit": null
+  },
+  {
+    "id": 68,
+    "name": "Jewelry Bonney",
+    "size": "174cm",
+    "crew": {
+      "id": 38
+    },
+    "fruit": {
+      "roman_name": "Toshi Toshi no Mi"
+    }
+  },
+  {
+    "id": 69,
+    "name": "Urouge",
+    "size": "388cm",
+    "crew": {
+      "id": 39
+    },
+    "fruit": null
+  },
+  {
+    "id": 70,
+    "name": "Boa Hancock",
+    "size": "191cm",
+    "crew": {
+      "id": 41
+    },
+    "fruit": {
+      "roman_name": "Mero Mero no Mi"
+    }
+  },
+  {
+    "id": 71,
+    "name": "Boa Sandersonia",
+    "size": "453cm",
+    "crew": {
+      "id": 41
+    },
+    "fruit": {
+      "roman_name": "Hebi Hebi no Mi moderu: Anakonda"
+    }
+  },
+  {
+    "id": 72,
+    "name": "Boa Marigold",
+    "size": "432cm",
+    "crew": {
+      "id": 41
+    },
+    "fruit": {
+      "roman_name": "Hebi Hebi no Mi moderu: Kingu Kobura"
+    }
+  },
+  {
+    "id": 73,
+    "name": "Margaret",
+    "size": "178cm",
+    "crew": {
+      "id": 41
+    },
+    "fruit": null
+  },
+  {
+    "id": 74,
+    "name": "Shiki",
+    "size": "",
+    "crew": {
+      "id": 45
+    },
+    "fruit": {
+      "roman_name": "Fuwa Fuwa no Mi"
+    }
+  },
+  {
+    "id": 75,
+    "name": "Indigo",
+    "size": "",
+    "crew": {
+      "id": 45
+    },
+    "fruit": null
+  },
+  {
+    "id": 76,
+    "name": "Caribou",
+    "size": "228cm",
+    "crew": {
+      "id": 49
+    },
+    "fruit": {
+      "roman_name": "Numa Numa no Mi"
+    }
+  },
+  {
+    "id": 77,
+    "name": "Coribou",
+    "size": "250cm",
+    "crew": {
+      "id": 49
+    },
+    "fruit": null
+  },
+  {
+    "id": 78,
+    "name": "Ficher Tiger",
+    "size": "4520cm",
+    "crew": {
+      "id": 26
+    },
+    "fruit": null
+  },
+  {
+    "id": 79,
+    "name": "Aladdin",
+    "size": "627cm",
+    "crew": {
+      "id": 26
+    },
+    "fruit": null
+  },
+  {
+    "id": 80,
+    "name": "Charlotte Praliné",
+    "size": "800cm",
+    "crew": {
+      "id": 26
+    },
+    "fruit": null
+  },
+  {
+    "id": 81,
+    "name": "Dracule Mihawk",
+    "size": "198cm",
+    "crew": null,
+    "fruit": null
+  },
+  {
+    "id": 82,
+    "name": "Crocodile",
+    "size": "253cm",
+    "crew": null,
+    "fruit": null
+  },
+  {
+    "id": 83,
+    "name": "Das Bones",
+    "size": "212cm",
+    "crew": null,
+    "fruit": null
+  },
+  {
+    "id": 84,
+    "name": "Edward Weeble",
+    "size": "680cm",
+    "crew": null,
+    "fruit": null
+  },
+  {
+    "id": 85,
+    "name": "Shanks",
+    "size": "199cm",
+    "crew": {
+      "id": 2
+    },
+    "fruit": null
+  },
+  {
+    "id": 86,
+    "name": "Ben Beckmann",
+    "size": "206cm",
+    "crew": {
+      "id": 2
+    },
+    "fruit": null
+  },
+  {
+    "id": 87,
+    "name": "Lucky Roo",
+    "size": "241cm",
+    "crew": {
+      "id": 2
+    },
+    "fruit": null
+  },
+  {
+    "id": 88,
+    "name": "Yassop",
+    "size": "183cm",
+    "crew": {
+      "id": 2
+    },
+    "fruit": null
+  },
+  {
+    "id": 89,
+    "name": "Limejuice",
+    "size": "",
+    "crew": {
+      "id": 2
+    },
+    "fruit": null
+  },
+  {
+    "id": 90,
+    "name": "Bonk Punch",
+    "size": "",
+    "crew": {
+      "id": 2
+    },
+    "fruit": null
+  },
+  {
+    "id": 91,
+    "name": "Monster",
+    "size": "",
+    "crew": {
+      "id": 2
+    },
+    "fruit": null
+  },
+  {
+    "id": 92,
+    "name": "Building Snake",
+    "size": "",
+    "crew": {
+      "id": 2
+    },
+    "fruit": null
+  },
+  {
+    "id": 93,
+    "name": "Hongo",
+    "size": "",
+    "crew": {
+      "id": 2
+    },
+    "fruit": null
+  },
+  {
+    "id": 94,
+    "name": "Howling Dab",
+    "size": "",
+    "crew": {
+      "id": 2
+    },
+    "fruit": null
+  },
+  {
+    "id": 95,
+    "name": "Rockstar",
+    "size": "",
+    "crew": {
+      "id": 2
+    },
+    "fruit": null
+  },
+  {
+    "id": 96,
+    "name": "Charlotte Linlin / Big Mom",
+    "size": "880cm",
+    "crew": {
+      "id": 53
+    },
+    "fruit": {
+      "roman_name": "Soru Soru no Mi"
+    }
+  },
+  {
+    "id": 97,
+    "name": "Charlotte Dent-de-chien",
+    "size": "509cm",
+    "crew": {
+      "id": 53
+    },
+    "fruit": {
+      "roman_name": "Mochi Mochi no Mi"
+    }
+  },
+  {
+    "id": 98,
+    "name": "Charlotte Smoothie",
+    "size": "464cm",
+    "crew": {
+      "id": 53
+    },
+    "fruit": {
+      "roman_name": "Uma Uma no Mi"
+    }
+  },
+  {
+    "id": 99,
+    "name": "Charlotte Cracker",
+    "size": "307cm",
+    "crew": {
+      "id": 53
+    },
+    "fruit": {
+      "roman_name": "Bisu Bisu no Mi"
+    }
+  },
+  {
+    "id": 100,
+    "name": "Charlotte Slurp",
+    "size": "333cm",
+    "crew": {
+      "id": 53
+    },
+    "fruit": {
+      "roman_name": "Pero Pero no Mi"
+    }
+  },
+  {
+    "id": 101,
+    "name": "Charlotte Daifuku",
+    "size": "489cm",
+    "crew": {
+      "id": 53
+    },
+    "fruit": {
+      "roman_name": "Hoya Hoya no Mi"
+    }
+  },
+  {
+    "id": 102,
+    "name": "Charlotte Oven",
+    "size": "492cm",
+    "crew": {
+      "id": 53
+    },
+    "fruit": {
+      "roman_name": "Netsu Netsu no Mi"
+    }
+  },
+  {
+    "id": 103,
+    "name": "Charlotte Amande",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 104,
+    "name": "Charlotte Opéra",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": {
+      "roman_name": "Kuri Kuri no Mi"
+    }
+  },
+  {
+    "id": 105,
+    "name": "Charlotte Brûlée",
+    "size": "350cm",
+    "crew": {
+      "id": 53
+    },
+    "fruit": {
+      "roman_name": "Mira Mira no Mi"
+    }
+  },
+  {
+    "id": 106,
+    "name": "Charlotte Mont d’Or",
+    "size": "260cm",
+    "crew": {
+      "id": 53
+    },
+    "fruit": {
+      "roman_name": "Buku Buku no Mi"
+    }
+  },
+  {
+    "id": 107,
+    "name": "Charlotte Galette",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": {
+      "roman_name": "Bata Bata no Mi"
+    }
+  },
+  {
+    "id": 108,
+    "name": "Charlotte Snack",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 109,
+    "name": "Charlotte Pudding",
+    "size": "166cm",
+    "crew": {
+      "id": 53
+    },
+    "fruit": {
+      "roman_name": "Memo Memo no Mi"
+    }
+  },
+  {
+    "id": 110,
+    "name": "Charlotte Flampée",
+    "size": "170cm",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 111,
+    "name": "Charlotte Compote",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 112,
+    "name": "Charlotte Mondé",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 113,
+    "name": "Charlotte Hachée",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 114,
+    "name": "Charlotte Effilée",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 115,
+    "name": "Charlotte Counter",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 116,
+    "name": "Charlotte Cadenza",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 117,
+    "name": "Charlotte Cabaletta",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 118,
+    "name": "Charlotte Gala",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 119,
+    "name": "Charlotte Angel",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 120,
+    "name": "Charlotte Crème",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 121,
+    "name": "Charlotte Zuccoto",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 122,
+    "name": "Charlotte Broyée",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 123,
+    "name": "Charlotte Nusstorte",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 124,
+    "name": "Charlotte Basskarte",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 125,
+    "name": "Charlotte Dosmarché",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 126,
+    "name": "Charlotte Noisette",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 127,
+    "name": "Charlotte Moscato",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 128,
+    "name": "Charlotte Mash",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 129,
+    "name": "Charlotte Corn Starch",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 130,
+    "name": "Charlotte Compo",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 131,
+    "name": "Charlotte Laurin",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 132,
+    "name": "Charlotte Mozart",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 133,
+    "name": "Charlotte Marnier",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 134,
+    "name": "Charlotte High-Fat",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 135,
+    "name": "Charlotte Tablet",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 136,
+    "name": "Charlotte Citron",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 137,
+    "name": "Charlotte Cannelle",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 138,
+    "name": "Charlotte Saint-Marc",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 139,
+    "name": "Charlotte Basans",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 140,
+    "name": "Charlotte Mélisée",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 141,
+    "name": "Charlotte Dacquoise",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 142,
+    "name": "Charlotte Poire",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 143,
+    "name": "Charlotte Bavarois",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 144,
+    "name": "Charlotte Prim",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 145,
+    "name": "Charlotte Kanten",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 146,
+    "name": "Charlotte Kato",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 147,
+    "name": "Charlotte Montb",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 148,
+    "name": "Charlotte Chiboust",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 149,
+    "name": "Charlotte Mobile",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 150,
+    "name": "Charlotte Marble",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 151,
+    "name": "Charlotte Mucre",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 152,
+    "name": "Charlotte Mapple",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 153,
+    "name": "Charlotte Brownie",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 154,
+    "name": "Charlotte Joconde",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 155,
+    "name": "Charlotte Raisin",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 156,
+    "name": "Charlotte Panna",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 157,
+    "name": "Charlotte Mascarpone",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 158,
+    "name": "Charlotte Joscarpone",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 159,
+    "name": "Charlotte Yu Yuan",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 160,
+    "name": "Charlotte Newichi",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 161,
+    "name": "Charlotte Newji",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 162,
+    "name": "Charlotte Newsan",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 163,
+    "name": "Charlotte Newshi",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": {
+      "roman_name": "Gocha Gocha no Mi"
+    }
+  },
+  {
+    "id": 164,
+    "name": "Charlotte Newgo",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 165,
+    "name": "Charlotte Muscade",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 166,
+    "name": "Charlotte Muscadia",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 167,
+    "name": "Charlotte Muscadelle",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 168,
+    "name": "Charlotte Muscadine",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 169,
+    "name": "Charlotte Muscadette",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 170,
+    "name": "Charlotte Nougat",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 171,
+    "name": "Charlotte Anglais",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 172,
+    "name": "Charlotte Wafers",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 173,
+    "name": "Charlotte Wiro",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 174,
+    "name": "Charlotte De-Chat",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 175,
+    "name": "Charlotte Normande",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 176,
+    "name": "Charlotte Dolce",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 177,
+    "name": "Charlotte Dragée",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 178,
+    "name": "Charlotte Anana",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 179,
+    "name": "Pekoms",
+    "size": "232cm",
+    "crew": {
+      "id": 53
+    },
+    "fruit": {
+      "roman_name": "Kame Kame no Mi"
+    }
+  },
+  {
+    "id": 180,
+    "name": "Delœuf",
+    "size": "301cm",
+    "crew": {
+      "id": 53
+    },
+    "fruit": {
+      "roman_name": "Tama Tama no Mi"
+    }
+  },
+  {
+    "id": 181,
+    "name": "Boddin",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 182,
+    "name": "Streusen",
+    "size": "140cm",
+    "crew": {
+      "id": 53
+    },
+    "fruit": {
+      "roman_name": "Kuku Kuku no Mi"
+    }
+  },
+  {
+    "id": 183,
+    "name": "Prométhée",
+    "size": "239cm",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 184,
+    "name": "Napoléon",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 185,
+    "name": "Héra",
+    "size": "",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 186,
+    "name": "Kingbaum",
+    "size": "2 340cm",
+    "crew": {
+      "id": 53
+    },
+    "fruit": null
+  },
+  {
+    "id": 187,
+    "name": "Kaido",
+    "size": "710cm",
+    "crew": {
+      "id": 44
+    },
+    "fruit": {
+      "roman_name": "Uo Uo no Mi, Moderu Seiryū"
+    }
+  },
+  {
+    "id": 188,
+    "name": "King",
+    "size": "613cm",
+    "crew": {
+      "id": 44
+    },
+    "fruit": {
+      "roman_name": "Ryū Ryū no Mi Kodai-shu Moderu Puteranodon"
+    }
+  },
+  {
+    "id": 189,
+    "name": "Queen",
+    "size": "612cm",
+    "crew": {
+      "id": 44
+    },
+    "fruit": {
+      "roman_name": "Ryū Ryū no Mi Moderu Burakiosaurusu"
+    }
+  },
+  {
+    "id": 190,
+    "name": "Jack",
+    "size": "730cm",
+    "crew": {
+      "id": 44
+    },
+    "fruit": {
+      "roman_name": "Zō Zō no Mi, moderu Manmosu"
+    }
+  },
+  {
+    "id": 191,
+    "name": "Page One",
+    "size": "171cm",
+    "crew": {
+      "id": 44
+    },
+    "fruit": {
+      "roman_name": "Ryū Ryū no Mi Moderu Supinosaurusu"
+    }
+  },
+  {
+    "id": 192,
+    "name": "Ulti",
+    "size": "173cm",
+    "crew": {
+      "id": 44
+    },
+    "fruit": {
+      "roman_name": "Ryū Ryū no Mi Moderu Pakikefarosaurusu"
+    }
+  },
+  {
+    "id": 193,
+    "name": "Who’s Who",
+    "size": "336cm",
+    "crew": {
+      "id": 44
+    },
+    "fruit": {
+      "roman_name": "Tori Tori no Mi, Moderu Fenikkusu"
+    }
+  },
+  {
+    "id": 194,
+    "name": "Black Maria",
+    "size": "820cm",
+    "crew": {
+      "id": 44
+    },
+    "fruit": {
+      "roman_name": "Kumo Kumo no Mi Moderu Rosamigare Guraubogerī"
+    }
+  },
+  {
+    "id": 195,
+    "name": "Sasaki",
+    "size": "318cm",
+    "crew": {
+      "id": 44
+    },
+    "fruit": {
+      "roman_name": "Ryū Ryū no Mi Moderu Torikeratopusu"
+    }
+  },
+  {
+    "id": 196,
+    "name": "Sheep’s Head",
+    "size": "293cm",
+    "crew": {
+      "id": 44
+    },
+    "fruit": {}
+  },
+  {
+    "id": 197,
+    "name": "Basil Hawkins",
+    "size": "210cm",
+    "crew": {
+      "id": 44
+    },
+    "fruit": {
+      "roman_name": "Wara Wara no Mi"
+    }
+  },
+  {
+    "id": 198,
+    "name": "Holdem",
+    "size": "312cm",
+    "crew": {
+      "id": 44
+    },
+    "fruit": {}
+  },
+  {
+    "id": 199,
+    "name": "Speed",
+    "size": "298cm",
+    "crew": {
+      "id": 44
+    },
+    "fruit": {}
+  },
+  {
+    "id": 200,
+    "name": "Trouduc",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": {}
+  },
+  {
+    "id": 201,
+    "name": "Pouilleux",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": {}
+  },
+  {
+    "id": 202,
+    "name": "Solitaire",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": {}
+  },
+  {
+    "id": 203,
+    "name": "Bao Huang",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": {}
+  },
+  {
+    "id": 204,
+    "name": "Ginrummy",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": null
+  },
+  {
+    "id": 205,
+    "name": "Plouf",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": {}
+  },
+  {
+    "id": 206,
+    "name": "Briscola",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": {}
+  },
+  {
+    "id": 207,
+    "name": "Fourtricks",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": {}
+  },
+  {
+    "id": 208,
+    "name": "Hamlet",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": {}
+  },
+  {
+    "id": 209,
+    "name": "Mizerka",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": {}
+  },
+  {
+    "id": 210,
+    "name": "Poker",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": {}
+  },
+  {
+    "id": 211,
+    "name": "Batman",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": {}
+  },
+  {
+    "id": 212,
+    "name": "Gazelleman",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": {}
+  },
+  {
+    "id": 213,
+    "name": "Mouseman",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": {}
+  },
+  {
+    "id": 214,
+    "name": "Snakeman",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": {}
+  },
+  {
+    "id": 215,
+    "name": "Rabitman",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": {}
+  },
+  {
+    "id": 216,
+    "name": "Sarehebi",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": {}
+  },
+  {
+    "id": 217,
+    "name": "Alpagaman",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": {}
+  },
+  {
+    "id": 218,
+    "name": "Tatouman",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": {}
+  },
+  {
+    "id": 219,
+    "name": "Dachoman",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": {}
+  },
+  {
+    "id": 220,
+    "name": "Tenjo-Sagari",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": {}
+  },
+  {
+    "id": 221,
+    "name": "Caimanlady",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": {}
+  },
+  {
+    "id": 222,
+    "name": "Nuré-Onna",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": {}
+  },
+  {
+    "id": 223,
+    "name": "Wa-Nyudo",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": {}
+  },
+  {
+    "id": 224,
+    "name": "Inbi",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": null
+  },
+  {
+    "id": 225,
+    "name": "Fuga",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": null
+  },
+  {
+    "id": 226,
+    "name": "Zanki",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": null
+  },
+  {
+    "id": 227,
+    "name": "Jaki",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": null
+  },
+  {
+    "id": 228,
+    "name": "Goki",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": null
+  },
+  {
+    "id": 229,
+    "name": "Rokki",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": null
+  },
+  {
+    "id": 230,
+    "name": "Nangi",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": null
+  },
+  {
+    "id": 231,
+    "name": "Hacha",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": null
+  },
+  {
+    "id": 232,
+    "name": "Kunyun",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": null
+  },
+  {
+    "id": 233,
+    "name": "Juki",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": null
+  },
+  {
+    "id": 234,
+    "name": "Fukurokuju",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": null
+  },
+  {
+    "id": 235,
+    "name": "Daikoku",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": null
+  },
+  {
+    "id": 236,
+    "name": "Hanzo",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": null
+  },
+  {
+    "id": 237,
+    "name": "Sarutobi",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": null
+  },
+  {
+    "id": 238,
+    "name": "Kazekage",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": null
+  },
+  {
+    "id": 239,
+    "name": "Jigoku Benten",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": null
+  },
+  {
+    "id": 240,
+    "name": "Fujin",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": null
+  },
+  {
+    "id": 241,
+    "name": "Raijin",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": null
+  },
+  {
+    "id": 242,
+    "name": "Bishamon",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": null
+  },
+  {
+    "id": 243,
+    "name": "Tohomé",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": null
+  },
+  {
+    "id": 244,
+    "name": "Yazaémon",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": null
+  },
+  {
+    "id": 245,
+    "name": "Hotei",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": null
+  },
+  {
+    "id": 246,
+    "name": "Scratchmen Apoo",
+    "size": "",
+    "crew": {
+      "id": 44
+    },
+    "fruit": {
+      "roman_name": "Oto Oto no Mi"
+    }
+  },
+  {
+    "id": 247,
+    "name": "Marchall D. Teach / Barbe Noire",
+    "size": "344cm",
+    "crew": {
+      "id": 22
+    },
+    "fruit": {
+      "roman_name": "Yami Yami no Mi"
+    }
+  },
+  {
+    "id": 248,
+    "name": "Jesus Burgess",
+    "size": "355cm",
+    "crew": {
+      "id": 22
+    },
+    "fruit": {
+      "roman_name": "Riki Riki no Mi"
+    }
+  },
+  {
+    "id": 249,
+    "name": "Shiliew",
+    "size": "340cm",
+    "crew": {
+      "id": 22
+    },
+    "fruit": {
+      "roman_name": "Suke Suke no Mi"
+    }
+  },
+  {
+    "id": 250,
+    "name": "Van Auger",
+    "size": "340cm",
+    "crew": {
+      "id": 22
+    },
+    "fruit": {
+      "roman_name": "Wapu Wapu no mi"
+    }
+  },
+  {
+    "id": 251,
+    "name": "Avalo Pizarro",
+    "size": "505cm",
+    "crew": {
+      "id": 22
+    },
+    "fruit": {
+      "roman_name": "Shima Shima no Mi"
+    }
+  },
+  {
+    "id": 252,
+    "name": "Lafitte",
+    "size": "340cm",
+    "crew": {
+      "id": 22
+    },
+    "fruit": null
+  },
+  {
+    "id": 253,
+    "name": "Catarina Devon",
+    "size": "361cm",
+    "crew": {
+      "id": 22
+    },
+    "fruit": {
+      "roman_name": "Inu Inu no Mi, Moderu Kyūbi no Kitsune"
+    }
+  },
+  {
+    "id": 254,
+    "name": "Sanjuan Wolf",
+    "size": "18 000cm",
+    "crew": {
+      "id": 22
+    },
+    "fruit": {
+      "roman_name": "Deka Deka no Mi"
+    }
+  },
+  {
+    "id": 255,
+    "name": "Vasco Shot",
+    "size": "573cm",
+    "crew": {
+      "id": 22
+    },
+    "fruit": {
+      "roman_name": "Gabu Gabu no Mi"
+    }
+  },
+  {
+    "id": 256,
+    "name": "Doc Q",
+    "size": "352cl",
+    "crew": {
+      "id": 22
+    },
+    "fruit": {
+      "roman_name": "Shiku Shiku no Mi"
+    }
+  },
+  {
+    "id": 257,
+    "name": "Barbe Rose",
+    "size": "",
+    "crew": {
+      "id": 22
+    },
+    "fruit": null
+  },
+  {
+    "id": 258,
+    "name": "Gol D. Roger",
+    "size": "274cm",
+    "crew": {
+      "id": 5
+    },
+    "fruit": null
+  },
+  {
+    "id": 259,
+    "name": "Silvers Rayleigh",
+    "size": "188cm",
+    "crew": {
+      "id": 5
+    },
+    "fruit": null
+  },
+  {
+    "id": 260,
+    "name": "Scopper Gaban",
+    "size": "",
+    "crew": {
+      "id": 5
+    },
+    "fruit": null
+  },
+  {
+    "id": 261,
+    "name": "Seagull Guns Nozdon",
+    "size": "",
+    "crew": {
+      "id": 5
+    },
+    "fruit": null
+  },
+  {
+    "id": 262,
+    "name": "Taro",
+    "size": "",
+    "crew": {
+      "id": 5
+    },
+    "fruit": null
+  },
+  {
+    "id": 263,
+    "name": "Dringo",
+    "size": "",
+    "crew": {
+      "id": 5
+    },
+    "fruit": null
+  },
+  {
+    "id": 264,
+    "name": "Sanjuan Wolf",
+    "size": "",
+    "crew": {
+      "id": 5
+    },
+    "fruit": null
+  },
+  {
+    "id": 265,
+    "name": "Millet Pine",
+    "size": "",
+    "crew": {
+      "id": 5
+    },
+    "fruit": null
+  },
+  {
+    "id": 266,
+    "name": "Ganryu",
+    "size": "",
+    "crew": {
+      "id": 5
+    },
+    "fruit": null
+  },
+  {
+    "id": 267,
+    "name": "CB Galant",
+    "size": "",
+    "crew": {
+      "id": 5
+    },
+    "fruit": null
+  },
+  {
+    "id": 268,
+    "name": "Donquino",
+    "size": "",
+    "crew": {
+      "id": 5
+    },
+    "fruit": null
+  },
+  {
+    "id": 269,
+    "name": "Mr Momora",
+    "size": "",
+    "crew": {
+      "id": 5
+    },
+    "fruit": null
+  },
+  {
+    "id": 270,
+    "name": "Moon Isaac Jr.",
+    "size": "",
+    "crew": {
+      "id": 5
+    },
+    "fruit": null
+  },
+  {
+    "id": 271,
+    "name": "Yui",
+    "size": "",
+    "crew": {
+      "id": 5
+    },
+    "fruit": null
+  },
+  {
+    "id": 272,
+    "name": "Rangram",
+    "size": "",
+    "crew": {
+      "id": 5
+    },
+    "fruit": null
+  },
+  {
+    "id": 273,
+    "name": "Colonel Mugren",
+    "size": "",
+    "crew": {
+      "id": 5
+    },
+    "fruit": null
+  },
+  {
+    "id": 274,
+    "name": "Max Marks",
+    "size": "",
+    "crew": {
+      "id": 5
+    },
+    "fruit": null
+  },
+  {
+    "id": 275,
+    "name": "Spencer",
+    "size": "",
+    "crew": {
+      "id": 5
+    },
+    "fruit": null
+  },
+  {
+    "id": 276,
+    "name": "Bankro",
+    "size": "",
+    "crew": {
+      "id": 5
+    },
+    "fruit": null
+  },
+  {
+    "id": 277,
+    "name": "Blumarine",
+    "size": "",
+    "crew": {
+      "id": 5
+    },
+    "fruit": null
+  },
+  {
+    "id": 278,
+    "name": "Elio",
+    "size": "",
+    "crew": {
+      "id": 5
+    },
+    "fruit": null
+  },
+  {
+    "id": 279,
+    "name": "Rowing",
+    "size": "",
+    "crew": {
+      "id": 5
+    },
+    "fruit": null
+  },
+  {
+    "id": 280,
+    "name": "Jacsonbaner",
+    "size": "",
+    "crew": {
+      "id": 5
+    },
+    "fruit": null
+  },
+  {
+    "id": 281,
+    "name": "Yamon",
+    "size": "",
+    "crew": {
+      "id": 5
+    },
+    "fruit": null
+  },
+  {
+    "id": 282,
+    "name": "Arlong",
+    "size": "263cm",
+    "crew": {
+      "id": 10
+    },
+    "fruit": null
+  },
+  {
+    "id": 283,
+    "name": "Kuroobi",
+    "size": "252cm",
+    "crew": {
+      "id": 10
+    },
+    "fruit": null
+  },
+  {
+    "id": 284,
+    "name": "Smack",
+    "size": "257cm",
+    "crew": {
+      "id": 10
+    },
+    "fruit": null
+  },
+  {
+    "id": 285,
+    "name": "Yorki",
+    "size": "",
+    "crew": {
+      "id": 12
+    },
+    "fruit": null
+  },
+  {
+    "id": 286,
+    "name": "Madaisky Mizuta",
+    "size": "",
+    "crew": {
+      "id": 12
+    },
+    "fruit": null
+  },
+  {
+    "id": 287,
+    "name": "Mawaritovsky Mizuta",
+    "size": "",
+    "crew": {
+      "id": 12
+    },
+    "fruit": null
+  },
+  {
+    "id": 288,
+    "name": "Sarquiss",
+    "size": "228cm",
+    "crew": {
+      "id": 147
+    },
+    "fruit": null
+  },
+  {
+    "id": 289,
+    "name": "Edward Newgate / Barbe Blanche",
+    "size": "666cm",
+    "crew": {
+      "id": 16
+    },
+    "fruit": {
+      "roman_name": "Gura Gura no Mi"
+    }
+  },
+  {
+    "id": 290,
+    "name": "Portgas D. Ace",
+    "size": "185cm",
+    "crew": {
+      "id": 16
+    },
+    "fruit": {
+      "roman_name": "Mera Mera no Mi"
+    }
+  },
+  {
+    "id": 291,
+    "name": "Diamond Joz",
+    "size": "503cm",
+    "crew": {
+      "id": 16
+    },
+    "fruit": {
+      "roman_name": "Kira Kira no Mi"
+    }
+  },
+  {
+    "id": 292,
+    "name": "Thatch",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 293,
+    "name": "Vista",
+    "size": "328cm",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 294,
+    "name": "Blamenco",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": {
+      "roman_name": "Poke Poke no Mi"
+    }
+  },
+  {
+    "id": 295,
+    "name": "Rakuyo",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 296,
+    "name": "Blenheim",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 297,
+    "name": "Curiel",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 298,
+    "name": "Kingdew",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 299,
+    "name": "Haruta",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 300,
+    "name": "Atmos",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 301,
+    "name": "Speed Jill",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 302,
+    "name": "Fossa",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 303,
+    "name": "Izou",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 304,
+    "name": "Doma",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 305,
+    "name": "Frères DeCalvan",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 306,
+    "name": "Squardo",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 307,
+    "name": "Whitey Bay",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 308,
+    "name": "Little Oz Junior",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 309,
+    "name": "Mc Guy",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 310,
+    "name": "A.O",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 311,
+    "name": "Karma",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 312,
+    "name": "Elmy",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 313,
+    "name": "Ramba",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 314,
+    "name": "Delacuaji",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 315,
+    "name": "Zodia",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 316,
+    "name": "Palms",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 317,
+    "name": "Bizarre",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 318,
+    "name": "Pavlik",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 319,
+    "name": "Vitan",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 320,
+    "name": "Islewan",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 321,
+    "name": "Epoida",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 322,
+    "name": "Kechatch",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 323,
+    "name": "Choi",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 324,
+    "name": "Arhur",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 325,
+    "name": "Hangan",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 326,
+    "name": "Reforte",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 327,
+    "name": "Andre",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 328,
+    "name": "Ninth",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 329,
+    "name": "Blondie",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 330,
+    "name": "Nosgarl",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 331,
+    "name": "Amadob",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 332,
+    "name": "Baggaley",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 333,
+    "name": "Wakkem",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 334,
+    "name": "Brew",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 335,
+    "name": "Brocca",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 336,
+    "name": "Rush",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 337,
+    "name": "Great Micheal",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 338,
+    "name": "Zucca",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 339,
+    "name": "Cands",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 340,
+    "name": "Kinga",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 341,
+    "name": "Colscon",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 342,
+    "name": "Agsilly",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 343,
+    "name": "Julius",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 344,
+    "name": "Happygun",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 345,
+    "name": "Sleepy",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 346,
+    "name": "Forliewbs",
+    "size": "",
+    "crew": {
+      "id": 16
+    },
+    "fruit": null
+  },
+  {
+    "id": 347,
+    "name": "Barbos Bruneriguez / Barbe Brune",
+    "size": "691cm",
+    "crew": {
+      "id": 43
+    },
+    "fruit": null
+  },
+  {
+    "id": 348,
+    "name": "Bluejam",
+    "size": "261cm",
+    "crew": {
+      "id": 46
+    },
+    "fruit": null
+  },
+  {
+    "id": 349,
+    "name": "Porchemy",
+    "size": "320cm",
+    "crew": {
+      "id": 46
+    },
+    "fruit": null
+  },
+  {
+    "id": 350,
+    "name": "Demaro Black",
+    "size": "245cm",
+    "crew": {
+      "id": 48
+    },
+    "fruit": null
+  },
+  {
+    "id": 351,
+    "name": "Manjaro",
+    "size": "202cm",
+    "crew": {
+      "id": 48
+    },
+    "fruit": null
+  },
+  {
+    "id": 352,
+    "name": "Chocolat",
+    "size": "181cm",
+    "crew": {
+      "id": 48
+    },
+    "fruit": null
+  },
+  {
+    "id": 353,
+    "name": "Mounblutain",
+    "size": "294cm",
+    "crew": {
+      "id": 48
+    },
+    "fruit": null
+  },
+  {
+    "id": 354,
+    "name": "Drip",
+    "size": "208cm",
+    "crew": {
+      "id": 48
+    },
+    "fruit": null
+  },
+  {
+    "id": 355,
+    "name": "Nora Gitsune",
+    "size": "103cm",
+    "crew": {
+      "id": 48
+    },
+    "fruit": null
+  },
+  {
+    "id": 356,
+    "name": "Cocoa",
+    "size": "138cm",
+    "crew": {
+      "id": 48
+    },
+    "fruit": null
+  },
+  {
+    "id": 357,
+    "name": "Turco",
+    "size": "258cm",
+    "crew": {
+      "id": 48
+    },
+    "fruit": null
+  },
+  {
+    "id": 358,
+    "name": "Hody Jones",
+    "size": "331cm",
+    "crew": {
+      "id": 50
+    },
+    "fruit": null
+  },
+  {
+    "id": 359,
+    "name": "Dosun",
+    "size": "418cm",
+    "crew": {
+      "id": 50
+    },
+    "fruit": null
+  },
+  {
+    "id": 360,
+    "name": "Zeo",
+    "size": "325cm",
+    "crew": {
+      "id": 50
+    },
+    "fruit": null
+  },
+  {
+    "id": 361,
+    "name": "Daruma",
+    "size": "122cm",
+    "crew": {
+      "id": 50
+    },
+    "fruit": null
+  },
+  {
+    "id": 362,
+    "name": "Ikaros Much",
+    "size": "499cm",
+    "crew": {
+      "id": 50
+    },
+    "fruit": null
+  },
+  {
+    "id": 363,
+    "name": "Hyozo",
+    "size": "327cm",
+    "crew": {
+      "id": 50
+    },
+    "fruit": null
+  },
+  {
+    "id": 364,
+    "name": "Vander Decken IX",
+    "size": "352cm",
+    "crew": {
+      "id": 51
+    },
+    "fruit": null
+  },
+  {
+    "id": 365,
+    "name": "Don Quijote Doflamingo",
+    "size": "305cm",
+    "crew": {
+      "id": 21
+    },
+    "fruit": {
+      "roman_name": "Ito Ito no Mi"
+    }
+  },
+  {
+    "id": 366,
+    "name": "Trébol",
+    "size": "349cm",
+    "crew": {
+      "id": 21
+    },
+    "fruit": {
+      "roman_name": "Beta Beta no Mi"
+    }
+  },
+  {
+    "id": 367,
+    "name": "Diamante",
+    "size": "525cm",
+    "crew": {
+      "id": 21
+    },
+    "fruit": {
+      "roman_name": "Hira Hira no Mi"
+    }
+  },
+  {
+    "id": 368,
+    "name": "Pica",
+    "size": "470cm",
+    "crew": {
+      "id": 21
+    },
+    "fruit": {
+      "roman_name": "Ishi Ishi no Mi"
+    }
+  },
+  {
+    "id": 369,
+    "name": "Vergo",
+    "size": "247cm",
+    "crew": {
+      "id": 21
+    },
+    "fruit": null
+  },
+  {
+    "id": 370,
+    "name": "Sugar",
+    "size": "110cm",
+    "crew": {
+      "id": 21
+    },
+    "fruit": {
+      "roman_name": "Hobi Hobi no Mi"
+    }
+  },
+  {
+    "id": 371,
+    "name": "Jora",
+    "size": "221cm",
+    "crew": {
+      "id": 21
+    },
+    "fruit": {
+      "roman_name": "Ato Ato no Mi"
+    }
+  },
+  {
+    "id": 372,
+    "name": "Lao G",
+    "size": "157cm",
+    "crew": {
+      "id": 21
+    },
+    "fruit": null
+  },
+  {
+    "id": 373,
+    "name": "Señor Pink",
+    "size": "244cm",
+    "crew": {
+      "id": 21
+    },
+    "fruit": {
+      "roman_name": "Sui Sui no Mi"
+    }
+  },
+  {
+    "id": 374,
+    "name": "Machvise",
+    "size": "440cm",
+    "crew": {
+      "id": 21
+    },
+    "fruit": {
+      "roman_name": "Ton Ton no Mi"
+    }
+  },
+  {
+    "id": 375,
+    "name": "Dellinger",
+    "size": "145cm",
+    "crew": {
+      "id": 21
+    },
+    "fruit": null
+  },
+  {
+    "id": 376,
+    "name": "Gladius",
+    "size": "260cm",
+    "crew": {
+      "id": 21
+    },
+    "fruit": {
+      "roman_name": "Pamu Pamu no Mi"
+    }
+  },
+  {
+    "id": 377,
+    "name": "Buffallo",
+    "size": "696cm",
+    "crew": {
+      "id": 21
+    },
+    "fruit": {
+      "roman_name": "Guru Guru no Mi"
+    }
+  },
+  {
+    "id": 378,
+    "name": "Monet",
+    "size": "227cm",
+    "crew": {
+      "id": 21
+    },
+    "fruit": {
+      "roman_name": "Yuki Yuki no Mi"
+    }
+  },
+  {
+    "id": 379,
+    "name": "Rocks D. Xebec",
+    "size": "",
+    "crew": {
+      "id": 62
+    },
+    "fruit": null
+  },
+  {
+    "id": 380,
+    "name": "Im Sama",
+    "size": "",
+    "crew": {
+      "id": 89
+    },
+    "fruit": null
+  },
+  {
+    "id": 381,
+    "name": "1er Doyen",
+    "size": "",
+    "crew": {
+      "id": 89
+    },
+    "fruit": null
+  },
+  {
+    "id": 382,
+    "name": "2e Doyen",
+    "size": "",
+    "crew": {
+      "id": 89
+    },
+    "fruit": null
+  },
+  {
+    "id": 383,
+    "name": "3e Doyen",
+    "size": "",
+    "crew": {
+      "id": 89
+    },
+    "fruit": null
+  },
+  {
+    "id": 384,
+    "name": "4e Doyen",
+    "size": "",
+    "crew": {
+      "id": 89
+    },
+    "fruit": null
+  },
+  {
+    "id": 385,
+    "name": "5e Doyen",
+    "size": "",
+    "crew": {
+      "id": 89
+    },
+    "fruit": null
+  },
+  {
+    "id": 386,
+    "name": "Roswald",
+    "size": "215cm",
+    "crew": {
+      "id": 83
+    },
+    "fruit": null
+  },
+  {
+    "id": 387,
+    "name": "Charloss",
+    "size": "230cm",
+    "crew": {
+      "id": 83
+    },
+    "fruit": null
+  },
+  {
+    "id": 388,
+    "name": "Sharlia",
+    "size": "178cm",
+    "crew": {
+      "id": 83
+    },
+    "fruit": null
+  },
+  {
+    "id": 389,
+    "name": "Don Quijote Myosgard",
+    "size": "",
+    "crew": {
+      "id": 83
+    },
+    "fruit": null
+  },
+  {
+    "id": 390,
+    "name": "Jalmack",
+    "size": "",
+    "crew": {
+      "id": 83
+    },
+    "fruit": null
+  },
+  {
+    "id": 391,
+    "name": "Guernica",
+    "size": "",
+    "crew": {
+      "id": 90
+    },
+    "fruit": null
+  },
+  {
+    "id": 392,
+    "name": "Rob Lucci",
+    "size": "212cm",
+    "crew": {
+      "id": 90
+    },
+    "fruit": {
+      "roman_name": "Zo Zo no Mi"
+    }
+  },
+  {
+    "id": 393,
+    "name": "Hittori",
+    "size": "",
+    "crew": {
+      "id": 90
+    },
+    "fruit": null
+  },
+  {
+    "id": 394,
+    "name": "Spandam",
+    "size": "192cm",
+    "crew": {
+      "id": 90
+    },
+    "fruit": null
+  },
+  {
+    "id": 395,
+    "name": "Funckfreed",
+    "size": "",
+    "crew": {
+      "id": 90
+    },
+    "fruit": {
+      "roman_name": "Zo Zo no Mi"
+    }
+  },
+  {
+    "id": 396,
+    "name": "Kaku",
+    "size": "193cm",
+    "crew": {
+      "id": 90
+    },
+    "fruit": {
+      "roman_name": "Ushi Ushi no Mi moderu Kirin"
+    }
+  },
+  {
+    "id": 397,
+    "name": "Stussy",
+    "size": "179cm",
+    "crew": {
+      "id": 90
+    },
+    "fruit": {
+      "roman_name": "Mori Mori no Mi"
+    }
+  },
+  {
+    "id": 398,
+    "name": "Maha",
+    "size": "",
+    "crew": {
+      "id": 90
+    },
+    "fruit": null
+  },
+  {
+    "id": 399,
+    "name": "Jerry",
+    "size": "676cm",
+    "crew": {
+      "id": 90
+    },
+    "fruit": null
+  },
+  {
+    "id": 400,
+    "name": "Wanzé",
+    "size": "173cm",
+    "crew": {
+      "id": 90
+    },
+    "fruit": null
+  },
+  {
+    "id": 401,
+    "name": "Bas",
+    "size": "",
+    "crew": {
+      "id": 91
+    },
+    "fruit": null
+  },
+  {
+    "id": 402,
+    "name": "And",
+    "size": "",
+    "crew": {
+      "id": 91
+    },
+    "fruit": null
+  },
+  {
+    "id": 403,
+    "name": "Kerville",
+    "size": "",
+    "crew": {
+      "id": 91
+    },
+    "fruit": null
+  },
+  {
+    "id": 404,
+    "name": "Hannyabal",
+    "size": "355cm",
+    "crew": {
+      "id": 92
+    },
+    "fruit": null
+  },
+  {
+    "id": 405,
+    "name": "Magellan",
+    "size": "425cm",
+    "crew": {
+      "id": 92
+    },
+    "fruit": {
+      "roman_name": "Doku Doku no Mi"
+    }
+  },
+  {
+    "id": 406,
+    "name": "Domino",
+    "size": "",
+    "crew": {
+      "id": 92
+    },
+    "fruit": null
+  },
+  {
+    "id": 407,
+    "name": "Saldeath",
+    "size": "218cm",
+    "crew": {
+      "id": 92
+    },
+    "fruit": null
+  },
+  {
+    "id": 408,
+    "name": "Sadi",
+    "size": "183cm",
+    "crew": {
+      "id": 92
+    },
+    "fruit": null
+  },
+  {
+    "id": 409,
+    "name": "Minotaure",
+    "size": "",
+    "crew": {
+      "id": 92
+    },
+    "fruit": null
+  },
+  {
+    "id": 410,
+    "name": "Minokoala",
+    "size": "",
+    "crew": {
+      "id": 92
+    },
+    "fruit": null
+  },
+  {
+    "id": 411,
+    "name": "Minorhinocéros",
+    "size": "",
+    "crew": {
+      "id": 92
+    },
+    "fruit": null
+  },
+  {
+    "id": 412,
+    "name": "Minozèbre",
+    "size": "",
+    "crew": {
+      "id": 92
+    },
+    "fruit": null
+  },
+  {
+    "id": 413,
+    "name": "Minochihuabua",
+    "size": "",
+    "crew": {
+      "id": 92
+    },
+    "fruit": null
+  },
+  {
+    "id": 414,
+    "name": "Sakazuki / Akainu",
+    "size": "306cm",
+    "crew": {
+      "id": 82
+    },
+    "fruit": {
+      "roman_name": "Magu Magu no Mi"
+    }
+  },
+  {
+    "id": 415,
+    "name": "Borsalino / Kizaru",
+    "size": "302cm",
+    "crew": {
+      "id": 82
+    },
+    "fruit": {
+      "roman_name": "Pika Pika no Mi"
+    }
+  },
+  {
+    "id": 416,
+    "name": "Issho / Fujitora",
+    "size": "270cm",
+    "crew": {
+      "id": 82
+    },
+    "fruit": {
+      "roman_name": "Zushi Zushi no Mi"
+    }
+  },
+  {
+    "id": 417,
+    "name": "Aramaki / Ryokugyu",
+    "size": "",
+    "crew": {
+      "id": 82
+    },
+    "fruit": null
+  },
+  {
+    "id": 418,
+    "name": "Monkey D. Garp",
+    "size": "287cm",
+    "crew": {
+      "id": 82
+    },
+    "fruit": null
+  },
+  {
+    "id": 419,
+    "name": "Tsuru",
+    "size": "204cm",
+    "crew": {
+      "id": 82
+    },
+    "fruit": {
+      "roman_name": "Woshu Woshu no Mi"
+    }
+  },
+  {
+    "id": 420,
+    "name": "John Giant",
+    "size": "",
+    "crew": {
+      "id": 82
+    },
+    "fruit": null
+  },
+  {
+    "id": 421,
+    "name": "Comir",
+    "size": "",
+    "crew": {
+      "id": 82
+    },
+    "fruit": null
+  },
+  {
+    "id": 422,
+    "name": "Momonga",
+    "size": "251cm",
+    "crew": {
+      "id": 82
+    },
+    "fruit": null
+  },
+  {
+    "id": 423,
+    "name": "Onigumo",
+    "size": "",
+    "crew": {
+      "id": 82
+    },
+    "fruit": null
+  },
+  {
+    "id": 424,
+    "name": "Doberman",
+    "size": "",
+    "crew": {
+      "id": 82
+    },
+    "fruit": null
+  },
+  {
+    "id": 425,
+    "name": "Strawberry",
+    "size": "",
+    "crew": {
+      "id": 82
+    },
+    "fruit": null
+  },
+  {
+    "id": 426,
+    "name": "Yamakaji",
+    "size": "",
+    "crew": {
+      "id": 82
+    },
+    "fruit": null
+  },
+  {
+    "id": 427,
+    "name": "Dalmatien",
+    "size": "",
+    "crew": {
+      "id": 82
+    },
+    "fruit": null
+  },
+  {
+    "id": 428,
+    "name": "Bastille",
+    "size": "",
+    "crew": {
+      "id": 82
+    },
+    "fruit": null
+  },
+  {
+    "id": 429,
+    "name": "Smoker",
+    "size": "209cm",
+    "crew": {
+      "id": 82
+    },
+    "fruit": {
+      "roman_name": "Moku Moku no Mi"
+    }
+  },
+  {
+    "id": 430,
+    "name": "Maynard",
+    "size": "",
+    "crew": {
+      "id": 82
+    },
+    "fruit": null
+  },
+  {
+    "id": 431,
+    "name": "Tokikake",
+    "size": "",
+    "crew": {
+      "id": 82
+    },
+    "fruit": null
+  },
+  {
+    "id": 432,
+    "name": "Hina",
+    "size": "181cm",
+    "crew": {
+      "id": 82
+    },
+    "fruit": {
+      "roman_name": "Ori Ori no Mi"
+    }
+  },
+  {
+    "id": 433,
+    "name": "T. Bone",
+    "size": "200cm",
+    "crew": {
+      "id": 82
+    },
+    "fruit": null
+  },
+  {
+    "id": 434,
+    "name": "Pudding",
+    "size": "",
+    "crew": {
+      "id": 82
+    },
+    "fruit": null
+  },
+  {
+    "id": 435,
+    "name": "Jenfétro",
+    "size": "220cm",
+    "crew": {
+      "id": 82
+    },
+    "fruit": null
+  },
+  {
+    "id": 436,
+    "name": "Brandnew",
+    "size": "190cm",
+    "crew": {
+      "id": 82
+    },
+    "fruit": null
+  },
+  {
+    "id": 437,
+    "name": "Verygood",
+    "size": "",
+    "crew": {
+      "id": 82
+    },
+    "fruit": {
+      "roman_name": "Beri Beri no Mi"
+    }
+  },
+  {
+    "id": 438,
+    "name": "Shu",
+    "size": "",
+    "crew": {
+      "id": 82
+    },
+    "fruit": {
+      "roman_name": "Sabi Sabi no Mi"
+    }
+  },
+  {
+    "id": 439,
+    "name": "Sharinguru",
+    "size": "",
+    "crew": {
+      "id": 82
+    },
+    "fruit": {
+      "roman_name": "Shari Shari no Mi"
+    }
+  },
+  {
+    "id": 440,
+    "name": "Tashigi",
+    "size": "170cm",
+    "crew": {
+      "id": 82
+    },
+    "fruit": null
+  },
+  {
+    "id": 441,
+    "name": "Kobby",
+    "size": "167cm",
+    "crew": {
+      "id": 82
+    },
+    "fruit": null
+  },
+  {
+    "id": 442,
+    "name": "Nezumi",
+    "size": "182cm",
+    "crew": {
+      "id": 82
+    },
+    "fruit": null
+  },
+  {
+    "id": 443,
+    "name": "Don Quijote Rosinante",
+    "size": "293cm",
+    "crew": {
+      "id": 82
+    },
+    "fruit": {
+      "roman_name": "Nagi Nahi no Mi"
+    }
+  },
+  {
+    "id": 444,
+    "name": "Hermep",
+    "size": "179cm",
+    "crew": {
+      "id": 82
+    },
+    "fruit": null
+  },
+  {
+    "id": 445,
+    "name": "Fullbody",
+    "size": "184cm",
+    "crew": {
+      "id": 82
+    },
+    "fruit": null
+  },
+  {
+    "id": 446,
+    "name": "Jango",
+    "size": "207cm",
+    "crew": {
+      "id": 82
+    },
+    "fruit": null
+  },
+  {
+    "id": 447,
+    "name": "Sengoku",
+    "size": "278cm",
+    "crew": {
+      "id": 82
+    },
+    "fruit": {
+      "roman_name": "Hito Hito no Mi moderu Daibutsu"
+    }
+  },
+  {
+    "id": 448,
+    "name": "Sentomaru",
+    "size": "279cm",
+    "crew": {
+      "id": 82
+    },
+    "fruit": null
+  },
+  {
+    "id": 449,
+    "name": "X-Drake",
+    "size": "233cm",
+    "crew": {
+      "id": 82
+    },
+    "fruit": {
+      "roman_name": "Ryū Ryū no Mi Moderu Arosaurusu"
+    }
+  },
+  {
+    "id": 450,
+    "name": "Kaiser Moustache",
+    "size": "",
+    "crew": {
+      "id": 82
+    },
+    "fruit": null
+  },
+  {
+    "id": 451,
+    "name": "Cancer",
+    "size": "",
+    "crew": {
+      "id": 82
+    },
+    "fruit": null
+  },
+  {
+    "id": 452,
+    "name": "Mozambia",
+    "size": "",
+    "crew": {
+      "id": 82
+    },
+    "fruit": null
+  },
+  {
+    "id": 453,
+    "name": "Lacroix",
+    "size": "",
+    "crew": {
+      "id": 82
+    },
+    "fruit": null
+  },
+  {
+    "id": 454,
+    "name": "Ronz",
+    "size": "",
+    "crew": {
+      "id": 82
+    },
+    "fruit": null
+  },
+  {
+    "id": 455,
+    "name": "Dohn Deynon",
+    "size": "",
+    "crew": {
+      "id": 82
+    },
+    "fruit": null
+  },
+  {
+    "id": 456,
+    "name": "Draw",
+    "size": "",
+    "crew": {
+      "id": 82
+    },
+    "fruit": null
+  },
+  {
+    "id": 457,
+    "name": "Sicily",
+    "size": "",
+    "crew": {
+      "id": 82
+    },
+    "fruit": null
+  },
+  {
+    "id": 458,
+    "name": "Akehende",
+    "size": "",
+    "crew": {
+      "id": 82
+    },
+    "fruit": null
+  },
+  {
+    "id": 459,
+    "name": "Catacombo",
+    "size": "",
+    "crew": {
+      "id": 82
+    },
+    "fruit": null
+  },
+  {
+    "id": 460,
+    "name": "Kadar",
+    "size": "",
+    "crew": {
+      "id": 82
+    },
+    "fruit": null
+  },
+  {
+    "id": 461,
+    "name": "Daigin",
+    "size": "",
+    "crew": {
+      "id": 82
+    },
+    "fruit": null
+  },
+  {
+    "id": 462,
+    "name": "Gorilla",
+    "size": "",
+    "crew": {
+      "id": 82
+    },
+    "fruit": null
+  },
+  {
+    "id": 463,
+    "name": "Stelly",
+    "size": "180cm",
+    "crew": {
+      "id": 93
+    },
+    "fruit": null
+  },
+  {
+    "id": 464,
+    "name": "Sally Entoilette",
+    "size": "",
+    "crew": {
+      "id": 93
+    },
+    "fruit": null
+  },
+  {
+    "id": 465,
+    "name": "Outlook III",
+    "size": "",
+    "crew": {
+      "id": 93
+    },
+    "fruit": null
+  },
+  {
+    "id": 466,
+    "name": "Didit",
+    "size": "",
+    "crew": {
+      "id": 93
+    },
+    "fruit": null
+  },
+  {
+    "id": 467,
+    "name": "Makino",
+    "size": "166cm",
+    "crew": {
+      "id": 93
+    },
+    "fruit": null
+  },
+  {
+    "id": 468,
+    "name": "Woop Slap",
+    "size": "",
+    "crew": {
+      "id": 93
+    },
+    "fruit": null
+  },
+  {
+    "id": 469,
+    "name": "Curly Dadan",
+    "size": "221cm",
+    "crew": {
+      "id": 93
+    },
+    "fruit": null
+  },
+  {
+    "id": 470,
+    "name": "Dogra",
+    "size": "",
+    "crew": {
+      "id": 93
+    },
+    "fruit": null
+  },
+  {
+    "id": 471,
+    "name": "Magra",
+    "size": "",
+    "crew": {
+      "id": 93
+    },
+    "fruit": null
+  },
+  {
+    "id": 472,
+    "name": "Higuma",
+    "size": "190cm",
+    "crew": {
+      "id": 93
+    },
+    "fruit": null
+  },
+  {
+    "id": 473,
+    "name": "Kozaburo Shimotsuki",
+    "size": "",
+    "crew": {
+      "id": 94
+    },
+    "fruit": null
+  },
+  {
+    "id": 474,
+    "name": "Koshiro",
+    "size": "184cm",
+    "crew": {
+      "id": 94
+    },
+    "fruit": null
+  },
+  {
+    "id": 475,
+    "name": "Kuina",
+    "size": "150cm",
+    "crew": {
+      "id": 94
+    },
+    "fruit": null
+  },
+  {
+    "id": 476,
+    "name": "Boodle",
+    "size": "172cm",
+    "crew": {
+      "id": 95
+    },
+    "fruit": null
+  },
+  {
+    "id": 477,
+    "name": "Chouchou",
+    "size": "40cm",
+    "crew": {
+      "id": 95
+    },
+    "fruit": null
+  },
+  {
+    "id": 478,
+    "name": "Gaimone",
+    "size": "130cm",
+    "crew": {
+      "id": 96
+    },
+    "fruit": null
+  },
+  {
+    "id": 479,
+    "name": "Sarfunkel",
+    "size": "",
+    "crew": {
+      "id": 96
+    },
+    "fruit": null
+  },
+  {
+    "id": 480,
+    "name": "Kaya",
+    "size": "169cm",
+    "crew": {
+      "id": 97
+    },
+    "fruit": null
+  },
+  {
+    "id": 481,
+    "name": "Merry",
+    "size": "",
+    "crew": {
+      "id": 97
+    },
+    "fruit": null
+  },
+  {
+    "id": 482,
+    "name": "Oignon",
+    "size": "124cm",
+    "crew": {
+      "id": 97
+    },
+    "fruit": null
+  },
+  {
+    "id": 483,
+    "name": "Piment",
+    "size": "120cm",
+    "crew": {
+      "id": 97
+    },
+    "fruit": null
+  },
+  {
+    "id": 484,
+    "name": "Carotte",
+    "size": "127cm",
+    "crew": {
+      "id": 97
+    },
+    "fruit": null
+  },
+  {
+    "id": 485,
+    "name": "Banchina",
+    "size": "",
+    "crew": {
+      "id": 97
+    },
+    "fruit": null
+  },
+  {
+    "id": 486,
+    "name": "Zeff",
+    "size": "189cm",
+    "crew": {
+      "id": 98
+    },
+    "fruit": null
+  },
+  {
+    "id": 487,
+    "name": "Patty",
+    "size": "204cm",
+    "crew": {
+      "id": 98
+    },
+    "fruit": null
+  },
+  {
+    "id": 488,
+    "name": "Canne",
+    "size": "171cm",
+    "crew": {
+      "id": 98
+    },
+    "fruit": null
+  },
+  {
+    "id": 489,
+    "name": "Belmer",
+    "size": "186cm",
+    "crew": {
+      "id": 99
+    },
+    "fruit": null
+  },
+  {
+    "id": 490,
+    "name": "Nojiko",
+    "size": "170cm",
+    "crew": {
+      "id": 99
+    },
+    "fruit": null
+  },
+  {
+    "id": 491,
+    "name": "Genzo",
+    "size": "173cm",
+    "crew": {
+      "id": 99
+    },
+    "fruit": null
+  },
+  {
+    "id": 492,
+    "name": "Nako",
+    "size": "",
+    "crew": {
+      "id": 99
+    },
+    "fruit": null
+  },
+  {
+    "id": 493,
+    "name": "Chabo",
+    "size": "",
+    "crew": {
+      "id": 99
+    },
+    "fruit": null
+  },
+  {
+    "id": 494,
+    "name": "Johny",
+    "size": "186cm",
+    "crew": {
+      "id": 99
+    },
+    "fruit": null
+  },
+  {
+    "id": 495,
+    "name": "Yosaku",
+    "size": "185cm",
+    "crew": {
+      "id": 99
+    },
+    "fruit": null
+  },
+  {
+    "id": 496,
+    "name": "Ipponmatsu",
+    "size": "157cm",
+    "crew": {
+      "id": 100
+    },
+    "fruit": null
+  },
+  {
+    "id": 497,
+    "name": "Montblanc Norland",
+    "size": "220cm",
+    "crew": {
+      "id": 101
+    },
+    "fruit": null
+  },
+  {
+    "id": 498,
+    "name": "Don Quijote Homing",
+    "size": "",
+    "crew": {
+      "id": 83
+    },
+    "fruit": null
+  },
+  {
+    "id": 499,
+    "name": "Portgas D. Rouge",
+    "size": "",
+    "crew": {
+      "id": 102
+    },
+    "fruit": null
+  },
+  {
+    "id": 500,
+    "name": "Wapol",
+    "size": "207cm",
+    "crew": {
+      "id": 103
+    },
+    "fruit": {
+      "roman_name": "Baku Baku no Mi"
+    }
+  },
+  {
+    "id": 501,
+    "name": "Kinderella",
+    "size": "",
+    "crew": {
+      "id": 103
+    },
+    "fruit": null
+  },
+  {
+    "id": 502,
+    "name": "Clover",
+    "size": "172cm",
+    "crew": {
+      "id": 104
+    },
+    "fruit": null
+  },
+  {
+    "id": 503,
+    "name": "Nico Olvia",
+    "size": "186cm",
+    "crew": {
+      "id": 104
+    },
+    "fruit": null
+  },
+  {
+    "id": 504,
+    "name": "Haguar D. Sauro",
+    "size": "1 950cm",
+    "crew": {
+      "id": 104
+    },
+    "fruit": null
+  },
+  {
+    "id": 505,
+    "name": "Ramen",
+    "size": "",
+    "crew": {
+      "id": 105
+    },
+    "fruit": null
+  },
+  {
+    "id": 506,
+    "name": "Chinjao",
+    "size": "520cm",
+    "crew": {
+      "id": 105
+    },
+    "fruit": null
+  },
+  {
+    "id": 507,
+    "name": "Crocus",
+    "size": "203cm",
+    "crew": {
+      "id": 146
+    },
+    "fruit": null
+  },
+  {
+    "id": 508,
+    "name": "Laboon",
+    "size": "40 000cm",
+    "crew": {
+      "id": 146
+    },
+    "fruit": null
+  },
+  {
+    "id": 509,
+    "name": "Miss Monday",
+    "size": "",
+    "crew": {
+      "id": 107
+    },
+    "fruit": null
+  },
+  {
+    "id": 510,
+    "name": "Mr 9",
+    "size": "",
+    "crew": {
+      "id": 107
+    },
+    "fruit": null
+  },
+  {
+    "id": 511,
+    "name": "Dorry",
+    "size": "2 260cm",
+    "crew": {
+      "id": 108
+    },
+    "fruit": null
+  },
+  {
+    "id": 512,
+    "name": "Broggy",
+    "size": "2 130cm",
+    "crew": {
+      "id": 108
+    },
+    "fruit": null
+  },
+  {
+    "id": 513,
+    "name": "Dolton",
+    "size": "218cm",
+    "crew": {
+      "id": 109
+    },
+    "fruit": null
+  },
+  {
+    "id": 514,
+    "name": "Kureha",
+    "size": "188cm",
+    "crew": {
+      "id": 109
+    },
+    "fruit": null
+  },
+  {
+    "id": 515,
+    "name": "Hiluluk",
+    "size": "213cm",
+    "crew": {
+      "id": 109
+    },
+    "fruit": null
+  },
+  {
+    "id": 516,
+    "name": "Chess",
+    "size": "194cm",
+    "crew": {
+      "id": 109
+    },
+    "fruit": null
+  },
+  {
+    "id": 517,
+    "name": "Kuromarimo",
+    "size": "186cm",
+    "crew": {
+      "id": 109
+    },
+    "fruit": null
+  },
+  {
+    "id": 518,
+    "name": "Nefertari Cobra",
+    "size": "182cm",
+    "crew": {
+      "id": 110
+    },
+    "fruit": null
+  },
+  {
+    "id": 519,
+    "name": "Nefertari Titi",
+    "size": "",
+    "crew": {
+      "id": 110
+    },
+    "fruit": null
+  },
+  {
+    "id": 520,
+    "name": "Nefertari Vivi",
+    "size": "169cm",
+    "crew": {
+      "id": 110
+    },
+    "fruit": null
+  },
+  {
+    "id": 521,
+    "name": "Igaram",
+    "size": "218cm",
+    "crew": {
+      "id": 110
+    },
+    "fruit": null
+  },
+  {
+    "id": 522,
+    "name": "Chaka",
+    "size": "213cm",
+    "crew": {
+      "id": 110
+    },
+    "fruit": {
+      "roman_name": "Inu Inu no Mi moderu Jakkaru"
+    }
+  },
+  {
+    "id": 523,
+    "name": "Pell",
+    "size": "189cm",
+    "crew": {
+      "id": 110
+    },
+    "fruit": {
+      "roman_name": "Tori Tori no Mi"
+    }
+  },
+  {
+    "id": 524,
+    "name": "Kaloo",
+    "size": "150cm",
+    "crew": {
+      "id": 110
+    },
+    "fruit": null
+  },
+  {
+    "id": 525,
+    "name": "Longs-Cils",
+    "size": "190cm",
+    "crew": {
+      "id": 110
+    },
+    "fruit": null
+  },
+  {
+    "id": 526,
+    "name": "Stomp",
+    "size": "",
+    "crew": {
+      "id": 110
+    },
+    "fruit": null
+  },
+  {
+    "id": 527,
+    "name": "Ivan X",
+    "size": "",
+    "crew": {
+      "id": 110
+    },
+    "fruit": null
+  },
+  {
+    "id": 528,
+    "name": "Cowboy",
+    "size": "",
+    "crew": {
+      "id": 110
+    },
+    "fruit": null
+  },
+  {
+    "id": 529,
+    "name": "Bourdon Jr.",
+    "size": "",
+    "crew": {
+      "id": 110
+    },
+    "fruit": null
+  },
+  {
+    "id": 530,
+    "name": "Kentarôs",
+    "size": "",
+    "crew": {
+      "id": 110
+    },
+    "fruit": null
+  },
+  {
+    "id": 531,
+    "name": "Hikoichi",
+    "size": "",
+    "crew": {
+      "id": 110
+    },
+    "fruit": null
+  },
+  {
+    "id": 532,
+    "name": "Koza",
+    "size": "177cm",
+    "crew": {
+      "id": 110
+    },
+    "fruit": null
+  },
+  {
+    "id": 533,
+    "name": "Toto",
+    "size": "",
+    "crew": {
+      "id": 110
+    },
+    "fruit": null
+  },
+  {
+    "id": 534,
+    "name": "Tonjit",
+    "size": "110cm",
+    "crew": {
+      "id": 111
+    },
+    "fruit": null
+  },
+  {
+    "id": 535,
+    "name": "Shelly",
+    "size": "",
+    "crew": {
+      "id": 111
+    },
+    "fruit": null
+  },
+  {
+    "id": 536,
+    "name": "Gedatsu",
+    "size": "220cm",
+    "crew": {
+      "id": 112
+    },
+    "fruit": null
+  },
+  {
+    "id": 537,
+    "name": "Icebarg",
+    "size": "199cm",
+    "crew": {
+      "id": 113
+    },
+    "fruit": null
+  },
+  {
+    "id": 538,
+    "name": "Pauly",
+    "size": "195cm",
+    "crew": {
+      "id": 113
+    },
+    "fruit": null
+  },
+  {
+    "id": 539,
+    "name": "Peeply Lulu",
+    "size": "206cm",
+    "crew": {
+      "id": 113
+    },
+    "fruit": null
+  },
+  {
+    "id": 540,
+    "name": "Tilestone",
+    "size": "255cm",
+    "crew": {
+      "id": 113
+    },
+    "fruit": null
+  },
+  {
+    "id": 541,
+    "name": "Zanbai",
+    "size": "227cm",
+    "crew": {
+      "id": 113
+    },
+    "fruit": null
+  },
+  {
+    "id": 542,
+    "name": "Mozu",
+    "size": "187cm",
+    "crew": {
+      "id": 113
+    },
+    "fruit": null
+  },
+  {
+    "id": 543,
+    "name": "Kiwi",
+    "size": "187cm",
+    "crew": {
+      "id": 113
+    },
+    "fruit": null
+  },
+  {
+    "id": 544,
+    "name": "Tom",
+    "size": "296cm",
+    "crew": {
+      "id": 113
+    },
+    "fruit": null
+  },
+  {
+    "id": 545,
+    "name": "Kokoro",
+    "size": "168cm",
+    "crew": {
+      "id": 113
+    },
+    "fruit": null
+  },
+  {
+    "id": 546,
+    "name": "Chimney",
+    "size": "115cm",
+    "crew": {
+      "id": 113
+    },
+    "fruit": null
+  },
+  {
+    "id": 547,
+    "name": "Gonbei",
+    "size": "",
+    "crew": {
+      "id": 113
+    },
+    "fruit": null
+  },
+  {
+    "id": 548,
+    "name": "Yokozuma",
+    "size": "",
+    "crew": {
+      "id": 113
+    },
+    "fruit": null
+  },
+  {
+    "id": 549,
+    "name": "Silvers Rayleigh",
+    "size": "188cm",
+    "crew": {
+      "id": 114
+    },
+    "fruit": null
+  },
+  {
+    "id": 550,
+    "name": "Shakuyaku",
+    "size": "186cm",
+    "crew": {
+      "id": 114
+    },
+    "fruit": null
+  },
+  {
+    "id": 551,
+    "name": "Disco",
+    "size": "",
+    "crew": {
+      "id": 114
+    },
+    "fruit": null
+  },
+  {
+    "id": 552,
+    "name": "Duval",
+    "size": "470cm",
+    "crew": {
+      "id": 114
+    },
+    "fruit": null
+  },
+  {
+    "id": 553,
+    "name": "Héraclès",
+    "size": "214cm",
+    "crew": {
+      "id": 115
+    },
+    "fruit": null
+  },
+  {
+    "id": 554,
+    "name": "Loki",
+    "size": "",
+    "crew": {
+      "id": 116
+    },
+    "fruit": null
+  },
+  {
+    "id": 555,
+    "name": "Jorl",
+    "size": "2 150cm",
+    "crew": {
+      "id": 116
+    },
+    "fruit": null
+  },
+  {
+    "id": 556,
+    "name": "Jarl",
+    "size": "2 050cm",
+    "crew": {
+      "id": 116
+    },
+    "fruit": null
+  },
+  {
+    "id": 557,
+    "name": "Oimo",
+    "size": "1 600cm",
+    "crew": {
+      "id": 116
+    },
+    "fruit": null
+  },
+  {
+    "id": 558,
+    "name": "Kaashii",
+    "size": "1 700cm",
+    "crew": {
+      "id": 116
+    },
+    "fruit": null
+  },
+  {
+    "id": 559,
+    "name": "Sukiyaki Kozuki",
+    "size": "214cm",
+    "crew": {
+      "id": 117
+    },
+    "fruit": null
+  },
+  {
+    "id": 560,
+    "name": "Oden Kozuki",
+    "size": "382cm",
+    "crew": {
+      "id": 117
+    },
+    "fruit": null
+  },
+  {
+    "id": 561,
+    "name": "Toki Kozuki",
+    "size": "190cm",
+    "crew": {
+      "id": 117
+    },
+    "fruit": {
+      "roman_name": "Toki Toki no Mi"
+    }
+  },
+  {
+    "id": 562,
+    "name": "Mononosuké Kozuki",
+    "size": "110cm",
+    "crew": {
+      "id": 117
+    },
+    "fruit": {}
+  },
+  {
+    "id": 563,
+    "name": "Hiyori Kozuki",
+    "size": "170cm",
+    "crew": {
+      "id": 117
+    },
+    "fruit": null
+  },
+  {
+    "id": 564,
+    "name": "Kinémon",
+    "size": "295cm",
+    "crew": {
+      "id": 117
+    },
+    "fruit": {
+      "roman_name": "Fuku Fuku no Mi"
+    }
+  },
+  {
+    "id": 565,
+    "name": "Denjiro",
+    "size": "306cm",
+    "crew": {
+      "id": 117
+    },
+    "fruit": null
+  },
+  {
+    "id": 566,
+    "name": "Izo",
+    "size": "192cm",
+    "crew": {
+      "id": 117
+    },
+    "fruit": null
+  },
+  {
+    "id": 567,
+    "name": "Kikunojo",
+    "size": "287cm",
+    "crew": {
+      "id": 117
+    },
+    "fruit": null
+  },
+  {
+    "id": 568,
+    "name": "Raizo",
+    "size": "331cm",
+    "crew": {
+      "id": 117
+    },
+    "fruit": null
+  },
+  {
+    "id": 569,
+    "name": "Ashura Doji",
+    "size": "544cm",
+    "crew": {
+      "id": 117
+    },
+    "fruit": null
+  },
+  {
+    "id": 570,
+    "name": "Kawamatsu",
+    "size": "271cm",
+    "crew": {
+      "id": 117
+    },
+    "fruit": null
+  },
+  {
+    "id": 571,
+    "name": "Shinobu",
+    "size": "180cm",
+    "crew": {
+      "id": 117
+    },
+    "fruit": {
+      "roman_name": "Juku Juku no Mi"
+    }
+  },
+  {
+    "id": 572,
+    "name": "Orochi Kurozumi",
+    "size": "350cm",
+    "crew": {
+      "id": 117
+    },
+    "fruit": {
+      "roman_name": "Hebi Hebi no Mi moderu Yamata no Orochi"
+    }
+  },
+  {
+    "id": 573,
+    "name": "Kanjuro Kurozumi",
+    "size": "347cm",
+    "crew": {
+      "id": 117
+    },
+    "fruit": {
+      "roman_name": "Fude Fude no Mi"
+    }
+  },
+  {
+    "id": 574,
+    "name": "Semimaru Kurozumi",
+    "size": "",
+    "crew": {
+      "id": 117
+    },
+    "fruit": {
+      "roman_name": "Bari Bari no Mi"
+    }
+  },
+  {
+    "id": 575,
+    "name": "Higurashi Kurozumi",
+    "size": "",
+    "crew": {
+      "id": 117
+    },
+    "fruit": {
+      "roman_name": "Mane Mane no Mi"
+    }
+  },
+  {
+    "id": 576,
+    "name": "Ryuma Shimotsuki",
+    "size": "179cm",
+    "crew": {
+      "id": 117
+    },
+    "fruit": null
+  },
+  {
+    "id": 577,
+    "name": "Yasui Shimotsuki",
+    "size": "155cm",
+    "crew": {
+      "id": 117
+    },
+    "fruit": null
+  },
+  {
+    "id": 578,
+    "name": "Toko",
+    "size": "89cm",
+    "crew": {
+      "id": 117
+    },
+    "fruit": null
+  },
+  {
+    "id": 579,
+    "name": "Onimaru",
+    "size": "428cm",
+    "crew": {
+      "id": 117
+    },
+    "fruit": {
+      "roman_name": "Hito Hito no Mi, Moderu: Ōnyūdō"
+    }
+  },
+  {
+    "id": 580,
+    "name": "Hyogoro",
+    "size": "100cm",
+    "crew": {
+      "id": 117
+    },
+    "fruit": null
+  },
+  {
+    "id": 581,
+    "name": "Omasa",
+    "size": "",
+    "crew": {
+      "id": 117
+    },
+    "fruit": null
+  },
+  {
+    "id": 582,
+    "name": "Tsunagoro",
+    "size": "",
+    "crew": {
+      "id": 117
+    },
+    "fruit": null
+  },
+  {
+    "id": 583,
+    "name": "Cho",
+    "size": "",
+    "crew": {
+      "id": 117
+    },
+    "fruit": null
+  },
+  {
+    "id": 584,
+    "name": "Yatappé",
+    "size": "",
+    "crew": {
+      "id": 117
+    },
+    "fruit": null
+  },
+  {
+    "id": 585,
+    "name": "Tama",
+    "size": "108cm",
+    "crew": {
+      "id": 117
+    },
+    "fruit": {
+      "roman_name": "Kibi Kibi no Mi"
+    }
+  },
+  {
+    "id": 586,
+    "name": "Tsurujo",
+    "size": "191cm",
+    "crew": {
+      "id": 117
+    },
+    "fruit": null
+  },
+  {
+    "id": 587,
+    "name": "Komachiyo",
+    "size": "",
+    "crew": {
+      "id": 117
+    },
+    "fruit": null
+  },
+  {
+    "id": 588,
+    "name": "Baboumaru",
+    "size": "",
+    "crew": {
+      "id": 117
+    },
+    "fruit": null
+  },
+  {
+    "id": 589,
+    "name": "Bunbuku",
+    "size": "",
+    "crew": {
+      "id": 117
+    },
+    "fruit": {
+      "roman_name": "Inu Inu no Mi Moderu Bake-danuki"
+    }
+  },
+  {
+    "id": 590,
+    "name": "Yamato",
+    "size": "263cm",
+    "crew": {
+      "id": 117
+    },
+    "fruit": {
+      "roman_name": "Inu Inu no Mi Moderu Ōkuchi no Makami"
+    }
+  },
+  {
+    "id": 591,
+    "name": "Rock",
+    "size": "4 250cm",
+    "crew": {
+      "id": 118
+    },
+    "fruit": null
+  },
+  {
+    "id": 592,
+    "name": "Scotch",
+    "size": "4 250cm",
+    "crew": {
+      "id": 118
+    },
+    "fruit": null
+  },
+  {
+    "id": 593,
+    "name": "Smiley",
+    "size": "15 000cm",
+    "crew": {
+      "id": 118
+    },
+    "fruit": {
+      "roman_name": "Sara Sara no Mi moderu: Ahorōtoru"
+    }
+  },
+  {
+    "id": 594,
+    "name": "Riku Dold III",
+    "size": "261cm",
+    "crew": {
+      "id": 119
+    },
+    "fruit": null
+  },
+  {
+    "id": 595,
+    "name": "Scarlett",
+    "size": "",
+    "crew": {
+      "id": 119
+    },
+    "fruit": null
+  },
+  {
+    "id": 596,
+    "name": "Kyros",
+    "size": "268cm",
+    "crew": {
+      "id": 119
+    },
+    "fruit": null
+  },
+  {
+    "id": 597,
+    "name": "Viola",
+    "size": "178cm",
+    "crew": {
+      "id": 119
+    },
+    "fruit": {
+      "roman_name": "Giro Giro no Mi"
+    }
+  },
+  {
+    "id": 598,
+    "name": "Rebecca",
+    "size": "171cm",
+    "crew": {
+      "id": 119
+    },
+    "fruit": null
+  },
+  {
+    "id": 599,
+    "name": "Gatz",
+    "size": "",
+    "crew": {
+      "id": 119
+    },
+    "fruit": null
+  },
+  {
+    "id": 600,
+    "name": "Tank Lepanto",
+    "size": "",
+    "crew": {
+      "id": 119
+    },
+    "fruit": null
+  },
+  {
+    "id": 601,
+    "name": "Guncho",
+    "size": "",
+    "crew": {
+      "id": 120
+    },
+    "fruit": null
+  },
+  {
+    "id": 602,
+    "name": "Manshelly",
+    "size": "",
+    "crew": {
+      "id": 120
+    },
+    "fruit": {
+      "roman_name": "Chiyu Chiyu no Mi"
+    }
+  },
+  {
+    "id": 603,
+    "name": "Zunesh",
+    "size": "35km",
+    "crew": {
+      "id": 121
+    },
+    "fruit": null
+  },
+  {
+    "id": 604,
+    "name": "Bêgis Khan",
+    "size": "",
+    "crew": {
+      "id": 121
+    },
+    "fruit": null
+  },
+  {
+    "id": 605,
+    "name": "Caborage",
+    "size": "511cm",
+    "crew": {
+      "id": 121
+    },
+    "fruit": null
+  },
+  {
+    "id": 606,
+    "name": "Chavipère",
+    "size": "522cm",
+    "crew": {
+      "id": 121
+    },
+    "fruit": null
+  },
+  {
+    "id": 607,
+    "name": "Sicilion",
+    "size": "196cm",
+    "crew": {
+      "id": 121
+    },
+    "fruit": null
+  },
+  {
+    "id": 608,
+    "name": "Cancelot",
+    "size": "204cm",
+    "crew": {
+      "id": 121
+    },
+    "fruit": null
+  },
+  {
+    "id": 609,
+    "name": "Giovanni",
+    "size": "226cm",
+    "crew": {
+      "id": 121
+    },
+    "fruit": null
+  },
+  {
+    "id": 610,
+    "name": "Wanda",
+    "size": "181cm",
+    "crew": {
+      "id": 121
+    },
+    "fruit": null
+  },
+  {
+    "id": 611,
+    "name": "Carrot",
+    "size": "161cm",
+    "crew": {
+      "id": 121
+    },
+    "fruit": null
+  },
+  {
+    "id": 612,
+    "name": "Pedro",
+    "size": "233cm",
+    "crew": {
+      "id": 121
+    },
+    "fruit": null
+  },
+  {
+    "id": 613,
+    "name": "Elizabello II",
+    "size": "436cm",
+    "crew": {
+      "id": 122
+    },
+    "fruit": null
+  },
+  {
+    "id": 614,
+    "name": "Dagama",
+    "size": "",
+    "crew": {
+      "id": 122
+    },
+    "fruit": null
+  },
+  {
+    "id": 615,
+    "name": "Kelly Funk",
+    "size": "168cm",
+    "crew": {
+      "id": 123
+    },
+    "fruit": {
+      "roman_name": "Jake Jake no Mi"
+    }
+  },
+  {
+    "id": 616,
+    "name": "Bobby Funk",
+    "size": "320cm",
+    "crew": {
+      "id": 123
+    },
+    "fruit": null
+  },
+  {
+    "id": 617,
+    "name": "Judge Vinsmoke",
+    "size": "272cm",
+    "crew": {
+      "id": 124
+    },
+    "fruit": null
+  },
+  {
+    "id": 618,
+    "name": "Sora Vinsmoke",
+    "size": "",
+    "crew": {
+      "id": 124
+    },
+    "fruit": null
+  },
+  {
+    "id": 619,
+    "name": "Reiju Vinsmoke",
+    "size": "173cm",
+    "crew": {
+      "id": 124
+    },
+    "fruit": null
+  },
+  {
+    "id": 620,
+    "name": "Ichiji Vinsmoke",
+    "size": "186cm",
+    "crew": {
+      "id": 124
+    },
+    "fruit": null
+  },
+  {
+    "id": 621,
+    "name": "Niji Vinsmoke",
+    "size": "185cm",
+    "crew": {
+      "id": 124
+    },
+    "fruit": null
+  },
+  {
+    "id": 622,
+    "name": "Yonji Vinsmoke",
+    "size": "194cm",
+    "crew": {
+      "id": 124
+    },
+    "fruit": null
+  },
+  {
+    "id": 623,
+    "name": "Marco",
+    "size": "203cm",
+    "crew": {
+      "id": 125
+    },
+    "fruit": {
+      "roman_name": "Tori Tori no Mi"
+    }
+  },
+  {
+    "id": 624,
+    "name": "Gan Forr",
+    "size": "180cm",
+    "crew": {
+      "id": 126
+    },
+    "fruit": null
+  },
+  {
+    "id": 625,
+    "name": "Pierre",
+    "size": "",
+    "crew": {
+      "id": 126
+    },
+    "fruit": {
+      "roman_name": "Uma Uma no Mi"
+    }
+  },
+  {
+    "id": 626,
+    "name": "Conis",
+    "size": "176cm",
+    "crew": {
+      "id": 126
+    },
+    "fruit": null
+  },
+  {
+    "id": 627,
+    "name": "Pagaya",
+    "size": "179cm",
+    "crew": {
+      "id": 126
+    },
+    "fruit": null
+  },
+  {
+    "id": 628,
+    "name": "Amazon",
+    "size": "120cm",
+    "crew": {
+      "id": 126
+    },
+    "fruit": null
+  },
+  {
+    "id": 629,
+    "name": "Chef Shandia",
+    "size": "179cm",
+    "crew": {
+      "id": 126
+    },
+    "fruit": null
+  },
+  {
+    "id": 630,
+    "name": "Wiper",
+    "size": "183cm",
+    "crew": {
+      "id": 126
+    },
+    "fruit": null
+  },
+  {
+    "id": 631,
+    "name": "Kamakiri",
+    "size": "214cm",
+    "crew": {
+      "id": 126
+    },
+    "fruit": null
+  },
+  {
+    "id": 632,
+    "name": "Braham",
+    "size": "179cm",
+    "crew": {
+      "id": 126
+    },
+    "fruit": null
+  },
+  {
+    "id": 633,
+    "name": "Genbo",
+    "size": "193cm",
+    "crew": {
+      "id": 126
+    },
+    "fruit": null
+  },
+  {
+    "id": 634,
+    "name": "Laki",
+    "size": "179cm",
+    "crew": {
+      "id": 126
+    },
+    "fruit": null
+  },
+  {
+    "id": 635,
+    "name": "Aisa",
+    "size": "140cm",
+    "crew": {
+      "id": 126
+    },
+    "fruit": null
+  },
+  {
+    "id": 636,
+    "name": "Nora",
+    "size": "20 000cm",
+    "crew": {
+      "id": 126
+    },
+    "fruit": null
+  },
+  {
+    "id": 637,
+    "name": "Calgara",
+    "size": "222cm",
+    "crew": {
+      "id": 126
+    },
+    "fruit": null
+  },
+  {
+    "id": 638,
+    "name": "Om",
+    "size": "189cm",
+    "crew": {
+      "id": 126
+    },
+    "fruit": null
+  },
+  {
+    "id": 639,
+    "name": "Satori",
+    "size": "179cm",
+    "crew": {
+      "id": 126
+    },
+    "fruit": null
+  },
+  {
+    "id": 640,
+    "name": "Shura",
+    "size": "191cm",
+    "crew": {
+      "id": 126
+    },
+    "fruit": null
+  },
+  {
+    "id": 641,
+    "name": "Yama",
+    "size": "366cm",
+    "crew": {
+      "id": 126
+    },
+    "fruit": null
+  },
+  {
+    "id": 642,
+    "name": "Hotori",
+    "size": "179cm",
+    "crew": {
+      "id": 126
+    },
+    "fruit": null
+  },
+  {
+    "id": 643,
+    "name": "Kotori",
+    "size": "179cm",
+    "crew": {
+      "id": 126
+    },
+    "fruit": null
+  },
+  {
+    "id": 644,
+    "name": "Haredas",
+    "size": "253cm",
+    "crew": {
+      "id": 127
+    },
+    "fruit": null
+  },
+  {
+    "id": 645,
+    "name": "Neptune",
+    "size": "1 220cm",
+    "crew": {
+      "id": 128
+    },
+    "fruit": null
+  },
+  {
+    "id": 646,
+    "name": "Otohime",
+    "size": "224cm",
+    "crew": {
+      "id": 128
+    },
+    "fruit": null
+  },
+  {
+    "id": 647,
+    "name": "Fukaboshi",
+    "size": "604cm",
+    "crew": {
+      "id": 128
+    },
+    "fruit": null
+  },
+  {
+    "id": 648,
+    "name": "Ryuboshi",
+    "size": "544cm",
+    "crew": {
+      "id": 128
+    },
+    "fruit": null
+  },
+  {
+    "id": 649,
+    "name": "Mamboshi",
+    "size": "473cm",
+    "crew": {
+      "id": 128
+    },
+    "fruit": null
+  },
+  {
+    "id": 650,
+    "name": "Shirahoshi",
+    "size": "1 187cm",
+    "crew": {
+      "id": 128
+    },
+    "fruit": null
+  },
+  {
+    "id": 651,
+    "name": "Hoé",
+    "size": "4 000cm",
+    "crew": {
+      "id": 128
+    },
+    "fruit": null
+  },
+  {
+    "id": 652,
+    "name": "Mégalo",
+    "size": "2 500cm",
+    "crew": {
+      "id": 128
+    },
+    "fruit": null
+  },
+  {
+    "id": 653,
+    "name": "Ministre Sénestre",
+    "size": "435cm",
+    "crew": {
+      "id": 128
+    },
+    "fruit": null
+  },
+  {
+    "id": 654,
+    "name": "Ministre Dextre",
+    "size": "313cm",
+    "crew": {
+      "id": 128
+    },
+    "fruit": null
+  },
+  {
+    "id": 655,
+    "name": "Shyarly",
+    "size": "520cm",
+    "crew": {
+      "id": 128
+    },
+    "fruit": null
+  },
+  {
+    "id": 656,
+    "name": "Keimi",
+    "size": "167cm",
+    "crew": {
+      "id": 128
+    },
+    "fruit": null
+  },
+  {
+    "id": 657,
+    "name": "Pappag",
+    "size": "50cm",
+    "crew": {
+      "id": 128
+    },
+    "fruit": null
+  },
+  {
+    "id": 658,
+    "name": "Octy",
+    "size": "220cm",
+    "crew": {
+      "id": 128
+    },
+    "fruit": null
+  },
+  {
+    "id": 659,
+    "name": "Den",
+    "size": "435cm",
+    "crew": {
+      "id": 128
+    },
+    "fruit": null
+  },
+  {
+    "id": 660,
+    "name": "Ener",
+    "size": "266cm",
+    "crew": {
+      "id": 129
+    },
+    "fruit": {
+      "roman_name": "Goro Goro no Mi"
+    }
+  },
+  {
+    "id": 661,
+    "name": "Monkey D. Dragon",
+    "size": "256cm",
+    "crew": {
+      "id": 130
+    },
+    "fruit": null
+  },
+  {
+    "id": 662,
+    "name": "Sabo",
+    "size": "187cm",
+    "crew": {
+      "id": 130
+    },
+    "fruit": {
+      "roman_name": "Mera Mera no Mi"
+    }
+  },
+  {
+    "id": 663,
+    "name": "Emporio Ivankov",
+    "size": "449cm",
+    "crew": {
+      "id": 130
+    },
+    "fruit": {
+      "roman_name": "Horu Horu no Mi"
+    }
+  },
+  {
+    "id": 664,
+    "name": "Corbeau",
+    "size": "265cm",
+    "crew": {
+      "id": 130
+    },
+    "fruit": null
+  },
+  {
+    "id": 665,
+    "name": "Belo Betty",
+    "size": "196cm",
+    "crew": {
+      "id": 130
+    },
+    "fruit": {
+      "roman_name": "Kubu Kobu no Mi"
+    }
+  },
+  {
+    "id": 666,
+    "name": "Morley",
+    "size": "1253cm",
+    "crew": {
+      "id": 130
+    },
+    "fruit": {
+      "roman_name": "Oshi Oshi no Mi"
+    }
+  },
+  {
+    "id": 667,
+    "name": "Lindbergh",
+    "size": "149cm",
+    "crew": {
+      "id": 130
+    },
+    "fruit": null
+  },
+  {
+    "id": 668,
+    "name": "Inazuma",
+    "size": "228cm",
+    "crew": {
+      "id": 130
+    },
+    "fruit": {
+      "roman_name": "Choki Choki no Mi"
+    }
+  },
+  {
+    "id": 669,
+    "name": "Canard",
+    "size": "",
+    "crew": {
+      "id": 130
+    },
+    "fruit": null
+  },
+  {
+    "id": 670,
+    "name": "Koala",
+    "size": "160cm",
+    "crew": {
+      "id": 130
+    },
+    "fruit": null
+  },
+  {
+    "id": 671,
+    "name": "Hack",
+    "size": "280cm",
+    "crew": {
+      "id": 130
+    },
+    "fruit": null
+  },
+  {
+    "id": 672,
+    "name": "Zala",
+    "size": "187cm",
+    "crew": {
+      "id": 131
+    },
+    "fruit": {
+      "roman_name": "Toge Toge no Mi"
+    }
+  },
+  {
+    "id": 673,
+    "name": "Bentham",
+    "size": "238cm",
+    "crew": {
+      "id": 131
+    },
+    "fruit": {
+      "roman_name": "Mane Mane no Mi"
+    }
+  },
+  {
+    "id": 674,
+    "name": "Marianne",
+    "size": "145cm",
+    "crew": {
+      "id": 131
+    },
+    "fruit": null
+  },
+  {
+    "id": 675,
+    "name": "Babe",
+    "size": "218cm",
+    "crew": {
+      "id": 131
+    },
+    "fruit": null
+  },
+  {
+    "id": 676,
+    "name": "Lassou",
+    "size": "",
+    "crew": {
+      "id": 131
+    },
+    "fruit": {
+      "roman_name": "Inu Inu no Mi moderu Dakkusufunto"
+    }
+  },
+  {
+    "id": 677,
+    "name": "Drophy",
+    "size": "156cm",
+    "crew": {
+      "id": 131
+    },
+    "fruit": {
+      "roman_name": "Mogu Mogu no Mi"
+    }
+  },
+  {
+    "id": 678,
+    "name": "Gemme",
+    "size": "197cm",
+    "crew": {
+      "id": 131
+    },
+    "fruit": {
+      "roman_name": "Bomu Bomu no Mi"
+    }
+  },
+  {
+    "id": 679,
+    "name": "Mikita",
+    "size": "177cm",
+    "crew": {
+      "id": 131
+    },
+    "fruit": {
+      "roman_name": "Kilo Kilo no Mi"
+    }
+  },
+  {
+    "id": 680,
+    "name": "Jabura",
+    "size": "212cm",
+    "crew": {
+      "id": 132
+    },
+    "fruit": {
+      "roman_name": "Inu Inu no Mi moderu: Ōkami"
+    }
+  },
+  {
+    "id": 681,
+    "name": "Blueno",
+    "size": "258cm",
+    "crew": {
+      "id": 132
+    },
+    "fruit": {
+      "roman_name": "Doa Doa no Mi"
+    }
+  },
+  {
+    "id": 682,
+    "name": "Kumadori",
+    "size": "338cm",
+    "crew": {
+      "id": 132
+    },
+    "fruit": null
+  },
+  {
+    "id": 683,
+    "name": "Fukuro",
+    "size": "331cm",
+    "crew": {
+      "id": 132
+    },
+    "fruit": null
+  },
+  {
+    "id": 684,
+    "name": "Kalifa",
+    "size": "185cm",
+    "crew": {
+      "id": 132
+    },
+    "fruit": {
+      "roman_name": "Awa Awa no Mi"
+    }
+  },
+  {
+    "id": 685,
+    "name": "Nero",
+    "size": "202cm",
+    "crew": {
+      "id": 132
+    },
+    "fruit": null
+  },
+  {
+    "id": 686,
+    "name": "Spandine",
+    "size": "275cm",
+    "crew": {
+      "id": 132
+    },
+    "fruit": null
+  },
+  {
+    "id": 687,
+    "name": "Kuzan / Aokiji",
+    "size": "298cm",
+    "crew": {
+      "id": 133
+    },
+    "fruit": {
+      "roman_name": "Hie Hie no Mi"
+    }
+  },
+  {
+    "id": 688,
+    "name": "Morgan",
+    "size": "285cm",
+    "crew": {
+      "id": 133
+    },
+    "fruit": null
+  },
+  {
+    "id": 689,
+    "name": "Bellamy",
+    "size": "240cm",
+    "crew": {
+      "id": 21
+    },
+    "fruit": {
+      "roman_name": "Bane Bane no Mi"
+    }
+  },
+  {
+    "id": 690,
+    "name": "Bartholomew Kuma",
+    "size": "689cm",
+    "crew": {
+      "id": 134
+    },
+    "fruit": {
+      "roman_name": "Nikyu Nikyu no Mi"
+    }
+  },
+  {
+    "id": 691,
+    "name": "César Clown",
+    "size": "309cm",
+    "crew": {
+      "id": 118
+    },
+    "fruit": {
+      "roman_name": "Gasu Gasu no Mi"
+    }
+  },
+  {
+    "id": 692,
+    "name": "Morgans",
+    "size": "305cm",
+    "crew": {
+      "id": 145
+    },
+    "fruit": {
+      "roman_name": "Tori Tori no Mi Moderu Arubatorosu"
+    }
+  },
+  {
+    "id": 693,
+    "name": "El Gorago",
+    "size": "",
+    "crew": null,
+    "fruit": {
+      "roman_name": "Goe Goe no Mi"
+    }
+  },
+  {
+    "id": 694,
+    "name": "Golass",
+    "size": "",
+    "crew": null,
+    "fruit": null
+  },
+  {
+    "id": 695,
+    "name": "Tobio",
+    "size": "",
+    "crew": null,
+    "fruit": null
+  },
+  {
+    "id": 696,
+    "name": "Ganzo",
+    "size": "",
+    "crew": null,
+    "fruit": null
+  },
+  {
+    "id": 697,
+    "name": "Woonan",
+    "size": "",
+    "crew": null,
+    "fruit": null
+  },
+  {
+    "id": 698,
+    "name": "Bear King",
+    "size": "",
+    "crew": {
+      "id": 72
+    },
+    "fruit": {
+      "roman_name": "Kachi Kachi no Mi"
+    }
+  },
+  {
+    "id": 699,
+    "name": "Honey Queen",
+    "size": "",
+    "crew": {
+      "id": 72
+    },
+    "fruit": {
+      "roman_name": "Dero Dero no Mi"
+    }
+  },
+  {
+    "id": 700,
+    "name": "Pin Joker",
+    "size": "",
+    "crew": {
+      "id": 72
+    },
+    "fruit": null
+  },
+  {
+    "id": 701,
+    "name": "Boo Jack",
+    "size": "",
+    "crew": {
+      "id": 72
+    },
+    "fruit": null
+  },
+  {
+    "id": 702,
+    "name": "Skunk One",
+    "size": "",
+    "crew": {
+      "id": 72
+    },
+    "fruit": null
+  },
+  {
+    "id": 703,
+    "name": "Borodo",
+    "size": "",
+    "crew": {
+      "id": 135
+    },
+    "fruit": null
+  },
+  {
+    "id": 704,
+    "name": "Akisu",
+    "size": "",
+    "crew": {
+      "id": 135
+    },
+    "fruit": null
+  },
+  {
+    "id": 705,
+    "name": "Bulter",
+    "size": "",
+    "crew": null,
+    "fruit": null
+  },
+  {
+    "id": 706,
+    "name": "Hotdog",
+    "size": "",
+    "crew": null,
+    "fruit": null
+  },
+  {
+    "id": 707,
+    "name": "Mobambi",
+    "size": "",
+    "crew": null,
+    "fruit": null
+  },
+  {
+    "id": 708,
+    "name": "Heaby",
+    "size": "",
+    "crew": null,
+    "fruit": null
+  },
+  {
+    "id": 709,
+    "name": "Général Gasparde",
+    "size": "",
+    "crew": {
+      "id": 73
+    },
+    "fruit": {
+      "roman_name": "Ame Ame no Mi"
+    }
+  },
+  {
+    "id": 710,
+    "name": "Needless",
+    "size": "",
+    "crew": {
+      "id": 73
+    },
+    "fruit": null
+  },
+  {
+    "id": 711,
+    "name": "Biera",
+    "size": "",
+    "crew": {
+      "id": 73
+    },
+    "fruit": null
+  },
+  {
+    "id": 712,
+    "name": "Shuraiya Bascùd",
+    "size": "",
+    "crew": {
+      "id": 73
+    },
+    "fruit": null
+  },
+  {
+    "id": 713,
+    "name": "Adelle Bascùd",
+    "size": "",
+    "crew": {
+      "id": 73
+    },
+    "fruit": null
+  },
+  {
+    "id": 714,
+    "name": "Saga",
+    "size": "",
+    "crew": {
+      "id": 137
+    },
+    "fruit": null
+  },
+  {
+    "id": 715,
+    "name": "Toma",
+    "size": "",
+    "crew": {
+      "id": 137
+    },
+    "fruit": null
+  },
+  {
+    "id": 716,
+    "name": "Bismarck",
+    "size": "",
+    "crew": {
+      "id": 137
+    },
+    "fruit": null
+  },
+  {
+    "id": 717,
+    "name": "Boo Kong",
+    "size": "",
+    "crew": {
+      "id": 137
+    },
+    "fruit": null
+  },
+  {
+    "id": 718,
+    "name": "Maya",
+    "size": "",
+    "crew": {
+      "id": 137
+    },
+    "fruit": null
+  },
+  {
+    "id": 719,
+    "name": "Izaya",
+    "size": "",
+    "crew": {
+      "id": 137
+    },
+    "fruit": null
+  },
+  {
+    "id": 720,
+    "name": "Lacos",
+    "size": "",
+    "crew": {
+      "id": 137
+    },
+    "fruit": null
+  },
+  {
+    "id": 721,
+    "name": "Omatsuri",
+    "size": "",
+    "crew": {
+      "id": 138
+    },
+    "fruit": null
+  },
+  {
+    "id": 722,
+    "name": "Lily Carnation",
+    "size": "",
+    "crew": {
+      "id": 138
+    },
+    "fruit": null
+  },
+  {
+    "id": 723,
+    "name": "Papa",
+    "size": "",
+    "crew": {
+      "id": 139
+    },
+    "fruit": null
+  },
+  {
+    "id": 724,
+    "name": "Brief",
+    "size": "",
+    "crew": {
+      "id": 140
+    },
+    "fruit": null
+  },
+  {
+    "id": 725,
+    "name": "Ratchet",
+    "size": "",
+    "crew": {
+      "id": 141
+    },
+    "fruit": null
+  },
+  {
+    "id": 726,
+    "name": "Honki",
+    "size": "",
+    "crew": {
+      "id": 141
+    },
+    "fruit": null
+  },
+  {
+    "id": 727,
+    "name": "Maji",
+    "size": "",
+    "crew": {
+      "id": 141
+    },
+    "fruit": null
+  },
+  {
+    "id": 728,
+    "name": "Roba",
+    "size": "",
+    "crew": {
+      "id": 141
+    },
+    "fruit": null
+  },
+  {
+    "id": 729,
+    "name": "Musshul",
+    "size": "",
+    "crew": {
+      "id": 103
+    },
+    "fruit": {
+      "roman_name": "Noko Noko no Mi"
+    }
+  },
+  {
+    "id": 730,
+    "name": "Scarlett",
+    "size": "",
+    "crew": {
+      "id": 45
+    },
+    "fruit": null
+  },
+  {
+    "id": 731,
+    "name": "Billy",
+    "size": "",
+    "crew": {
+      "id": 45
+    },
+    "fruit": null
+  },
+  {
+    "id": 732,
+    "name": "Xiao",
+    "size": "",
+    "crew": {
+      "id": 45
+    },
+    "fruit": null
+  },
+  {
+    "id": 733,
+    "name": "Schneider",
+    "size": "",
+    "crew": {
+      "id": 67
+    },
+    "fruit": null
+  },
+  {
+    "id": 734,
+    "name": "Buzz",
+    "size": "",
+    "crew": {
+      "id": 67
+    },
+    "fruit": {
+      "roman_name": "Tori Tori no Mi moderu Washi"
+    }
+  },
+  {
+    "id": 735,
+    "name": "Zéphyr",
+    "size": "348cm",
+    "crew": {
+      "id": 142
+    },
+    "fruit": null
+  },
+  {
+    "id": 736,
+    "name": "Ain",
+    "size": "174cm",
+    "crew": {
+      "id": 142
+    },
+    "fruit": {
+      "roman_name": "Modo Modo no Mi"
+    }
+  },
+  {
+    "id": 737,
+    "name": "Bins",
+    "size": "435cm",
+    "crew": {
+      "id": 142
+    },
+    "fruit": {
+      "roman_name": "Mosa Mosa no Mi"
+    }
+  },
+  {
+    "id": 738,
+    "name": "Gild Tesoro",
+    "size": "",
+    "crew": {
+      "id": 143
+    },
+    "fruit": {
+      "roman_name": "Gol Gol no Mi"
+    }
+  },
+  {
+    "id": 739,
+    "name": "Baccarat",
+    "size": "",
+    "crew": {
+      "id": 143
+    },
+    "fruit": {
+      "roman_name": "Raki Raki no Mi"
+    }
+  },
+  {
+    "id": 740,
+    "name": "Dice",
+    "size": "",
+    "crew": {
+      "id": 143
+    },
+    "fruit": null
+  },
+  {
+    "id": 741,
+    "name": "Tanaka",
+    "size": "",
+    "crew": {
+      "id": 143
+    },
+    "fruit": {
+      "roman_name": "Nuku Nuke no Mi"
+    }
+  },
+  {
+    "id": 742,
+    "name": "Carina",
+    "size": "",
+    "crew": {
+      "id": 143
+    },
+    "fruit": null
+  },
+  {
+    "id": 743,
+    "name": "Douglas Bullet",
+    "size": "",
+    "crew": null,
+    "fruit": {
+      "roman_name": "Gasha Gasha no Mi"
+    }
+  },
+  {
+    "id": 744,
+    "name": "Buena Festa",
+    "size": "",
+    "crew": null,
+    "fruit": null
+  },
+  {
+    "id": 745,
+    "name": "Ann",
+    "size": "",
+    "crew": null,
+    "fruit": {
+      "roman_name": "Bijo Bijo no Mi"
+    }
+  },
+  {
+    "id": 746,
+    "name": "Donald Moderate",
+    "size": "",
+    "crew": null,
+    "fruit": null
+  },
+  {
+    "id": 747,
+    "name": "Uta",
+    "size": "",
+    "crew": {
+      "id": 144
+    },
+    "fruit": null
+  },
+  {
+    "id": 748,
+    "name": "Gordon",
+    "size": "",
+    "crew": {
+      "id": 144
+    },
+    "fruit": null
+  },
+  {
+    "id": 749,
+    "name": "Tenguyama Hitetsu",
+    "size": "",
+    "crew": {
+      "id": 117
+    },
+    "fruit": null
+  },
+  {
+    "id": 750,
+    "name": "Gion",
+    "size": "",
+    "crew": null,
+    "fruit": null
+  },
+  {
+    "id": 751,
+    "name": "Musshuru",
+    "size": "",
+    "crew": null,
+    "fruit": {
+      "roman_name": "Noko Noko no Mi"
+    }
+  },
+  {
+    "id": 752,
+    "name": "Apis",
+    "size": "",
+    "crew": null,
+    "fruit": null
+  },
+  {
+    "id": 753,
+    "name": "Bokuden",
+    "size": "",
+    "crew": null,
+    "fruit": null
+  },
+  {
+    "id": 754,
+    "name": "Orlombus",
+    "size": "480cm",
+    "crew": {
+      "id": 57
+    },
+    "fruit": null
+  },
+  {
+    "id": 755,
+    "name": "Macro",
+    "size": "",
+    "crew": {
+      "id": 81
+    },
+    "fruit": null
+  },
+  {
+    "id": 756,
+    "name": "Pudding Pudding",
+    "size": "",
+    "crew": {
+      "id": 82
+    },
+    "fruit": null
+  },
+  {
+    "id": 757,
+    "name": "Pandaman",
+    "size": "200cm",
+    "crew": null,
+    "fruit": null
+  },
+  {
+    "id": 758,
+    "name": "Zenny",
+    "size": "",
+    "crew": null,
+    "fruit": null
+  },
+  {
+    "id": 759,
+    "name": "Wetton",
+    "size": "",
+    "crew": null,
+    "fruit": null
+  },
+  {
+    "id": 760,
+    "name": "Bigalo",
+    "size": "",
+    "crew": {
+      "id": 149
+    },
+    "fruit": null
+  },
+  {
+    "id": 761,
+    "name": "Végapunk",
+    "size": "\"",
+    "crew": null,
+    "fruit": {
+      "roman_name": "Nomi Nomi no Mi"
+    }
+  },
+  {
+    "id": 762,
+    "name": "Stronger",
+    "crew": {
+      "id": 22
+    },
+    "fruit": {
+      "roman_name": "Uma Uma no Mi, modèle Pégase"
+    }
+  },
+  {
+    "id": 763,
+    "name": "Punk 01 - Shaka",
+    "crew": null,
+    "fruit": null
+  },
+  {
+    "id": 764,
+    "name": "Punk 02 - Lilith",
+    "crew": null,
+    "fruit": null
+  },
+  {
+    "id": 765,
+    "name": "Punk 03 - Edison",
+    "crew": null,
+    "fruit": null
+  },
+  {
+    "id": 766,
+    "name": "Punk 04 - Pythagoras",
+    "crew": null,
+    "fruit": null
+  },
+  {
+    "id": 767,
+    "name": "Punk 05 - Atlas",
+    "crew": null,
+    "fruit": null
+  },
+  {
+    "id": 768,
+    "name": "Punk 06 - York",
+    "crew": null,
+    "fruit": null
+  },
+  {
+    "id": 769,
+    "name": "S-Snake",
+    "crew": null,
+    "fruit": {
+      "roman_name": "Mero Mero no Mi"
+    }
+  },
+  {
+    "id": 770,
+    "name": "S-Hawk",
+    "crew": null,
+    "fruit": {
+      "roman_name": "Supā Supā no Mi"
+    }
+  },
+  {
+    "id": 771,
+    "name": "S-Bear",
+    "crew": null,
+    "fruit": {
+      "roman_name": "Nikyu Nikyu no Mi"
+    }
+  },
+  {
+    "id": 772,
+    "name": "S-Shark",
+    "crew": null,
+    "fruit": {
+      "roman_name": "Sui Sui no Mi"
+    }
+  },
+  {
+    "id": 773,
+    "name": "Karazu",
+    "crew": {
+      "id": 130
+    },
+    "fruit": null
+  },
+  {
+    "id": 774,
+    "name": "Jaygarcia Saturn",
+    "crew": null,
+    "fruit": null
+  },
+  {
+    "id": 775,
+    "name": "Marcus Mars",
+    "crew": null,
+    "fruit": null
+  },
+  {
+    "id": 776,
+    "name": "Topman Warcury",
+    "crew": null,
+    "fruit": null
+  },
+  {
+    "id": 777,
+    "name": "Ethanbaron V. Nusjuro",
+    "crew": null,
+    "fruit": null
+  },
+  {
+    "id": 778,
+    "name": "Shepherd Ju Peter",
+    "crew": null,
+    "fruit": null
+  },
+  {
+    "id": 779,
+    "name": "Imu Neronna",
+    "crew": null,
+    "fruit": null
+  },
+  {
+    "id": 780,
+    "name": "Figarland Shamrock",
+    "crew": null,
+    "fruit": null
+  },
+  {
+    "id": 781,
+    "name": "Vegapunk “Shaka”",
+    "crew": null,
+    "fruit": null
+  },
+  {
+    "id": 782,
+    "name": "Vegapunk “Lilith”",
+    "crew": null,
+    "fruit": null
+  },
+  {
+    "id": 783,
+    "name": "Vegapunk “Edison”",
+    "crew": null,
+    "fruit": null
+  },
+  {
+    "id": 784,
+    "name": "Vegapunk “Pythagoras”",
+    "crew": null,
+    "fruit": null
+  },
+  {
+    "id": 785,
+    "name": "Vegapunk “Atlas”",
+    "crew": null,
+    "fruit": null
+  },
+  {
+    "id": 786,
+    "name": "Vegapunk “York”",
+    "crew": null,
+    "fruit": null
+  }
+]

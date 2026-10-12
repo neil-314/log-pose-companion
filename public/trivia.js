@@ -1,3 +1,4 @@
+import {CATALOGUE_TRIVIA} from './catalogue-trivia.js';
 import {ADVANCED_TRIVIA} from './advanced-trivia.js';
 // Editorial questions unlock only after their reveal in both media.
 export const TRIVIA=[
@@ -19,5 +20,5 @@ export const TRIVIA=[
  ['Where does the crew reunite after training?',['Sabaody Archipelago','Loguetown','Alabasta','Water 7'],0,522,602,'The Straw Hats return to Sabaody after two years.'],
  ['What kind of island is Zou located on?',['A floating ship','A giant elephant','A sky cloud','An iceberg'],1,779,824,'Zou rests on the back of the giant elephant Zunesha.'],
  ['Which family rules Whole Cake Island?',['Donquixote','Charlotte','Vinsmoke','Nefertari'],1,877,902,'Big Mom leads the Charlotte family.']
-].map(([question,answers,correct,episode,chapter,explanation],index)=>({id:'e'+index,question,answers,correct,episode,chapter,explanation,difficulty:'easy'})).concat(ADVANCED_TRIVIA);
+].map(([question,answers,correct,episode,chapter,explanation],index)=>({id:'e'+index,question,answers,correct,episode,chapter,explanation,difficulty:'easy'})).concat(ADVANCED_TRIVIA,CATALOGUE_TRIVIA);
 export function unlockedTrivia(kind,value,difficulty='easy'){return TRIVIA.filter(q=>q.difficulty===difficulty&&q[kind==='manga'?'chapter':'episode']<=value);}
