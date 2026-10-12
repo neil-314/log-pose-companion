@@ -17,6 +17,7 @@ setEntry(entryKind);$('mode-anime').onclick=()=>setEntry('anime');$('mode-manga'
 function addHistory(type,kind,value,count=0){state.history.push({type,kind,value,count,at:new Date().toISOString()});state.history=state.history.slice(-200);}
 async function api(url,options={}){const response=await fetch(url,{cache:'no-store',...options,signal:AbortSignal.timeout(16000),headers:{'Content-Type':'application/json',...(options.headers||{})}});let body;try{body=await response.json()}catch{throw Error('The service could not be reached.');}if(!response.ok)throw Error(body.error||'The service is temporarily unavailable.');return body;}
 function accountUI(){
+ $('saving-help').textContent=signedIn?'Automatic account saving is on. Progress, ratings, rankings, revisit logs, notes and quiz records save as you make changes. Check the save status above—no export needed.':authReady?'Guest changes last for this visit. Sign in for automatic account saving, or download a backup below.':'Checking account saving…';
  $('session-note').textContent=signedIn?'Signed in · Your logbook is connected to your account.':authReady?'Guest progress lasts for this visit. Sign in to save across devices, or export your logbook.':'Checking your saved voyage…';
  $('session-note').dataset.session=signedIn?'account':authReady?'guest':'loading';
  $('account-link').textContent=signedIn?'Sign out':'Sign in to save';
