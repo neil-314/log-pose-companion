@@ -6,3 +6,5 @@ test('requests page 6 directly for episode 500 and uses live data',async()=>{let
 test('uses older cache on API failure and discloses staleness',async()=>{const r=await loadRoute(500,6,{fetcher:async()=>{throw Error('429')},read:()=>({at:1,data:basicRoute(500,6),pagination:{has_next_page:false}})});assert.equal(r.stale,true);assert.equal(r.mode,'verified');});
 test('does not invent episodes beyond a verified catalogue',async()=>{const r=await loadRoute(9999,6,{fetcher:async()=>({ok:true,json:async()=>({data:[],pagination:{has_next_page:false}})})});assert.equal(r.episodes.length,0);assert.equal(r.mode,'verified');});
 
+
+test('backup metadata retains its source and unavailable filter flags',async()=>{const r=await loadRoute(500,6,{fetcher:async()=>({ok:true,json:async()=>({data:basicRoute(500,6).map(e=>({...e,title:'Test'})),pagination:{has_next_page:false},source:'One Piece API',flagsAvailable:false})})});assert.equal(r.mode,'verified');assert.equal(r.source,'One Piece API');assert.equal(r.flagsAvailable,false);assert.equal(r.episodes[0].mal_id,501);});
