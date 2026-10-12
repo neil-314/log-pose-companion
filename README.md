@@ -18,7 +18,7 @@ This is a product usability hypothesis, not a content moat. Its success depends 
 - Revisit 32 completed-arc summaries, temporary personal ratings and visual memories from the official story archive.
 - Play three official Crunchyroll clips inside the relevant completed-arc recap: Sogeking's theme, Robin at Enies Lobby, and Zoro at Thriller Bark. Players load only after a click, never autoplay, and stop when you close the recap or leave the panel. Region and publisher restrictions can affect playback.
 - Search a 768-entry normalized source dex, plus bonus names missing from that catalogue. **752 source entries have matched local portraits**; 16 are explicitly marked unavailable. Images come from the official catalogue and named One Piece Wiki infoboxes, with recorded sources.
-- Explore 34 featured portraits, including all ten Straw Hats, Sogeking, Bepo, Karoo, Chouchou, Laboon, Hattori, Kung-Fu Dugong and Pappag. The Oddballs & Pets filter makes the less serious favourites easy to find.
+- Explore 34 featured portraits, including all ten Straw Hats, Sogeking, Bepo, Karoo, Chouchou, Laboon, Hattori, Kung-Fu Dugong and Pappag. They are searchable and rankable alongside everyone else.
 - Build and reorder a personal top 10, 15 or 20, with portraits in search results and the ranking list.
 - Play 73 curated trivia questions across four tiers. Pirate King requires typed answers; daily five-question rounds are repeatable for the same date, level and progress.
 - Discover 15 movies and 17 manga cover-story suggestions after conservative progress checkpoints.
