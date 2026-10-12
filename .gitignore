@@ -4,3 +4,5 @@ node_modules/
 .env*
 *.log
 .vercel
+
+!.env.example
