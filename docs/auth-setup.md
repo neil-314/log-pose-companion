@@ -4,12 +4,12 @@ The implementation uses Supabase email OTP and PostgreSQL storage. There is no p
 
 ## Provider configuration
 
-1. Create a Supabase project in the selected organization. The connected organization was `neil-314's Org`, ID `oqpsnsoutsoxmpiukjjj`, on the free plan. No project existed when implementation began. Confirm current provider pricing when creating one.
+1. Create a Supabase project in the selected organization. The user created `log-pose-companion`, project ref `nkkabbelyefvopepizwm`, in the `log-pose-companion` organization. It is connected to Vercel.
 2. Apply `supabase/migrations/202610120001_logbooks.sql`. It creates one private row per authenticated user, enables row-level security and grants no access to anonymous users.
 3. Enable email authentication and email confirmation. Set the site URL to `https://log-pose-companion.vercel.app`.
 4. Configure BOTH the **Confirm signup** and **Magic Link** email templates to include `{{ .Token }}` as visible text, rather than relying on a link. The UI accepts a 6–10 digit OTP. Example body: `<h2>Your Log Pose sign-in code</h2><p>{{ .Token }}</p><p>Enter this code on Log Pose. If you did not request it, ignore this email.</p>`.
 5. Configure a verified SMTP sender for public email delivery. Supabase's default mail service can restrict recipients and volume; do not call account access ready for everyone until actual delivery is tested. Retain provider OTP expiry and abuse rate limits; use CAPTCHA if promotion volume requires it.
-6. Add `SUPABASE_URL` and `SUPABASE_PUBLISHABLE_KEY` to Vercel's production environment and redeploy. Use the project's publishable key, not a service-role key. Keep real values out of Git. Local development uses ignored `.env.local`.
+6. Add `SUPABASE_URL`, `SUPABASE_PUBLISHABLE_KEY` and `SUPABASE_EMAIL_READY=true` to Vercel's production environment and redeploy. Use the project's publishable key, not a service-role key. Keep real values out of Git. Local development uses ignored `.env.local`.
 
 Provider references: [passwordless email authentication](https://supabase.com/docs/guides/auth/auth-email-passwordless), [email templates](https://supabase.com/docs/guides/auth/auth-email-templates), [custom SMTP](https://supabase.com/docs/guides/auth/auth-smtp), [row-level security](https://supabase.com/docs/guides/database/postgres/row-level-security).
 
@@ -24,6 +24,8 @@ Provider references: [passwordless email authentication](https://supabase.com/do
 
 Current implementation uses a single snapshot per account. Concurrent editing on two devices is last-write-wins, not a merge system. Cloud sessions refresh in the account route handlers; data APIs are uncached. The email address is used for authentication, never exposed in public community data.
 
-## Setup limitation encountered
+## Current activation status
 
-The connected Supabase project's creation wrapper requires a legacy cost-confirmation ID, but its `get_cost` tool was unavailable. No project was created or billed. The browser-control runtimes also failed to initialize on this machine. Once the project is created through the dashboard, database setup and key retrieval can continue through the connected Supabase tools without asking for secret credentials in chat.
+The user created the project through the dashboard after a connector cost-check mismatch prevented automatic creation. Both migrations are applied, Vercel production credentials are configured, and live SQL tests verified owner save/read, cross-account read/update/insert rejection, and anonymous denial. All test users and rows were rolled back. Security advisors returned no findings after restricting execution of the provider-created internal event trigger.
+
+Browser-control runtimes still fail to initialize on this machine. The two OTP email templates must therefore be edited in the dashboard. Public delivery additionally requires custom SMTP; the default sender restricts recipients to project-team members. `SUPABASE_EMAIL_READY` keeps submission disabled until email setup has been confirmed. The database password is not needed by this app and was not stored in source or Vercel.

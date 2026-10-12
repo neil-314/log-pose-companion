@@ -1,5 +1,6 @@
 import {createServerClient} from '@supabase/ssr';
 import {cookies} from 'next/headers';
+export const emailReady=()=>process.env.SUPABASE_EMAIL_READY==='true';
 export const configured=()=>Boolean(process.env.SUPABASE_URL&&process.env.SUPABASE_PUBLISHABLE_KEY);
 export const json=(body:unknown,status=200)=>Response.json(body,{status,headers:{'Cache-Control':'private, no-store','Vary':'Cookie'}});
 export const sameOrigin=(request:Request)=>request.headers.get('origin')===new URL(request.url).origin;

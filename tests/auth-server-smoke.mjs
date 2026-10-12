@@ -25,7 +25,7 @@ const service=http.createServer(async(req,res)=>{
 });
 service.listen(0,'127.0.0.1');await once(service,'listening');const supabase='http://127.0.0.1:'+service.address().port;
 const app='http://localhost:4398';let output='';
-const child=spawn(process.execPath,['node_modules/next/dist/bin/next','start','--port','4398'],{cwd:new URL('..',import.meta.url),env:{...process.env,SUPABASE_URL:supabase,SUPABASE_PUBLISHABLE_KEY:'simulator-key'},stdio:['ignore','pipe','pipe']});child.stdout.on('data',d=>output+=d);child.stderr.on('data',d=>output+=d);
+const child=spawn(process.execPath,['node_modules/next/dist/bin/next','start','--port','4398'],{cwd:new URL('..',import.meta.url),env:{...process.env,SUPABASE_URL:supabase,SUPABASE_PUBLISHABLE_KEY:'simulator-key',SUPABASE_EMAIL_READY:'true'},stdio:['ignore','pipe','pipe']});child.stdout.on('data',d=>output+=d);child.stderr.on('data',d=>output+=d);
 try{
  let ready=false;for(let n=0;n<100;n++){try{const r=await fetch(app+'/api/auth');if(r.ok){ready=true;break;}}catch{}await new Promise(r=>setTimeout(r,100));}assert.ok(ready,output);
  const call=(path,body,cookie='',origin=app)=>fetch(app+path,{method:body===undefined?'GET':path==='/api/profile'?'PUT':'POST',headers:{'Content-Type':'application/json',Origin:origin,Cookie:cookie},body:body===undefined?undefined:JSON.stringify(body)});
