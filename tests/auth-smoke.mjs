@@ -22,3 +22,9 @@ async function setup(configured=true){
  const s=await setup(false),$=id=>s.w.document.getElementById(id);$('account-link').click();assert.equal($('account-submit').disabled,true);assert.match($('account-message').textContent,/being set up/);assert.equal(s.calls.filter(Boolean).length,0);
 }
 console.log('Account dialog passed: optional entry, email code, invalid code, storage retry without reusing OTP, honest unconfigured state.');
+
+{
+ const s=await setup(),$=id=>s.w.document.getElementById(id);s.w.lpSignedIn=true;s.w.confirm=()=>{throw Error('Native confirm must not open');};
+ $('account-link').click();assert.equal($('signout-dialog').open,true);assert.equal(s.w.document.activeElement.id,'signout-cancel');$('signout-cancel').click();assert.equal($('signout-dialog').open,false);assert.equal(s.calls.filter(c=>c?.action==='logout').length,0);
+ $('account-link').click();s.w.lpFlushAccount=async()=>{throw Error('Save failed. Try again.');};await $('signout-confirm').onclick();assert.match($('signout-message').textContent,/Save failed/);assert.equal($('signout-dialog').open,true);assert.equal(s.calls.filter(c=>c?.action==='logout').length,0);s.w.close();
+}

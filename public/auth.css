@@ -2,3 +2,5 @@
 .account-dialog::backdrop{background:#052734bb;backdrop-filter:blur(5px)}
 .account-dialog h2{font-size:2rem;margin:8px 0}.account-dialog label{display:block;margin:18px 0 8px;font-weight:700}.account-dialog input{width:100%;box-sizing:border-box}.account-dialog .primary{width:100%;margin-top:22px}.account-dialog .dialog-close{float:right}.account-dialog [role=status]{min-height:2.8em;font-size:.9rem;line-height:1.5}.account-dialog button:disabled{opacity:.55;cursor:wait}.account-dialog .fine{line-height:1.5}
 @media(prefers-reduced-motion:no-preference){.account-dialog[open]{animation:account-arrive .28s ease-out}@keyframes account-arrive{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}}
+
+.signout-actions{display:flex;align-items:center;justify-content:flex-end;gap:16px;margin-top:24px}.signout-actions .primary{width:auto;margin:0}

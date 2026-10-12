@@ -9,9 +9,7 @@ $('account-close').onclick=close;
 dialog.addEventListener('cancel',e=>{if(busy)e.preventDefault();});
 $('account-link').onclick=async()=>{
  if(window.lpSignedIn){
-  if(!confirm('Sign out? Your saved logbook stays in your account.'))return;
-  try{await window.lpFlushAccount?.();await request({action:'logout'});window.location.reload();}
-  catch(e){$('account-note').textContent=e.message;}return;
+  $('signout-message').textContent='';$('signout-dialog').showModal();$('signout-cancel').focus();return;
  }
  opener=document.activeElement;dialog.showModal();$('account-email').focus();
 };
@@ -38,3 +36,13 @@ form.onsubmit=async e=>{
  $('account-submit').disabled=!configured;
  if(!configured&&!$('account-message').textContent)$('account-message').textContent='Account saving is being set up. For now, explore as a guest and export your logbook to keep it.';
 })();
+
+let signingOut=false;
+$('signout-cancel').onclick=()=>{if(signingOut)return;$('signout-dialog').close();$('account-link').focus();};
+$('signout-dialog').addEventListener('cancel',e=>{if(signingOut)e.preventDefault();});
+$('signout-confirm').onclick=async()=>{
+ if(signingOut)return;signingOut=true;$('signout-confirm').disabled=true;$('signout-cancel').disabled=true;$('signout-message').textContent='Saving your logbook before signing out…';
+ try{await window.lpFlushAccount?.();await request({action:'logout'});window.location.reload();}
+ catch(e){$('signout-message').textContent=e.message;}
+ finally{signingOut=false;$('signout-confirm').disabled=false;$('signout-cancel').disabled=false;}
+};
