@@ -38,7 +38,7 @@ function render(){
  $('mapping').hidden=state.kind==='manga'||value<1;$('mapping-result').textContent='';$('mapping-source').href='https://www.viz.com/shonenjump/chapters/one-piece';$('mapping-source').textContent=state.kind==='anime'?'Read via VIZ / Shonen Jump ↗':'Find official anime viewing options ↗';if(state.kind==='manga')$('mapping-source').href='https://one-piece.com/anime/';
  $('skipped-count').value=state.skipped;$('skipped-count').max=state.anime;
  $('next-move').textContent=done.length?'Revisit. Rate. Rediscover.':'Every voyage starts somewhere.';
- window.lpMedia?.mountOpenings($('opening-library'),state.kind,value);renderArcs(done);renderCharacters();renderHistory();renderVoyages();renderRanking();renderQuizRecord();renderDiscovery();renderNotes();renderDiscovery();renderNotes();
+ window.lpMedia?.mountOpenings($('opening-library'),state.kind,value);renderArcs(done);renderCharacters();renderHistory();renderVoyages();renderRanking();renderQuizRecord();renderDiscovery();renderNotes();
 }
 function panel(name){document.querySelectorAll('.dashboard-panel').forEach(p=>p.hidden=p.id!==`panel-${name}`);document.querySelectorAll('[data-panel]').forEach(b=>{b.classList.toggle('selected',b.dataset.panel===name);b.setAttribute('aria-pressed',String(b.dataset.panel===name));});}
 document.querySelectorAll('[data-panel]').forEach(b=>b.onclick=()=>panel(b.dataset.panel));$('browse-arcs').onclick=()=>panel('arcs');
@@ -134,3 +134,5 @@ window.lpLoadAccount=async(interactive=false)=>{
 
 
 window.addEventListener('lp:featured',async e=>{const c=CHARACTERS.find(c=>c.id===e.detail.id);if(!c||c[state.kind==='manga'?'chapter':'episode']>active())return;const message=document.querySelector('.cast-action-status');if(e.detail.action==='rank'){addRank(c);if(message)message.textContent=$('rank-status').textContent;}else{localFavourite=c.id;persist();renderCharacters();if(message)message.textContent='Favourite selected. Saving…';try{await contribute({type:'character',id:c.id});await loadCommunity();if(message)message.textContent='Favourite saved.';}catch(error){if(message)message.textContent=error.message;}}});
+
+window.lpCrewCheckpoint=()=>({kind:state.kind,value:active()});

@@ -93,7 +93,9 @@ Unofficial fan project. One Piece and source character artwork belong to Eiichir
 
 Each of the 32 arcs has a separate official scene image. Scene sources are recorded in `docs/arc-artwork-sources.json`; duplicate image hashes are rejected by the media checks. There are 19 curated official highlight clips and 9 official opening uploads, with publisher links in `docs/video-sources.json`. Openings live under Discover → The Sunny’s Music Deck. Images, clips and opening visuals unlock only after their story boundaries. Players load on request, never autoplay, and stop when you switch panels or start another video. Region restrictions or disabled embedding can require opening the publisher’s YouTube page. Arcs without a verified official highlight provide an official viewing link instead. No video or audio is downloaded or rehosted.
 
-## Harbour beta
+## Main-deck crew game and Harbour beta
+
+[Build your crew in the main logbook](https://log-pose-companion.vercel.app/?crew=1). The game has its own tab beside the quiz and favourite characters. Guests can play for the current visit; verified accounts save drafts and bests. The game loads on demand, saves pending account edits before entry and resizes inside the main page.
 
 [Open Harbour](https://log-pose-companion.vercel.app/harbour). The same verified account and saved episode/chapter power discussions, character choices and profile visibility. Header navigation and the logbook tabs both lead there. Guests can continue using the main logbook; Harbour requires sign-in.
 

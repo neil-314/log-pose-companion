@@ -33,3 +33,11 @@ Fresh update in JustOnePiece: https://www.reddit.com/r/JustOnePiece/comments/1x5
 Fresh SideProject submission: https://www.reddit.com/r/SideProject/comments/1x53kau/i_added_a_progressgated_community_and_a/ — removed by Reddit’s filters. It was not reposted to bypass the filter.
 
 The owner still needs to sign in and verify the designated moderator mailbox to use Harbour watch. No moderator account or verification was fabricated. The separate local test server used temporary fixture IDs for moderation tests; production authorizes only the owner-supplied verified email.
+
+## Main-app navigation and loading update
+
+Build Your Crew now lives in a main logbook tab beside quizzes and favourite characters. Harbour is focused on discussions, profiles, messages and moderation, with a link back to the main crew tab. `/crew` redirects to `/?crew=1`; its same-origin embedded view is loaded only after opening the tab. The parent waits for pending account saves, validates frame-ready/height messages and resizes to the content. Signed-in checkpoints come from the server; guest checkpoints are limited to the guest game and never update account records.
+
+Guests can reveal and assign characters for the current visit, using the same spoiler gates, scoring and secure random source. Guest drafts/bests stay in memory and are never imported into an account or community leaderboard. Guest spins do not repeatedly call account storage. Community operations still require a verified account. The discovery and notes panels no longer render twice on each refresh.
+
+Validation: main crew lazy-loading/failed-save/resize tests, memory-only guest crew and identity-switch tests, existing Harbour guest guidance tests, full regression suite and production build. Browser checks confirmed the main-tab game rendered and offered role assignments.
