@@ -1,0 +1,7 @@
+import nodemailer from 'nodemailer';
+import {harbourAdmin} from './forum-server';
+import {createReportAlerts,reportEmail} from './report-alerts.js';
+export const reportMailReady=()=>Boolean(process.env.SMTP_USERNAME&&process.env.SMTP_PASSWORD&&process.env.SMTP_FROM);
+async function mutate(change:any){const admin=harbourAdmin();for(let i=0;i<8;i++){const {data:row,error}=await admin.from('harbour_runtime').select('revision,payload').eq('id',1).single();if(error||!row)throw Error('Report queue unavailable');const result=change(row.payload);const {data,error:writeError}=await admin.from('harbour_runtime').update({payload:row.payload,revision:row.revision+1,updated_at:new Date().toISOString()}).eq('id',1).eq('revision',row.revision).select('revision');if(writeError)throw Error('Report queue unavailable');if(data?.length)return result;}throw Error('Report queue busy');}
+export async function sendReportEmail(report:any){const transport=nodemailer.createTransport({host:process.env.SMTP_HOST||'smtp-relay.brevo.com',port:587,secure:false,requireTLS:true,auth:{user:process.env.SMTP_USERNAME,pass:process.env.SMTP_PASSWORD},connectionTimeout:6000,greetingTimeout:6000,socketTimeout:6000,logger:false,debug:false});try{const result=await transport.sendMail(reportEmail(report,process.env.SMTP_FROM));if(!result.accepted?.length)throw Error('Email not accepted');return result;}finally{transport.close();}}
+export const deliverReportAlerts=createReportAlerts({mutate,send:sendReportEmail,configured:reportMailReady});
