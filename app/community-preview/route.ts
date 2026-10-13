@@ -1,0 +1,2 @@
+import {readFile} from 'node:fs/promises';import {join} from 'node:path';
+export async function GET(){if(process.env.NODE_ENV!=='development'||process.env.LP_PRIVATE_PREVIEW!=='true')return new Response('Not found',{status:404});return new Response(await readFile(join(process.cwd(),'lib/community-preview.html'),'utf8'),{headers:{'Content-Type':'text/html; charset=utf-8','Cache-Control':'no-store'}});}

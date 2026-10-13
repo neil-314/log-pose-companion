@@ -1,3 +1,4 @@
+import {FEATURED_ROSTER} from './featured-roster.js';
 import {canonicalCharacter} from './dex-names.js';
 // Main-story ranges; anime-only gaps are intentional. Boundaries are editorial,
 // not a claim that every episode adapts an entire chapter.
@@ -39,6 +40,8 @@ export const CHARACTERS=[
  ['luffy','Monkey D. Luffy','👒',1,1],['zoro','Roronoa Zoro','⚔️',2,3],['nami','Nami','🍊',1,8],['usopp','Usopp','🎯',9,23],['sanji','Sanji','🍳',20,43],['chopper','Tony Tony Chopper','🦌',81,134],['robin','Nico Robin','📚',67,114],['franky','Franky','🔧',233,329],['brook','Brook','🎻',337,442],['jinbe','Jinbe','🌊',430,528],['ace','Portgas D. Ace','🔥',91,154],['law','Trafalgar Law','🩺',392,498],['shanks','Shanks','🏴‍☠️',4,1]
 ].map(([id,name,icon,episode,chapter])=>({id,name,icon,episode,chapter}));
 CHARACTERS.push(...[ ['sogeking','Sogeking',258,368],['bepo','Bepo',392,498],['karoo','Karoo',65,109],['chouchou','Chouchou',6,12],['laboon','Laboon',62,102],['hattori','Hattori',230,327],['kungfu-dugong','Kung-Fu Dugong',98,161],['pappag','Pappag',385,491] ].map(([id,name,episode,chapter])=>({id,name,episode,chapter,bonus:true,aliases:id==='sogeking'?['Soge King','Sniper King']:[]})));
+
+for(const c of FEATURED_ROSTER){const existing=CHARACTERS.find(x=>x.id===c.id);if(existing)Object.assign(existing,{src:c.src});else CHARACTERS.push({...c,aliases:[],bonus:false});}
 
 export function arcAt(kind,value){return ARCS.find(a=>value>=a[kind==='manga'?'cs':'es']&&value<=a[kind==='manga'?'ce':'ee'])??null;}
 export function completedArcs(kind,value){return ARCS.filter(a=>value>=a[kind==='manga'?'ce':'ee']);}

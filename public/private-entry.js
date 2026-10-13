@@ -1,0 +1,1 @@
+if(document.body.dataset.privatePreview==='true'){const link=document.createElement('a');link.href='/community-preview';link.className='small';link.textContent='Private harbour';document.querySelector('.header-actions')?.append(link);}
