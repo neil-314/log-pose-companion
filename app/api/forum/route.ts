@@ -1,5 +1,6 @@
+import {randomUUID} from 'node:crypto';
 import {after} from 'next/server';
-import {deliverReportAlerts,reportMailReady} from '../../../lib/report-alert-server';
+import {deliverReportAlerts,reportMailReady,sendReportEmail} from '../../../lib/report-alert-server';
 import {json,verifiedAccount,sameOrigin} from '../../../lib/accounts';
 import {transact} from '../../../lib/forum-preview-store';
 import {harbourReady,harbourTransaction} from '../../../lib/forum-server';
@@ -16,6 +17,6 @@ export async function POST(request:Request){
   let body;try{body=JSON.parse(raw);}catch{return json({error:'Invalid request.'},400);}
   if(demo){const user=request.headers.get('x-preview-persona')||'early';if(!['early','caughtup','moderator'].includes(user))return json({error:'Unknown demo account.'},401);return json(await transact(user,body.op,body.args));}
   const account=await verifiedAccount();if(!account)return json({error:'Sign in with your verified email to use Harbour.'},401);
-  const result=await harbourTransaction(account,body.op,body.args||{});if(body.op==='moderation')result.emailAlertsConfigured=reportMailReady();if(body.op==='report'&&result.id)after(async()=>{try{await deliverReportAlerts({id:result.id,limit:1});}catch{console.error('Report email remains queued for retry.');}});return json(result);
+  const result=await harbourTransaction(account,body.op,body.args||{});if(body.op==='email-test'){if(!reportMailReady())return json({error:'Add SMTP_PASSWORD in Vercel Production and redeploy first.'},503);try{await sendReportEmail({id:'test-'+randomUUID(),type:'test',test:true});return json({ok:true,message:'Test email accepted by the provider. Check logposecompanion@gmail.com, including spam.'});}catch{return json({error:'The email provider could not accept the test. Check the Brevo SMTP key and sender settings.'},502);}}if(body.op==='moderation')result.emailAlertsConfigured=reportMailReady();if(body.op==='report'&&result.id)after(async()=>{try{await deliverReportAlerts({id:result.id,limit:1});}catch{console.error('Report email remains queued for retry.');}});return json(result);
  }catch(e:any){return json({error:e.status?e.message:'Harbour is temporarily unavailable.'},e.status||500);}
 }
