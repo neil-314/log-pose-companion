@@ -60,3 +60,10 @@ Additional focused posts, visible at verification:
 - IMadeThis: https://www.reddit.com/r/IMadeThis/comments/1x55miv/i_made_a_one_piece_logbook_where_you_reveal_a/
 
 The posts request specific feedback on the tour, navigation, Night watch and reveal/assign crew flow. Rules were reviewed first; no removed SideProject/indiehackers/buildinpublic submission was reposted.
+
+### Navigation and onboarding polish (October 13)
+- Consistent navigation controls, with character search, motion, Night watch and tour replay in Tools. Phone layouts use two balanced columns.
+- Automatic, skippable first-visit tour opens the real logbook panels and continues through Harbour discussions, profiles and messages. Fourteen steps resume across page navigation. Existing visitors can replay from Tools.
+- Verified accounts with a generated sailor handle are prompted for a unique username. Case-insensitive reservations include pending names; public display retains moderator review. Choosing a name preserves profile visibility, sharing choices and logbook data.
+- Removed prominent beta/unofficial labels; source and copyright attribution remains in Sources & credits.
+- Validation: username collision/approval tests, onboarding UI retry tests, automatic tour and resume tests, existing account/guest/crew tests, production build and desktop/phone browser review.

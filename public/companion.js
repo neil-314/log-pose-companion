@@ -130,9 +130,11 @@ window.lpLoadAccount=async(interactive=false)=>{
 };
 (async()=>{try{await window.lpLoadAccount();}
  catch{window.lpSignedIn=false;$('sync-status').textContent='Guest voyage — changes last for this visit. Sign in or export your logbook to keep your progress.';}
- finally{authReady=true;accountUI();$('next-0').disabled=false;$('open-dashboard').disabled=false;}})();
+ finally{authReady=true;accountUI();window.dispatchEvent(new Event('lp:account-ready'));$('next-0').disabled=false;$('open-dashboard').disabled=false;}})();
 
 
 window.addEventListener('lp:featured',async e=>{const c=CHARACTERS.find(c=>c.id===e.detail.id);if(!c||c[state.kind==='manga'?'chapter':'episode']>active())return;const message=document.querySelector('.cast-action-status');if(e.detail.action==='rank'){addRank(c);if(message)message.textContent=$('rank-status').textContent;}else{localFavourite=c.id;persist();renderCharacters();if(message)message.textContent='Favourite selected. Saving…';try{await contribute({type:'character',id:c.id});await loadCommunity();if(message)message.textContent='Favourite saved.';}catch(error){if(message)message.textContent=error.message;}}});
 
 window.lpCrewCheckpoint=()=>({kind:state.kind,value:active()});
+
+window.lpTourSection=name=>{if(name==='checkpoint'){window.logPosePlanner.go(0);return;}window.logPosePlanner.go(4);panel(name);if(name==='crew-builder')document.getElementById('open-crew-builder').click();};

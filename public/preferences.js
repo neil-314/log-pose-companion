@@ -6,3 +6,13 @@
  window.addEventListener('storage',e=>{if(e.key===key)apply(e.newValue);});
  window.lpTheme={get:()=>current,set:value=>{apply(value);try{localStorage.setItem(key,current);}catch{}}};
 })();
+// Keep navigation separate from display and help controls on every page.
+document.addEventListener('DOMContentLoaded',()=>{
+ if(document.body.dataset.crewOnly==='true')return;
+ const header=document.querySelector('header');if(!header)return;
+ let nav=header.querySelector('.header-actions');if(!nav){nav=document.createElement('nav');nav.className='header-actions';nav.setAttribute('aria-label','Account and logbook');const log=document.createElement('a');log.href='/';log.textContent='My logbook';nav.append(log);header.append(nav);}
+ const tools=document.createElement('details');tools.className='header-tools';const label=document.createElement('summary');label.textContent='Tools';const menu=document.createElement('div');menu.className='header-tools-menu';tools.append(label,menu);nav.append(tools);
+ const organize=()=>{const account=header.querySelector('#account-link');if(account&&account.nextElementSibling!==tools)nav.insertBefore(account,tools);for(const selector of ['#find-character','#motion','[data-theme-toggle]','.tour-launch']){const item=header.querySelector(selector);if(item&&item.parentElement!==menu)menu.append(item);}};
+ organize();new MutationObserver(organize).observe(header,{childList:true,subtree:true});
+ document.addEventListener('click',e=>{if(!tools.contains(e.target))tools.open=false;});header.addEventListener('keydown',e=>{if(e.key==='Escape'){tools.open=false;label.focus();}});
+});

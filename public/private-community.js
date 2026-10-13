@@ -41,3 +41,6 @@ document.addEventListener('visibilitychange',()=>{if(document.visibilityState===
 if(document.body.dataset.crewOnly==='true'){let lastHeight=0;const size=()=>{const height=Math.ceil(document.body.getBoundingClientRect().height)+24;if(height!==lastHeight){lastHeight=height;parent.postMessage({type:'lp:crew-height',height},location.origin);}};new ResizeObserver(size).observe(document.body);window.addEventListener('message',e=>{if(e.origin===location.origin&&e.source===parent&&e.data?.type==='lp:crew-refresh'){if(e.data.checkpoint)guestCheckpoint=safeCheckpoint(e.data.checkpoint);load().catch(e=>{session=null;status(e.message);showJoin();});}});}
 
 function signalCrewReady(){if(document.body.dataset.crewOnly==='true')parent.postMessage({type:'lp:crew-ready'},location.origin);}
+
+window.lpHarbourTour=async name=>{view=name;document.querySelectorAll('[data-view]').forEach(x=>x.setAttribute('aria-pressed',String(x.dataset.view===name)));await render();};
+window.addEventListener('lp:username-saved',()=>{if(document.body.dataset.harbour==='true')load().catch(e=>status(e.message));});
