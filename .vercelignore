@@ -1,0 +1,6 @@
+.private-preview/
+.env*
+!.env.example
+.git/
+tests/
+docs/screenshots/

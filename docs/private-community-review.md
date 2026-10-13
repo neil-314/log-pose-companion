@@ -40,3 +40,5 @@ Measure unlocked-thread to first-reply conversion, seven-day discussion return r
 Final checks: both private routes returned HTTP 404 under a production server. The saved crew best survived stopping and restarting the local server. The one-time follow-up was paused after this review.
 
 Crew revision: spin one role at a time in any order; no rerolling locked berths within a voyage. Server persists the draft. Current scoring version is 2, with separate bests. Near-perfect matches (96–100) have weight 1 versus 4 for other eligible matches. Role scores and weights are visible. 990–999 can occur; 1000 requires perfect role matches and three perfect wildcards. Old full-crew API is disabled. Individual-slot locking, resets and a reachable 999 are tested.
+
+Historical note: this document describes the earlier private review phase. The owner subsequently authorized launch; see harbour-launch.md for the current runtime and deployment status.

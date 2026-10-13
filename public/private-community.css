@@ -4,3 +4,5 @@ body{background:radial-gradient(ellipse at 80% 0,#76c9ce,transparent 55%),#e9f0d
 .rules{overflow-x:auto}.rules table{font-size:.8rem;border-collapse:collapse}.rules th,.rules td{padding:.4rem;border-bottom:1px solid #aac3c3;text-align:left}
 
 .spin-reel{height:150px;display:grid;place-items:center;font:80px Impact;color:#b64c32;background:repeating-linear-gradient(0deg,#fff1c9 0 24px,#f7d880 24px 26px)}.spinning .spin-reel{animation:reel-roll .13s linear infinite}.spinning .spin-reel:after{content:'✦';position:absolute}@keyframes reel-roll{50%{transform:translateY(-12px);filter:blur(3px)}100%{transform:translateY(0)}}@media(prefers-reduced-motion:reduce){.spinning .spin-reel{animation:none}}
+
+.draw-stage{text-align:center}.draw-stage>img{height:200px;max-width:100%;object-fit:contain}.draw-stage .spin-reel{max-width:200px;margin:15px auto}.draw-stage.reveal{animation:card-land .5s both}@media(prefers-reduced-motion:reduce){.draw-stage.reveal{animation:none}}

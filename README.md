@@ -2,7 +2,7 @@
 
 **[Open the live app → log-pose-companion.vercel.app](https://log-pose-companion.vercel.app/)**
 
-A One Piece companion for people who want more than a watchlist: an animated voyage, progress-aware recaps and quizzes, reading handoffs, ranked characters, and a record of every rewatch and reread.
+A One Piece companion with a shared Harbour for people who want more than a watchlist: an animated voyage, progress-aware recaps and quizzes, reading handoffs, ranked characters, and a record of every rewatch and reread.
 
 ## Why use a companion instead of asking a chatbot?
 
@@ -16,11 +16,11 @@ This is a product usability hypothesis, not a content moat. Its success depends 
 - See estimated first-watch time, logged rewatch time, skipped-episode corrections and current arc progress.
 - Log entire series rewatches and rereads. Each run freezes its episode/chapter count so later releases do not inflate it.
 - Revisit 32 completed-arc summaries, temporary personal ratings and visual memories from the official story archive.
-- Play three official Crunchyroll clips inside the relevant completed-arc recap: Sogeking's theme, Robin at Enies Lobby, and Zoro at Thriller Bark. Players load only after a click, never autoplay, and stop when you close the recap or leave the panel. Region and publisher restrictions can affect playback.
+- Open 19 official clip embeds and nine gated openings. Playback starts only after a click; publisher and regional restrictions may apply.
 - Search a 768-entry normalized source dex, plus bonus names missing from that catalogue. **752 source entries have matched local portraits**; 16 are explicitly marked unavailable. Images come from the official catalogue and named One Piece Wiki infoboxes, with recorded sources.
-- Explore 34 featured portraits, including all ten Straw Hats, Sogeking, Bepo, Karoo, Chouchou, Laboon, Hattori, Kung-Fu Dugong and Pappag. They are searchable and rankable alongside everyone else.
+- Explore 48 featured characters with introduction gates and direct Favourite / Add to ranking actions. Featured pet exceptions are Chouchou and Pappag; Sogeking remains included. The full ranking dex retains other characters.
 - Build and reorder a personal top 10, 15 or 20, with portraits in search results and the ranking list.
-- Play 73 curated trivia questions across four tiers. Pirate King requires typed answers; daily five-question rounds are repeatable for the same date, level and progress.
+- Play four quiz tiers, including typed-answer challenges, with curated trivia and 1,000 source-backed catalogue facts.
 - Discover 15 movies and 17 manga cover-story suggestions after conservative progress checkpoints.
 - Keep progress-linked session notes and history, and export/import a JSON logbook.
 
@@ -92,3 +92,16 @@ Unofficial fan project. One Piece and source character artwork belong to Eiichir
 ## Arc scenes and music deck
 
 Each of the 32 arcs has a separate official scene image. Scene sources are recorded in `docs/arc-artwork-sources.json`; duplicate image hashes are rejected by the media checks. There are 19 curated official highlight clips and 9 official opening uploads, with publisher links in `docs/video-sources.json`. Openings live under Discover → The Sunny’s Music Deck. Images, clips and opening visuals unlock only after their story boundaries. Players load on request, never autoplay, and stop when you switch panels or start another video. Region restrictions or disabled embedding can require opening the publisher’s YouTube page. Arcs without a verified official highlight provide an official viewing link instead. No video or audio is downloaded or rehosted.
+
+## Harbour beta
+
+[Open Harbour](https://log-pose-companion.vercel.app/harbour). The same verified account and saved episode/chapter power discussions, character choices and profile visibility. Header navigation and the logbook tabs both lead there. Guests can continue using the main logbook; Harbour requires sign-in.
+
+- Separate anime/manga rooms and immutable thread/reply spoiler ceilings. Filtering happens on the server before titles, previews, search and notifications are returned. New public text waits for moderator review; a checkpoint alone cannot detect spoilers hidden in prose.
+- Opt-in pseudonymous profiles with separately selected progress, completed arc ratings, character rankings, quiz records and crew bests. Emails and private notes are never public.
+- Consent-based private conversations, bilateral blocking, reporting, moderation audit records and per-account action limits. Only a reported message is shown to moderators.
+- Build Your Crew: reveal a random eligible sailor, then choose an empty role. Assign before drawing again. No duplicates or selective rerolls. Personal drafts and bests save to the account. A published score table and draw weights describe these playful editorial rules. The hard cap is **999/1000**: 1000 is intentionally impossible, and scores above 990 require an exceptionally rare lineup.
+
+The beta runtime is a server-only Supabase record guarded by RLS and revoked browser privileges; optimistic revision checks prevent lost concurrent updates. The server revalidates identity and uses saved logbook progress. Storage is limited to 8 MB and normalizing the community tables is required before large-scale promotion. The earlier 13-table migration is an **unapplied design draft**, not the deployed runtime. Do not deploy demo persona headers or enable LP_PRIVATE_PREVIEW in production.
+
+Validation: domain boundary tests, real verified test-account HTTP flows, message consent/blocking, moderator restrictions, concurrent reveal requests, persistent crew drafts/bests and the 999 cap. Temporary test identities are removed after verification. Email delivery was previously user-verified; these new server tests do not claim a new SMTP delivery test.
