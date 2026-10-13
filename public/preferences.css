@@ -8,6 +8,23 @@ html[data-theme=night] :is(.small,.back,.steps button,.dashboard-tabs button,.qu
 html[data-theme=night] :is(.header-actions,.dex-search-bar,.logbook-backup){background:#0d3140;border-color:#456b79}
 html[data-theme=night] :is(.header-actions>a.small,.harbour-tab,.dashboard-tabs button){background:#123d4c;color:#fff0cf;border-color:#7499a4}
 html[data-theme=night] :is(.primary,.latest){background:#f6c548;color:#102b43;border-color:#061d30}
+/* Give small controls a real target and keep ink paired with its surface. */
+.episode-entry .latest{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 12px;border:1px solid #527a87;border-radius:6px;background:#e5f0e8;color:#153b50}
+html[data-theme=night] .episode-entry .latest{background:#285765;color:#fff0cf;border-color:#7499a4}
+html[data-theme=night] .mode-switch button{background:#123d4c;color:#fff0cf;border-color:#7499a4}
+html[data-theme=night] .mode-switch button.selected{background:#f6c548;color:#102b43;border-color:#f6c548}
+html[data-theme=night] .luffy-welcome{background:#fff0d5;color:#102b43}
+html[data-theme=night] .badge{background:#285765;color:#fff0cf;border-color:#7499a4}
+html[data-theme=night] .badge.basic{background:#594630;color:#fff0cf}
+html[data-theme=night] #latest-status{color:#bdd3d6}
+html[data-theme=night] :is(.account-note,.sync-status){background:#123d4c;color:#bdd3d6;border-color:#7499a4}
+html[data-theme=night] :is(.map,.number){color:#102b43}
+html[data-theme=night] footer{color:#bdd3d6}
+html[data-theme=night] .crew-slot .crew-points{color:#fff0cf}
+.crew-score-help{margin:8px 0 20px;font-size:13px;line-height:1.6;max-width:650px}
+.crew-score-help summary{cursor:pointer;text-decoration:underline;text-underline-offset:3px;padding:8px 0;font-weight:700}
+.crew-score-help summary:focus-visible{outline:3px solid #e99022;outline-offset:4px}
+.crew-score-help p{margin:8px 0}
 html[data-theme=night] :is(.fine,.meta,.episode-meta,.account-note,#episode-hint){color:#bdd3d6}
 html[data-theme=night] :is(.eyebrow,h1 em,.score){color:#ffc478;text-shadow:none}
 html[data-theme=night] :is(input,select,textarea){background:#092d3d;color:#fff0cf;border-color:#7499a4}
