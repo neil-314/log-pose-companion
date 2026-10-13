@@ -49,3 +49,14 @@ A single browser preference now controls Night watch on the main logbook, Harbou
 First visits offer an optional six-step tour covering checkpoints, logbook tools, the crew game, Harbour's community role, private/opt-in account fields and Night watch. Skip and Escape dismiss it, returning visits do not repeat the prompt, and Take a tour replays it. It restores focus/scroll position and honors reduced motion. Embedded games never show an additional tour.
 
 Checks passed for preference persistence/synchronization, storage-unavailable fallback, optional tour start, Harbour explanation, skip, Escape, replay and embedded exclusion. Browser checks confirmed Night watch across Harbour and the embedded game, including a cross-tab toggle, plus the Harbour tour explanation.
+
+## Latest live verification and additional sharing
+
+Deployed shared Night watch and the tour as `dpl_5SSQznpqxgEKYuRCy1wU5HLQF6b6` (code `a01ba0b`). Live browser verification confirmed the optional first-visit prompt, the Harbour explanation, replay/skip, and the Night watch palette. The tester's original live theme preference was restored after verification. The main crew panel/guest game had already been deployed as `22c335d`.
+
+Additional focused posts, visible at verification:
+
+- TestMyApp: https://www.reddit.com/r/TestMyApp/comments/1x55l0m/web_could_you_test_my_one_piece_apps_optional/
+- IMadeThis: https://www.reddit.com/r/IMadeThis/comments/1x55miv/i_made_a_one_piece_logbook_where_you_reveal_a/
+
+The posts request specific feedback on the tour, navigation, Night watch and reveal/assign crew flow. Rules were reviewed first; no removed SideProject/indiehackers/buildinpublic submission was reposted.
