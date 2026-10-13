@@ -25,7 +25,7 @@ form.onsubmit=async e=>{
    if(!verified){await request({action:'verify',email,code:$('account-code').value.trim()});verified=true;}
    $('account-submit').textContent='Load my logbook';
    await window.lpLoadAccount?.(true);
-   $('account-message').textContent='Email verified. Welcome aboard!';dialog.close();opener?.focus();if(new URLSearchParams(location.search).get('returnTo')==='/harbour')location.assign('/harbour');if(new URLSearchParams(location.search).get('returnTo')==='/harbour')location.assign('/harbour');
+   $('account-message').textContent='Email verified. Welcome aboard!';dialog.close();opener?.focus();if(new URLSearchParams(location.search).get('returnTo')==='/harbour')location.assign('/harbour');
   }
  }catch(error){$('account-message').textContent=error.message;}
  finally{busy=false;$('account-submit').disabled=!configured;$('account-change').disabled=false;$('account-close').disabled=false;}
