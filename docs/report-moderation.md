@@ -15,10 +15,12 @@ Each report has a durable alert state in the existing protected runtime snapshot
 Production settings:
 - SMTP_USERNAME: the login shown in Brevo SMTP settings (configured).
 - SMTP_FROM: the existing verified sender address (configured).
-- SMTP_PASSWORD: the existing Brevo SMTP key (required; not the Gmail password).
+- SMTP_PASSWORD: the Brevo SMTP key (configured in Production; not the Gmail password).
 - SMTP_HOST: optional; defaults to smtp-relay.brevo.com, port 587, required STARTTLS.
 - CRON_SECRET: generated server secret (configured).
 
-Add SMTP_PASSWORD through Vercel project Settings → Environment Variables, select Production, then redeploy. Never commit or paste it into chat. Until configured, reports still save and remain queued, and Harbour watch explicitly indicates that email setup is incomplete. A real email delivery test is still required after the key is configured.
+Add SMTP_PASSWORD through Vercel project Settings → Environment Variables, select Production, then redeploy. Never commit or paste it into chat. Until configured, reports still save and remain queued, and Harbour watch explicitly indicates that email setup is incomplete. The moderator-only Send test report email button validates delivery without creating a fake incident. It is limited to one test per minute.
 
 Validation includes immediate publication, legacy activation, case-insensitive names, report quarantine/restoration, opt-in profile privacy, consent-based messages, concurrent claims, retry/backoff, expired claims, and email content minimization.
+
+October 13 verification: SMTP_PASSWORD was saved as a Vercel Production secret. SMTP_FROM was corrected to the existing Brevo verified sender, logposecompanion@12443602.brevosend.com. A test sent through the deployed app was accepted by Brevo for logposecompanion@gmail.com. Inbox delivery must be distinguished from SMTP acceptance.
