@@ -23,4 +23,6 @@ Add SMTP_PASSWORD through Vercel project Settings → Environment Variables, sel
 
 Validation includes immediate publication, legacy activation, case-insensitive names, report quarantine/restoration, opt-in profile privacy, consent-based messages, concurrent claims, retry/backoff, expired claims, and email content minimization.
 
-October 13 verification: SMTP_PASSWORD was saved as a Vercel Production secret. SMTP_FROM was corrected to the existing Brevo verified sender, logposecompanion@12443602.brevosend.com. A test sent through the deployed app was accepted by Brevo for logposecompanion@gmail.com. Inbox delivery must be distinguished from SMTP acceptance.
+October 13 verification: SMTP_PASSWORD was saved as a Vercel Production secret. Brevo sender settings confirm logposecompanion@gmail.com is the registered, verified sender. Brevo rewrites freemail senders to a brevosend.com delivery address; that rewritten address must not be used as SMTP_FROM. A test sent through the deployed app was accepted by Brevo for logposecompanion@gmail.com. Inbox delivery must be distinguished from SMTP acceptance.
+
+A test with the rewritten address was accepted by SMTP but later rejected by Brevo as an invalid sender. SMTP_FROM was corrected to the registered logposecompanion@gmail.com sender before retesting.
