@@ -16,7 +16,7 @@ async function setup(configured=true){
  $('account-email').value='pirate@example.com';await $('account-form').onsubmit({preventDefault(){}});assert.equal($('account-code-field').hidden,false);
  $('account-code').value='123456';await $('account-form').onsubmit({preventDefault(){}});assert.match($('account-message').textContent,/expired/);assert.equal($('account-dialog').open,true);assert.equal(s.loads(),0);
  s.setVerify(false);await $('account-form').onsubmit({preventDefault(){}});assert.match($('account-message').textContent,/Storage unavailable/);const verifies=s.calls.filter(c=>c?.action==='verify').length;
- s.setLoad(false);await $('account-form').onsubmit({preventDefault(){}});assert.equal($('account-dialog').open,false);assert.equal(s.calls.filter(c=>c?.action==='verify').length,verifies);assert.equal(s.loads(),2);
+ let prompted=0;s.w.lpEnsureUsername=async()=>{assert.equal($('account-dialog').open,false);assert.equal(s.loads(),2);prompted++;};s.setLoad(false);await $('account-form').onsubmit({preventDefault(){}});assert.equal($('account-dialog').open,false);assert.equal(s.calls.filter(c=>c?.action==='verify').length,verifies);assert.equal(s.loads(),2);assert.equal(prompted,1);
 }
 {
  const s=await setup(false),$=id=>s.w.document.getElementById(id);$('account-link').click();assert.equal($('account-submit').disabled,true);assert.match($('account-message').textContent,/being set up/);assert.equal(s.calls.filter(Boolean).length,0);
