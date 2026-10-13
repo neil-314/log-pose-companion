@@ -23,3 +23,13 @@ Supabase advisors found the intentional RLS-with-no-browser-policy info notice f
 ## Reddit review and cleanup
 
 All eight old Log Pose posts were reviewed, then deleted after the owner's explicit final confirmation. Other project posts were untouched. SideProject had one reply supporting progress-gated discussions and requesting dark mode and reorderable rankings. The other seven had no comments; buildinpublic was filtered and indiehackers was moderator-removed. Fresh promotion avoids those two destinations. New posts describe the verified beta and ask for focused feedback; no traction is claimed.
+
+## Verified release outcome
+
+Production deployment: `dpl_FD52ZRUbB6Ubm3crqrvTFFsNff5Y`, code revision `70c63fe`, https://log-pose-companion.vercel.app/harbour. Live HTTP checks passed for real verified identity, saved progress, forged demo-header rejection, moderator denial, persistent reveal/assign drafts and the 999 cap. The owner’s existing signed-in browser also loaded Harbour and revealed a character successfully. The main header and logbook tabs both expose Harbour. The three marked test accounts and their community records were removed without changing existing logbooks.
+
+Fresh update in JustOnePiece: https://www.reddit.com/r/JustOnePiece/comments/1x53fxw/i_made_a_one_piece_harbour_with_progressgated/ — visible at verification.
+
+Fresh SideProject submission: https://www.reddit.com/r/SideProject/comments/1x53kau/i_added_a_progressgated_community_and_a/ — removed by Reddit’s filters. It was not reposted to bypass the filter.
+
+The owner still needs to sign in and verify the designated moderator mailbox to use Harbour watch. No moderator account or verification was fabricated. The separate local test server used temporary fixture IDs for moderation tests; production authorizes only the owner-supplied verified email.
