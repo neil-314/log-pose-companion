@@ -26,3 +26,5 @@ Validation includes immediate publication, legacy activation, case-insensitive n
 October 13 verification: SMTP_PASSWORD was saved as a Vercel Production secret. Brevo sender settings confirm logposecompanion@gmail.com is the registered, verified sender. Brevo rewrites freemail senders to a brevosend.com delivery address; that rewritten address must not be used as SMTP_FROM. A test sent through the deployed app was accepted by Brevo for logposecompanion@gmail.com. Inbox delivery must be distinguished from SMTP acceptance.
 
 A test with the rewritten address was accepted by SMTP but later rejected by Brevo as an invalid sender. SMTP_FROM was corrected to the registered logposecompanion@gmail.com sender before retesting.
+
+Final October 13 verification: the corrected test email was sent through the live app and Brevo recorded Delivered to logposecompanion@gmail.com. Production SMTP credentials, registered sender and delivery are now verified. Report alerts are enabled, with the existing durable retry queue and daily authenticated retry job.
