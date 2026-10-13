@@ -107,3 +107,7 @@ Each of the 32 arcs has a separate official scene image. Scene sources are recor
 The beta runtime is a server-only Supabase record guarded by RLS and revoked browser privileges; optimistic revision checks prevent lost concurrent updates. The server revalidates identity and uses saved logbook progress. Storage is limited to 8 MB and normalizing the community tables is required before large-scale promotion. The earlier 13-table migration is an **unapplied design draft**, not the deployed runtime. Do not deploy demo persona headers or enable LP_PRIVATE_PREVIEW in production.
 
 Validation: domain boundary tests, real verified test-account HTTP flows, message consent/blocking, moderator restrictions, concurrent reveal requests, persistent crew drafts/bests and the 999 cap. Temporary test identities are removed after verification. Email delivery was previously user-verified; these new server tests do not claim a new SMTP delivery test.
+
+## Finding your way around
+
+Night watch uses one saved browser preference across the main app, Harbour, crew game and feedback page. First visits offer a short optional tour; Skip or Escape dismiss it, and Take a tour replays it. The tour explains that the main logbook holds personal tools and games, while Harbour holds community discussions, opt-in profiles and consent-based messages. These display preferences contain no account progress or analytics.

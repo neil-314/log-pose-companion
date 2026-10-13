@@ -1,0 +1,8 @@
+(function(){
+ const key='lp-display-theme',root=document.documentElement;let current='day';try{const saved=localStorage.getItem(key);if(['day','night'].includes(saved))current=saved;}catch{}
+ function apply(value){current=value==='night'?'night':'day';root.dataset.theme=current;root.style.colorScheme=current==='night'?'dark':'light';if(document.body)document.body.classList.toggle('dark',current==='night');const toggle=document.querySelector('[data-theme-toggle]');if(toggle){toggle.textContent=current==='night'?'Day watch':'Night watch';toggle.setAttribute('aria-pressed',String(current==='night'));toggle.title=current==='night'?'Switch to the daytime palette':'Switch to the nighttime palette';}document.querySelector('meta[name="theme-color"]')?.setAttribute('content',current==='night'?'#082734':'#087ca1');}
+ apply(current);
+ document.addEventListener('DOMContentLoaded',()=>{apply(current);if(document.body.dataset.crewOnly==='true')return;let toggle=document.getElementById('theme');if(!toggle){toggle=document.createElement('button');toggle.id='night-watch';toggle.type='button';toggle.className='small';const target=document.querySelector('.header-actions')||document.querySelector('header');target?.append(toggle);}toggle.dataset.themeToggle='true';toggle.addEventListener('click',()=>{apply(current==='night'?'day':'night');try{localStorage.setItem(key,current);}catch{}window.dispatchEvent(new CustomEvent('lp:theme-change',{detail:current}));});apply(current);});
+ window.addEventListener('storage',e=>{if(e.key===key)apply(e.newValue);});
+ window.lpTheme={get:()=>current,set:value=>{apply(value);try{localStorage.setItem(key,current);}catch{}}};
+})();

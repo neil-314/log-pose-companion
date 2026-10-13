@@ -41,3 +41,11 @@ Build Your Crew now lives in a main logbook tab beside quizzes and favourite cha
 Guests can reveal and assign characters for the current visit, using the same spoiler gates, scoring and secure random source. Guest drafts/bests stay in memory and are never imported into an account or community leaderboard. Guest spins do not repeatedly call account storage. Community operations still require a verified account. The discovery and notes panels no longer render twice on each refresh.
 
 Validation: main crew lazy-loading/failed-save/resize tests, memory-only guest crew and identity-switch tests, existing Harbour guest guidance tests, full regression suite and production build. Browser checks confirmed the main-tab game rendered and offered role assignments.
+
+## Shared Night watch and optional tour
+
+A single browser preference now controls Night watch on the main logbook, Harbour, embedded crew game and feedback page. It is applied before the page paints and synchronized across same-origin tabs/frames. Artwork keeps its original colours. The existing Harbour theme toggle uses the same preference as the main header.
+
+First visits offer an optional six-step tour covering checkpoints, logbook tools, the crew game, Harbour's community role, private/opt-in account fields and Night watch. Skip and Escape dismiss it, returning visits do not repeat the prompt, and Take a tour replays it. It restores focus/scroll position and honors reduced motion. Embedded games never show an additional tour.
+
+Checks passed for preference persistence/synchronization, storage-unavailable fallback, optional tour start, Harbour explanation, skip, Escape, replay and embedded exclusion. Browser checks confirmed Night watch across Harbour and the embedded game, including a cross-tab toggle, plus the Harbour tour explanation.

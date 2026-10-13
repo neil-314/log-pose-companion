@@ -1,0 +1,24 @@
+:root{--tour-paper:#fff4d6;--tour-ink:#102b43}
+html[data-theme=night]{--paper:#123d4c;--tour-paper:#123d4c;--tour-ink:#fff0cf;color-scheme:dark}
+html[data-theme=night] body{background:#082734;color:#fff0cf}
+html[data-theme=night] .ocean{background:linear-gradient(#061d30,#103947 50%,#075167)}
+html[data-theme=night] .cloud{opacity:.15}
+html[data-theme=night] :is(.companion-card,.pace,.episode-entry,.arc-card,.character-card,.discovery-card,.journey-stat,.note-card,.rank-row,.dex-result,.portrait-card,.cast-spotlight,.account-dialog,.quiz-card,.stats,.departure,.route-bottom,.time-box,.card,.crew-slot,.rules,.identity,dialog){background:#123d4c;color:#fff0cf;border-color:#7499a4}
+html[data-theme=night] :is(.small,.back,.steps button,.dashboard-tabs button,.quiz-level,.quiz-answer,.mode-switch button,.portrait-card button,.main-crew-link){color:#fff0cf}
+html[data-theme=night] :is(.header-actions,.dex-search-bar,.logbook-backup){background:#0d3140;border-color:#456b79}
+html[data-theme=night] :is(.header-actions>a.small,.harbour-tab,.dashboard-tabs button){background:#123d4c;color:#fff0cf;border-color:#7499a4}
+html[data-theme=night] :is(.primary,.latest){background:#f6c548;color:#102b43;border-color:#061d30}
+html[data-theme=night] :is(.fine,.meta,.episode-meta,.account-note,#episode-hint){color:#bdd3d6}
+html[data-theme=night] :is(.eyebrow,h1 em,.score){color:#ffc478;text-shadow:none}
+html[data-theme=night] :is(input,select,textarea){background:#092d3d;color:#fff0cf;border-color:#7499a4}
+html[data-theme=night] #current{color:#fff0cf;border-color:#adc7c8}
+html[data-theme=night] .hero-art{background-image:linear-gradient(90deg,#082734f5 0%,#082734dd 35%,#08273418 75%),url('/assets/crew-voyage.png')}
+html[data-theme=night] #step-0{background:#082734;border-color:#7499a4}
+html[data-theme=night] :is(.dashboard-tabs button.selected,.quiz-level.selected,.pace.selected){background:#285765;color:#fff0cf}
+html[data-theme=night] .spin-reel{background:repeating-linear-gradient(0deg,#123d4c 0 24px,#345d67 24px 26px);color:#ffc478}
+.tour-dialog{width:min(490px,calc(100vw - 28px));max-height:85vh;overflow:auto;padding:28px;border:2px solid #809a9f;border-radius:16px;background:var(--tour-paper);color:var(--tour-ink);box-shadow:0 20px 90px #00192380;font:15px/1.6 'DM Sans',system-ui}
+.tour-dialog h2{font:32px Bangers,Impact,system-ui;margin:8px 0 14px;letter-spacing:1px}.tour-dialog p{margin:12px 0}.tour-dialog::backdrop{background:#031c2d88}.tour-actions{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end;margin-top:22px}.tour-dialog .back{color:inherit}.tour-progress{font-size:11px;font-weight:800;letter-spacing:2px}.tour-highlight{outline:4px solid #ffc748!important;outline-offset:5px;box-shadow:0 0 0 8px #ffc74855!important;border-radius:8px}.tour-launch{white-space:nowrap}html[data-theme=night] .tour-dialog{background:var(--tour-paper);color:var(--tour-ink)}
+@media(max-width:600px){.tour-dialog{padding:22px}.tour-actions button{flex:1}.header-actions{justify-content:flex-end}}
+@media(prefers-reduced-motion:no-preference){.tour-dialog[open]{animation:tour-appear .18s ease-out}@keyframes tour-appear{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}}
+
+html[data-theme=night] #report{background:#092d3d!important;color:#fff0cf!important}
