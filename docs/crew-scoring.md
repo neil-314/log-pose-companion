@@ -1,6 +1,6 @@
-# Crew scoring v6
+# Crew scoring v7
 
-Ten berths: Captain, Swordsman, Navigator / Archaeologist, Cook, Doctor, Vice Captain, Sniper and three Wildcards. Wildcard uses the best specialist score, with a 100-point overall-utility override for Garp, Sengoku, Kizaru, Akainu, Aokiji, Fujitora and Ryokugyu. Joy Boy and Imu have 100 in every role as editorial legend bonuses. Imu is crew-only, conservatively gated to episode 889 / chapter 908, using the existing silhouette portrait. Exact points stay hidden until assignment. Scores are editorial game ratings, not canonical rankings.
+Ten berths: Captain, Swordsman, Navigator / Archaeologist, Cook / Musician, Doctor / Shipwright, Vice Captain, Sniper and three Wildcards. Wildcard uses the best specialist score, with a 100-point overall-utility override for Garp, Sengoku, Kizaru, Akainu, Aokiji, Fujitora and Ryokugyu. Joy Boy and Imu have 100 in every role as editorial legend bonuses. Imu is crew-only, conservatively gated to episode 889 / chapter 908, using the existing silhouette portrait. Exact points stay hidden until assignment. Scores are editorial game ratings, not canonical rankings.
 
 The 60-member crew pool includes ten additional specialists and Oden; the featured gallery stays at 48. Existing portraits and introduction gates are preserved. Streusen and Pudding conservatively unlock after Whole Cake (877 / 902).
 
@@ -14,3 +14,10 @@ Draw weights are 1 for characters whose best specialist or elite Wildcard score 
 
 
 Saved lineups and personal-best comparisons are recomputed under current scoring. Position order is unchanged. Legacy musician submissions still map to Vice Captain.
+
+
+## Three paired support berths
+
+Navigator / Archaeologist, Cook / Musician and Doctor / Shipwright cover six skills in three positions. Each scores the better fit of its two skills, never their average. Navigator already includes archaeological fit. Musician and Shipwright bonuses are published in public/crew-game.js and merged before captain, legend, wildcard and draw calculations.
+
+Brook scores 100 for Cook / Musician through music; Sanji retains 100 through cooking. Franky scores 100 for Doctor / Shipwright through shipbuilding; Marco and Law retain 100 through medicine. Usopp and Sogeking receive 88 for ship repair. This does not claim Brook is a cook or Franky a doctor. Scores remain editorial. Existing slot keys, lineup positions and the nine-perfect-berth rule are preserved; saved scores are recalculated.
