@@ -357,3 +357,6 @@ export const FEATURED_ROSTER=[
   }
 ];
 export const introduced=(c,kind,value)=>Number.isInteger(value)&&value>=c[kind==='manga'?'chapter':'episode'];
+
+// Crew-only addition; featured gallery keeps its full desktop rows.
+export const CREW_ROSTER=[...FEATURED_ROSTER,{id:'oden',name:'Kozuki Oden',episode:960,chapter:960,src:'assets/dex/dex-560.webp',source:'https://one-piece.com/character/Kozuki_Oden/index.html'}];

@@ -7,7 +7,7 @@ await call('checkpoint',{kind:'anime',value:100});
 const feed=await call('feed');assert.equal(feed.status,200);assert.ok(!JSON.stringify(feed.body).includes('late-thread'));
 assert.equal((await call('thread-detail',{id:'late-thread'})).status,404);
 assert.equal((await call('feed',{query:'late'})).body.threads.length,0);
-await call('crew-reset');let run;for(const role of ['captain','swordsman','navigator','cook','doctor','musician','sniper','wildcard1','wildcard2','wildcard3']){await call('crew-draw');run=await call('crew-assign',{role});}assert.equal(run.status,200);assert.equal(new Set(run.body.run.ids).size,10);
+await call('crew-reset');let run;for(const role of ['captain','swordsman','navigator','cook','doctor','vicecaptain','sniper','wildcard1','wildcard2','wildcard3']){await call('crew-draw');run=await call('crew-assign',{role});}assert.equal(run.status,200);assert.equal(new Set(run.body.run.ids).size,10);
 const best=await call('crew-best');assert.ok(best.body.best.total>=run.body.run.total);
 const second=await call('crew-best');assert.deepEqual(second.body,best.body);
 console.log('Private HTTP checks passed: origins, personas, spoiler gates, random crew, persisted best.');
