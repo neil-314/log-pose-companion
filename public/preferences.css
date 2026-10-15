@@ -79,4 +79,5 @@ html[data-theme=night] :is(#content,.identity,dialog) button:not(.primary):not(.
 html[data-theme=night] nav[aria-label="Harbour sections"] button[aria-pressed=true]{background:#285765;color:#fff0cf;border-color:#f6c548}
 html[data-theme=night] :is(.rank-row,.dex-search-bar,.quiz-card,.voyage-recap,.arc-body,.toggle,li,aside){border-color:#7499a466}
 html[data-theme=night] .luffy-welcome img{border-color:#f6c548}
+html[data-theme=night] :is(#dex-search,#custom-character,#quiz-input){background:#092d3d;color:#fff0cf;border-color:var(--night-border)}
 @media(max-width:800px){html[data-theme=night] .hero-art{background-image:linear-gradient(#082734e8,#082734cc 65%,#08273480),url('/assets/crew-voyage.png')}}
