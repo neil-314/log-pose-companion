@@ -54,3 +54,29 @@ header .header-actions>a.small{min-height:40px;padding:10px 14px;border:0;border
 @media(max-width:600px){header .header-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));width:100%;gap:5px}header .header-actions> :is(a,button),header .header-tools>summary{width:100%;min-height:44px;font-size:12px}header .header-tools-menu{width:min(250px,calc(100vw - 40px))}}
 
 .voyage-recap{margin:24px 0}.voyage-recap select{margin-left:12px;padding:10px;border-radius:6px}.voyage-recap .journey-stats{margin-top:20px}.recap-actions{display:flex;gap:24px;align-items:center;flex-wrap:wrap}.recap-ratings{max-height:none}.voyage-recap details{margin-top:16px}.voyage-recap summary{cursor:pointer;font-size:12px;font-weight:700}
+
+/* Night watch surfaces: controls need dark backgrounds as well as light ink. */
+html[data-theme=night]{--night-panel:#123d4c;--night-raised:#1c4c5b;--night-border:#7499a4;--night-muted:#bdd3d6}
+html[data-theme=night] :is(.quiz-level,.quiz-answer,.rank-row:first-child,.dex-result:hover,.luffy-welcome){background:var(--night-panel);color:#fff0cf;border-color:var(--night-border)}
+html[data-theme=night] :is(.quiz-level:hover,.quiz-answer:hover,.dex-result:hover,.character-card.selected){background:var(--night-raised);color:#fff0cf;border-color:#f6c548}
+html[data-theme=night] .quiz-level.selected{background:#285765;color:#fff0cf;border-color:#f6c548}
+html[data-theme=night] .quiz-level[data-level=extreme].selected{background:#702e37;color:#fff0cf}
+html[data-theme=night] .quiz-answer.correct{background:#204d3e;color:#ddffe6;border-color:#80c49a}
+html[data-theme=night] .quiz-answer.incorrect{background:#592e38;color:#ffe0dc;border-color:#e2948c}
+html[data-theme=night] .mastery-badge{color:var(--night-muted);border-color:var(--night-border)}
+html[data-theme=night] .mastery-badge.earned{background:#524326;color:#fff0bc;border-color:#d7b85d}
+html[data-theme=night] :is(.community-average,#mapping-result){color:#ffd294}
+html[data-theme=night] #history-list{background:var(--night-panel);color:#fff0cf;border-color:var(--night-border)}
+html[data-theme=night] #history-list small{color:var(--night-muted)}
+html[data-theme=night] .progress-track{background:#082b3a;border-color:var(--night-border)}
+html[data-theme=night] .map{background:#123d4c;color:#fff0cf;border-color:var(--night-border)}
+html[data-theme=night] .map-grid{filter:invert(1);opacity:.15}
+html[data-theme=night] .map-compass{color:#ffc478}
+html[data-theme=night] .route-path{border-color:#ffc478}
+html[data-theme=night] .discovery-card button[aria-pressed=true]{background:#204d3e;color:#ddffe6}
+html[data-theme=night] :is(#content,.identity,dialog) button:not(.primary):not(.back),html[data-theme=night] nav[aria-label="Harbour sections"] button{background:var(--night-panel);color:#fff0cf;border-color:var(--night-border)}
+html[data-theme=night] :is(#content,.identity,dialog) button:not(.primary):not(.back):hover,html[data-theme=night] nav[aria-label="Harbour sections"] button:hover{background:var(--night-raised)}
+html[data-theme=night] nav[aria-label="Harbour sections"] button[aria-pressed=true]{background:#285765;color:#fff0cf;border-color:#f6c548}
+html[data-theme=night] :is(.rank-row,.dex-search-bar,.quiz-card,.voyage-recap,.arc-body,.toggle,li,aside){border-color:#7499a466}
+html[data-theme=night] .luffy-welcome img{border-color:#f6c548}
+@media(max-width:800px){html[data-theme=night] .hero-art{background-image:linear-gradient(#082734e8,#082734cc 65%,#08273480),url('/assets/crew-voyage.png')}}
