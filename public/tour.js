@@ -8,7 +8,7 @@
  ['Your favourite characters','Search characters introduced by your checkpoint. Pick your favourite and build a ranked list to make the logbook yours.','crew','#panel-crew','/'],
  ['Revisits count too','Log a rewatch or reread, including a whole-series revisit. Your history adds to your total time with the story.','history','#panel-history','/'],
  ['The Den Den quiz','Choose a difficulty and test what you remember. Questions follow your checkpoint; signed-in accounts keep their records.','quiz','#panel-quiz','/'],
- ['Reveal a sailor. Choose a role.','Draw one character, then assign them to an empty berth. No duplicates. Scores are a playful game: 990+ is extremely rare and the absolute cap is 999.','crew-builder','#panel-crew-builder','/'],
+ ['Reveal a sailor. Choose a role.','Draw one character, then assign them to an empty berth. No duplicates. Use your character knowledge to choose each berth, then try to beat your personal best.','crew-builder','#panel-crew-builder','/'],
  ['More of the world','Explore unlocked discoveries and opening videos. Media can open an external player; nothing starts playing during this tour.','discover','#panel-discover','/'],
  ['Your private notebook','Keep theories and memories here. Notes stay in your own logbook and are never added to public profiles.','notes','#panel-notes','/'],
  ['An account keeps your voyage','Guests can explore. A verified email saves your logbook across devices, and you choose a unique sailor name for Harbour. Your email never appears on a captain card.','notes','#account-link','/'],
