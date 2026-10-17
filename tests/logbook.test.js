@@ -9,3 +9,5 @@ test('account payload preserves notes, rankings, ratings and revisits together',
 test('account payload rejects invalid state, ratings and favourite IDs',()=>{
  for(const raw of [{state:{...state,anime:-1}},{state,ratings:{marineford:11}},{state,ratings:{invented:5}},{state,favourite:'someone-else'}])assert.throws(()=>validateLogbook(raw));
 });
+
+test('dated ratings survive account validation and old logbooks default to empty history',()=>{const event={id:'marineford',score:9,at:'2026-10-17T12:00:00.000Z'};assert.deepEqual(validateLogbook({state:{...state,ratingHistory:[event]}}).state.ratingHistory,[event]);assert.deepEqual(validateLogbook({state}).state.ratingHistory,[]);for(const rating of [{...event,id:'missing'},{...event,score:11},{...event,at:'invalid'}])assert.throws(()=>validateLogbook({state:{...state,ratingHistory:[rating]}}));});

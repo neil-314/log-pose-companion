@@ -64,6 +64,7 @@ export function validateState(raw){
  const quiz={rounds:integer(raw.quiz?.rounds??0),best:integer(raw.quiz?.best??0,5),levels,points:integer(raw.quiz?.points??0,10000000),daily:daily?{date:daily.date,level:daily.level,score:daily.score}:null};
  const discovered=(raw.discovered??[]).map(id=>{if(typeof id!=='string'||!/^((movie|cover)-[a-z0-9-]+)$/.test(id))throw Error('Invalid discovery item.');return id;});if(discovered.length>100)throw Error('Too many discoveries.');
  const notes=(raw.notes??[]).map(n=>{if(!['anime','manga'].includes(n.kind)||typeof n.text!=='string'||!n.text.trim()||n.text.length>800)throw Error('Invalid note.');return {kind:n.kind,value:integer(n.value),text:n.text.trim(),at:new Date(n.at).toISOString()};});if(notes.length>20)throw Error('Keep up to 20 notes.');
- return {kind:raw.kind,anime,manga,skipped,rewatched,history,voyages,rankings,quiz,discovered,notes,updatedAt:Number.isFinite(raw.updatedAt)?raw.updatedAt:Date.now()};
+ const ratingHistory=(raw.ratingHistory??[]).map(r=>{if(!ARCS.some(a=>a.id===r.id)||!Number.isInteger(r.score)||r.score<1||r.score>10)throw Error('Invalid rating history.');return {id:r.id,score:r.score,at:new Date(r.at).toISOString()};});if(ratingHistory.length>500)throw Error('Too many rating history entries.');
+ return {kind:raw.kind,anime,manga,skipped,rewatched,history,voyages,rankings,quiz,discovered,notes,ratingHistory,updatedAt:Number.isFinite(raw.updatedAt)?raw.updatedAt:Date.now()};
 }
 export function revisitStats(voyages=[]){return voyages.reduce((s,v)=>{s.passes+=v.passes;if(v.kind==='anime')s.episodes+=v.length*v.passes;else s.chapters+=v.length*v.passes;return s;},{passes:0,episodes:0,chapters:0});}
