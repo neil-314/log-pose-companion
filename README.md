@@ -23,6 +23,7 @@ This is a product usability hypothesis, not a content moat. Its success depends 
 - Play four quiz tiers, including typed-answer challenges, with curated trivia and 1,000 source-backed catalogue facts.
 - Discover 15 movies and 17 manga cover-story suggestions after conservative progress checkpoints.
 - Keep progress-linked session notes and history, and export/import a JSON logbook.
+- Download yearly voyage recaps with rewatches, rereads and dated arc ratings. New ratings record their logging date; older ratings remain lifetime snapshots without invented dates.
 
 ## Persistence and current scope
 
