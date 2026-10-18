@@ -1,11 +1,15 @@
 import {test} from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';
 import {CREW_ROSTER,introduced} from '../public/featured-roster.js';import {CREW_ROLES,roleScore,drawCharacter} from '../public/crew-game.js';import {canBuildCrew,CREW_UNLOCK} from '../public/crew-access.js';import {characterRoleExplanation} from '../public/crew-explanations.js';
 import {dispatch} from '../lib/forum-engine.js';import {seedForum} from '../lib/forum-preview-store.js';
-test('expanded roster covers official top 100 and twenty qualified candidates per specialist berth',()=>{
+test('manga roster is explicitly audited without a profession quota',()=>{
  assert.ok(CREW_ROSTER.length>200);assert.equal(new Set(CREW_ROSTER.map(c=>c.id)).size,CREW_ROSTER.length);
- const poll=JSON.parse(fs.readFileSync('docs/crew-popularity-2026.json'));assert.equal(poll.top100.length,100);for(const c of poll.top100)assert.ok(CREW_ROSTER.some(x=>x.id===c.crewId),c.name);
- for(const role of CREW_ROLES.slice(0,7))assert.ok(CREW_ROSTER.filter(c=>c.roleFits.includes(role)).length>=20,role);
- assert.ok(CREW_ROSTER.some(c=>c.roleFits.includes('cook')&&roleScore(c.id,'cook')<90));assert.equal(roleScore('hancock','cook'),82);
+ const audit=JSON.parse(fs.readFileSync('docs/crew-manga-audit.json'));assert.equal(audit.entries.length,CREW_ROSTER.length);
+ for(const c of CREW_ROSTER)assert.ok(audit.entries.some(x=>x.id===c.id&&x.evidence.source&&x.evidence.reference),c.id);
+ for(const id of ['rasa','uta','merryship','sunnyship','sogeking']){assert.ok(!CREW_ROSTER.some(c=>c.id===id));assert.throws(()=>roleScore(id,'captain'));}
+ assert.ok(CREW_ROSTER.filter(c=>c.roleFits.includes('navigator')).length<20);
+ assert.ok(CREW_ROSTER.filter(c=>c.roleFits.includes('cook')).length<20);
+ for(const [id,role,min] of [['bepo','navigator',98],['clover','navigator',99],['patty','cook',96],['kureha','doctor',100],['paulie','doctor',98]])assert.ok(roleScore(id,role)>=min);
+ assert.equal(roleScore('hancock','cook'),82);
 });
 test('every added character is bounded, explained, spoiler-gated and uses an existing portrait when supplied',()=>{
  for(const c of CREW_ROSTER){assert.ok(Number.isInteger(c.chapter)&&c.chapter>0,c.id);assert.ok(c.episode===null||Number.isInteger(c.episode)&&c.episode>0,c.id);if(c.src)assert.ok(fs.existsSync('public/'+c.src),c.id);
