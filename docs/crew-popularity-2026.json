@@ -3,507 +3,607 @@
   "announcement": "https://one-piece.com/news/81812/index.html",
   "published": "2026-08-23",
   "checked": "2026-10-17",
-  "note": "Official worldwide final results. Display names use familiar non-revealing aliases. Vessels are explicit novelty support entries, not human professionals.",
+  "note": "Historical popularity seed, not a roster eligibility rule. Manga canon and unique character identity take priority. Film-dependent Uta and the two ships are excluded from the current game.",
   "top100": [
     {
       "rank": 1,
       "name": "MONKEY D. LUFFY",
-      "crewId": "luffy"
+      "crewId": "luffy",
+      "includedInGame": true
     },
     {
       "rank": 2,
       "name": "RORONOA ZORO",
-      "crewId": "zoro"
+      "crewId": "zoro",
+      "includedInGame": true
     },
     {
       "rank": 3,
       "name": "SANJI",
-      "crewId": "sanji"
+      "crewId": "sanji",
+      "includedInGame": true
     },
     {
       "rank": 4,
       "name": "NAMI",
-      "crewId": "nami"
+      "crewId": "nami",
+      "includedInGame": true
     },
     {
       "rank": 5,
       "name": "TRAFALGAR LAW (TRAFALGAR D. WATER LAW)",
-      "crewId": "law"
+      "crewId": "law",
+      "includedInGame": true
     },
     {
       "rank": 6,
       "name": "NICO ROBIN",
-      "crewId": "robin"
+      "crewId": "robin",
+      "includedInGame": true
     },
     {
       "rank": 7,
       "name": "PORTGAS D. ACE",
-      "crewId": "ace"
+      "crewId": "ace",
+      "includedInGame": true
     },
     {
       "rank": 8,
       "name": "SHANKS",
-      "crewId": "shanks"
+      "crewId": "shanks",
+      "includedInGame": true
     },
     {
       "rank": 9,
       "name": "DRACULE.MIHAWK",
-      "crewId": "mihawk"
+      "crewId": "mihawk",
+      "includedInGame": true
     },
     {
       "rank": 10,
       "name": "CROCODILE (Mr. 0)",
-      "crewId": "crocodile"
+      "crewId": "crocodile",
+      "includedInGame": true
     },
     {
       "rank": 11,
       "name": "DONQUIXOTE ROSINANTE (CORAZŌN)",
-      "crewId": "rosinante"
+      "crewId": "rosinante",
+      "includedInGame": true
     },
     {
       "rank": 12,
       "name": "BOA.HANCOCK",
-      "crewId": "hancock"
+      "crewId": "hancock",
+      "includedInGame": true
     },
     {
       "rank": 13,
       "name": "TONY TONY.CHOPPER",
-      "crewId": "chopper"
+      "crewId": "chopper",
+      "includedInGame": true
     },
     {
       "rank": 14,
       "name": "SABO",
-      "crewId": "sabo"
+      "crewId": "sabo",
+      "includedInGame": true
     },
     {
       "rank": 15,
       "name": "UTA",
-      "crewId": "uta"
+      "crewId": "uta",
+      "includedInGame": false
     },
     {
       "rank": 16,
       "name": "CARROT",
-      "crewId": "carrot"
+      "crewId": "carrot",
+      "includedInGame": true
     },
     {
       "rank": 17,
       "name": "ROCKS D. XEBEC (DAVY D. XEBEC)",
-      "crewId": "rocks"
+      "crewId": "rocks",
+      "includedInGame": true
     },
     {
       "rank": 18,
       "name": "YAMATO",
-      "crewId": "yamato"
+      "crewId": "yamato",
+      "includedInGame": true
     },
     {
       "rank": 19,
       "name": "USOPP",
-      "crewId": "usopp"
+      "crewId": "usopp",
+      "includedInGame": true
     },
     {
       "rank": 20,
       "name": "LOKI",
-      "crewId": "loki"
+      "crewId": "loki",
+      "includedInGame": true
     },
     {
       "rank": 21,
       "name": "CHARLOTTE CRACKER",
-      "crewId": "cracker"
+      "crewId": "cracker",
+      "includedInGame": true
     },
     {
       "rank": 22,
       "name": "DONQUIXOTE DOFLAMINGO",
-      "crewId": "doflamingo"
+      "crewId": "doflamingo",
+      "includedInGame": true
     },
     {
       "rank": 23,
       "name": "EUSTASS.KID",
-      "crewId": "kid"
+      "crewId": "kid",
+      "includedInGame": true
     },
     {
       "rank": 24,
       "name": "PERONA",
-      "crewId": "perona"
+      "crewId": "perona",
+      "includedInGame": true
     },
     {
       "rank": 25,
       "name": "BUGGY",
-      "crewId": "buggy"
+      "crewId": "buggy",
+      "includedInGame": true
     },
     {
       "rank": 26,
       "name": "MARCO",
-      "crewId": "marco"
+      "crewId": "marco",
+      "includedInGame": true
     },
     {
       "rank": 27,
       "name": "BROOK",
-      "crewId": "brook"
+      "crewId": "brook",
+      "includedInGame": true
     },
     {
       "rank": 28,
       "name": "NEFELTARI VIVI (Miss WEDNESDAY)",
-      "crewId": "vivi"
+      "crewId": "vivi",
+      "includedInGame": true
     },
     {
       "rank": 29,
       "name": "FRANKY (CUTTY FLAM)",
-      "crewId": "franky"
+      "crewId": "franky",
+      "includedInGame": true
     },
     {
       "rank": 30,
       "name": "JINBE",
-      "crewId": "jinbe"
+      "crewId": "jinbe",
+      "includedInGame": true
     },
     {
       "rank": 31,
       "name": "CHARLOTTE KATAKURI",
-      "crewId": "katakuri"
+      "crewId": "katakuri",
+      "includedInGame": true
     },
     {
       "rank": 32,
       "name": "BARTHOLOMEW.KUMA",
-      "crewId": "kuma"
+      "crewId": "kuma",
+      "includedInGame": true
     },
     {
       "rank": 33,
       "name": "SMOKER",
-      "crewId": "smoker"
+      "crewId": "smoker",
+      "includedInGame": true
     },
     {
       "rank": 34,
       "name": "BENTHAM (Mr. 2/BON・KUREI)",
-      "crewId": "bonclay"
+      "crewId": "bonclay",
+      "includedInGame": true
     },
     {
       "rank": 35,
       "name": "ROB LUCCI",
-      "crewId": "lucci"
+      "crewId": "lucci",
+      "includedInGame": true
     },
     {
       "rank": 36,
       "name": "EDWARD NEWGATE (WHITEBEARD)",
-      "crewId": "whitebeard"
+      "crewId": "whitebeard",
+      "includedInGame": true
     },
     {
       "rank": 37,
       "name": "KOBY",
-      "crewId": "koby"
+      "crewId": "koby",
+      "includedInGame": true
     },
     {
       "rank": 38,
       "name": "KAKU",
-      "crewId": "kaku"
+      "crewId": "kaku",
+      "includedInGame": true
     },
     {
       "rank": 39,
       "name": "CAVENDISH (HAKUBA)",
-      "crewId": "cavendish"
+      "crewId": "cavendish",
+      "includedInGame": true
     },
     {
       "rank": 40,
       "name": "MONKEY D. GARP",
-      "crewId": "garp"
+      "crewId": "garp",
+      "includedInGame": true
     },
     {
       "rank": 41,
       "name": "KUZAN (AOKIJI)",
-      "crewId": "aokiji"
+      "crewId": "aokiji",
+      "includedInGame": true
     },
     {
       "rank": 42,
       "name": "IZO",
-      "crewId": "izo"
+      "crewId": "izo",
+      "includedInGame": true
     },
     {
       "rank": 43,
       "name": "BENN.BECKMAN",
-      "crewId": "beckman"
+      "crewId": "beckman",
+      "includedInGame": true
     },
     {
       "rank": 44,
       "name": "SILVERS.RAYLEIGH",
-      "crewId": "rayleigh"
+      "crewId": "rayleigh",
+      "includedInGame": true
     },
     {
       "rank": 45,
       "name": "GOING MERRY",
-      "crewId": "merryship"
+      "crewId": "merryship",
+      "includedInGame": false
     },
     {
       "rank": 46,
       "name": "JEWELRY.BONNEY",
-      "crewId": "bonney"
+      "crewId": "bonney",
+      "includedInGame": true
     },
     {
       "rank": 47,
       "name": "ALBER (KING)",
-      "crewId": "king"
+      "crewId": "king",
+      "includedInGame": true
     },
     {
       "rank": 48,
       "name": "BORSALINO (KIZARU)",
-      "crewId": "kizaru"
+      "crewId": "kizaru",
+      "includedInGame": true
     },
     {
       "rank": 49,
       "name": "ENEL",
-      "crewId": "enel"
+      "crewId": "enel",
+      "includedInGame": true
     },
     {
       "rank": 50,
       "name": "VEGAPUNK PUNK-02 LILITH",
-      "crewId": "lilith"
+      "crewId": "lilith",
+      "includedInGame": true
     },
     {
       "rank": 51,
       "name": "CHARLOTTE PEROSPERAW",
-      "crewId": "perospero"
+      "crewId": "perospero",
+      "includedInGame": true
     },
     {
       "rank": 52,
       "name": "KILLER (KAMAZO)",
-      "crewId": "killer"
+      "crewId": "killer",
+      "includedInGame": true
     },
     {
       "rank": 53,
       "name": "IMU",
-      "crewId": "imu"
+      "crewId": "imu",
+      "includedInGame": true
     },
     {
       "rank": 54,
       "name": "SAKAZUKI (AKAINU)",
-      "crewId": "akainu"
+      "crewId": "akainu",
+      "includedInGame": true
     },
     {
       "rank": 55,
       "name": "KURO (KLAHADORE )",
-      "crewId": "kuro"
+      "crewId": "kuro",
+      "includedInGame": true
     },
     {
       "rank": 56,
       "name": "BARTOLOMEO",
-      "crewId": "bartolomeo"
+      "crewId": "bartolomeo",
+      "includedInGame": true
     },
     {
       "rank": 57,
       "name": "NAMULE",
-      "crewId": "namur"
+      "crewId": "namur",
+      "includedInGame": true
     },
     {
       "rank": 58,
       "name": "GOL D. ROGER (GOLD ROGER)",
-      "crewId": "roger"
+      "crewId": "roger",
+      "includedInGame": true
     },
     {
       "rank": 59,
       "name": "JOYBOY",
-      "crewId": "joyboy"
+      "crewId": "joyboy",
+      "includedInGame": true
     },
     {
       "rank": 60,
       "name": "MARSHALL D. TEACH (BLACKBEARD)",
-      "crewId": "blackbeard"
+      "crewId": "blackbeard",
+      "includedInGame": true
     },
     {
       "rank": 61,
       "name": "SAINT MANMAYER GUNKO",
-      "crewId": "gunko"
+      "crewId": "gunko",
+      "includedInGame": true
     },
     {
       "rank": 62,
       "name": "BEPO",
-      "crewId": "bepo"
+      "crewId": "bepo",
+      "includedInGame": true
     },
     {
       "rank": 63,
       "name": "CHARLOTTE LINLIN (BIG MOM)",
-      "crewId": "bigmom"
+      "crewId": "bigmom",
+      "includedInGame": true
     },
     {
       "rank": 64,
       "name": "CHARLOTTE PUDDING",
-      "crewId": "pudding"
+      "crewId": "pudding",
+      "includedInGame": true
     },
     {
       "rank": 65,
       "name": "SPANDAM",
-      "crewId": "spandam"
+      "crewId": "spandam",
+      "includedInGame": true
     },
     {
       "rank": 66,
       "name": "KAIDO",
-      "crewId": "kaido"
+      "crewId": "kaido",
+      "includedInGame": true
     },
     {
       "rank": 67,
       "name": "GECKO MORIA",
-      "crewId": "moria"
+      "crewId": "moria",
+      "includedInGame": true
     },
     {
       "rank": 68,
       "name": "MARIANNE (Miss.GOLDEN WEEK)",
-      "crewId": "missgoldenweek"
+      "crewId": "missgoldenweek",
+      "includedInGame": true
     },
     {
       "rank": 69,
       "name": "MONKEY D. DRAGON",
-      "crewId": "dragon"
+      "crewId": "dragon",
+      "includedInGame": true
     },
     {
       "rank": 70,
       "name": "SHIRAHOSHI",
-      "crewId": "shirahoshi"
+      "crewId": "shirahoshi",
+      "includedInGame": true
     },
     {
       "rank": 71,
       "name": "SAINT FIGARLAND SHAMROCK",
-      "crewId": "shamrock"
+      "crewId": "shamrock",
+      "includedInGame": true
     },
     {
       "rank": 72,
       "name": "BASIL.HAWKINS",
-      "crewId": "hawkins"
+      "crewId": "hawkins",
+      "includedInGame": true
     },
     {
       "rank": 73,
       "name": "TASHIGI",
-      "crewId": "tashigi"
+      "crewId": "tashigi",
+      "includedInGame": true
     },
     {
       "rank": 74,
       "name": "PAULIE",
-      "crewId": "paulie"
+      "crewId": "paulie",
+      "includedInGame": true
     },
     {
       "rank": 75,
       "name": "ULTI",
-      "crewId": "ulti"
+      "crewId": "ulti",
+      "includedInGame": true
     },
     {
       "rank": 76,
       "name": "HELMEPPO",
-      "crewId": "helmeppo"
+      "crewId": "helmeppo",
+      "includedInGame": true
     },
     {
       "rank": 77,
       "name": "X.DRAKE",
-      "crewId": "drake"
+      "crewId": "drake",
+      "includedInGame": true
     },
     {
       "rank": 78,
       "name": "KOALA",
-      "crewId": "koala"
+      "crewId": "koala",
+      "includedInGame": true
     },
     {
       "rank": 79,
       "name": "PENGUIN",
-      "crewId": "penguin"
+      "crewId": "penguin",
+      "includedInGame": true
     },
     {
       "rank": 80,
       "name": "MONET",
-      "crewId": "monet"
+      "crewId": "monet",
+      "includedInGame": true
     },
     {
       "rank": 81,
       "name": "KUNG-FU DUGONG",
-      "crewId": "dugong"
+      "crewId": "dugong",
+      "includedInGame": true
     },
     {
       "rank": 82,
       "name": "VINSMOKE REIJU",
-      "crewId": "reiju"
+      "crewId": "reiju",
+      "includedInGame": true
     },
     {
       "rank": 83,
       "name": "KIKUNOJO (OKIKU)",
-      "crewId": "kiku"
+      "crewId": "kiku",
+      "includedInGame": true
     },
     {
       "rank": 84,
       "name": "KAWAMATSU",
-      "crewId": "kawamatsu"
+      "crewId": "kawamatsu",
+      "includedInGame": true
     },
     {
       "rank": 85,
       "name": "KOZUKI ODEN",
-      "crewId": "oden"
+      "crewId": "oden",
+      "includedInGame": true
     },
     {
       "rank": 86,
       "name": "PELL",
-      "crewId": "pell"
+      "crewId": "pell",
+      "includedInGame": true
     },
     {
       "rank": 87,
       "name": "HINA",
-      "crewId": "hina"
+      "crewId": "hina",
+      "includedInGame": true
     },
     {
       "rank": 88,
       "name": "CAESAR.CLOWN",
-      "crewId": "caesar"
+      "crewId": "caesar",
+      "includedInGame": true
     },
     {
       "rank": 89,
       "name": "ICEBURG",
-      "crewId": "iceburg"
+      "crewId": "iceburg",
+      "includedInGame": true
     },
     {
       "rank": 90,
       "name": "THOUSAND SUNNY",
-      "crewId": "sunnyship"
+      "crewId": "sunnyship",
+      "includedInGame": false
     },
     {
       "rank": 91,
       "name": "KAROO",
-      "crewId": "karoo"
+      "crewId": "karoo",
+      "includedInGame": true
     },
     {
       "rank": 92,
       "name": "SHUSHU",
-      "crewId": "chouchou"
+      "crewId": "chouchou",
+      "includedInGame": true
     },
     {
       "rank": 93,
       "name": "HONGO",
-      "crewId": "hongo"
+      "crewId": "hongo",
+      "includedInGame": true
     },
     {
       "rank": 94,
       "name": "REBECCA",
-      "crewId": "rebecca"
+      "crewId": "rebecca",
+      "includedInGame": true
     },
     {
       "rank": 95,
       "name": "ISSHO (FUJITORA)",
-      "crewId": "fujitora"
+      "crewId": "fujitora",
+      "includedInGame": true
     },
     {
       "rank": 96,
       "name": "SHACHI",
-      "crewId": "shachi"
+      "crewId": "shachi",
+      "includedInGame": true
     },
     {
       "rank": 97,
       "name": "MARGUERITE",
-      "crewId": "marguerite"
+      "crewId": "marguerite",
+      "includedInGame": true
     },
     {
       "rank": 98,
       "name": "GAIMON",
-      "crewId": "gaimon"
+      "crewId": "gaimon",
+      "includedInGame": true
     },
     {
       "rank": 99,
       "name": "STUSSY",
-      "crewId": "stussy"
+      "crewId": "stussy",
+      "includedInGame": true
     },
     {
       "rank": 100,
       "name": "EMPORIO.IVANKOV",
-      "crewId": "ivankov"
+      "crewId": "ivankov",
+      "includedInGame": true
     }
   ]
 }
