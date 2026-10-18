@@ -10,17 +10,9 @@ body{background:radial-gradient(ellipse at 80% 0,#76c9ce,transparent 55%),#e9f0d
 .main-crew-link{padding:11px 16px;color:inherit;text-decoration:none;font-weight:700}.crew-embedded{min-height:0!important;margin:0;background:transparent}.crew-embedded>header,.crew-embedded>.preview-banner,.crew-embedded .welcome,.crew-embedded .identity,.crew-embedded nav,.crew-embedded footer{display:none}.crew-embedded main{width:100%;margin:0}.crew-embedded #content{min-height:0;padding:0}.crew-embedded #status{margin:8px 0}.crew-embedded .crew-grid{gap:12px}
 .profile-save-status{padding:12px 14px;margin:14px 0 0;border-radius:8px;font-size:14px;line-height:1.5}.profile-save-status:empty{display:none}.profile-save-status[data-state=saved]{background:#dceedd;color:#194c35;border:1px solid #739c7e}.profile-save-status[data-state=error]{background:#ffe5df;color:#822b23;border:1px solid #c7796b}.profile-save-status[data-state=edited],.profile-save-status[data-state=saving]{background:#e4eff1;color:#244d5f}html[data-theme=night] .profile-save-status[data-state=saved]{background:#16453f;color:#e3f4db;border-color:#80a792}html[data-theme=night] .profile-save-status[data-state=error]{background:#582e32;color:#ffe1d7;border-color:#bd8a86}html[data-theme=night] .profile-save-status[data-state=edited],html[data-theme=night] .profile-save-status[data-state=saving]{background:#204d5d;color:#f5eacf}
 
-.role-points-help{margin-top:8px;font-size:.85rem;line-height:1.5}.role-points-help summary{cursor:pointer;text-decoration:underline;text-underline-offset:3px}.role-points-help p{font-weight:400}.role-points-help summary:focus-visible{outline:3px solid #087fa4;outline-offset:3px}
-
-/* Let the parent page own vertical scrolling, including expanded explanations. */
+/* The explanation lives in a modal; opening it does not alter the crew grid. */
 html:has(>body.crew-embedded){overflow:hidden}
 .crew-embedded{display:flow-root;overflow:hidden}
 .crew-embedded main,.crew-embedded #content{display:flow-root}
-.role-breakdown{margin:12px 0 0;text-align:left;overflow-wrap:anywhere}
-.role-breakdown dt{font-weight:800;margin-top:14px}
-.role-breakdown dd{margin:4px 0 0;line-height:1.6}
 .crew-slot{min-width:0;align-self:start}
-
-.crew-slot:has(.role-points-help[open]){grid-column:1 / -1}
-.role-points-help[open] .role-breakdown{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px 24px;max-width:1000px;margin:12px auto;text-align:left}
-@media(max-width:600px){.role-points-help[open] .role-breakdown{grid-template-columns:1fr}}
+.role-points-trigger{margin-top:10px;background:transparent;border:0;padding:8px 4px;text-decoration:underline;text-underline-offset:3px;font-size:.85rem}
