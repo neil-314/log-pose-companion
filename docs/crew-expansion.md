@@ -1,11 +1,17 @@
-# Crew roster and analytics — October 17, 2026
+# Crew roster — manga canon audit, October 18, 2026
 
-The crew game now contains 308 picks, including all 100 entries in the official 2026 global popularity results. Going Merry and Thousand Sunny are explicit novelty picks from that poll. Each of the seven specialist berths has at least 20 explicitly tagged suitable candidates; tags do not imply perfect scores. The homepage featured gallery is separate.
+The game has **303 unique manga characters**, with an explicit reviewed allowlist in `public/crew-canon.js`. The supporting identity index and individual exceptions are recorded in `crew-manga-audit.json`. Manga cover stories and SBS identities qualify. Popularity rankings are a discovery source, not evidence of canon or a quota.
 
-Source: https://onepiecewt100-2026.com/en/final-rankings/ (announced August 23, 2026 at https://one-piece.com/news/81812/index.html). The exact rank-to-ID mapping is in crew-popularity-2026.json. Roles were checked against official character profiles and story roles, with conservative arc-completion gates. Ratings are editorial gameplay values, not official rankings. Unknown portraits use the existing fallback.
+Rasa was incorrectly included and has been removed. Uta is excluded conservatively: her manga silhouette exists, but the previous playable portrait, identity detail and musician rating relied on Film Red. This does not label Uta’s existence non-canon. Going Merry and Thousand Sunny are ships, and the Sogeking entry duplicated Usopp; these are excluded from the crew game. The separate favourite-character gallery remains compatible with existing saved rankings.
 
-The game unlocks after anime episode 30 or manga chapter 68. Both guest functions and authenticated server actions enforce it. Later characters remain checkpoint-gated. Each explanation shows only the assigned berth in a parent-page native dialog, outside the iframe layout; closing restores focus.
+There is no minimum number of candidates per profession. The reviewed support lists contain 13 navigation/history specialists, 19 cooking/performance specialists and 25 medicine/ship-repair specialists. Scores for established experts have increased: Bepo 98 navigator, Clover 99 archaeology, Patty/Carne 96 cook, Kureha 100 doctor, Paulie 98 shipwright. The paired berth uses either speciality. Technical/scientific knowledge alone is no longer treated as near-perfect shipbuilding. General utility/combat floors remain explicit editorial rules.
 
-Vercel Web Analytics was enabled on the included Hobby plan (50,000 events/month, 30-day history). The home and Harbour pages load aggregate page-view analytics; embedded frames and local development do not. The beforeSend hook removes query strings and fragments and drops custom events. No account identity, logbook contents or replay integration is added. Historical visitor data cannot be recovered from before activation. TVM uses a separate PostHog integration; this project does not reuse its key or dashboard.
+Hongo, Building Snake, Bonk Punch, Lucky Roux, Limejuice and Howling Gab remain manga characters, but film-only job/ability assumptions have been removed from their profiles and support qualifications. Shiki remains because he is a manga character; film-based navigation credit is removed. Rosinante’s early post-Enies Lobby unlock was wrong and now waits for Dressrosa. Giant crew professions wait until Elbaf. Shiki and Joy Boy’s detailed current entries wait until the Egghead completion checkpoint.
 
-Validation: full domain/DOM suite and four crew UI checks passed, along with the production build, simulated auth-server checks and analytics redaction tests. Browser verified a 308-pick pool, locked early checkpoint, drawing/assigning Gerd and a berth-only dialog. No domain changes.
+Both guest and server draws use the same allowlisted pool. Stored drafts with excluded or newly locked characters are rejected and the next draw starts a clean draft. Invalid old bests cannot prevent a new valid best from saving. Valid bests are re-scored with balance version 9.
+
+Reddit feedback implemented: https://www.reddit.com/r/ShowYourApp/comments/1x8rt9w/comment/phf94a5/
+
+The reply described confusing shipwright ratings and asked for swipe-to-reveal. Each paired explanation now names the actual skill, and the rules clarify that a doctor need not build ships. Players can tap Reveal once or swipe sideways across the question-mark tile; vertical page scrolling stays native. Mouse dragging, vertical gestures, canceled touches and disabled controls do not trigger reveals.
+
+Vercel aggregate visitor analytics remains enabled; no analytics or domain changes are part of this audit.

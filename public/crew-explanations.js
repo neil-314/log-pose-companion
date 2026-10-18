@@ -1,3 +1,4 @@
+import {SUPPORT_EXPERTISE} from './crew-support.js';
 import {CREW_ROSTER} from './featured-roster.js';
 import {CREW_ROLES,roleScore,roleLabel,POWER_FLOOR_MEMBERS,WILDCARD_100_MEMBERS,CAPTAIN_MEMBERS,VICE_CAPTAIN_MEMBERS} from './crew-game.js';
 
@@ -36,6 +37,7 @@ export function characterRoleBreakdown(id,kind='anime',progress=0){
  const rows=CREW_ROLES.slice(0,7).map((role,index)=>{
   const score=roleScore(id,role);
   let reason=strawHats[id]?.[index]||specialist[id]?.[role]||`${profiles[id]||character.profile} These details inform this rating. ${demands[index]} ${score>=90?'The model gives this combination a very strong fit.':score>=70?'The model gives useful transferable skills credit here, below a perfect specialist fit.':'The model gives limited credit here because this is outside the character’s defining speciality.'}`;
+  if(SUPPORT_EXPERTISE[id]?.[role]&&!strawHats[id])reason=SUPPORT_EXPERTISE[id][role].reason;
   if(id==='robin'&&role==='navigator'&&progress>=(kind==='manga'?218:130))reason+=' Her ability to read Poneglyphs makes that historical knowledge especially valuable.';
   if(id==='joyboy'||id==='imu')reason=`${character.name} receives 100 in every berth as an explicit game-balance exception. This is a speculative editorial choice, not evidence of training in every profession. ${demands[index]}`;
   else if(POWER_FLOOR_MEMBERS.has(id)&&score===80)reason+=' The game’s elite-fighter floor raises this berth to 80; that bonus does not establish professional training.';
@@ -53,6 +55,9 @@ export function characterRoleExplanation(id,role,kind='anime',progress=0){
  const character=CREW_ROSTER.find(c=>c.id===id);
  const row=characterRoleBreakdown(id,kind,progress).find(r=>r.role===(role.startsWith('wildcard')?'wildcard1':role));
  let reason=row.reason;
+ const expertise=SUPPORT_EXPERTISE[id]?.[role];
+ if(expertise)reason+=` This fills the ${expertise.skill} side of ${roleLabel(role)}; the paired berth accepts either speciality.`;
+ if(['navigator','cook','doctor'].includes(role)&&!expertise&&!['joyboy','imu'].includes(id))reason+=` This is general utility credit, not an established ${roleLabel(role)} profession.`;
  if(role.startsWith('wildcard'))reason=id==='robin'?'Robin’s historical research brings rare information and problem-solving value to this flexible berth. Wildcard rewards that standout speciality.':`${character.profile||profiles[id]} ${WILDCARD_100_MEMBERS.has(id)?'This character receives the designated elite-fighter utility bonus.':'Wildcard rewards this character’s strongest useful contribution rather than averaging unrelated professional skills.'}`;
  if(['joyboy','imu'].includes(id))reason=`${character.name} receives an exceptional utility rating in this berth as an explicit editorial game choice. It is not evidence of professional training.`;
  return {...row,role,label:roleLabel(role),reason};

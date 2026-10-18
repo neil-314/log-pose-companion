@@ -1,0 +1,2437 @@
+{
+  "checked": "2026-10-18",
+  "policy": "Manga characters only, including manga cover stories and SBS identities. Canon existence is distinct from film-only abilities. No minimum count per profession.",
+  "removed": {
+    "rasa": "Anime-only character; not a manga character.",
+    "uta": "Manga silhouette exists, but the playable identity, portrait and musician rating depend on Film Red; excluded from this strict manga-based pool.",
+    "merryship": "Vessel, not a selectable crew member.",
+    "sunnyship": "Vessel, not a selectable crew member.",
+    "sogeking": "Usopp alias; excluded to prevent drawing the same person twice."
+  },
+  "entries": [
+    {
+      "id": "luffy",
+      "name": "Monkey D. Luffy",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Monkey D. Luffy"
+      }
+    },
+    {
+      "id": "zoro",
+      "name": "Roronoa Zoro",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Roronoa Zoro"
+      }
+    },
+    {
+      "id": "nami",
+      "name": "Nami",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Nami"
+      }
+    },
+    {
+      "id": "usopp",
+      "name": "Usopp",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Usopp"
+      }
+    },
+    {
+      "id": "sanji",
+      "name": "Sanji",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Sanji"
+      }
+    },
+    {
+      "id": "chopper",
+      "name": "Tony Tony Chopper",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Tony Tony Chopper"
+      }
+    },
+    {
+      "id": "robin",
+      "name": "Nico Robin",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Nico Robin"
+      }
+    },
+    {
+      "id": "franky",
+      "name": "Franky",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Franky"
+      }
+    },
+    {
+      "id": "brook",
+      "name": "Brook",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Brook"
+      }
+    },
+    {
+      "id": "jinbe",
+      "name": "Jinbe",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Jinbe"
+      }
+    },
+    {
+      "id": "shanks",
+      "name": "Shanks",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Shanks"
+      }
+    },
+    {
+      "id": "ace",
+      "name": "Portgas D. Ace",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Portgas D. Ace"
+      }
+    },
+    {
+      "id": "law",
+      "name": "Trafalgar Law",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Trafalgar D. Water Law"
+      }
+    },
+    {
+      "id": "buggy",
+      "name": "Buggy",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Buggy"
+      }
+    },
+    {
+      "id": "mihawk",
+      "name": "Dracule Mihawk",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Dracule Mihawk"
+      }
+    },
+    {
+      "id": "vivi",
+      "name": "Nefertari Vivi",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Nefertari D. Vivi"
+      }
+    },
+    {
+      "id": "crocodile",
+      "name": "Crocodile",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Crocodile"
+      }
+    },
+    {
+      "id": "smoker",
+      "name": "Smoker",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Smoker"
+      }
+    },
+    {
+      "id": "lucci",
+      "name": "Rob Lucci",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Rob Lucci"
+      }
+    },
+    {
+      "id": "hancock",
+      "name": "Boa Hancock",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Boa Hancock"
+      }
+    },
+    {
+      "id": "doflamingo",
+      "name": "Donquixote Doflamingo",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Donquixote Doflamingo"
+      }
+    },
+    {
+      "id": "sabo",
+      "name": "Sabo",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Sabo"
+      }
+    },
+    {
+      "id": "whitebeard",
+      "name": "Whitebeard",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Edward Negate"
+      }
+    },
+    {
+      "id": "garp",
+      "name": "Monkey D. Garp",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Monkey D. Garp"
+      }
+    },
+    {
+      "id": "katakuri",
+      "name": "Charlotte Katakuri",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Charlotte Katakuri"
+      }
+    },
+    {
+      "id": "kaido",
+      "name": "Kaido",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Kaidou"
+      }
+    },
+    {
+      "id": "chouchou",
+      "name": "Chouchou",
+      "evidence": {
+        "source": "https://onepiece.fandom.com/wiki/Chouchou",
+        "reference": "Manga Chapter 12"
+      }
+    },
+    {
+      "id": "pappag",
+      "name": "Pappag",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Pappag"
+      }
+    },
+    {
+      "id": "kid",
+      "name": "Eustass Kid",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Eustass Kid"
+      }
+    },
+    {
+      "id": "dragon",
+      "name": "Monkey D. Dragon",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Monkey D. Dragon"
+      }
+    },
+    {
+      "id": "roger",
+      "name": "Gol D. Roger",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Gol D. Roger"
+      }
+    },
+    {
+      "id": "blackbeard",
+      "name": "Marshall D. Teach",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Marshall D. Teach"
+      }
+    },
+    {
+      "id": "bigmom",
+      "name": "Charlotte Linlin",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Charlotte Linlin"
+      }
+    },
+    {
+      "id": "kuma",
+      "name": "Bartholomew Kuma",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Bartholomew Kuma"
+      }
+    },
+    {
+      "id": "shiki",
+      "name": "Shiki",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Shiki"
+      }
+    },
+    {
+      "id": "joyboy",
+      "name": "Joy Boy",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Joy Boy"
+      }
+    },
+    {
+      "id": "sengoku",
+      "name": "Sengoku",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Sengoku"
+      }
+    },
+    {
+      "id": "kizaru",
+      "name": "Borsalino / Kizaru",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Borsalino"
+      }
+    },
+    {
+      "id": "akainu",
+      "name": "Sakazuki / Akainu",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Sakazuki"
+      }
+    },
+    {
+      "id": "aokiji",
+      "name": "Kuzan / Aokiji",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Kuzan"
+      }
+    },
+    {
+      "id": "fujitora",
+      "name": "Issho / Fujitora",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Issho"
+      }
+    },
+    {
+      "id": "ryokugyu",
+      "name": "Aramaki / Ryokugyu",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Aramaki"
+      }
+    },
+    {
+      "id": "enel",
+      "name": "Enel",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Enel"
+      }
+    },
+    {
+      "id": "bonclay",
+      "name": "Bentham / Bon Clay",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Bentham"
+      }
+    },
+    {
+      "id": "perona",
+      "name": "Perona",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Perona"
+      }
+    },
+    {
+      "id": "yamato",
+      "name": "Yamato",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Yamato"
+      }
+    },
+    {
+      "id": "marco",
+      "name": "Marco",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Marco"
+      }
+    },
+    {
+      "id": "oden",
+      "name": "Kozuki Oden",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Kozuki Oden"
+      }
+    },
+    {
+      "id": "yasopp",
+      "name": "Yasopp",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Yasopp"
+      }
+    },
+    {
+      "id": "augur",
+      "name": "Van Augur",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Van Augur"
+      }
+    },
+    {
+      "id": "beckman",
+      "name": "Benn Beckman",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Benn Beckman"
+      }
+    },
+    {
+      "id": "izo",
+      "name": "Izo",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Izou"
+      }
+    },
+    {
+      "id": "zeff",
+      "name": "Zeff",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Zeff"
+      }
+    },
+    {
+      "id": "streusen",
+      "name": "Streusen",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Streusen"
+      }
+    },
+    {
+      "id": "pudding",
+      "name": "Charlotte Pudding",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Charlotte Pudding"
+      }
+    },
+    {
+      "id": "kureha",
+      "name": "Kureha",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Kureha"
+      }
+    },
+    {
+      "id": "crocus",
+      "name": "Crocus",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Crocus"
+      }
+    },
+    {
+      "id": "laffitte",
+      "name": "Laffitte",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Laffitte"
+      }
+    },
+    {
+      "id": "imu",
+      "name": "Imu",
+      "evidence": {
+        "source": "https://one-piece.com/character/Imu/index.html",
+        "reference": "Manga Chapter 906; identity shown in 908"
+      }
+    },
+    {
+      "id": "rosinante",
+      "name": "Donquixote Rosinante",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Donquixote Rosinante"
+      }
+    },
+    {
+      "id": "carrot",
+      "name": "Carrot",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Carrot"
+      }
+    },
+    {
+      "id": "rocks",
+      "name": "Rocks D. Xebec",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Rocks D. Xebec"
+      }
+    },
+    {
+      "id": "loki",
+      "name": "Loki",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Loki"
+      }
+    },
+    {
+      "id": "cracker",
+      "name": "Charlotte Cracker",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Charlotte Cracker"
+      }
+    },
+    {
+      "id": "koby",
+      "name": "Koby",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Koby"
+      }
+    },
+    {
+      "id": "kaku",
+      "name": "Kaku",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Kaku"
+      }
+    },
+    {
+      "id": "cavendish",
+      "name": "Cavendish",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Cavendish"
+      }
+    },
+    {
+      "id": "rayleigh",
+      "name": "Silvers Rayleigh",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Silvers Rayleigh"
+      }
+    },
+    {
+      "id": "bonney",
+      "name": "Jewelry Bonney",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Jewelry Bonney"
+      }
+    },
+    {
+      "id": "king",
+      "name": "King",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: King"
+      }
+    },
+    {
+      "id": "lilith",
+      "name": "Vegapunk Lilith",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Lilith"
+      }
+    },
+    {
+      "id": "perospero",
+      "name": "Charlotte Perospero",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Charlotte Perospero"
+      }
+    },
+    {
+      "id": "killer",
+      "name": "Killer",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Killer"
+      }
+    },
+    {
+      "id": "kuro",
+      "name": "Kuro",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Kuro"
+      }
+    },
+    {
+      "id": "bartolomeo",
+      "name": "Bartolomeo",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Bartolomeo"
+      }
+    },
+    {
+      "id": "namur",
+      "name": "Namur",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Namur"
+      }
+    },
+    {
+      "id": "gunko",
+      "name": "Gunko",
+      "evidence": {
+        "source": "https://onepiece.fandom.com/wiki/Manmayer_Gunko",
+        "reference": "Manga Chapter 1134; named in 1137"
+      }
+    },
+    {
+      "id": "bepo",
+      "name": "Bepo",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Bepo"
+      }
+    },
+    {
+      "id": "spandam",
+      "name": "Spandam",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Spandam"
+      }
+    },
+    {
+      "id": "moria",
+      "name": "Gecko Moria",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Gecko Moria"
+      }
+    },
+    {
+      "id": "missgoldenweek",
+      "name": "Miss Goldenweek",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Marianne"
+      }
+    },
+    {
+      "id": "shirahoshi",
+      "name": "Shirahoshi",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Shirahoshi"
+      }
+    },
+    {
+      "id": "shamrock",
+      "name": "Figarland Shamrock",
+      "evidence": {
+        "source": "https://onepiece.fandom.com/wiki/Figarland_Shamrock",
+        "reference": "Manga Chapter 1134; named in 1137"
+      }
+    },
+    {
+      "id": "hawkins",
+      "name": "Basil Hawkins",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Basil Hawkins"
+      }
+    },
+    {
+      "id": "tashigi",
+      "name": "Tashigi",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Tashigi"
+      }
+    },
+    {
+      "id": "paulie",
+      "name": "Paulie",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Paulie"
+      }
+    },
+    {
+      "id": "ulti",
+      "name": "Ulti",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Ulti"
+      }
+    },
+    {
+      "id": "helmeppo",
+      "name": "Helmeppo",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Helmeppo"
+      }
+    },
+    {
+      "id": "drake",
+      "name": "X Drake",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: X Drake"
+      }
+    },
+    {
+      "id": "koala",
+      "name": "Koala",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Koala"
+      }
+    },
+    {
+      "id": "penguin",
+      "name": "Penguin",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Penguin"
+      }
+    },
+    {
+      "id": "monet",
+      "name": "Monet",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Monet"
+      }
+    },
+    {
+      "id": "dugong",
+      "name": "Kung-Fu Dugong",
+      "evidence": {
+        "source": "https://onepiece.fandom.com/wiki/Kung-Fu_Dugongs",
+        "reference": "Manga Chapter 161"
+      }
+    },
+    {
+      "id": "reiju",
+      "name": "Vinsmoke Reiju",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Vinsmoke Reiju"
+      }
+    },
+    {
+      "id": "kiku",
+      "name": "Kikunojo",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Kikunojo"
+      }
+    },
+    {
+      "id": "kawamatsu",
+      "name": "Kawamatsu",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Kawamatsu"
+      }
+    },
+    {
+      "id": "pell",
+      "name": "Pell",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Pell"
+      }
+    },
+    {
+      "id": "hina",
+      "name": "Hina",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Hina"
+      }
+    },
+    {
+      "id": "caesar",
+      "name": "Caesar Clown",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Caeser Clown"
+      }
+    },
+    {
+      "id": "iceburg",
+      "name": "Iceburg",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Iceberg"
+      }
+    },
+    {
+      "id": "karoo",
+      "name": "Karoo",
+      "evidence": {
+        "source": "https://onepiece.fandom.com/wiki/Karoo",
+        "reference": "Manga Chapter 109"
+      }
+    },
+    {
+      "id": "hongo",
+      "name": "Hongo",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Hongo"
+      }
+    },
+    {
+      "id": "rebecca",
+      "name": "Rebecca",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Rebecca"
+      }
+    },
+    {
+      "id": "shachi",
+      "name": "Shachi",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Shachi"
+      }
+    },
+    {
+      "id": "marguerite",
+      "name": "Marguerite",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Marguerite"
+      }
+    },
+    {
+      "id": "gaimon",
+      "name": "Gaimon",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Gaimon"
+      }
+    },
+    {
+      "id": "stussy",
+      "name": "Stussy",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Stussy"
+      }
+    },
+    {
+      "id": "ivankov",
+      "name": "Emporio Ivankov",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Emporio Ivankov"
+      }
+    },
+    {
+      "id": "roux",
+      "name": "Lucky Roux",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Lucky Roux"
+      }
+    },
+    {
+      "id": "apoo",
+      "name": "Scratchmen Apoo",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Scratchmen Apoo"
+      }
+    },
+    {
+      "id": "urouge",
+      "name": "Urouge",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Urouge"
+      }
+    },
+    {
+      "id": "bege",
+      "name": "Capone Bege",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Capone Bege"
+      }
+    },
+    {
+      "id": "arlong",
+      "name": "Arlong",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Arlong"
+      }
+    },
+    {
+      "id": "krieg",
+      "name": "Don Krieg",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Krieg"
+      }
+    },
+    {
+      "id": "alvida",
+      "name": "Alvida",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Alvida"
+      }
+    },
+    {
+      "id": "fisher",
+      "name": "Fisher Tiger",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Fisher Tiger"
+      }
+    },
+    {
+      "id": "weevil",
+      "name": "Edward Weevil",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Edward Weevil"
+      }
+    },
+    {
+      "id": "daz",
+      "name": "Daz Bonez",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Daz Bonez"
+      }
+    },
+    {
+      "id": "galdino",
+      "name": "Galdino",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Galdino"
+      }
+    },
+    {
+      "id": "gin",
+      "name": "Gin",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Gin"
+      }
+    },
+    {
+      "id": "pearl",
+      "name": "Pearl",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Pearl"
+      }
+    },
+    {
+      "id": "mohji",
+      "name": "Mohji",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Mohji"
+      }
+    },
+    {
+      "id": "cabaji",
+      "name": "Cabaji",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Cabaji"
+      }
+    },
+    {
+      "id": "sham",
+      "name": "Sham",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Sham"
+      }
+    },
+    {
+      "id": "buchi",
+      "name": "Buchi",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Buchi"
+      }
+    },
+    {
+      "id": "patty",
+      "name": "Patty",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Patty"
+      }
+    },
+    {
+      "id": "carne",
+      "name": "Carne",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Carne"
+      }
+    },
+    {
+      "id": "terracotta",
+      "name": "Terracotta",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Terracotta"
+      }
+    },
+    {
+      "id": "makino",
+      "name": "Makino",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Makino"
+      }
+    },
+    {
+      "id": "nojiko",
+      "name": "Nojiko",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Nojiko"
+      }
+    },
+    {
+      "id": "chiffon",
+      "name": "Charlotte Chiffon",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Charlotte Chiffon"
+      }
+    },
+    {
+      "id": "lola",
+      "name": "Charlotte Lola",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Charlotte Lola"
+      }
+    },
+    {
+      "id": "thatch",
+      "name": "Thatch",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Thatch"
+      }
+    },
+    {
+      "id": "hiyori",
+      "name": "Kozuki Hiyori",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Kozuki Hiyori"
+      }
+    },
+    {
+      "id": "blackmaria",
+      "name": "Black Maria",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Black Maria"
+      }
+    },
+    {
+      "id": "queen",
+      "name": "Queen",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Queen"
+      }
+    },
+    {
+      "id": "hiriluk",
+      "name": "Hiriluk",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Hiriluk"
+      }
+    },
+    {
+      "id": "hogback",
+      "name": "Hogback",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Hogback"
+      }
+    },
+    {
+      "id": "docq",
+      "name": "Doc Q",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Doc Q"
+      }
+    },
+    {
+      "id": "aladine",
+      "name": "Aladine",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Aladine"
+      }
+    },
+    {
+      "id": "miyagi",
+      "name": "Miyagi",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Miyagi"
+      }
+    },
+    {
+      "id": "tristan",
+      "name": "Tristan",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Tristan"
+      }
+    },
+    {
+      "id": "nako",
+      "name": "Nako",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Nako"
+      }
+    },
+    {
+      "id": "fishbonen",
+      "name": "Fishbonen",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Fishbonen"
+      }
+    },
+    {
+      "id": "tom",
+      "name": "Tom",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Tom"
+      }
+    },
+    {
+      "id": "den",
+      "name": "Den",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Den"
+      }
+    },
+    {
+      "id": "tileston",
+      "name": "Tileston",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Tilestone"
+      }
+    },
+    {
+      "id": "lulu",
+      "name": "Peepley Lulu",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Peepley Lulu"
+      }
+    },
+    {
+      "id": "stansen",
+      "name": "Stansen",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Stansen"
+      }
+    },
+    {
+      "id": "gerd",
+      "name": "Gerd",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Gerd"
+      }
+    },
+    {
+      "id": "goldberg",
+      "name": "Goldberg",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Goldberg"
+      }
+    },
+    {
+      "id": "road",
+      "name": "Road",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Road"
+      }
+    },
+    {
+      "id": "clover",
+      "name": "Clover",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Clover"
+      }
+    },
+    {
+      "id": "olvia",
+      "name": "Nico Olvia",
+      "evidence": {
+        "source": "https://onepiece.fandom.com/wiki/Nico_Olvia",
+        "reference": "Manga Chapter 391"
+      }
+    },
+    {
+      "id": "saul",
+      "name": "Jaguar D. Saul",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Jaguar D. Saul"
+      }
+    },
+    {
+      "id": "sukiyaki",
+      "name": "Kozuki Sukiyaki",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Kozuki Sukiyaki"
+      }
+    },
+    {
+      "id": "vegapunk",
+      "name": "Vegapunk",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Vegapunk"
+      }
+    },
+    {
+      "id": "shaka",
+      "name": "Vegapunk Shaka",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Shaka"
+      }
+    },
+    {
+      "id": "edison",
+      "name": "Vegapunk Edison",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Edison"
+      }
+    },
+    {
+      "id": "pythagoras",
+      "name": "Vegapunk Pythagoras",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Pythagoras"
+      }
+    },
+    {
+      "id": "atlas",
+      "name": "Vegapunk Atlas",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Atlas"
+      }
+    },
+    {
+      "id": "york",
+      "name": "Vegapunk York",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: York"
+      }
+    },
+    {
+      "id": "noland",
+      "name": "Mont Blanc Noland",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Mont Blanc Noland"
+      }
+    },
+    {
+      "id": "cricket",
+      "name": "Mont Blanc Cricket",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Mont Blanc Cricket"
+      }
+    },
+    {
+      "id": "ganfall",
+      "name": "Gan Fall",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Gan Fall"
+      }
+    },
+    {
+      "id": "kinemon",
+      "name": "Kin’emon",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Kin'emon"
+      }
+    },
+    {
+      "id": "inuarashi",
+      "name": "Inuarashi",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Inuarashi"
+      }
+    },
+    {
+      "id": "nekomamushi",
+      "name": "Nekomamushi",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Nekomamushi"
+      }
+    },
+    {
+      "id": "pedro",
+      "name": "Pedro",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Pedro"
+      }
+    },
+    {
+      "id": "suleiman",
+      "name": "Suleiman",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Suleiman"
+      }
+    },
+    {
+      "id": "sai",
+      "name": "Sai",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Sai"
+      }
+    },
+    {
+      "id": "boo",
+      "name": "Boo",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Boo"
+      }
+    },
+    {
+      "id": "chinjao",
+      "name": "Chinjao",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Chinjao"
+      }
+    },
+    {
+      "id": "hajrudin",
+      "name": "Hajrudin",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Hajrudin"
+      }
+    },
+    {
+      "id": "orlumbus",
+      "name": "Orlumbus",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Orlumbus"
+      }
+    },
+    {
+      "id": "ideo",
+      "name": "Ideo",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Ideo"
+      }
+    },
+    {
+      "id": "leo",
+      "name": "Leo",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Leo"
+      }
+    },
+    {
+      "id": "foxy",
+      "name": "Foxy",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Foxy"
+      }
+    },
+    {
+      "id": "bellamy",
+      "name": "Bellamy",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Bellamy"
+      }
+    },
+    {
+      "id": "dorry",
+      "name": "Dorry",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Dorry"
+      }
+    },
+    {
+      "id": "brogy",
+      "name": "Brogy",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Brogy"
+      }
+    },
+    {
+      "id": "odenwife",
+      "name": "Kozuki Toki",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Kozuki Toki"
+      }
+    },
+    {
+      "id": "denjiro",
+      "name": "Denjiro",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Denjiro"
+      }
+    },
+    {
+      "id": "ashura",
+      "name": "Ashura Doji",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Ashura Doji"
+      }
+    },
+    {
+      "id": "raizo",
+      "name": "Raizo",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Raizo"
+      }
+    },
+    {
+      "id": "kanjuro",
+      "name": "Kanjuro",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Kurozumi Kanjuro"
+      }
+    },
+    {
+      "id": "hyogoro",
+      "name": "Hyogoro",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Hyogoro"
+      }
+    },
+    {
+      "id": "ryuma",
+      "name": "Shimotsuki Ryuma",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Shimotsuki Ryuma"
+      }
+    },
+    {
+      "id": "kyros",
+      "name": "Kyros",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Kyros"
+      }
+    },
+    {
+      "id": "vista",
+      "name": "Vista",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Vista"
+      }
+    },
+    {
+      "id": "jozu",
+      "name": "Jozu",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Jozu"
+      }
+    },
+    {
+      "id": "rakuyo",
+      "name": "Rakuyo",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Rakuyo"
+      }
+    },
+    {
+      "id": "fossa",
+      "name": "Fossa",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Fossa"
+      }
+    },
+    {
+      "id": "curiel",
+      "name": "Curiel",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Curiel"
+      }
+    },
+    {
+      "id": "blamenco",
+      "name": "Blamenco",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Blamenco"
+      }
+    },
+    {
+      "id": "haruta",
+      "name": "Haruta",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Haruta"
+      }
+    },
+    {
+      "id": "speedjiru",
+      "name": "Speed Jiru",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Speed Jiru"
+      }
+    },
+    {
+      "id": "atmos",
+      "name": "Atmos",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Atmos"
+      }
+    },
+    {
+      "id": "mcguy",
+      "name": "McGuy",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: McGuy"
+      }
+    },
+    {
+      "id": "whiteybay",
+      "name": "Whitey Bay",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Whitey Bay"
+      }
+    },
+    {
+      "id": "squard",
+      "name": "Squard",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Squard"
+      }
+    },
+    {
+      "id": "gaban",
+      "name": "Scopper Gaban",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Scopper Gaban"
+      }
+    },
+    {
+      "id": "seagull",
+      "name": "Seagull Guns Nozdon",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Seagull Guns Nozdon"
+      }
+    },
+    {
+      "id": "spencer",
+      "name": "Spencer",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Spencer"
+      }
+    },
+    {
+      "id": "sunbell",
+      "name": "Sunbell",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Sunbell"
+      }
+    },
+    {
+      "id": "shanksnavigator",
+      "name": "Building Snake",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Building Snake"
+      }
+    },
+    {
+      "id": "limejuice",
+      "name": "Limejuice",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Limejuice"
+      }
+    },
+    {
+      "id": "bonkpunch",
+      "name": "Bonk Punch",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Bonk Punch"
+      }
+    },
+    {
+      "id": "gab",
+      "name": "Howling Gab",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Gab"
+      }
+    },
+    {
+      "id": "rockstar",
+      "name": "Rockstar",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Rockstar"
+      }
+    },
+    {
+      "id": "shiryu",
+      "name": "Shiryu",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Shiryu"
+      }
+    },
+    {
+      "id": "burgess",
+      "name": "Jesus Burgess",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Jesus Burgess"
+      }
+    },
+    {
+      "id": "pizarro",
+      "name": "Avalo Pizarro",
+      "evidence": {
+        "source": "https://onepiece.fandom.com/wiki/Avalo_Pizarro",
+        "reference": "Manga Chapter 575"
+      }
+    },
+    {
+      "id": "vasco",
+      "name": "Vasco Shot",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Vasco Shot"
+      }
+    },
+    {
+      "id": "devon",
+      "name": "Catarina Devon",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Catarina Devon"
+      }
+    },
+    {
+      "id": "sanjuan",
+      "name": "Sanjuan Wolf",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Sanjuan Wolf"
+      }
+    },
+    {
+      "id": "augerhorse",
+      "name": "Stronger",
+      "evidence": {
+        "source": "https://onepiece.fandom.com/wiki/Stronger",
+        "reference": "Manga Chapter 223"
+      }
+    },
+    {
+      "id": "laoG",
+      "name": "Lao G",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Lao G"
+      }
+    },
+    {
+      "id": "diamante",
+      "name": "Diamante",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Diamante"
+      }
+    },
+    {
+      "id": "trebol",
+      "name": "Trebol",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Trebol"
+      }
+    },
+    {
+      "id": "pica",
+      "name": "Pica",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Pica"
+      }
+    },
+    {
+      "id": "vergo",
+      "name": "Vergo",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Vergo"
+      }
+    },
+    {
+      "id": "baby5",
+      "name": "Baby 5",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Baby 5"
+      }
+    },
+    {
+      "id": "gladius",
+      "name": "Gladius",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Gladius"
+      }
+    },
+    {
+      "id": "senorpink",
+      "name": "Senor Pink",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Senor Pink"
+      }
+    },
+    {
+      "id": "dellinger",
+      "name": "Dellinger",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Dellinger"
+      }
+    },
+    {
+      "id": "machvise",
+      "name": "Machvise",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Machvise"
+      }
+    },
+    {
+      "id": "kalifa",
+      "name": "Kalifa",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Kalifa"
+      }
+    },
+    {
+      "id": "jabra",
+      "name": "Jabra",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Jabra"
+      }
+    },
+    {
+      "id": "fukuro",
+      "name": "Fukuro",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Fukurou"
+      }
+    },
+    {
+      "id": "kumadori",
+      "name": "Kumadori",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Kumadori"
+      }
+    },
+    {
+      "id": "nero",
+      "name": "Nero",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Nero"
+      }
+    },
+    {
+      "id": "who",
+      "name": "Who’s-Who",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Who's-Who"
+      }
+    },
+    {
+      "id": "sasaki",
+      "name": "Sasaki",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Sasaki"
+      }
+    },
+    {
+      "id": "pageone",
+      "name": "Page One",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Page One"
+      }
+    },
+    {
+      "id": "duval",
+      "name": "Duval",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Duval"
+      }
+    },
+    {
+      "id": "hatchan",
+      "name": "Hatchan",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Hatchan"
+      }
+    },
+    {
+      "id": "kuroobi",
+      "name": "Kuroobi",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Kuroobi"
+      }
+    },
+    {
+      "id": "chew",
+      "name": "Chew",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Chew"
+      }
+    },
+    {
+      "id": "hody",
+      "name": "Hody Jones",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Hody Jones"
+      }
+    },
+    {
+      "id": "zeo",
+      "name": "Zeo",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Zeo"
+      }
+    },
+    {
+      "id": "daruma",
+      "name": "Daruma",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Daruma"
+      }
+    },
+    {
+      "id": "dosun",
+      "name": "Dosun",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Dosun"
+      }
+    },
+    {
+      "id": "vanderdecken",
+      "name": "Vander Decken IX",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Vander Decken IX"
+      }
+    },
+    {
+      "id": "neptune",
+      "name": "Neptune",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Neptune"
+      }
+    },
+    {
+      "id": "fukaboshi",
+      "name": "Fukaboshi",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Fukaboshi"
+      }
+    },
+    {
+      "id": "braham",
+      "name": "Braham",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Braham"
+      }
+    },
+    {
+      "id": "genbo",
+      "name": "Genbo",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Genbo"
+      }
+    },
+    {
+      "id": "wyper",
+      "name": "Wyper",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Wyper"
+      }
+    },
+    {
+      "id": "ohm",
+      "name": "Ohm",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Ohm"
+      }
+    },
+    {
+      "id": "satori",
+      "name": "Satori",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Satori"
+      }
+    },
+    {
+      "id": "shura",
+      "name": "Shura",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Shura"
+      }
+    },
+    {
+      "id": "rindo",
+      "name": "Rindo",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Rindo"
+      }
+    },
+    {
+      "id": "kikyo",
+      "name": "Kikyo",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Kikyo"
+      }
+    },
+    {
+      "id": "aphelandra",
+      "name": "Aphelandra",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Aphelandra"
+      }
+    },
+    {
+      "id": "boa2",
+      "name": "Boa Sandersonia",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Boa Sandersonia"
+      }
+    },
+    {
+      "id": "boa3",
+      "name": "Boa Marigold",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Boa Marigold"
+      }
+    },
+    {
+      "id": "gloriosa",
+      "name": "Gloriosa",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Gloriosa"
+      }
+    },
+    {
+      "id": "shakky",
+      "name": "Shakky",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Shakuyaku"
+      }
+    },
+    {
+      "id": "caribou",
+      "name": "Caribou",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Caribou"
+      }
+    },
+    {
+      "id": "coribou",
+      "name": "Coribou",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Coribou"
+      }
+    },
+    {
+      "id": "vito",
+      "name": "Vito",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Vito"
+      }
+    },
+    {
+      "id": "gotti",
+      "name": "Gotti",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Gotti"
+      }
+    },
+    {
+      "id": "tamago",
+      "name": "Tamago",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Tamago"
+      }
+    },
+    {
+      "id": "pekoms",
+      "name": "Pekoms",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Pekoms"
+      }
+    },
+    {
+      "id": "smoothie",
+      "name": "Charlotte Smoothie",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Charlotte Smoothie"
+      }
+    },
+    {
+      "id": "snack",
+      "name": "Charlotte Snack",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Charlotte Snack"
+      }
+    },
+    {
+      "id": "oven",
+      "name": "Charlotte Oven",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Charlotte Oven"
+      }
+    },
+    {
+      "id": "daifuku",
+      "name": "Charlotte Daifuku",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Charlotte Daifuku"
+      }
+    },
+    {
+      "id": "brulee",
+      "name": "Charlotte Brulee",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Charlotte Brûlée"
+      }
+    },
+    {
+      "id": "montdor",
+      "name": "Charlotte Mont-d’Or",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Charlotte Mont-d'Or"
+      }
+    },
+    {
+      "id": "judge",
+      "name": "Vinsmoke Judge",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Vinsmoke Judge"
+      }
+    },
+    {
+      "id": "ichiji",
+      "name": "Vinsmoke Ichiji",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Vinsmoke Ichiji"
+      }
+    },
+    {
+      "id": "niji",
+      "name": "Vinsmoke Niji",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Vinsmoke Niji"
+      }
+    },
+    {
+      "id": "yonji",
+      "name": "Vinsmoke Yonji",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Vinsmoke Yonji"
+      }
+    },
+    {
+      "id": "betty",
+      "name": "Belo Betty",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Belo Betty"
+      }
+    },
+    {
+      "id": "karasu",
+      "name": "Karasu",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Karasu"
+      }
+    },
+    {
+      "id": "lindbergh",
+      "name": "Lindbergh",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Lindbergh"
+      }
+    },
+    {
+      "id": "morley",
+      "name": "Morley",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Morley"
+      }
+    },
+    {
+      "id": "inazuma",
+      "name": "Inazuma",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Inazuma"
+      }
+    },
+    {
+      "id": "magellan",
+      "name": "Magellan",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Magellan"
+      }
+    },
+    {
+      "id": "hannyabal",
+      "name": "Hannyabal",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Hannyabal"
+      }
+    },
+    {
+      "id": "domino",
+      "name": "Domino",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Domino"
+      }
+    },
+    {
+      "id": "sadi",
+      "name": "Sadi",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Sadi"
+      }
+    },
+    {
+      "id": "moso",
+      "name": "Momonga",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Momonga"
+      }
+    },
+    {
+      "id": "onigumo",
+      "name": "Onigumo",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Onigumo"
+      }
+    },
+    {
+      "id": "doberman",
+      "name": "Doberman",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Doberman"
+      }
+    },
+    {
+      "id": "shu",
+      "name": "Shu",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Shu"
+      }
+    },
+    {
+      "id": "sentomaru",
+      "name": "Sentomaru",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Sentomaru"
+      }
+    },
+    {
+      "id": "tsuru",
+      "name": "Tsuru",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Tsuru"
+      }
+    },
+    {
+      "id": "gion",
+      "name": "Gion",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Gion"
+      }
+    },
+    {
+      "id": "tokikake",
+      "name": "Tokikake",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Tokikake"
+      }
+    },
+    {
+      "id": "tbone",
+      "name": "T Bone",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: T Bone"
+      }
+    },
+    {
+      "id": "hibari",
+      "name": "Hibari",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Hibari"
+      }
+    },
+    {
+      "id": "princegrus",
+      "name": "Prince Grus",
+      "evidence": {
+        "source": "https://one-piece.com/character/Prince_Grus/index.html",
+        "reference": "Manga cover story Chapter 966; main story Chapter 1061"
+      }
+    },
+    {
+      "id": "kujaku",
+      "name": "Kujaku",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Kujaku"
+      }
+    },
+    {
+      "id": "doll",
+      "name": "Doll",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Doll"
+      }
+    },
+    {
+      "id": "garling",
+      "name": "Figarland Garling",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Figarland Garling"
+      }
+    },
+    {
+      "id": "saturn",
+      "name": "Jaygarcia Saturn",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Jaygarcia Saturn"
+      }
+    },
+    {
+      "id": "nusjuro",
+      "name": "Ethanbaron V. Nusjuro",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Ethanbaron V. Nusjuro"
+      }
+    },
+    {
+      "id": "mars",
+      "name": "Marcus Mars",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Marcus Mars"
+      }
+    },
+    {
+      "id": "warcury",
+      "name": "Topman Warcury",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Topman Warcury"
+      }
+    },
+    {
+      "id": "jupeter",
+      "name": "Shepherd Ju Peter",
+      "evidence": {
+        "source": "https://www.grandlinewiki.net/characters.html",
+        "reference": "Canon character index entry: Shepherd Ju Peter"
+      }
+    }
+  ]
+}
