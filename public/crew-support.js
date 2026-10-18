@@ -1,0 +1,68 @@
+// Reviewed support specialities. There is deliberately no quota per berth.
+const entries={
+ navigator:[
+ ['nami','Navigator',100,'Nami reads weather and plots the crew’s route. Navigation is her dedicated job.'],
+ ['robin','Archaeologist',100,'Robin studies ancient history. Her archaeological expertise fills the research side of this berth.'],
+ ['jinbe','Helmsman',100,'Jinbe’s expert helmsmanship and seamanship keep a ship safe in difficult seas.'],
+ ['oden','Archaeologist',100,'Oden can interpret ancient writing and records the voyage. Historical knowledge earns the archaeology-side fit.'],
+ ['laffitte','Navigator',99,'Laffitte is the Blackbeard Pirates’ navigator. Route planning is his established crew speciality.'],
+ ['bepo','Navigator',98,'Bepo is the Heart Pirates’ navigator. His route knowledge gives him a stronger fit than unrelated professions.'],
+ ['road','Navigator',96,'Road is the New Giant Warrior Pirates’ navigator. Map-making and route planning are his relevant skills.'],
+ ['clover','Archaeologist',99,'Clover leads Ohara’s archaeological scholarship. Research, rather than ship navigation, earns this score.'],
+ ['olvia','Archaeologist',98,'Olvia undertakes archaeological research. Her historical expertise fills this paired berth.'],
+ ['sukiyaki','Historical scholar',97,'Sukiyaki preserves the Kozuki family’s knowledge of ancient writing. That expertise drives the historical-research score.'],
+ ['noland','Explorer',96,'Noland’s documented exploration and seafaring knowledge give him a strong route-finding fit.'],
+ ['vegapunk','Historical researcher',96,'Vegapunk researches the ancient world and preserves Ohara’s findings. That work earns historical-research credit.'],
+ ['shaka','Historical researcher',94,'Shaka explains the ancient civilization and Ohara’s research. This score rewards historical analysis, not general engineering.']
+ ],
+ cook:[
+ ['sanji','Cook',100,'Sanji feeds the crew and cooks professionally. This is his dedicated specialist berth.'],
+ ['brook','Musician',100,'Brook is the Straw Hats’ musician. Performance fills this berth without requiring cooking expertise.'],
+ ['zeff','Cook',100,'Zeff is the Baratie’s head chef. Professional cooking and provisioning earn a perfect specialist fit.'],
+ ['streusen','Cook',100,'Streusen is an executive chef with established culinary expertise. Cooking is his strongest crew contribution.'],
+ ['pudding','Cook',99,'Pudding’s confectionery expertise is central to preparing the wedding cake. Baking drives this score.'],
+ ['patty','Cook',96,'Patty works professionally in the Baratie kitchen. Feeding a crew is a strong specialist fit.'],
+ ['carne','Cook',96,'Carne is a professional Baratie cook who specialises in meat dishes. Cooking is his relevant skill.'],
+ ['terracotta','Cook',92,'Terracotta prepares meals for Alabasta’s royal household. Professional food preparation earns cooking credit.'],
+ ['chiffon','Baker',98,'Chiffon specialises in chiffon cake and helps prepare the replacement wedding cake. Baking drives her fit.'],
+ ['lola','Baker',96,'Lola specialises in chocolate work. That culinary speciality gives this captain a strong cooking-side score.'],
+ ['thatch','Cook',97,'Thatch serves as a cook aboard Whitebeard’s crew. Feeding the crew is a specialist contribution alongside command.'],
+ ['hatchan','Cook',96,'Hatchan runs a takoyaki business. His demonstrated cooking skill earns this paired berth.'],
+ ['goldberg','Cook',94,'Goldberg is the New Giant Warrior Pirates’ cook. Meal preparation is his specialist crew job.'],
+ ['apoo','Musician',99,'Apoo performs music and uses instruments in combat. The musical side makes this his strongest support berth.'],
+ ['hiyori','Musician',97,'Hiyori plays the shamisen. Her established performance skill drives the music-side rating.'],
+ ['blackmaria','Musician',93,'Black Maria performs on the shamisen. Musical performance supplies the relevant speciality here.'],
+ ['queen','Performer',90,'Queen sings and performs for his crew. This score rewards performance, not medical training or cooking.'],
+ ['bonclay','Dancer',90,'Bon Clay’s ballet and performance skills bring entertainment and morale to this paired berth.'],
+ ['hancock','Cook',82,'Hancock’s care and meal preparation for Luffy earn useful cooking-side credit, below the professional chefs.']
+ ],
+ doctor:[
+ ['chopper','Doctor',100,'Chopper studies medicine and treats the crew. His dedicated doctor role earns a perfect fit.'],
+ ['law','Doctor',100,'Law is a surgeon. Surgical knowledge and demonstrated treatment earn the doctor-side score.'],
+ ['marco','Doctor',100,'Marco treats patients as a doctor. Medical work earns the score independently of his combat abilities.'],
+ ['kureha','Doctor',100,'Kureha’s extensive medical experience and treatment of patients earn a perfect doctor-side fit.'],
+ ['crocus','Doctor',99,'Crocus is a physician who served aboard Roger’s ship. Medical expertise earns this near-perfect fit.'],
+ ['hiriluk','Doctor',70,'Hiriluk practises medicine, but unreliable treatment limits his score. Good intentions do not equal expert care.'],
+ ['hogback','Surgeon',95,'Hogback has established surgical skill. The rating values technical knowledge without endorsing his conduct.'],
+ ['docq','Doctor',85,'Doc Q has medical knowledge but uses harmful methods. That limits his value as a dependable healer.'],
+ ['aladine','Doctor',96,'Aladine serves as a doctor aboard the Sun Pirates. Treatment is his relevant specialist skill.'],
+ ['miyagi','Doctor',95,'Miyagi treats patients on Zou. Professional medical work gives him a strong doctor-side fit.'],
+ ['tristan','Nurse',90,'Tristan assists treatment as a nurse. Medical support earns a strong score below the most experienced doctors.'],
+ ['nako','Doctor',92,'Nako is Cocoyasi Village’s doctor and cares for its people. Treatment drives this score.'],
+ ['fishbonen','Doctor',92,'Fishbonen practises medicine at Marine Headquarters. His professional treatment role earns doctor-side credit.'],
+ ['gerd','Doctor',95,'Gerd serves as the New Giant Warrior Pirates’ doctor. Medical work, rather than shipbuilding, fills this berth.'],
+ ['franky','Shipwright',100,'Franky designs, builds and repairs ships. The shipwright side earns his perfect score; he is not a doctor.'],
+ ['tom','Shipwright',100,'Tom is a master shipwright who built Roger’s ship. Ship construction earns a perfect specialist fit.'],
+ ['iceburg','Shipwright',99,'Iceburg designs ships and works as a master shipwright. Ship construction and repair drive this score.'],
+ ['paulie','Shipwright',98,'Paulie is a Galley-La shipwright. His established construction and repair work make him an excellent fit.'],
+ ['kaku','Shipwright',94,'Kaku worked as a Galley-La shipwright and assesses the Going Merry’s condition. Carpentry earns this score.'],
+ ['lucci','Shipwright',90,'Lucci worked as a Galley-La shipwright during his undercover assignment. That practical work earns shipwright-side credit.'],
+ ['den','Shipwright',96,'Den is a shipwright who repairs and coats ships. His practical craft fills this berth.'],
+ ['tileston','Shipwright',95,'Tileston works professionally as a Galley-La shipwright. Building ships is his defining support contribution.'],
+ ['lulu','Shipwright',95,'Peepley Lulu is a Galley-La shipwright. Professional carpentry and repair drive his support fit.'],
+ ['stansen','Shipwright',94,'Stansen is the New Giant Warrior Pirates’ shipwright. Ship construction is his professional contribution.'],
+ ['usopp','Ship repairer',88,'Usopp performs repairs on the Going Merry before the crew has a trained shipwright. Practical repair earns credit below a master builder.']
+ ]
+};
+export const SUPPORT_EXPERTISE={};
+for(const [role,rows] of Object.entries(entries))for(const [id,skill,score,reason] of rows)(SUPPORT_EXPERTISE[id]||={})[role]={skill,score,reason};

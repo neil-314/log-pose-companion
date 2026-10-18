@@ -1,12 +1,11 @@
-// Expanded game roster. Scores are authored editorial role-fit values, not canonical rankings.
-// Gates are conservative knowledge checkpoints, not claims of first appearance.
-// null anime gate: no verified anime checkpoint; manga readers can unlock separately.
+// Manga-character roster. Ratings are editorial, not canonical power rankings.
+// Knowledge gates may be later than first appearance to protect role explanations.
 export const ADDITIONAL_CREW=[
   {
     "id": "rosinante",
     "name": "Donquixote Rosinante",
-    "episode": 325,
-    "chapter": 441,
+    "episode": 746,
+    "chapter": 801,
     "src": "assets/dex/dex-443.webp",
     "source": "https://one-piece.com/character/Corazon/index.html",
     "scores": [
@@ -22,27 +21,6 @@ export const ADDITIONAL_CREW=[
       "vicecaptain"
     ],
     "profile": "Protective undercover work and loyal support make Rosinante useful beside a leader."
-  },
-  {
-    "id": "uta",
-    "name": "Uta",
-    "episode": 1030,
-    "chapter": 1055,
-    "src": "assets/dex/dex-747.webp",
-    "source": "https://one-piece.com/character/UTA/index.html",
-    "scores": [
-      67,
-      12,
-      42,
-      98,
-      20,
-      70,
-      36
-    ],
-    "roleFits": [
-      "cook"
-    ],
-    "profile": "Uta is a singer; her value in the paired performance berth comes from music, not cooking."
   },
   {
     "id": "carrot",
@@ -215,25 +193,6 @@ export const ADDITIONAL_CREW=[
     "profile": "Rayleigh combines exceptional swordsmanship, practical seamanship and experience supporting a captain."
   },
   {
-    "id": "merryship",
-    "name": "Going Merry",
-    "episode": 18,
-    "chapter": 41,
-    "src": null,
-    "source": "https://onepiecewt100-2026.com/en/character-list/",
-    "scores": [
-      0,
-      0,
-      72,
-      0,
-      61,
-      35,
-      48
-    ],
-    "roleFits": [],
-    "profile": "Going Merry is a vessel rather than a trained sailor: its value is transport, shelter and supporting a voyage."
-  },
-  {
     "id": "bonney",
     "name": "Jewelry Bonney",
     "episode": 405,
@@ -288,7 +247,7 @@ export const ADDITIONAL_CREW=[
       23,
       84,
       35,
-      88,
+      80,
       78,
       81
     ],
@@ -902,27 +861,6 @@ export const ADDITIONAL_CREW=[
     "profile": "Iceburg combines ship design, carpentry and managing a large practical workforce."
   },
   {
-    "id": "sunnyship",
-    "name": "Thousand Sunny",
-    "episode": 325,
-    "chapter": 441,
-    "src": null,
-    "source": "https://onepiecewt100-2026.com/en/character-list/",
-    "scores": [
-      0,
-      0,
-      82,
-      28,
-      75,
-      47,
-      85
-    ],
-    "roleFits": [
-      "sniper"
-    ],
-    "profile": "The Thousand Sunny is a vessel: its designed transport, workshop and cannon systems offer utility rather than human professional training."
-  },
-  {
     "id": "karoo",
     "name": "Karoo",
     "episode": 130,
@@ -953,14 +891,14 @@ export const ADDITIONAL_CREW=[
       35,
       60,
       41,
-      96,
+      42,
       86,
       69
     ],
     "roleFits": [
       "doctor"
     ],
-    "profile": "Hongo is a ship’s doctor with additional knowledge of weapons and dismantling them."
+    "profile": "Hongo is a long-serving Red Hair Pirate. This manga-only model does not assume the medical and weapons-dismantling details supplied by film material."
   },
   {
     "id": "rebecca",
@@ -1098,7 +1036,7 @@ export const ADDITIONAL_CREW=[
       69,
       21,
       53,
-      95,
+      65,
       20,
       85,
       79
@@ -1106,7 +1044,7 @@ export const ADDITIONAL_CREW=[
     "roleFits": [
       "cook"
     ],
-    "profile": "Lucky Roux is a cook and experienced crew combatant."
+    "profile": "Lucky Roux is a veteran Red Hair Pirate who fights alongside Shanks; his manga combat presence gives flexible crew support."
   },
   {
     "id": "apoo",
@@ -1927,8 +1865,8 @@ export const ADDITIONAL_CREW=[
   {
     "id": "stansen",
     "name": "Stansen",
-    "episode": 746,
-    "chapter": 801,
+    "episode": 1170,
+    "chapter": 1140,
     "src": "assets/dex/dex-27.webp",
     "source": "https://onepiece.fandom.com/wiki/Stansen",
     "scores": [
@@ -1948,8 +1886,8 @@ export const ADDITIONAL_CREW=[
   {
     "id": "gerd",
     "name": "Gerd",
-    "episode": 746,
-    "chapter": 801,
+    "episode": 1170,
+    "chapter": 1140,
     "src": "assets/dex/dex-30.webp",
     "source": "https://onepiece.fandom.com/wiki/Gerd",
     "scores": [
@@ -1969,8 +1907,8 @@ export const ADDITIONAL_CREW=[
   {
     "id": "goldberg",
     "name": "Goldberg",
-    "episode": 746,
-    "chapter": 801,
+    "episode": 1170,
+    "chapter": 1140,
     "src": "assets/dex/dex-29.webp",
     "source": "https://onepiece.fandom.com/wiki/Goldberg",
     "scores": [
@@ -2007,27 +1945,6 @@ export const ADDITIONAL_CREW=[
       "navigator"
     ],
     "profile": "Road makes maps and serves as a navigator, so route planning is his clearest professional fit."
-  },
-  {
-    "id": "rasa",
-    "name": "Rasa",
-    "episode": 1020,
-    "chapter": 1000,
-    "src": null,
-    "source": "https://onepiecewt100-2026.com/en/character-list/",
-    "scores": [
-      38,
-      13,
-      83,
-      32,
-      18,
-      63,
-      22
-    ],
-    "roleFits": [
-      "navigator"
-    ],
-    "profile": "Rasa’s navigation role in the Spade Pirates earns route-planning credit; supplementary-story context uses a conservative late gate."
   },
   {
     "id": "clover",
@@ -2126,7 +2043,7 @@ export const ADDITIONAL_CREW=[
       0,
       94,
       39,
-      93,
+      80,
       81,
       33
     ],
@@ -2148,7 +2065,7 @@ export const ADDITIONAL_CREW=[
       11,
       91,
       32,
-      85,
+      80,
       88,
       42
     ],
@@ -2170,7 +2087,7 @@ export const ADDITIONAL_CREW=[
       0,
       86,
       28,
-      88,
+      80,
       73,
       31
     ],
@@ -2192,7 +2109,7 @@ export const ADDITIONAL_CREW=[
       0,
       87,
       26,
-      87,
+      80,
       72,
       26
     ],
@@ -2214,7 +2131,7 @@ export const ADDITIONAL_CREW=[
       12,
       77,
       31,
-      84,
+      80,
       69,
       44
     ],
@@ -3166,7 +3083,7 @@ export const ADDITIONAL_CREW=[
     "scores": [
       67,
       84,
-      85,
+      65,
       35,
       23,
       84,
@@ -3176,7 +3093,7 @@ export const ADDITIONAL_CREW=[
       "navigator",
       "swordsman"
     ],
-    "profile": "Building Snake contributes navigation and acrobatic sword fighting."
+    "profile": "Building Snake is a long-serving Red Hair Pirate. Crew experience earns support credit; no film-only navigator qualification is assumed."
   },
   {
     "id": "limejuice",
@@ -3195,7 +3112,7 @@ export const ADDITIONAL_CREW=[
       54
     ],
     "roleFits": [],
-    "profile": "Limejuice contributes aerial mobility and weapon-based close combat."
+    "profile": "Limejuice is a Red Hair Pirate whose crew presence earns combat and support utility."
   },
   {
     "id": "bonkpunch",
@@ -3208,7 +3125,7 @@ export const ADDITIONAL_CREW=[
       58,
       24,
       48,
-      75,
+      35,
       19,
       79,
       31
@@ -3216,7 +3133,7 @@ export const ADDITIONAL_CREW=[
     "roleFits": [
       "cook"
     ],
-    "profile": "Bonk Punch contributes performance and music alongside heavy physical combat."
+    "profile": "Bonk Punch is a Red Hair Pirate seen alongside his crew. This model does not assume a musician profession from film material."
   },
   {
     "id": "gab",
@@ -3237,7 +3154,7 @@ export const ADDITIONAL_CREW=[
     "roleFits": [
       "sniper"
     ],
-    "profile": "Howling Gab offers ranged pressure through forceful vocal attacks rather than rifle marksmanship."
+    "profile": "Howling Gab is a Red Hair Pirate whose manga crew appearances support a general combat rating."
   },
   {
     "id": "rockstar",
@@ -4622,7 +4539,7 @@ export const ADDITIONAL_CREW=[
       11,
       71,
       34,
-      87,
+      80,
       86,
       79
     ],
@@ -5133,8 +5050,192 @@ export const ADDITIONAL_CREW=[
     "profile": "Ju Peter contributes command and unusual battlefield utility."
   }
 ];
-
-// Existing save IDs stay stable. Role coverage means a reasoned fit, not a 95+ rating.
 export const LEGACY_ROLE_FITS={
- luffy:['captain'],zoro:['swordsman','vicecaptain'],nami:['navigator'],usopp:['sniper','doctor'],sanji:['cook','vicecaptain'],chopper:['doctor'],robin:['navigator'],franky:['doctor'],brook:['cook','swordsman'],jinbe:['captain','navigator'],shanks:['captain','swordsman'],ace:['vicecaptain'],law:['captain','swordsman','doctor'],buggy:['captain'],mihawk:['swordsman'],vivi:['vicecaptain'],crocodile:['captain'],smoker:['captain'],lucci:['doctor'],hancock:['captain','cook'],doflamingo:['captain'],sabo:['vicecaptain'],whitebeard:['captain'],garp:['captain'],katakuri:['vicecaptain','sniper'],kaido:['captain'],sogeking:['sniper'],pappag:['cook'],kid:['captain','doctor'],dragon:['captain'],roger:['captain','swordsman','navigator'],blackbeard:['captain'],bigmom:['captain','cook'],kuma:['navigator','doctor'],shiki:['captain','navigator','swordsman'],sengoku:['captain'],kizaru:['sniper'],akainu:['captain'],aokiji:['cook'],fujitora:['swordsman'],ryokugyu:[],enel:['sniper'],bonclay:['cook'],perona:[],yamato:[],marco:['doctor','vicecaptain'],oden:['swordsman','navigator'],yasopp:['sniper'],augur:['sniper'],beckman:['vicecaptain','sniper'],izo:['sniper'],zeff:['captain','cook'],streusen:['cook'],pudding:['cook'],kureha:['doctor'],crocus:['doctor','navigator'],laffitte:['navigator']
+  "luffy": [
+    "captain"
+  ],
+  "zoro": [
+    "swordsman",
+    "vicecaptain"
+  ],
+  "nami": [
+    "navigator"
+  ],
+  "usopp": [
+    "sniper",
+    "doctor"
+  ],
+  "sanji": [
+    "cook",
+    "vicecaptain"
+  ],
+  "chopper": [
+    "doctor"
+  ],
+  "robin": [
+    "navigator"
+  ],
+  "franky": [
+    "doctor"
+  ],
+  "brook": [
+    "cook",
+    "swordsman"
+  ],
+  "jinbe": [
+    "captain",
+    "navigator"
+  ],
+  "shanks": [
+    "captain",
+    "swordsman"
+  ],
+  "ace": [
+    "vicecaptain"
+  ],
+  "law": [
+    "captain",
+    "swordsman",
+    "doctor"
+  ],
+  "buggy": [
+    "captain"
+  ],
+  "mihawk": [
+    "swordsman"
+  ],
+  "vivi": [
+    "vicecaptain"
+  ],
+  "crocodile": [
+    "captain"
+  ],
+  "smoker": [
+    "captain"
+  ],
+  "lucci": [
+    "doctor"
+  ],
+  "hancock": [
+    "captain",
+    "cook"
+  ],
+  "doflamingo": [
+    "captain"
+  ],
+  "sabo": [
+    "vicecaptain"
+  ],
+  "whitebeard": [
+    "captain"
+  ],
+  "garp": [
+    "captain"
+  ],
+  "katakuri": [
+    "vicecaptain",
+    "sniper"
+  ],
+  "kaido": [
+    "captain"
+  ],
+  "sogeking": [
+    "sniper"
+  ],
+  "pappag": [
+    "cook"
+  ],
+  "kid": [
+    "captain",
+    "doctor"
+  ],
+  "dragon": [
+    "captain"
+  ],
+  "roger": [
+    "captain",
+    "swordsman",
+    "navigator"
+  ],
+  "blackbeard": [
+    "captain"
+  ],
+  "bigmom": [
+    "captain",
+    "cook"
+  ],
+  "kuma": [
+    "navigator",
+    "doctor"
+  ],
+  "shiki": [
+    "captain",
+    "navigator",
+    "swordsman"
+  ],
+  "sengoku": [
+    "captain"
+  ],
+  "kizaru": [
+    "sniper"
+  ],
+  "akainu": [
+    "captain"
+  ],
+  "aokiji": [
+    "cook"
+  ],
+  "fujitora": [
+    "swordsman"
+  ],
+  "ryokugyu": [],
+  "enel": [
+    "sniper"
+  ],
+  "bonclay": [
+    "cook"
+  ],
+  "perona": [],
+  "yamato": [],
+  "marco": [
+    "doctor",
+    "vicecaptain"
+  ],
+  "oden": [
+    "swordsman",
+    "navigator"
+  ],
+  "yasopp": [
+    "sniper"
+  ],
+  "augur": [
+    "sniper"
+  ],
+  "beckman": [
+    "vicecaptain",
+    "sniper"
+  ],
+  "izo": [
+    "sniper"
+  ],
+  "zeff": [
+    "captain",
+    "cook"
+  ],
+  "streusen": [
+    "cook"
+  ],
+  "pudding": [
+    "cook"
+  ],
+  "kureha": [
+    "doctor"
+  ],
+  "crocus": [
+    "doctor",
+    "navigator"
+  ],
+  "laffitte": [
+    "navigator"
+  ]
 };
