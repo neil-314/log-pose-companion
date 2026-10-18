@@ -36,3 +36,34 @@ header{flex-wrap:nowrap;align-items:center}.brand{flex-shrink:0}.header-actions{
 #open-crew-builder[aria-disabled=true]{opacity:.65}
 html[data-theme=night] .crew-points-dialog{background:#133e4b;color:#fbecc4;border-color:#82b6b5}
 html[data-theme=night] .crew-points-dialog .crew-points-score{color:#ffd279}
+
+/* Phone logbook: one clear section picker, readable forms and comfortable controls. */
+.mobile-section-nav{display:none}
+@media(max-width:600px){
+ header{padding:14px 0;gap:12px}.edition-note{padding:10px 16px;font-size:12px;line-height:1.5}
+ header .header-actions>*{min-width:0}header .header-actions #account-link{white-space:normal;overflow-wrap:anywhere}
+ .mobile-section-nav{display:grid;gap:7px;margin:18px 0;font-size:12px;font-weight:800}
+ .mobile-section-nav select{width:100%;min-height:48px;padding:12px 38px 12px 12px;border:2px solid var(--navy);border-radius:9px;background:var(--paper);color:var(--navy);font:600 16px/1.3 'DM Sans',system-ui}
+ .dashboard-tabs{display:none}.dashboard-heading{gap:12px;margin-top:18px}.dashboard-heading h1{font-size:40px;margin-bottom:12px}.dashboard-heading .lead{font-size:14px;margin:10px 0}
+ #step-4:has(#panel-crew-builder:not([hidden])) .living-chart{display:none}
+ #step-4:has(#panel-crew-builder:not([hidden])) .dashboard-heading h1{font-size:32px;line-height:1.05}
+ #step-4:has(#panel-crew-builder:not([hidden])) .dashboard-heading h1 br{display:none}
+ #step-4:has(#panel-crew-builder:not([hidden])) .dashboard-heading .eyebrow{display:none}
+ .dashboard-heading>div:last-child{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.dashboard-heading .primary{padding:11px 14px;min-height:44px;font-size:13px}.dashboard-heading .back{min-height:44px;padding:8px}
+ .sync-status{padding:10px 12px;margin:14px 0}.panel-heading{margin:18px 0}.panel-heading h2{font-size:28px;line-height:1.15;margin-bottom:12px}.panel-heading p{font-size:14px;line-height:1.65}
+ #crew-load-status:empty{display:none}#crew-update-progress{min-height:44px;padding:9px 0}
+ .companion-card{padding:18px}.companion-card p{font-size:14px}.inline-form{flex-wrap:wrap;gap:10px}.inline-form input{min-width:0;flex:1}.inline-form button{min-height:44px}
+ input:not(#current):not([type=checkbox]):not([type=radio]),select,textarea{font-size:16px}
+ .mode-switch button{min-height:44px;flex:1}.episode-entry{padding:16px}.intro{padding:28px 18px}.latest{min-height:44px;padding:10px}.steps button{min-height:44px}
+ .quiz-levels{grid-template-columns:repeat(2,minmax(0,1fr))}.quiz-level{min-width:0}.rank-row{flex-wrap:wrap}.rank-row strong{min-width:120px;overflow-wrap:anywhere}.rank-row button{min-width:44px;min-height:44px}.dex-results{max-height:none;overflow:visible}
+ .account-dialog,.crew-points-dialog{width:calc(100% - 24px);max-height:calc(100dvh - 24px);padding:20px;border-radius:12px;scroll-padding:16px}
+ .crew-points-dialog h2{font-size:24px;overflow-wrap:anywhere}.crew-points-dialog p{font-size:14px;line-height:1.65}.crew-points-dialog .primary{width:100%;min-height:48px}
+ .account-dialog button,.signout-actions button{min-height:44px}.signout-actions{flex-wrap:wrap}.signout-actions .primary{width:100%}
+ #toast{max-width:calc(100% - 24px);width:max-content;bottom:max(16px,env(safe-area-inset-bottom));padding:12px 16px;font-size:13px}
+ footer{overflow-wrap:anywhere}.fine{font-size:12px}
+ html[data-theme=night] .mobile-section-nav select{background:#123d4c;color:#fff0cf;border-color:#7499a4}
+}
+@media(max-width:600px){
+ #panel-crew-builder>.panel-heading{display:none}
+ #step-4:has(#panel-crew-builder:not([hidden])) .dashboard-heading h1 em{display:inline-block;margin-left:.2em}
+}

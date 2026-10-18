@@ -16,3 +16,19 @@ html:has(>body.crew-embedded){overflow:hidden}
 .crew-embedded main,.crew-embedded #content{display:flow-root}
 .crew-slot{min-width:0;align-self:start}
 .role-points-trigger{margin-top:10px;background:transparent;border:0;padding:8px 4px;text-decoration:underline;text-underline-offset:3px;font-size:.85rem}
+
+@media(max-width:600px){
+ header{padding:16px 0;gap:12px;justify-content:space-between}header a{font-size:28px}.welcome{padding:24px 0 12px}.welcome h1{font-size:38px}
+ .identity{padding:16px;gap:14px}.identity>label,.identity form>label{min-width:0;width:100%;flex-basis:100%}.identity a{overflow-wrap:anywhere}.profile-grid{grid-template-columns:minmax(0,1fr)}
+ nav[aria-label="Harbour sections"]{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;padding:14px 0}nav[aria-label="Harbour sections"]>*{min-width:0;min-height:44px;text-align:center;white-space:normal}
+ #status:empty{display:none}#content{padding-top:16px}button{min-height:44px}.card{padding:16px;margin:14px 0}.card p{font-size:14px}.meta{font-size:12px;line-height:1.6}
+ .crew-embedded .crew-grid{gap:10px}.crew-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:16px 0}
+ .crew-slot{padding:12px 10px;border-radius:10px;overflow-wrap:anywhere}.crew-slot>small:first-child{min-height:32px;display:flex;align-items:center;justify-content:center;margin:0 0 6px;text-transform:none;letter-spacing:0;font-size:12px;font-weight:700;line-height:1.35}
+ .crew-slot img{height:96px}.crew-slot strong{font-size:14px;line-height:1.4;margin-top:8px}.crew-slot p{font-size:13px;line-height:1.4;margin:8px 0}.crew-slot>small:not(:first-child){font-size:10px;letter-spacing:.3px;line-height:1.4}
+ .crew-slot.is-empty:has(.crew-assign)>p{display:none}.crew-assign{width:100%;min-height:44px;padding:10px 6px;font-size:13px}
+ .role-points-trigger{width:100%;min-height:44px;padding:9px 2px;font-size:12px;line-height:1.4;margin-top:6px}
+ .draw-stage{padding:16px}.draw-stage h3{font-size:18px;line-height:1.35;margin-bottom:12px}.draw-stage>img{height:140px}.draw-stage .spin-reel{height:100px;max-width:160px;font-size:64px;margin:12px auto}.draw-stage>.primary{width:100%;min-height:48px;padding:13px 10px}.draw-stage .meta{margin-bottom:0}
+ .score{font-size:28px;line-height:1.25;margin:18px 0;overflow-wrap:anywhere}.rules{padding:12px;font-size:13px}.rules summary,.crew-score-help summary{min-height:44px;padding:10px 0;cursor:pointer}.crew-score-help p{font-size:14px}
+ dialog{width:calc(100% - 24px);max-height:calc(100dvh - 24px);overflow:auto;padding:20px}dialog .actions>*{flex:1;min-height:44px}
+}
+@media(max-width:600px){.crew-embedded nav[aria-label="Harbour sections"]{display:none}}

@@ -19,3 +19,14 @@ if(new URLSearchParams(location.search).get('crew')==='1'){const open=document.g
 for(const event of ['lp:open','lp:watched'])window.addEventListener(event,()=>{updateCrewAccess();if(crewButton?.classList.contains('selected'))crewButton.click();});
 window.addEventListener('lp:recap',updateCrewAccess);updateCrewAccess();
 document.getElementById('crew-update-progress')?.addEventListener('click',()=>{document.getElementById('update-progress').click();document.getElementById('current').focus();});
+
+// A native picker keeps all sections reachable without a wall of tiny buttons on phones.
+if(tabs){
+ const label=document.createElement('label');label.className='mobile-section-nav';label.textContent='Logbook section';
+ const select=document.createElement('select');select.id='mobile-logbook-section';
+ for(const button of tabs.querySelectorAll('button[data-panel]')){const option=document.createElement('option');option.value=button.dataset.panel;option.textContent=button.textContent;select.append(option);}
+ const harbour=document.createElement('option');harbour.value='harbour';harbour.textContent='Harbour · Discussions';select.append(harbour);label.append(select);tabs.before(label);
+ const sync=()=>{const selected=tabs.querySelector('button.selected');if(selected)select.value=selected.dataset.panel;};
+ select.addEventListener('change',()=>{if(select.value==='harbour'){location.assign('/harbour');return;}[...tabs.querySelectorAll('button[data-panel]')].find(button=>button.dataset.panel===select.value)?.click();});
+ new MutationObserver(sync).observe(tabs,{subtree:true,attributes:true,attributeFilter:['class']});sync();
+}
