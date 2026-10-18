@@ -1,0 +1,509 @@
+{
+  "source": "https://onepiecewt100-2026.com/en/final-rankings/",
+  "announcement": "https://one-piece.com/news/81812/index.html",
+  "published": "2026-08-23",
+  "checked": "2026-10-17",
+  "note": "Official worldwide final results. Display names use familiar non-revealing aliases. Vessels are explicit novelty support entries, not human professionals.",
+  "top100": [
+    {
+      "rank": 1,
+      "name": "MONKEY D. LUFFY",
+      "crewId": "luffy"
+    },
+    {
+      "rank": 2,
+      "name": "RORONOA ZORO",
+      "crewId": "zoro"
+    },
+    {
+      "rank": 3,
+      "name": "SANJI",
+      "crewId": "sanji"
+    },
+    {
+      "rank": 4,
+      "name": "NAMI",
+      "crewId": "nami"
+    },
+    {
+      "rank": 5,
+      "name": "TRAFALGAR LAW (TRAFALGAR D. WATER LAW)",
+      "crewId": "law"
+    },
+    {
+      "rank": 6,
+      "name": "NICO ROBIN",
+      "crewId": "robin"
+    },
+    {
+      "rank": 7,
+      "name": "PORTGAS D. ACE",
+      "crewId": "ace"
+    },
+    {
+      "rank": 8,
+      "name": "SHANKS",
+      "crewId": "shanks"
+    },
+    {
+      "rank": 9,
+      "name": "DRACULE.MIHAWK",
+      "crewId": "mihawk"
+    },
+    {
+      "rank": 10,
+      "name": "CROCODILE (Mr. 0)",
+      "crewId": "crocodile"
+    },
+    {
+      "rank": 11,
+      "name": "DONQUIXOTE ROSINANTE (CORAZŌN)",
+      "crewId": "rosinante"
+    },
+    {
+      "rank": 12,
+      "name": "BOA.HANCOCK",
+      "crewId": "hancock"
+    },
+    {
+      "rank": 13,
+      "name": "TONY TONY.CHOPPER",
+      "crewId": "chopper"
+    },
+    {
+      "rank": 14,
+      "name": "SABO",
+      "crewId": "sabo"
+    },
+    {
+      "rank": 15,
+      "name": "UTA",
+      "crewId": "uta"
+    },
+    {
+      "rank": 16,
+      "name": "CARROT",
+      "crewId": "carrot"
+    },
+    {
+      "rank": 17,
+      "name": "ROCKS D. XEBEC (DAVY D. XEBEC)",
+      "crewId": "rocks"
+    },
+    {
+      "rank": 18,
+      "name": "YAMATO",
+      "crewId": "yamato"
+    },
+    {
+      "rank": 19,
+      "name": "USOPP",
+      "crewId": "usopp"
+    },
+    {
+      "rank": 20,
+      "name": "LOKI",
+      "crewId": "loki"
+    },
+    {
+      "rank": 21,
+      "name": "CHARLOTTE CRACKER",
+      "crewId": "cracker"
+    },
+    {
+      "rank": 22,
+      "name": "DONQUIXOTE DOFLAMINGO",
+      "crewId": "doflamingo"
+    },
+    {
+      "rank": 23,
+      "name": "EUSTASS.KID",
+      "crewId": "kid"
+    },
+    {
+      "rank": 24,
+      "name": "PERONA",
+      "crewId": "perona"
+    },
+    {
+      "rank": 25,
+      "name": "BUGGY",
+      "crewId": "buggy"
+    },
+    {
+      "rank": 26,
+      "name": "MARCO",
+      "crewId": "marco"
+    },
+    {
+      "rank": 27,
+      "name": "BROOK",
+      "crewId": "brook"
+    },
+    {
+      "rank": 28,
+      "name": "NEFELTARI VIVI (Miss WEDNESDAY)",
+      "crewId": "vivi"
+    },
+    {
+      "rank": 29,
+      "name": "FRANKY (CUTTY FLAM)",
+      "crewId": "franky"
+    },
+    {
+      "rank": 30,
+      "name": "JINBE",
+      "crewId": "jinbe"
+    },
+    {
+      "rank": 31,
+      "name": "CHARLOTTE KATAKURI",
+      "crewId": "katakuri"
+    },
+    {
+      "rank": 32,
+      "name": "BARTHOLOMEW.KUMA",
+      "crewId": "kuma"
+    },
+    {
+      "rank": 33,
+      "name": "SMOKER",
+      "crewId": "smoker"
+    },
+    {
+      "rank": 34,
+      "name": "BENTHAM (Mr. 2/BON・KUREI)",
+      "crewId": "bonclay"
+    },
+    {
+      "rank": 35,
+      "name": "ROB LUCCI",
+      "crewId": "lucci"
+    },
+    {
+      "rank": 36,
+      "name": "EDWARD NEWGATE (WHITEBEARD)",
+      "crewId": "whitebeard"
+    },
+    {
+      "rank": 37,
+      "name": "KOBY",
+      "crewId": "koby"
+    },
+    {
+      "rank": 38,
+      "name": "KAKU",
+      "crewId": "kaku"
+    },
+    {
+      "rank": 39,
+      "name": "CAVENDISH (HAKUBA)",
+      "crewId": "cavendish"
+    },
+    {
+      "rank": 40,
+      "name": "MONKEY D. GARP",
+      "crewId": "garp"
+    },
+    {
+      "rank": 41,
+      "name": "KUZAN (AOKIJI)",
+      "crewId": "aokiji"
+    },
+    {
+      "rank": 42,
+      "name": "IZO",
+      "crewId": "izo"
+    },
+    {
+      "rank": 43,
+      "name": "BENN.BECKMAN",
+      "crewId": "beckman"
+    },
+    {
+      "rank": 44,
+      "name": "SILVERS.RAYLEIGH",
+      "crewId": "rayleigh"
+    },
+    {
+      "rank": 45,
+      "name": "GOING MERRY",
+      "crewId": "merryship"
+    },
+    {
+      "rank": 46,
+      "name": "JEWELRY.BONNEY",
+      "crewId": "bonney"
+    },
+    {
+      "rank": 47,
+      "name": "ALBER (KING)",
+      "crewId": "king"
+    },
+    {
+      "rank": 48,
+      "name": "BORSALINO (KIZARU)",
+      "crewId": "kizaru"
+    },
+    {
+      "rank": 49,
+      "name": "ENEL",
+      "crewId": "enel"
+    },
+    {
+      "rank": 50,
+      "name": "VEGAPUNK PUNK-02 LILITH",
+      "crewId": "lilith"
+    },
+    {
+      "rank": 51,
+      "name": "CHARLOTTE PEROSPERAW",
+      "crewId": "perospero"
+    },
+    {
+      "rank": 52,
+      "name": "KILLER (KAMAZO)",
+      "crewId": "killer"
+    },
+    {
+      "rank": 53,
+      "name": "IMU",
+      "crewId": "imu"
+    },
+    {
+      "rank": 54,
+      "name": "SAKAZUKI (AKAINU)",
+      "crewId": "akainu"
+    },
+    {
+      "rank": 55,
+      "name": "KURO (KLAHADORE )",
+      "crewId": "kuro"
+    },
+    {
+      "rank": 56,
+      "name": "BARTOLOMEO",
+      "crewId": "bartolomeo"
+    },
+    {
+      "rank": 57,
+      "name": "NAMULE",
+      "crewId": "namur"
+    },
+    {
+      "rank": 58,
+      "name": "GOL D. ROGER (GOLD ROGER)",
+      "crewId": "roger"
+    },
+    {
+      "rank": 59,
+      "name": "JOYBOY",
+      "crewId": "joyboy"
+    },
+    {
+      "rank": 60,
+      "name": "MARSHALL D. TEACH (BLACKBEARD)",
+      "crewId": "blackbeard"
+    },
+    {
+      "rank": 61,
+      "name": "SAINT MANMAYER GUNKO",
+      "crewId": "gunko"
+    },
+    {
+      "rank": 62,
+      "name": "BEPO",
+      "crewId": "bepo"
+    },
+    {
+      "rank": 63,
+      "name": "CHARLOTTE LINLIN (BIG MOM)",
+      "crewId": "bigmom"
+    },
+    {
+      "rank": 64,
+      "name": "CHARLOTTE PUDDING",
+      "crewId": "pudding"
+    },
+    {
+      "rank": 65,
+      "name": "SPANDAM",
+      "crewId": "spandam"
+    },
+    {
+      "rank": 66,
+      "name": "KAIDO",
+      "crewId": "kaido"
+    },
+    {
+      "rank": 67,
+      "name": "GECKO MORIA",
+      "crewId": "moria"
+    },
+    {
+      "rank": 68,
+      "name": "MARIANNE (Miss.GOLDEN WEEK)",
+      "crewId": "missgoldenweek"
+    },
+    {
+      "rank": 69,
+      "name": "MONKEY D. DRAGON",
+      "crewId": "dragon"
+    },
+    {
+      "rank": 70,
+      "name": "SHIRAHOSHI",
+      "crewId": "shirahoshi"
+    },
+    {
+      "rank": 71,
+      "name": "SAINT FIGARLAND SHAMROCK",
+      "crewId": "shamrock"
+    },
+    {
+      "rank": 72,
+      "name": "BASIL.HAWKINS",
+      "crewId": "hawkins"
+    },
+    {
+      "rank": 73,
+      "name": "TASHIGI",
+      "crewId": "tashigi"
+    },
+    {
+      "rank": 74,
+      "name": "PAULIE",
+      "crewId": "paulie"
+    },
+    {
+      "rank": 75,
+      "name": "ULTI",
+      "crewId": "ulti"
+    },
+    {
+      "rank": 76,
+      "name": "HELMEPPO",
+      "crewId": "helmeppo"
+    },
+    {
+      "rank": 77,
+      "name": "X.DRAKE",
+      "crewId": "drake"
+    },
+    {
+      "rank": 78,
+      "name": "KOALA",
+      "crewId": "koala"
+    },
+    {
+      "rank": 79,
+      "name": "PENGUIN",
+      "crewId": "penguin"
+    },
+    {
+      "rank": 80,
+      "name": "MONET",
+      "crewId": "monet"
+    },
+    {
+      "rank": 81,
+      "name": "KUNG-FU DUGONG",
+      "crewId": "dugong"
+    },
+    {
+      "rank": 82,
+      "name": "VINSMOKE REIJU",
+      "crewId": "reiju"
+    },
+    {
+      "rank": 83,
+      "name": "KIKUNOJO (OKIKU)",
+      "crewId": "kiku"
+    },
+    {
+      "rank": 84,
+      "name": "KAWAMATSU",
+      "crewId": "kawamatsu"
+    },
+    {
+      "rank": 85,
+      "name": "KOZUKI ODEN",
+      "crewId": "oden"
+    },
+    {
+      "rank": 86,
+      "name": "PELL",
+      "crewId": "pell"
+    },
+    {
+      "rank": 87,
+      "name": "HINA",
+      "crewId": "hina"
+    },
+    {
+      "rank": 88,
+      "name": "CAESAR.CLOWN",
+      "crewId": "caesar"
+    },
+    {
+      "rank": 89,
+      "name": "ICEBURG",
+      "crewId": "iceburg"
+    },
+    {
+      "rank": 90,
+      "name": "THOUSAND SUNNY",
+      "crewId": "sunnyship"
+    },
+    {
+      "rank": 91,
+      "name": "KAROO",
+      "crewId": "karoo"
+    },
+    {
+      "rank": 92,
+      "name": "SHUSHU",
+      "crewId": "chouchou"
+    },
+    {
+      "rank": 93,
+      "name": "HONGO",
+      "crewId": "hongo"
+    },
+    {
+      "rank": 94,
+      "name": "REBECCA",
+      "crewId": "rebecca"
+    },
+    {
+      "rank": 95,
+      "name": "ISSHO (FUJITORA)",
+      "crewId": "fujitora"
+    },
+    {
+      "rank": 96,
+      "name": "SHACHI",
+      "crewId": "shachi"
+    },
+    {
+      "rank": 97,
+      "name": "MARGUERITE",
+      "crewId": "marguerite"
+    },
+    {
+      "rank": 98,
+      "name": "GAIMON",
+      "crewId": "gaimon"
+    },
+    {
+      "rank": 99,
+      "name": "STUSSY",
+      "crewId": "stussy"
+    },
+    {
+      "rank": 100,
+      "name": "EMPORIO.IVANKOV",
+      "crewId": "ivankov"
+    }
+  ]
+}
