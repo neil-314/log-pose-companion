@@ -70,7 +70,7 @@ Tests cover planner budgets, progress/state validation, revisits, name aliases, 
 | Experience | Testers who describe the departure as enjoyable | 80% |
 | Spoiler quality | Known future-question leaks in automated progress checks | 0 |
 
-No analytics collector is installed. Use a consented fan pilot before reporting adoption or retention. The app estimates watch time at 24 minutes per episode; it does not measure playback. Manga progress never silently becomes anime watch time.
+Vercel Web Analytics is enabled on the main logbook page for aggregate page-view measurement. The client removes URL query strings and fragments before sending page-view URLs. Page views are not account signups or retention measurements. The app estimates watch time at 24 minutes per episode; it does not measure playback. Manga progress never silently becomes anime watch time.
 
 ## Data and media sources
 
